@@ -2,3 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 public/
+.jekyll-cache
+.ruby-version
