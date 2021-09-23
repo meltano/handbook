@@ -1,23 +1,89 @@
 ---
 layout: default
 ---
+<section class="section">
+  <h1 class="title">Meltano Handbook</h1>
+  <p class="subtitle">Your src for the inner workings of <strong>Meltano</strong></p>
+    <div class="block">
+      <p>Welcome! The Meltano team handbook is the central repository for how the team functions and builds the product.</p>
+    </div>
+    <div class="block">
+      <p>As Meltano was incubated in <a href="https://about.gitlab.com/">GitLab</a> and later <a href="https://meltano.com/blog/2021/06/30/meltano-spins-out-of-gitlab-raises-seed-round">spun out</a>, many of our policies and processes are inspired by (if not outright copied from) theirs. If a topic isn't covered here yet, the corresponding part of GitLab's handbook can generally be assumed to apply, but we should explicitly move things over to our own handbook so that we can adapt things to be more appropriate for our size and unique culture.</p>
+    </div>
+    <div>
+      <p><strong>Note:</strong> Everything in this handbook is available on the public internet for <strong>anyone</strong> to view. Please be mindful of sensitive information.</p>
+    </div>
+</section>
 
-<div class="home">
+<section class="section">
+  <div class="columns">
+    <div class="column">
+        <h3 class="is-size-3">Quick Links</h3>
+        <p>.</p>
+        <ul>
+          <li><a href="/peopleops/benefits">Benefits</a></li>
+          <li><a href="/marketing/brand">Brand & Copyright Guidelines</a></li>
+        </ul>
+    </div>
+    <div class="column">
+        <h3 class="is-size-3">Shared Calendars & Meetings</h3>
+        <ul>
+          <li>
+            <a href="https://calendar.google.com/calendar/u/1?cid=Y18wMWNqNDhoYTRoMTk5Y3RqZWZpODV0OWRnY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">
+              <span class="icon"><i class="fas fa-table"></i></span> Community Meetings Calendar
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-laptop-house"></i></span> Office Hours
+            </a> 
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fas fa-laptop-code"></i></span> Demo Day
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>- Team Meetings: Meetings with the team</li>
+          <li>- Kick off: Weekly on Monday, owned by Douwe</li>
+          <li>- External Meetings: Meetings with users and partners</li>
+          <li>- Time Off: All-day events for periods team members will not be working</li>
+        </ul>
+    </div>
+  </div> 
+</section>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<section class="section">
+  <div class="columns is-multiline is-centered">
+    {% if site.collections %}
+      {% for collection in site.collections %}
+        {% if collection.label != "posts" %}
+        <div class="column is-one-quarter">
+          <div class="card chiclet">
+              <header class="card-header">
+                <p class="card-header-title">
+                  {{ collection.label | capitalize }}
+                </p>
+              </header>
+            <div class="card-content has-text-centered">
+              <div class="block">
+                {% if collection.icon %}
+                {% assign icon = collection.icon %}
+                  <span class="icon is-large"><i class="fas fa-5x {{ icon }}"></i></span> 
+                {% else %}
+                  <span class="icon is-large"><i class="fas fa-5x fa-book-open"></i></span>
+                {% endif %}
+              </div>
+            </div>
+            <footer class="card-footer">
+              <a href="https://gitlab.com/meltano/handbook/-/tree/master/src" class="card-footer-item">Edit</a>
+              <a href="/{{ collection.label }}" class="card-footer-item">View</a>
+            </footer>
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</section>
