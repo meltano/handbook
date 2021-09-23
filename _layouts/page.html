@@ -1,14 +1,94 @@
----
-layout: default
----
-<article class="post">
+<!-- TODO: The menu doesn't allow for subdirectories yet. See: https://bulma.io/documentation/components/menu/ -->
+<!DOCTYPE html>
+<html>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+{% include head.html %}
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+  <body>
 
-</article>
+    {% include header.html %}
+    <div class="container is-fluid">
+      <div class="columns">
+        <div class="column is-2">
+            <aside class="menu is-fullheight is-narrow-mobile is-hidden-mobile">
+              {% if site.collections %}
+                {% for collection in site.collections %}
+                  {% if collection.label != "posts" %}
+                    <p class="menu-label"> 
+                    {% if collection.icon %}
+                      {% assign icon = collection.icon %}
+                      <span class="icon"><i class="fas {{ icon }}"></i></span>
+                    {% else %}
+                      <span class="icon"><i class="fas fa-book-open"></i></span>
+                    {% endif %}
+                    
+                    {{ collection.label | capitalize }}
+                    </p>
+                    <ul class="menu-list">
+                      {% assign items = site[collection.label] | sort: "weight" %}
+                      {% for item in items %}
+                        <li>
+                          <a href="{{ item.url }}" class="{% if item.url == page.url %}is-active{% endif %}">
+                           {{ item.title }}
+                          </a>
+                        </li>
+                      {% endfor %}
+                      </ul>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            </aside> 
+
+<!--   <aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
+    <p class="menu-label is-hidden-touch">Navigation</p>
+    <ul class="menu-list">
+      {% if site.collections %}
+        {% for collection in site.collections %}
+          {% if collection.label != "posts" %}
+          <li>
+            <a href="/{{ collection.label }}" class="{% if collection.page.url == page.url %}is-active{% endif %}">
+              {% if collection.icon %}
+              {% assign icon = collection.icon %}
+                <span class="icon"><i class="fas {{ icon }}"></i></span> {{ collection.label | capitalize }}
+              {% else %}
+                <span class="icon"><i class="fas fa-table"></i></span> {{ collection.label | capitalize }}
+              {% endif %}
+            </a>
+            <ul>
+              {% for item in site[collection.label] %}
+                {% unless item.path contains 'index' %}
+                <li>
+                  <a href="{{ item.url }}" class="{% if item.url == page.url %}is-active{% endif %}">
+                   {{ item.title }}
+                  </a>
+                </li>
+                {% endunless %}
+              {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </ul>
+  </aside> -->
+
+            </div>
+            <div class="column is-9">
+
+                {% include breadcrumbs.html %}
+
+                <section class="section content">
+                  {{ content }}
+                </section>
+                
+            </div>
+        </div>
+
+    </div>
+    {% include footer.html %}
+</body>
+
+</html>
+
+
+

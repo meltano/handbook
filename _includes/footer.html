@@ -1,44 +1,25 @@
-<footer class="site-footer">
+<!-- TODO: No need to pull in this whole thing for a burger. Fix it later. -->
+<script 
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">    
+</script>
 
-  <div class="wrapper">
+<script type="text/javascript">
+  $(document).ready(function() {
+  $(".navbar-burger").click(function() {
+      $(".navbar-burger, .navbar-menu", $(this).closest('.navbar')).toggleClass("is-active");
+  });
+});
+</script>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.gitlab_username %}
-          <li>
-            {% include icon-gitlab.html username=site.gitlab_username %}
-          </li>
-          {% endif %}
-
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      Meltano is open source. <a href="https://meltano.com/docs/contributor-guide.html" target="_blank">Contribute to the project!</a>
+    </p>
+    <p>
+      Copyright 2021 Meltano — All rights reserved
+    </p>
   </div>
-
 </footer>
