@@ -1,0 +1,49 @@
+:root {
+  --primary: #3e3c8e;
+}
+
+html, body {
+  /* IE 10-11 didn't like using min-height */
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: IBM Plex Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.navbar {
+  border-bottom: 1px solid #eaecef;
+}
+
+.content {
+  flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
+}
+
+.footer {
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
+  background: #eaecef;
+}
+
+.footer .links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .links a {
+  margin: 0 1rem;
+}
+
+.chiclet {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.5rem;
+}
+
+.chiclet a:hover {
+  color: #ffffff;
+  background-color: var(--primary);
+}

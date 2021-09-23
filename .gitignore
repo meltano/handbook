@@ -4,3 +4,4 @@ _site
 public/
 .jekyll-cache
 .ruby-version
+.DS_Store
