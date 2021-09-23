@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PeopleOps Handbook
-weight: 3
+weight: 1
 ---
 
 # PeopleOps Handbook
