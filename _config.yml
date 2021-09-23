@@ -36,7 +36,7 @@ collections:
     icon: "fa-user-cog"
   product:
     output: true
-    icon: "fa-poo-storm"
+    icon: "fa-map-signs"
   resources:
     output: true
     icon: "fa-book"
