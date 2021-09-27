@@ -292,7 +292,7 @@ weight: 2
 
 - Prefer `LOWER(column) LIKE '%match%'` to `column ILIKE '%Match%'`. This lowers the chance of stray capital letters leading to an unexpected result
 
-- Familiarize yourself with [the DRY Principal](https://docs.getdbt.com/docs/design-patterns). Leverage CTEs, jinja and macros in dbt, and snippets in Sisense. If you type the same line twice, it needs to be maintained in two places
+- Familiarize yourself with the DRY Principal. Leverage CTEs, jinja and macros in dbt, and snippets in Sisense. If you type the same line twice, it needs to be maintained in two places
 
 - **DO NOT OPTIMIZE FOR A SMALLER NUMBER OF LINES OF CODE. NEWLINES ARE CHEAP. [BRAIN TIME IS EXPENSIVE.](https://blog.getdbt.com/write-better-sql-a-defense-of-group-by-1/)**
 

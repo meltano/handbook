@@ -7,7 +7,7 @@ weight: 2
 
 # Marketing Ops
 
-Please see a full list of all our [tooling here](https://meltano.com/handbook/tech-stack/).
+Please see a full list of all our [tooling here](/tech-stack/).
 
 ## Website/blog
 
