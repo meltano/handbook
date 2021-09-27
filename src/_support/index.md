@@ -2,6 +2,7 @@
 layout: page
 title: Support Handbook
 weight: 1
+permalink: /support/
 ---
 ## Customer Support
 

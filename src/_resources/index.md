@@ -2,6 +2,7 @@
 layout: page
 title: Resources
 weight: 1
+permalink: /resources/
 ---
 
 # Recommended Reading, Listening, Watching

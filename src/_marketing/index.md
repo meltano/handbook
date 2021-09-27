@@ -2,6 +2,7 @@
 layout: page
 weight: 1
 title: Marketing Handbook
+permalink: /marketing/
 ---
 
 # Marketing Handbook

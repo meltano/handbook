@@ -2,6 +2,7 @@
 layout: page
 title: Tech Stack
 weight: 1
+permalink: /tech-stack/
 ---
 
 # Tech Stack

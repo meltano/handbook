@@ -2,6 +2,7 @@
 layout: page
 title: PeopleOps Handbook
 weight: 1
+permalink: /peopleops/
 ---
 
 # PeopleOps Handbook
