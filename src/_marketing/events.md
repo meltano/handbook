@@ -26,6 +26,7 @@ We will not participate if we do not have enough time or resources to do somethi
 ## Event Campaigns
 We do not run events as stand alone activities they need to fit into out larger strategy plans and need to involve robust marketing campaigns surrounding them. 
 
+* [Event Suggestion Template](https://gitlab.com/meltano/marketing/marketing-general/-/blob/main/.gitlab/issue_templates/event.md)
 
 
 
