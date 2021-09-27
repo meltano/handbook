@@ -98,7 +98,6 @@ permalink: /resources/
 - [From Data to Viz](https://www.data-to-viz.com/)
 - [Gravy Anecdote](http://gravyanecdote.com/)
 - [JunkCharts](https://junkcharts.typepad.com/)
-- [Make a Powerful Point](http://makeapowerfulpoint.com/)
 - [Makeover Monday](http://www.makeovermonday.co.uk)
 - [Perceptual Edge](https://perceptualedge.com/)
 - [PolicyViz](https://policyviz.com/)

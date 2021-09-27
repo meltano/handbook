@@ -228,7 +228,7 @@ the MR on behalf of the other team member unless invited to do so.
 ### Continually improving Contribution Guidelines
 
 As experts catch issues in MRs that the original reviewers did not,
-we will update this section and the [Contributor Guide](/docs/contributor-guide.md#reviews),
+we will update this section and the [Contributor Guide](https://meltano.com/docs/contributor-guide.html#reviews),
 and reviewers will learn new things to look out for until they catch (almost) everything the expert would,
 at which points they will be experts themselves.
 
@@ -279,7 +279,7 @@ For community calls, use one of the following background in Zoom depending on wh
 
 Note that if you mirror your video then the image will look backwards on your screen, but to others in the call it will look correct.
 
-![Meltano Background](/images/zoom-backgrounds/meltano-background.png)
+![Meltano Background](images/zoom-backgrounds/meltano-background.png)
 
 Add it by doing the following:
 

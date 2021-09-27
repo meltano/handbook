@@ -1,7 +1,7 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
       <a class="navbar-item" href="https://meltano.com">
-          <img src="https://meltano.com/meltano-logo-with-text.svg" width="112" height="28">
+          <img src="https://meltano.com/meltano-logo-with-text.svg" alt="The Meltano logo with Meltano written in purple" width="112" height="28">
       </a>
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
@@ -18,9 +18,9 @@
         <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link"> More </a>
             <div class="navbar-dropdown">
-                <a class="navbar-item" href="#"> About </a>
+                <a class="navbar-item" href="https://meltano.com/docs/#mission"> About </a>
                 <a class="navbar-item" href="https://meltano.com/jobs"> Jobs </a>
-                <a class="navbar-item" href="#"> Contact </a>
+                <a class="navbar-item" href="https://meltano.com/docs/getting-help.html"> Contact </a>
                 <hr class="navbar-divider">
                 <a class="navbar-item" href="https://gitlab.com/meltano/meltano/-/issues/new"> Report an issue </a>
             </div>
@@ -32,7 +32,7 @@
                 {% if site.collections %}
                   {% for collection in site.collections %}
                     {% if collection.label != "posts" %}
-                      <a class="navbar-item" href="#"> {{ collection.label | capitalize }} </a>
+                      <a class="navbar-item" href="/{{ collection.label }}"> {{ collection.label | capitalize }} </a>
                     {% endif %}
                   {% endfor %}
                 {% endif %}
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="navbar-end">
-          <a href="#" class="navbar-item"><i class="fas fa-search"></i></a>
+          <!--<a href="#" class="navbar-item"><i class="fas fa-search"></i></a>-->
           <a href="https://gitlab.com/meltano/handbook" class="navbar-item"><i class="fab fa-gitlab"></i></a>
           <a href="https://meltano.com/slack" class="navbar-item"><i class="fab fa-slack"></i></a>
       </div>

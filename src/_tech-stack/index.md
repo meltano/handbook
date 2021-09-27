@@ -121,7 +121,7 @@ Chat button on bottom right of <https://meltano.com/> and Meltano UI.
 
 Select team members have their own account.
 
-## [LinkedIn](https://linkedin.com/company/meltano/)
+## [LinkedIn](https://www.linkedin.com/company/meltano/)
 
 Meltano company page.
 

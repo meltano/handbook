@@ -104,9 +104,6 @@ Tips and Tricks:
 * **other considerations**
   * The HN community values transparency so you should disclose that you're an employee of Meltano when responding to Meltano-related threads.
 
-Internal folks find out more in [this issue](https://gitlab.com/meltano/marketing/marketing-general/-/issues/30)
-
-
 ## Meltano Newsletter
 
 Meltano uses [Substack](https://meltano.substack.com/) to collect newsletter subscribers and send emails to communicate with our community. Email is opt-in, meaning that by default users can download and install Meltano without providing us any contact information.
