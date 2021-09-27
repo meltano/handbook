@@ -2,6 +2,7 @@
 layout: page
 title: Product Handbook
 weight: 1
+permalink: /product/
 ---
 
 # Product Handbook

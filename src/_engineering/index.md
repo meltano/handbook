@@ -2,6 +2,7 @@
 layout: page
 title: Engineering Handbook
 weight: 1
+permalink: /engineering/
 ---
 
 # Engineering Handbook
@@ -31,7 +32,7 @@ By the end of day Friday, or the last day of their work week, engineers are expe
    - No need to add a progress comment since action items should be self-documenting.
    - If review is not progressing due to other factors, a `flow:Blocked` label may be appropriate.
 
-This is in preparation for the Product milestone review and [Weekly Kickoff](handbook/product/#weekly-kickoff) on Monday.
+This is in preparation for the Product milestone review and [Weekly Kickoff](/product/#weekly-kickoff) on Monday.
 
 ### Labels
 
@@ -227,7 +228,7 @@ the MR on behalf of the other team member unless invited to do so.
 ### Continually improving Contribution Guidelines
 
 As experts catch issues in MRs that the original reviewers did not,
-we will update this section and the [Contributor Guide](/docs/contributor-guide.md#reviews),
+we will update this section and the [Contributor Guide](https://meltano.com/docs/contributor-guide.html#reviews),
 and reviewers will learn new things to look out for until they catch (almost) everything the expert would,
 at which points they will be experts themselves.
 
@@ -278,7 +279,7 @@ For community calls, use one of the following background in Zoom depending on wh
 
 Note that if you mirror your video then the image will look backwards on your screen, but to others in the call it will look correct.
 
-![Meltano Background](/images/zoom-backgrounds/meltano-background.png)
+![Meltano Background](images/zoom-backgrounds/meltano-background.png)
 
 Add it by doing the following:
 
@@ -303,18 +304,18 @@ We mirror the three main Meltano repositories (meltano/sdk/hub) from GitLab to G
 
 ## Domain names, DNS, and hosting
 
-Domain names are typically registered with [Amazon Web Services](/handbook/tech-stack/#amazon-web-services).
-[NameCheap](/handbook/tech-stack/#namecheap) can be used if a TLD is not available there.
-For legacy reasons, one domain name is still registered with [Gandi](/handbook/tech-stack/#gandi).
+Domain names are typically registered with [Amazon Web Services](/tech-stack/#amazon-web-services).
+[NameCheap](/tech-stack/#namecheap) can be used if a TLD is not available there.
+For legacy reasons, one domain name is still registered with [Gandi](/tech-stack/#gandi).
 
-DNS is typically managed at [SiteGround](/handbook/tech-stack/#siteground).
-DNS for `*.meltanodata.com` is managed at [DigitalOcean](/handbook/tech-stack/#digitalocean).
-DNS for `singerhub.io` is managed at [NameCheap](/handbook/tech-stack/#namecheap).
+DNS is typically managed at [SiteGround](/tech-stack/#siteground).
+DNS for `*.meltanodata.com` is managed at [DigitalOcean](/tech-stack/#digitalocean).
+DNS for `singerhub.io` is managed at [NameCheap](/tech-stack/#namecheap).
 
-<https://meltano.com> is hosted at [SiteGround](/handbook/tech-stack/#siteground).
+<https://meltano.com> is hosted at [SiteGround](/tech-stack/#siteground).
 <https://hub.meltano.com> is hosted using [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) for <https://gitlab.com/meltano/hub>.
-<https://sdk.meltano.com> is hosted at [Read the Docs](/handbook/tech-stack/#read-the-docs).
+<https://sdk.meltano.com> is hosted at [Read the Docs](/tech-stack/#read-the-docs).
 
 ## SQL Style Guide
 
-Our SQL style guide is located [at this link](/handbook/engineering/sql-style-guide.html). It is heavily inspired by the [GitLab SQL Style Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/).
+Our SQL style guide is located [at this link](/engineering/sql-style-guide.html). It is heavily inspired by the [GitLab SQL Style Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/).

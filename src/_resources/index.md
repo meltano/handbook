@@ -2,6 +2,7 @@
 layout: page
 title: Resources
 weight: 1
+permalink: /resources/
 ---
 
 # Recommended Reading, Listening, Watching
@@ -95,9 +96,8 @@ weight: 1
 - [FiveThirtyEight's DataLab](https://fivethirtyeight.com/features/)
 - [Flowing Data](https://flowingdata.com/)
 - [From Data to Viz](https://www.data-to-viz.com/)
-- [Gravy Anecdote](http://gravyanecdote.com/)
+- [Gravy Anecdote](https://twitter.com/acotgreave)
 - [JunkCharts](https://junkcharts.typepad.com/)
-- [Make a Powerful Point](http://makeapowerfulpoint.com/)
 - [Makeover Monday](http://www.makeovermonday.co.uk)
 - [Perceptual Edge](https://perceptualedge.com/)
 - [PolicyViz](https://policyviz.com/)
