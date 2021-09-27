@@ -96,7 +96,7 @@ permalink: /resources/
 - [FiveThirtyEight's DataLab](https://fivethirtyeight.com/features/)
 - [Flowing Data](https://flowingdata.com/)
 - [From Data to Viz](https://www.data-to-viz.com/)
-- [Gravy Anecdote](http://gravyanecdote.com/)
+- [Gravy Anecdote](https://twitter.com/acotgreave)
 - [JunkCharts](https://junkcharts.typepad.com/)
 - [Makeover Monday](http://www.makeovermonday.co.uk)
 - [Perceptual Edge](https://perceptualedge.com/)
