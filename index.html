@@ -54,7 +54,7 @@ layout: default
         {% if collection.label != "posts" %}
         <div class="column is-one-quarter">
           <div class="card chiclet">
-              <header class="card-header">
+              <header class="card-header chiclet-header">
                 <p class="card-header-title">
                   {{ collection.label | capitalize }}
                 </p>
@@ -70,7 +70,6 @@ layout: default
               </div>
             </div>
             <footer class="card-footer">
-              <a href="https://gitlab.com/meltano/handbook/-/tree/master/src" class="card-footer-item">Edit</a>
               <a href="/{{ collection.label }}" class="card-footer-item">View</a>
             </footer>
           </div>
