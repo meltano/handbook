@@ -16,6 +16,7 @@ body {
 
 .navbar {
   border-bottom: 1px solid #eaecef;
+  margin-bottom: 1rem;
 }
 
 .content {
@@ -46,4 +47,10 @@ body {
 .chiclet a:hover {
   color: #ffffff;
   background-color: var(--primary);
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.chiclet-header {
+  box-shadow: none;
 }
