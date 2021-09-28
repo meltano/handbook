@@ -9,6 +9,10 @@ weight: 2
 
 Please see a full list of all our [tooling here](/tech-stack/).
 
+## Domains
+
+Meltano has several domains we've purchased and managed. These are documented in [this Google Sheet](https://docs.google.com/spreadsheets/d/15f_p0jU1ZaIMPE8_3OTBjM5Uf5_RjtG8EIRUygFVBTM/edit#gid=0).
+
 ## Website/blog
 
 The website and blog are currently hosted on SiteGround. You can find the credentials in 1Password.
