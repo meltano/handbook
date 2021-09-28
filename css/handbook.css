@@ -16,6 +16,7 @@ body {
 
 .navbar {
   border-bottom: 1px solid #eaecef;
+  margin-bottom: 1rem;
 }
 
 .content {
