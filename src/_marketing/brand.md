@@ -17,12 +17,27 @@ Our personality is built around four main characteristics.
 * **Inclusive**: We embrace new ideas, new voices and new perspectives. We are always happy to be educated.
 * **Fun**: We like Shramp and other oddities. 
 
+### Meet Melty
+/MeltyRainbow.png/
+As the Regional Fire Chief, Melty prioritized the efficiency and collaboration of their district teams.  Feeling frustrated with the current state of their data stack, Melty had trouble determining how to get the most out of the department’s data . Seeking a seamless solution, Melty found Meltano, and after working together for a couple of years, we developed an undeniable connection. Melty asked all the right questions and drove us to make better products and documentation so they could thrive in their pursuit of perpetual learning and improvement.
+
+Melty the Meltano Dragon will melt your heart with its curious and adventurous nature. 
+
+#### Melty personality: 
+Melty is friendly, kind, and empathetic. Melty loves creating delightful moments and bringing people together. The best parties are the dinner parties that Melty hosts every month.
+
+Melty is approachable and wants to use their skills for good. 
+
+
+#### Why a dragon/ Why Melty:
+We selected a dragon as our mascot, because dragons are mythical, strong, enduring, and can be fierce but also cute. They are not afraid of challenges, and they approach obstacles with honor, confidence, intelligence, and enthusiasm. We appreciate that they are “imaginary” and spark a sense of curiosity and the pursuit of the unknown. We imagine a better way forward in the data space and the future of work and that optimism and belief is mirrored in our conviction in Melty the dragon. 
+
+
 ### Tone of Voice
 Friendly, informative yet ambitious. We bring empathy to all interactions and stewardship to those new to the space. 
 
 ### Brand Resources
 Coming Soon! (Fonts, Colors, Logos, Slide decks and much more)
-
 
 ### Talking about the Meltano Product Family and Team
 
