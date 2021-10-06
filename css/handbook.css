@@ -17,6 +17,11 @@ body {
 .navbar {
   border-bottom: 1px solid #eaecef;
   margin-bottom: 1rem;
+  min-height: 4rem;
+}
+
+.navbar-item img {
+    max-height: none;
 }
 
 .content {
