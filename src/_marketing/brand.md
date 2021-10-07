@@ -37,7 +37,11 @@ We selected a dragon as our mascot, because dragons are mythical, strong, enduri
 Friendly, informative yet ambitious. We bring empathy to all interactions and stewardship to those new to the space. 
 
 ### Brand Resources
-Coming Soon! (Fonts, Colors, Logos, Slide decks and much more)
+Coming Soon! (Fonts, Colors, Logos, and much more)
+
+* [Slide Deck Template](https://docs.google.com/presentation/d/1ZCJ_WIdCN2LCylSz7w3okNXXM9Z33uNOa8XjR58WabI/edit#slide=id.p)
+
+* Font- [IBM Plex Sans](https://github.com/IBM/plex/tree/master/IBM-Plex-Sans)
 
 ### Talking about the Meltano Product Family and Team
 
