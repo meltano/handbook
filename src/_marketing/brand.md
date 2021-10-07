@@ -39,7 +39,7 @@ Friendly, informative yet ambitious. We bring empathy to all interactions and st
 ### Brand Resources
 Coming Soon! (Fonts, Colors, Logos, and much more)
 
-* [Slide Deck Template](https://docs.google.com/presentation/d/1ZCJ_WIdCN2LCylSz7w3okNXXM9Z33uNOa8XjR58WabI/edit#slide=id.p)
+* [Slide Deck Template](https://docs.google.com/presentation/u/0/?ftv=1&tgif=d)- please always start from this templte and make a copy before making any changes
 
 * Font- [IBM Plex Sans](https://github.com/IBM/plex/tree/master/IBM-Plex-Sans)
 
