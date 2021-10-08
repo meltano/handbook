@@ -17,8 +17,7 @@ Our personality is built around four main characteristics.
 * **Inclusive**: We embrace new ideas, new voices and new perspectives. We are always happy to be educated.
 * **Fun**: We like Shramp and other oddities. 
 
-### Meet Melty
-/MeltyRainbow.png/
+### Meet Melty the Dragon
 As the Regional Fire Chief, Melty prioritized the efficiency and collaboration of their district teams.  Feeling frustrated with the current state of their data stack, Melty had trouble determining how to get the most out of the department’s data . Seeking a seamless solution, Melty found Meltano, and after working together for a couple of years, we developed an undeniable connection. Melty asked all the right questions and drove us to make better products and documentation so they could thrive in their pursuit of perpetual learning and improvement.
 
 Melty the Meltano Dragon will melt your heart with its curious and adventurous nature. 
