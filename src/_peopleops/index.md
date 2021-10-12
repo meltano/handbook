@@ -25,9 +25,13 @@ We're currently using [Greenhouse](https://www.greenhouse.io/) to manage the hir
 - Click the green "Add a Referral" button
 - Fill out the candidate details and attach a copy of their resume and cover letter if you have them.
 
-## Greenhouse Administration
+### Discussing candidates in Slack
 
-### Adding New Users
+It is okay to reference first names and job titles for candidates in the private `hiring` Slack channel. However, please do not post feedback.
+
+### Greenhouse Administration
+
+#### Adding New Users
 
 Add users [here](https://app4.greenhouse.io/account/users?status=active). Hiring managers can be added as "Job Admin" for 
 a specific role. Other users can be added as "Basic" users and not added to any roles. This will allow them to make referrals.
@@ -36,7 +40,7 @@ a specific role. Other users can be added as "Basic" users and not added to any 
 - **Job admins:** Can control the interview process for a specific role.
 - **Site Admins:** Can add new roles, see all candidate info, see and modify roles, and manage the job board settings.
 
-### Configure Job Introductions/Conclusions
+#### Configure Job Introductions/Conclusions
 
 By default, all job posts have an introduction and a conclusion that tells the applicant about Meltano and our benefits.
 
