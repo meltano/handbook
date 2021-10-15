@@ -11,7 +11,7 @@ test:
   stage: test
   script:
   - bundle exec jekyll build -d test
-  - bundle exec htmlproofer --log-level :debug ./test --assume_extension --http_status_ignore 503 --url-ignore "/www.linkedin.com/,/www.dell.com/"
+#  - bundle exec htmlproofer --log-level :debug ./test --assume_extension --http_status_ignore 503 --url-ignore "/www.linkedin.com/,/www.dell.com/"
   artifacts:
     paths:
     - test
@@ -34,7 +34,7 @@ deploy_review:
     - echo "Deploy a review app"
   environment:
     name: review/$CI_COMMIT_REF_NAME
-    url: https://$CI_ENVIRONMENT_SLUG.example.com
+    url: https://$CI_ENVIRONMENT_SLUG.meltano.com
   only:
     - branches
   except:
