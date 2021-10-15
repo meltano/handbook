@@ -34,7 +34,7 @@ deploy_review:
     - echo "Deploy a review app"
   environment:
     name: review/$CI_COMMIT_REF_NAME
-    url: https://$CI_ENVIRONMENT_SLUG.meltano.com
+    url: https://$CI_ENVIRONMENT_SLUG.handbook.meltano.com
   only:
     - branches
   except:
