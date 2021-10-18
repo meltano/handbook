@@ -5,7 +5,9 @@ variables:
   LC_ALL: C.UTF-8
 
 before_script:
-  - apt-get install npm
+  - sudo apt install curl
+  - curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+  - sudo apt install nodejs
   - bundle install
   - npm install
 
