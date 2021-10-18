@@ -1,4 +1,4 @@
-image: ruby:3.0.2
+image: timbru31:ruby-node
 
 variables:
   JEKYLL_ENV: production
