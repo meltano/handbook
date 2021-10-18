@@ -1,12 +1,13 @@
-image: timbru31:ruby-node
+image: ruby:3.0.2-bullseye
 
 variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
 
 before_script:
-  - npm install
+  - apt-get install npm
   - bundle install
+  - npm install
 
 test:
   stage: test
