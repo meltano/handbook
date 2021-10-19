@@ -147,6 +147,12 @@ Feature branch previews for <https://gitlab.com/meltano/meltano> docs.
 
 Account details are in the `Engineering` 1Password vault.
 
+## [PagerDuty](https://www.pagerduty.com/)
+
+Added to help manage the Release Manager rotation schedule. May be used in future for paging/on-call/escalations for running services.
+
+Account details are in the `Engineering` 1Password vault.
+
 ## [Pingdom](https://my.pingdom.com/)
 
 Downtime alerts for <https://meltano.com> and <https://meltano.meltanodata.com>.
@@ -155,7 +161,7 @@ Account details are in the `Engineering` 1Password vault.
 
 ## [PTO by Roots](https://meltano.slack.com/apps/AELEX1TU3-pto-by-roots)
 
-[PTO by Roots](https://www.tryroots.io/pto) allows employees and managers to coordinate time off seamlessly with intuitive Slack commands. PTO by Roots also reminds employees of their upcoming time off and helps them assign roles and tasks for co-workers, giving all parties involved greater alignment and peace of mind. 
+[PTO by Roots](https://www.tryroots.io/pto) allows employees and managers to coordinate time off seamlessly with intuitive Slack commands. PTO by Roots also reminds employees of their upcoming time off and helps them assign roles and tasks for co-workers, giving all parties involved greater alignment and peace of mind.
 
 Every team member has access through their [Slack](#slack) account (under Apps).
 
