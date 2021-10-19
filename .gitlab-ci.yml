@@ -1,11 +1,15 @@
-image: ruby:3.0.2
+image: ruby:3.0.2-bullseye
 
 variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
 
 before_script:
+  - apt install curl
+  - curl -fsSL https://deb.nodesource.com/setup_current.x | bash -
+  - apt-get install -y nodejs
   - bundle install
+  - npm install
 
 test:
   stage: test
