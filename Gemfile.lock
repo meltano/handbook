@@ -8,7 +8,7 @@ GEM
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
-    ethon (0.14.0)
+    ethon (0.15.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
     ffi (1.15.4)
@@ -24,7 +24,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    jekyll (4.2.0)
+    jekyll (4.2.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -52,7 +52,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    nokogiri (1.12.4-arm64-darwin)
+    nokogiri (1.12.5-arm64-darwin)
       racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
@@ -83,7 +83,7 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer (~> 3.19)
-  jekyll (= 4.2.0)
+  jekyll (= 4.2.1)
   tzinfo-data
   webrick (~> 1.7)
 

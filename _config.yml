@@ -7,11 +7,11 @@
 
 # Site settings
 title: Meltano Handbook
-email: your-email@domain.com
+email: hello@meltano.com
 description: > # this means to ignore newlines until "baseurl:"
   The Meltano Handbook is the open source company handbook for Meltano.
 #baseurl: "/" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site
+url: "https://handbook.meltano.com" # the base hostname & protocol for your site
 twitter_username: meltanodata
 github_username:  meltano
 gitlab_username:  meltano
