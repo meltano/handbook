@@ -39,8 +39,13 @@ This is in preparation for the Product milestone review and [Weekly Kickoff](/pr
 The team uses Gitlab's `weight` feature to align on rough estimates of relative size. We bias towards
 a system where most increments are double of the prior increment, to avoid debates of "is this a 2 or a 3?"
 and to acknowledge these are only low-precision estimates. The used values are: `1`, `2`, `4`, `8`, `12`,
-`20`, and `40`. While these 
+`20`, and `40`.
 
+Sizing should always take into account these three factors:
+
+1. Level of Effort - how much time we think it will _probably_ take.
+2. Complexity - how complex is the problem, how many dependencies up and downstream.
+3. Risk and Uncertainty - how likely are we to be wrong about the above 2 items.
 
 ```txt
  1 - E.g. A simple docs update
@@ -51,6 +56,15 @@ and to acknowledge these are only low-precision estimates. The used values are: 
 20 - Should be broken to smaller deliverables if possible
 40 - Probably an epic, to be planned out in smaller deliverables
 ```
+
+#### Why do we size issues?
+
+It's important to document the _why_ behind sizing:
+
+1. To facilitate prioritization conversations between Engineering and Product leadership.
+2. To inform estimates on what we can reasonably commit to in community-facing roadmap items.
+3. To provide a lexicon around value creation vs relative time and effort.
+4. To provide a means of escalation when items are found to be under-scoped, to minimize the impact on other deliverables when "scope creep" or "unknown unknowns" are identified during development.
 
 #### Initial Sizing Estimate
 
