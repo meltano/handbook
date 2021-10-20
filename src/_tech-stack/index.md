@@ -103,6 +103,26 @@ Connected to [Google Workspace](#google-workspace).
 Every team member has their own account.
 Main account details are in the `Executive` 1Password vault.
 
+### Non-team-member email addresses
+
+- `hello`: generic company inbox, hooked up to [Zendesk](#zendesk)
+- `security`: Security Disclosures, hooked up to [Zendesk](#zendesk)
+- `ap`: Accounts Payable, monitored by Operations Analyst
+
+Groups:
+
+- `meltano-team`: all team members
+- `meltano-admin`: original team pre-spinout (legacy)
+- `meltano-leadership`: CEO and all leaders reporting to CEO
+- `meltano-bots`: non-team-member email addresses (see above)
+
+Aliases:
+
+- `databae` -> `taylor`
+- `press` -> `hello`: press inquiries
+- `labs` -> `hello`: MeltanoLabs
+- `hub` -> `hello`: MeltanoHub
+
 ## [Greenhouse](https://www.greenhouse.io/)
 
 Manage job applicants, our job board, and our hiring process.
