@@ -242,7 +242,7 @@ community.
 If it is not possible to present at office hours or demo day, it may be possible for a knowledgeable team member or 
 community member to present on your behalf. Alternatively, you may also post a recorded video demo and walkthrough,
 of length between 2 and 10 minutes, to the `#contributing` channel on slack, posting a link also on your MR. You
-may use Slack's built-in video message feature, the free tool [Loom](loom.com), or another similar tool.
+may use Slack's built-in video message feature, the free tool [Loom](https://loom.com), or another similar tool.
 
 ## Useful issue boards
 
