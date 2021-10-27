@@ -232,6 +232,18 @@ we will update this section and the [Contributor Guide](https://meltano.com/docs
 and reviewers will learn new things to look out for until they catch (almost) everything the expert would,
 at which points they will be experts themselves.
 
+## Significant Product Changes
+
+We aim to engage with the community for feedback whenever significant product changes are being proposed for Meltano,
+the SDK, and the Hub. The most common way we do this is via Office Hours and Demo Day. Internal team members as well
+as external contributors should plan to present at office hours and/or demo day to collect feedback from the broader
+community.
+
+If it is not possible to present at office hours or demo day, it may be possible for a knowledgeable team member or 
+community member to present on your behalf. Alternatively, you may also post a recorded video demo and walkthrough,
+of length between 2 and 10 minutes, to the `#contributing` channel on slack, posting a link also on your MR. You
+may use Slack's built-in video message feature, the free tool [Loom](https://loom.com), or another similar tool.
+
 ## Useful issue boards
 
 - [Development Flow](https://gitlab.com/groups/meltano/-/boards/536761), with a column for each `flow::` label. Don't forget to filter by milestone, and/or assignee!
