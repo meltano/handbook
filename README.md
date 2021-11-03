@@ -1,119 +1,87 @@
-![Build Status](https://gitlab.com/pages/jekyll/badges/master/build.svg)
 ![Jekyll Version](https://img.shields.io/gem/v/jekyll.svg)
 
 ---
 
-Example [Jekyll] website using GitLab Pages.  View it live at https://pages.gitlab.io/jekyll
+# Meltano Handbook
 
-[Learn more about GitLab Pages](https://pages.gitlab.io) or read the the [official GitLab Pages documentation](https://docs.gitlab.com/ce/user/project/pages/).
+Welcome! This is the source for our [company handbook](https://handbook.meltano.com/).
 
 ---
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+[[_TOC_]]
 
-- [Getting Started](#getting-started)
-  - [Start by forking this repository](#start-by-forking-this-repository)
-  - [Start from a local Jekyll project](#start-from-a-local-jekyll-project)
-- [GitLab CI](#gitlab-ci)
-- [Using Jekyll locally](#using-jekyll-locally)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Other examples](#other-examples)
-- [Troubleshooting](#troubleshooting)
+## Contribute to the Handbook
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+Follow the steps below to work locally with this project.
 
-## Getting Started
-
-You can get started with GitLab Pages using Jekyll easily by either forking this repository or by uploading a new/existing Jekyll project.
-
-Remember you need to wait for your site to build before you will be able to see your changes.  You can track the build on the **Pipelines** tab.
-
-### Start by forking this repository
-
-1. Fork this repository.
-1. **IMPORTANT:** Remove the fork relationship.
-Go to **Settings (⚙)** > **Edit Project** and click the **"Remove fork relationship"** button.
-1. Enable Shared Runners.
-Go to **Settings (⚙)** > **Pipelines** and click the **"Enable shared Runners"** button.
-1. Rename the repository to match the name you want for your site.
-1. Edit your website through GitLab or clone the repository and push your changes.
-
-### Start from a local Jekyll project
-
-1. [Install][] Jekyll.
-1. Use `jekyll new` to create a new Jekyll Project.
-1. Add [this `.gitlab-ci.yml`](.gitlab-ci.yml) to the root of your project.
-1. Push your repository and changes to GitLab.
-
-## GitLab CI
-
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
-
-```
-image: ruby:2.3
-
-variables:
-  JEKYLL_ENV: production
-
-pages:
-  script:
-  - bundle install
-  - bundle exec jekyll build -d public
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
-```
-
-## Using Jekyll locally
-
-To work locally with this project, you'll have to follow the steps below:
-
-1. Fork, clone or download this project
-1. [Install][] Jekyll
-1. Download dependencies: `bundle`
+1. Make sure you have a Ruby environment set up locally. You'll need the Ruby version specified in the [`.gitlab-ci.yml` file](https://gitlab.com/meltano/handbook/-/blob/master/.gitlab-ci.yml#L1).
+1. Fork, clone or download this project.
+1. Install dependencies: `bundle install`
 1. Build and preview: `bundle exec jekyll serve`
-1. Add content
+1. Preview the site at [http://127.0.0.1:4000](http://127.0.0.1:4000).
+1. Make changes to the content of the site and preview them at the link above.
 
-The above commands should be executed from the root directory of this project.
+**Note:** Changes to `_config.yml` require you to stop the Jekyll server (`^C`) and restart it with `bundle exec jekyll serve`.
 
-Read more at Jekyll's [documentation][].
+### Add a New Page
 
-## GitLab User or Group Pages
+You can add `.md` and `.html` files to this project to be rendered. Most handbook pages are written in [Markdown](https://github.github.com/gfm/).
 
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
+1. Go to the `_src` folder and locate your team's handbook section.
+1. Create a new file called `my-page.md`. Use dashes as spaces in your file name.
+1. Add [front matter](#front-matter) to your new file.
+1. Add your [Markdown](https://github.github.com/gfm/) content.
+1. If you've set up a dev environment, you can preview your new page on [http://127.0.0.1:4000](http://127.0.0.1:4000).
 
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
+#### Front Matter
 
-## Did you fork this project?
+All pages require [fromt matter](https://jekyllrb.com/docs/front-matter/) to render properly. At a minimum you will need to specify:
 
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
+- `layout:` The template file to use when rendering the content. For handbook pages use `page`. Custom templates can be created and placed in `_layouts`.
+- `title:` The title of the page.
+- `weight:` This controls how pages are displayed in menus and lists. The first file in each handbook section should be named `index.md` and have a weight of `1`. All other pages within a handbook section should have a weight of `2`.
+- **Optional** `permalink:` This allows you to set this page's URL. You can use this to override Jekyll's automatically generated URLs. Ex. `/marketing/brand`
 
-## Other examples
+**Example:**
 
-* [jekyll-branched](https://gitlab.com/pages/jekyll-branched) demonstrates how you can keep your GitLab Pages site in one branch and your project's source code in another.
-* The [jekyll-themes](https://gitlab.com/groups/jekyll-themes) group contains a collection of example projects you can fork (like this one) having different visual styles.
+```
+---
+layout: page
+title: Meltano Brand Kit
+permalink: /marketing/brand
+weight: 2
+---
+```
 
-## Troubleshooting
+### Add a New Section
 
-1. CSS is missing! That means two things:
-    * Either that you have wrongly set up the CSS URL in your templates, or
-    * your static generator has a configuration option that needs to be explicitly
-    set in order to serve static assets under a relative URL.
+1. Create a folder named `_yourdepartment` in the `src` directory.
+1. [Create a new file](#add-a-new-page) called `index.md`. Set the `weight:` of this page to `1` -- it'll be the home page for this handbook section.
+1. Add your [Markdown](https://github.github.com/gfm/) content. Since this is an index page it may be helpful to add some information about this new handbook section. Create additional pages for team policies and procedures and link to them from this page.
+1. Update `collections:` in `_config.yml`. Ex:
 
-[ci]: https://about.gitlab.com/gitlab-ci/
-[Jekyll]: http://jekyllrb.com/
-[install]: https://jekyllrb.com/docs/installation/
-[documentation]: https://jekyllrb.com/docs/home/
-[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
-[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
+```
+  engineering:
+    output: true
+    icon: "fa-cogs"
+```
+
+`icon:` Refers to a [Font Awesome](https://fontawesome.com/).
+
+### Add Images
+
+1. Create an `images` folder in your handbook section.
+1. Add photos to this folder.
+1. You can refer to them with `images/filename.jpg` in your pages.
+
+## Check for Broken Links
+
+Builds will fail to deploy if links are broken. You can check for broken links locally with this command before pushing changes:
+
+```
+bundle exec jekyll build && bundle exec htmlproofer --log-level :debug ./_site --assume_extension --http_status_ignore 503 --url-ignore "/www.linkedin.com/,/www.dell.com/"
+```
+
+## Deploy
+
+This project is deployed via GitLab Pages using the steps defined in [`.gitlab-ci.yml`](.gitlab-ci.yml).
