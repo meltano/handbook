@@ -66,7 +66,7 @@ weight: 2
     icon: "fa-cogs"
 ```
 
-`icon:` Refers to a [Font Awesome](https://fontawesome.com/).
+`icon:` Refers to a [Font Awesome](https://fontawesome.com/) icon.
 
 ### Add Images
 
