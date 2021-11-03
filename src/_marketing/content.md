@@ -7,7 +7,7 @@ weight: 2
 # Content Marketing
 
 ## Tools
-We use Sprout Social for most social posting and planning.
+We use Sprout Social for most social posting and planning. PLease try to do as many posts as possible from this tool for tracking and management purposes. 
 
 ### Social listening
 coming soon
@@ -114,6 +114,18 @@ Want to hear everything we are talking and thinking about internally and in the 
 
 ### Naming a Blog Post
 Start with the title of the post, be as descriptive as possible but succinct. Do not begin with the date. Only include a date if the content will not be evergreen and it is critical to note the date for the timeliness of the post. Adding a date to the title will instantly date the post and generally when people are looking for content they are not looking for when it was published more what they can learn in the post. 
+
+### Blog Publishing Process 
+Start and issue in the marketing project for all new log posts. Please provide a link to the blog draft in the issue as well as desired go live date. We try not to post two blogs on one day unless they are strategically related. 
+
+Please draft all blogs in google docs. We will move the blog to WP once we are in the final stages of editing and we are just putting final touches on it. 
+
+All blogs much meet a certain min umber of requirements to be published on the company blog. The topic needs to be relevant to the company narrative and product messages. Additionally, it must be substantive enough for posting. This means it must be long enough, relevant and educational enough to help readers learn about Meltano or the data space. Please review the [SEO post guides for more info](https://docs.google.com/document/d/1s9UsxZ7igSCMYudi4oFOI5LoftqDOKkFCgrxRuHbBNY/edit).
+
+Note: we aim to post blogs Tues- Thurs if possible and during peak US ET business hours. 
+
+### Blog Promotion 
+The marketing team will schedule content to go out on our social channels to promote the blog post. It will be up to the blog author to promote the blog in the appropriate slack channel on the same day as the main promotion is occurring. Promotion is generally best received from the author vs marketing.
 
 ## YouTube
 
