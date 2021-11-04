@@ -23,6 +23,12 @@ permalink: /:categories/:year/:month/:day/:title
 markdown: kramdown
 exclude: ["README.md"]
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: false # Don't show TOC by default. Set `toc: true` in Front Matter to override this.
+
 # Every top level section of the handbook is actually a collection. Their files are in a _folder in src/
 collections:
   engineering:
@@ -48,8 +54,21 @@ collections:
   posts:
     output: false
 
-# TODO: Document how to add a page and a section morebetter.
-# To add a new section, make a folder named "_yourdepartment" in the `src` directory.
-# Add images by creating an images folder.
-# Add new files to directories as needed.
+# The directory that contains file for our collections
 collections_dir: src
+
+# Add plugins here.
+plugins:
+  - jekyll-toc
+
+# jekyll-toc Config
+toc:
+  min_level: 1
+  max_level: 3
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-

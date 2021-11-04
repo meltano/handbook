@@ -41,6 +41,7 @@ All pages require [fromt matter](https://jekyllrb.com/docs/front-matter/) to ren
 - `title:` The title of the page.
 - `weight:` This controls how pages are displayed in menus and lists. The first file in each handbook section should be named `index.md` and have a weight of `1`. All other pages within a handbook section should have a weight of `2`.
 - **Optional** `permalink:` This allows you to set this page's URL. You can use this to override Jekyll's automatically generated URLs. Ex. `/marketing/brand`
+- **Optional** `toc:` Set this to `true` to include a Table of Contents on the page. By default this is disabled and should be added manually to pages that need it.
 
 **Example:**
 
@@ -50,6 +51,7 @@ layout: page
 title: Meltano Brand Kit
 permalink: /marketing/brand
 weight: 2
+toc: true
 ---
 ```
 
@@ -73,6 +75,12 @@ weight: 2
 1. Create an `images` folder in your handbook section.
 1. Add photos to this folder.
 1. You can refer to them with `images/filename.jpg` in your pages.
+
+### Add Table of Contents to a Page
+
+The TOC is managed through the `jekyll-toc` gem. You can read about its configuration [here](https://github.com/toshimaru/jekyll-toc#customization).
+
+This can be added to handbook pages by setting `toc: true` in the front matter at the beginning of the document.
 
 ## Check for Broken Links
 
