@@ -3,6 +3,7 @@ layout: page
 title: Engineering Handbook
 weight: 1
 permalink: /engineering/
+toc: true
 ---
 
 # Engineering Handbook
