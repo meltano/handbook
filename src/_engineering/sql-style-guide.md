@@ -6,7 +6,9 @@ weight: 2
 
 ## SQL Style Guide
 
-**Since we don't have a linter, it is _our collective responsibility_ to enforce this Style Guide.**
+We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enforces a majority of our Style Guide, although there are still some limitations.
+
+**It is _our collective responsibility_ to enforce this Style Guide.**
 
 ### Field Naming and Reference Conventions
 
@@ -17,17 +19,17 @@ weight: 2
     ```sql
     -- Good
     SELECT
-      id    AS account_id,
-      name  AS account_name,
-      type  AS account_type,
-      ...
+        id AS account_id,
+        name AS account_name,
+        type AS account_type,
+        ...
 
     -- Bad
     SELECT
-      id,
-      name,
-      type,
-      ...
+        id,
+        name,
+        type,
+        ...
 
     ```
 
@@ -36,15 +38,15 @@ weight: 2
     ```sql
     -- Good
     SELECT
-      sfdc_account.account_id   AS sfdc_account_id,
-      zuora_account.account_id  AS zuora_account_id
+        sfdc_account.account_id AS sfdc_account_id,
+        zuora_account.account_id AS zuora_account_id
     FROM sfdc_account
     LEFT JOIN zuora_account ON ...
 
     -- Bad
     SELECT
-      sfdc_account.account_id,
-      zuora_account.account_id  AS zuora_id
+        sfdc_account.account_id,
+        zuora_account.account_id AS zuora_id
     FROM sfdc_account
     LEFT JOIN zuora_account ON ...
     ```
@@ -54,48 +56,48 @@ weight: 2
     ```sql
     -- Good
     SELECT
-      budget_forecast_cogs_opex.account_id,
-      -- 15 more columns
-      date_details.fiscal_year,
-      date_details.fiscal_quarter,
-      date_details.fiscal_quarter_name,
-      cost_category.cost_category_level_1,
-      cost_category.cost_category_level_2
+        budget_forecast_cogs_opex.account_id,
+        -- 15 more columns
+        date_details.fiscal_year,
+        date_details.fiscal_quarter,
+        date_details.fiscal_quarter_name,
+        cost_category.cost_category_level_1,
+        cost_category.cost_category_level_2
     FROM budget_forecast_cogs_opex
     LEFT JOIN date_details
-     ON date_details.first_day_of_month = budget_forecast_cogs_opex.accounting_period
+        ON date_details.first_day_of_month = budget_forecast_cogs_opex.accounting_period
     LEFT JOIN cost_category
-     ON budget_forecast_cogs_opex.unique_account_name = cost_category.unique_account_name
+        ON budget_forecast_cogs_opex.unique_account_name = cost_category.unique_account_name
 
     -- Ok, but not preferred. Consider renaming the CTE in lieu of aliasing
     SELECT
-      bfcopex.account_id,
-      -- 15 more columns
-      date_details.fiscal_year,
-      date_details.fiscal_quarter,
-      date_details.fiscal_quarter_name,
-      cost_category.cost_category_level_1,
-      cost_category.cost_category_level_2
+        bfcopex.account_id,
+        -- 15 more columns
+        date_details.fiscal_year,
+        date_details.fiscal_quarter,
+        date_details.fiscal_quarter_name,
+        cost_category.cost_category_level_1,
+        cost_category.cost_category_level_2
     FROM budget_forecast_cogs_opex bfcopex
     LEFT JOIN date_details
-     ON date_details.first_day_of_month = bfcopex.accounting_period
+        ON date_details.first_day_of_month = bfcopex.accounting_period
     LEFT JOIN cost_category
-     ON bfcopex.unique_account_name = cost_category.unique_account_name
+        ON bfcopex.unique_account_name = cost_category.unique_account_name
 
     -- Bad
     SELECT
-      a.*,
-      -- 15 more columns
-      b.fiscal_year,
-      b.fiscal_quarter,
-      b.fiscal_quarter_name,
-      c.cost_category_level_1,
-      c.cost_category_level_2
+        a.*,
+        -- 15 more columns
+        b.fiscal_year,
+        b.fiscal_quarter,
+        b.fiscal_quarter_name,
+        c.cost_category_level_1,
+        c.cost_category_level_2
     FROM budget_forecast_cogs_opex a
     LEFT JOIN date_details b
-     ON b.first_day_of_month = a.accounting_period
+        ON b.first_day_of_month = a.accounting_period
     LEFT JOIN cost_category c
-     ON b.unique_account_name = c.unique_account_name
+        ON b.unique_account_name = c.unique_account_name
     ```
 
 - All field names should be [snake-cased](https://en.wikipedia.org/wiki/Snake_case)
@@ -103,12 +105,14 @@ weight: 2
     ```sql
     -- Good
     SELECT
-      dvcecreatedtstamp AS device_created_timestamp
+        dvcecreatedtstamp AS device_created_timestamp,
+        account_id
     FROM table
 
     -- Bad
     SELECT
-      dvcecreatedtstamp AS DeviceCreatedTimestamp
+        dvcecreatedtstamp AS DeviceCreatedTimestamp,
+        account_id
     FROM table
     ```
 
@@ -117,25 +121,25 @@ weight: 2
     ```sql
     -- Good
     SELECT
-      deleted AS is_deleted,
-      sla     AS has_sla
+        deleted AS is_deleted,
+        sla AS has_sla
     FROM table
 
     -- Bad
     SELECT
-      deleted,
-      sla
+        deleted,
+        sla
     FROM table
     ```
 
 - When transforming source data, use double quotes to identify case sensitive columns or columns that contain special characters different than "$" or "_". Double quotes aren't needed for capitalized field names, as this is how [Snowflake identifiers](https://docs.snowflake.com/en/sql-reference/identifiers-syntax.html) are handled internally.
 
     ```sql
-         -- Good
-         SELECT "First_Name_&_" AS first_name,
+    -- Good
+    SELECT "First_Name_&_" AS first_name,
 
-         -- Bad
-         SELECT "FIRST_NAME" AS first_name,
+    -- Bad
+    SELECT "FIRST_NAME" AS first_name,
 
     ```
 
@@ -182,6 +186,8 @@ weight: 2
 
 ### General
 
+- No tabs should be used - only spaces. Your editor should be setup to convert tabs to spaces.
+
 - Within a CTE, the entire SQL statement should be indented 4 spaces
 
     ```sql
@@ -204,22 +210,22 @@ weight: 2
     )
     ```
 
-- Indentation within a query (e.g. columns, `JOIN` clauses, multi-line `GROUP BY`, etc.) should be indented 2 spaces
+- Indentation within a query (e.g. columns, `JOIN` clauses, multi-line `GROUP BY`, etc.) should also be 4 spaces
 
-    ```
+    ```sql
     -- Good
     SELECT
-      column_name1,
-      column_name2,
-      column_name3
+        table_1.column_name1,
+        table_1.column_name2,
+        table_1.column_name3
     FROM table_1
     JOIN table_2
-      ON table_1.id = table_2.id
-    WHERE clouds = true
-      AND gem = true
-    GROUP BY 1,2,3
-    HAVING column_name1 > 0
-      AND column_name2 > 0
+        ON table_1.id = table_2.id
+    WHERE table_2.clouds = TRUE
+        AND table_2.gem = TRUE
+    GROUP BY 1, 2, 3
+    HAVING table_1.column_name1 > 0
+        AND table_1.column_name2 > 0
 
     -- Bad
     SELECT
@@ -228,40 +234,42 @@ weight: 2
         column_name3
     FROM table_1
     JOIN table_2
-        ON table_1.id = table_2.id
+    ON table_1.id = table_2.id
     WHERE clouds = true
-        AND gem = true
+    AND gem = true
     GROUP BY 1,2,3
     HAVING column_name1 > 0
-        AND column_name2 > 0
+    AND column_name2 > 0
     ```
-
-- No tabs should be used - only spaces. Your editor should be setup to convert tabs to spaces.
 
 - Lines of SQL should be no longer than 80 characters
 
-- Commas should be at the end-of-line (EOL) as a right comma, with the exception of temporary filters in the `WHERE` clause for specific values.
+- Commas should be at the end-of-line (EOL) as a right comma.
 
     ```sql
     -- Good
     SELECT
-      deleted       AS is_deleted, -- EOL right comma
-      accountId     AS account_id
+        deleted AS is_deleted, -- EOL right comma
+        acct_id AS account_id
     FROM table
-    WHERE is_deleted = false
-      AND account_id NOT IN (
-                             '232'
-                             , '234' -- left comma
-                             , '425'
-                            )
+    WHERE is_deleted = FALSE
+        AND account_id NOT IN (
+            '232', -- EOL right comma
+            '234',
+            '425'
+        )
 
     -- Bad
     SELECT
-      deleted       AS is_deleted, -- EOL right comma
-      accountId     AS account_id
+        deleted AS is_deleted
+        , acct_id AS account_id
     FROM table
     WHERE is_deleted = false
-      AND account_id NOT IN ('232', '234', '425')
+        AND account_id NOT IN (
+            '232'
+            , '234'
+            , '425'
+        )
 
     ```
 
@@ -270,8 +278,6 @@ weight: 2
 - `DISTINCT` should be included on the same row as `SELECT`
 
 - The `AS` keyword should be used when projecting a field or table name
-
-- When aliasing use `AS`, strive to align the original column names on a single vertical line and the `AS` keyword on a separate vertical line
 
 - Fields should be stated before aggregates / window functions
 
@@ -317,22 +323,22 @@ The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that
     ```sql
     -- OK
     CASE
-      WHEN field_id = 1 THEN 'date'
-      WHEN field_id = 2 THEN 'integer'
-      WHEN field_id = 3 THEN 'currency'
-      WHEN field_id = 4 THEN 'boolean'
-      WHEN field_id = 5 THEN 'variant'
-      WHEN field_id = 6 THEN 'text'
+        WHEN field_id = 1 THEN 'date'
+        WHEN field_id = 2 THEN 'integer'
+        WHEN field_id = 3 THEN 'currency'
+        WHEN field_id = 4 THEN 'boolean'
+        WHEN field_id = 5 THEN 'variant'
+        WHEN field_id = 6 THEN 'text'
     END AS field_type
 
     -- Better
     CASE field_id
-      WHEN 1 THEN 'date'
-      WHEN 2 THEN 'integer'
-      WHEN 3 THEN 'currency'
-      WHEN 4 THEN 'boolean'
-      WHEN 5 THEN 'variant'
-      WHEN 6 THEN 'text'
+        WHEN 1 THEN 'date'
+        WHEN 2 THEN 'integer'
+        WHEN 3 THEN 'currency'
+        WHEN 4 THEN 'boolean'
+        WHEN 5 THEN 'variant'
+        WHEN 6 THEN 'text'
     END AS field_type
     ```
 
@@ -346,13 +352,13 @@ The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that
     -- Good
     FROM source
     LEFT JOIN other_source
-      ON source.id = other_source.id
+        ON source.id = other_source.id
     WHERE ...
 
     -- Bad
     FROM source
     LEFT JOIN other_source
-      ON other_source.id = source.id
+        ON other_source.id = source.id
     WHERE ...
     ```
 
@@ -367,48 +373,55 @@ The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that
         FROM prod.my_data
         WHERE filter = 'my_filter'
 
-    ), some_cte AS (
+    ),
+
+    some_cte AS (
 
         SELECT DISTINCT
-          id,
-          other_field_1,
-          other_field_2
+            id,
+            other_field_1,
+            other_field_2
         FROM prod.my_other_data
 
-    ), final AS (
+    ),
+
+    final AS (
 
         SELECT
-          data_by_row['id']::NUMBER  AS id_field,
-          field_1                    AS detailed_field_1,
-          field_2                    AS detailed_field_2,
-          detailed_field_3,
-          CASE
-            WHEN cancellation_date IS NULL AND expiration_date IS NOT NULL
-              THEN expiration_date
-            WHEN cancellation_date IS NULL
-              THEN start_date + 7
-            ELSE cancellation_date
-          END                        AS cancellation_date,
-          LAG(detailed_field_3) OVER (
-            PARTITION BY
-              id_field,
-              detailed_field_1
-            ORDER BY cancellation_date
-          )                          AS previous_detailed_field_3,
-          SUM(field_4)               AS field_4_sum,
-          MAX(field_5)               AS field_5_max
+            my_data.field_1 AS detailed_field_1,
+            my_data.field_2 AS detailed_field_2,
+            my_data.detailed_field_3 AS detailed_field_3,
+            my_data.data_by_row AS id_field,
+            CASE
+                WHEN my_data.cancellation_date IS NULL
+                    AND my_data.expiration_date IS NOT NULL
+                    THEN my_data.expiration_date
+                WHEN my_data.cancellation_date IS NULL
+                    THEN my_data.start_date + 7
+                ELSE my_data.cancellation_date
+            END AS cancellation_date,
+            LAG(my_data.detailed_field_3) OVER (
+                PARTITION BY
+                    my_data.id_field,
+                    my_data.detailed_field_1
+                ORDER BY cancellation_date
+            ) AS previous_detailed_field_3,
+            SUM(my_data.field_4) AS field_4_sum,
+            MAX(my_data.field_5) AS field_5_max
         FROM my_data
         LEFT JOIN some_cte
-          ON my_data.id = some_cte.id
-        WHERE field_1 = 'abc'
-          AND (field_2 = 'def' OR field_2 = 'ghi')
+            ON my_data.id = some_cte.id
+        WHERE my_data.field_1 = 'abc'
+            AND (my_data.field_2 = 'def' OR my_data.field_2 = 'ghi')
         GROUP BY 1, 2, 3, 4, 5
         HAVING COUNT(*) > 1
         ORDER BY 4 DESC
+
     )
 
     SELECT *
     FROM final
+
     ```
 
 ### Commenting
