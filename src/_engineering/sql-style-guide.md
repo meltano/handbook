@@ -19,9 +19,9 @@ We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enfo
     ```sql
     -- Good
     SELECT
-        id    AS account_id,
-        name  AS account_name,
-        type  AS account_type,
+        id AS account_id,
+        name AS account_name,
+        type AS account_type,
         ...
 
     -- Bad
@@ -38,15 +38,15 @@ We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enfo
     ```sql
     -- Good
     SELECT
-        sfdc_account.account_id   AS sfdc_account_id,
-        zuora_account.account_id  AS zuora_account_id
+        sfdc_account.account_id AS sfdc_account_id,
+        zuora_account.account_id AS zuora_account_id
     FROM sfdc_account
     LEFT JOIN zuora_account ON ...
 
     -- Bad
     SELECT
         sfdc_account.account_id,
-        zuora_account.account_id  AS zuora_id
+        zuora_account.account_id AS zuora_id
     FROM sfdc_account
     LEFT JOIN zuora_account ON ...
     ```
@@ -105,12 +105,14 @@ We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enfo
     ```sql
     -- Good
     SELECT
-        dvcecreatedtstamp AS device_created_timestamp
+        dvcecreatedtstamp AS device_created_timestamp,
+        account_id
     FROM table
 
     -- Bad
     SELECT
-        dvcecreatedtstamp AS DeviceCreatedTimestamp
+        dvcecreatedtstamp AS DeviceCreatedTimestamp,
+        account_id
     FROM table
     ```
 
@@ -120,7 +122,7 @@ We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enfo
     -- Good
     SELECT
         deleted AS is_deleted,
-        sla     AS has_sla
+        sla AS has_sla
     FROM table
 
     -- Bad
@@ -213,17 +215,17 @@ We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enfo
     ```sql
     -- Good
     SELECT
-        column_name1,
-        column_name2,
-        column_name3
+        table_1.column_name1,
+        table_1.column_name2,
+        table_1.column_name3
     FROM table_1
     JOIN table_2
         ON table_1.id = table_2.id
-    WHERE clouds = true
-        AND gem = true
-    GROUP BY 1,2,3
-    HAVING column_name1 > 0
-        AND column_name2 > 0
+    WHERE table_2.clouds = TRUE
+        AND table_2.gem = TRUE
+    GROUP BY 1, 2, 3
+    HAVING table_1.column_name1 > 0
+        AND table_1.column_name2 > 0
 
     -- Bad
     SELECT
@@ -242,31 +244,31 @@ We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enfo
 
 - Lines of SQL should be no longer than 80 characters
 
-- Commas should be at the end-of-line (EOL) as a right comma, with the exception of temporary filters in the `WHERE` clause for specific values.
+- Commas should be at the end-of-line (EOL) as a right comma.
 
     ```sql
     -- Good
     SELECT
-        deleted       AS is_deleted, -- EOL right comma
-        accountId     AS account_id
+        deleted AS is_deleted, -- EOL right comma
+        acct_id AS account_id
     FROM table
-    WHERE is_deleted = false
+    WHERE is_deleted = FALSE
         AND account_id NOT IN (
-            '232'
-            , '234' -- left comma
-            , '425'
+            '232', -- EOL right comma
+            '234',
+            '425'
         )
 
     -- Bad
     SELECT
-        deleted       AS is_deleted, -- EOL right comma
-        accountId     AS account_id
+        deleted AS is_deleted
+        , acct_id AS account_id
     FROM table
     WHERE is_deleted = false
         AND account_id NOT IN (
-            '232',
-            '234',
-            '425'
+            '232'
+            , '234'
+            , '425'
         )
 
     ```
