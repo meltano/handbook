@@ -33,7 +33,41 @@ We selected a dragon as our mascot, because dragons are mythical, strong, enduri
 
 
 ### Tone of Voice
-Friendly, informative yet ambitious. We bring empathy to all interactions and stewardship to those new to the space. 
+We communicate to be understood most broadly. Due to our ambition to be a global company with an international workforce and community we use language that is, first and foremost, clear and devoid of jargon, slang, and acronyms when possible. 
+
+While we are highly competent in our industry we use language and terminology that is comprehensible by the broadest audience. Our goal is to educate and be informative and be inclusive with the information we have. This goes back to our open source ethos and our core desire to support a broad community and to our mission to enable everyone to realize the full potential of their data.
+
+Another facet of being our most intelligible selves is consistently building our authenticity and trustworthiness. This builds over time with every interaction and all prose and content we put out into the world. We are thoughtful, truthful and transparent in our comms and interactions. 
+
+We communicate and interact as much as possible in a conversational tone and demeanour. The goal is always to open up discussions and education. There is always an open invitation for discussion and we encourage open lines of communication with our casual tone. 
+
+Don’t be afraid to have fun and to celebrate the community.  We want to help champion this industry and wins. There is always room for authentic celebration and excitement. 
+
+Lastly, all of this only matters if we are consistent in our approach. Consistency is key to building the comprehensive brand voice and tone we are aiming for. 
+
+##### Quick Comms guiding words:
+* Trustworthy 
+* Informative and clear
+* Fun
+* Authentic
+* Consistent
+* Empathetic 
+
+##### Quick guide of do’s and don'ts
+* DO
+  * You for pronounce to keep it casual
+  * Pair text with images or videos to and in accessible and clarity 
+  * Be honest 
+  * Use examples whenever possible 
+  * Highlight community wins and individuals
+
+* Avoid
+  * Slang 
+  * Swearing
+  * Highly technical jargon or acronyms
+  * References to drinking, drugs or other illicit activities
+  * Don’t oversell or over promise 
+  * The passive voice
 
 ### Brand Resources
 Coming Soon! (Fonts, Colors, Logos, and much more)
