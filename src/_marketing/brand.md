@@ -55,7 +55,7 @@ Lastly, all of this only matters if we are consistent in our approach. Consisten
 
 ##### Quick guide of do’s and don'ts
 * DO
-  * You for pronounce to keep it casual
+  * Use "you" pronouns, to keep language casual
   * Pair text with images or videos to and in accessible and clarity 
   * Be honest 
   * Use examples whenever possible 
