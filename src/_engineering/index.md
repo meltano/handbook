@@ -350,11 +350,9 @@ Add it by doing the following:
 
 ## Outages & escalation
 
-Both https://www.meltano.com and https://meltano.meltanodata.com are automatically monitored using Pingdom, with notifications of downtime posted to:
+<https://www.meltano.com> is automatically monitored using Pingdom, with notifications of downtime posted to:
 - Zendesk, through our `hello@` email address, and
 - Douwe, by email and SMS.
-
-Other `*.meltanodata.com` instances are not currently monitored.
 
 When any instance managed by us is reported to be down, through Pingdom or any other means, resolving this becomes the team's top priority.
 
