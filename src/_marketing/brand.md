@@ -65,7 +65,7 @@ Lastly, all of this only matters if we are consistent in our approach. Consisten
   * Slang 
   * Swearing
   * Highly technical jargon or acronyms
-  * References to drinking, drugs, or other illicit activities
+  * Being flippant with sensitive topics 
   * Don’t oversell or over promise 
   * The passive voice
 
