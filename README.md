@@ -4,7 +4,8 @@
 
 # Meltano Handbook
 
-Welcome! This is the source for our [company handbook](https://handbook.meltano.com/).
+Welcome! This is the source for our public [company handbook](https://handbook.meltano.com/).
+The [issue tracker](https://gitlab.com/meltano/handbook/-/issues) is used for process and policy proposals that will be documented there, as well as improvements to the handbook site itself.
 
 ---
 
