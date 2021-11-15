@@ -170,9 +170,9 @@ Apple hardware is the common choice for most Meltano team members, but if you ar
 
 We recommend either:
 
-1. (MacBook Pro) - [16”  / 512gig SSD / 32gig RAM / i9 or i7 CPU](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-space-gray-2.6ghz-6-core-processor-512gb)
+1. (MacBook Pro) - [14” / 512gig SSD / 32gig RAM / Apple M1 Pro with 10-core CPU, 14-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch)
 
-1. (MacBook Pro) - [13” / 512gig SSD / 16gigs RAM / i5 CPU](https://www.apple.com/shop/buy-mac/macbook-pro/13-inch-space-gray-1.4ghz-quad-core-processor-with-turbo-boost-up-to-3.9ghz-256gb)
+1. (MacBook Pro) - [16” / 512gig SSD / 32gigs RAM / Apple M1 Pro with 10-core CPU, 16-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch)
 
 #### Linux hardware
 
