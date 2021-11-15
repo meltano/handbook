@@ -17,16 +17,6 @@ community member to present on your behalf. Alternatively, you may also post a r
 of length between 2 and 10 minutes, to the `#contributing` channel on slack, posting a link also on your MR. You
 may use Slack's built-in video message feature, the free tool [Loom](https://loom.com), or another similar tool.
 
-## Useful issue boards
-
-- [Development Flow](https://gitlab.com/groups/meltano/-/boards/536761), with a column for each `flow::` label. Don't forget to filter by milestone, and/or assignee!
-- [Kind](https://gitlab.com/groups/meltano/-/boards/2917606) - useful for understanding the distribution of work across the different flow types (Bug, Feature, etc.)
-- [Value Stream](https://gitlab.com/groups/meltano/-/boards/2917637) - useful for understanding the distribution of work acrss the different product areas of Meltano
-- [Urgency](https://gitlab.com/groups/meltano/-/boards/2917749) - useful for understanding the overall priority of issues in a milestone.
-- [Milestone](https://gitlab.com/groups/meltano/-/boards/1933232) - used to move issues easily between milestones.
-- [Office Hours](https://gitlab.com/groups/meltano/-/boards/2923184) - used to tee up issues for community discussion and review, generally directly
-before and/or after implementing an important user-facing feature.
-
 ## Outages & escalation
 
 <https://www.meltano.com> is automatically monitored using Pingdom, with notifications of downtime posted to:
