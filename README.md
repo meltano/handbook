@@ -81,7 +81,7 @@ toc: true
 
 The TOC is managed through the `jekyll-toc` gem. You can read about its configuration [here](https://github.com/toshimaru/jekyll-toc#customization).
 
-This can be added to handbook pages by setting `toc: true` in the front matter at the beginning of the document.
+This is added to all pages by default. It can be turned off by setting `toc: false` in the [fromt matter](https://jekyllrb.com/docs/front-matter/) of the document.
 
 ## Check for Broken Links
 

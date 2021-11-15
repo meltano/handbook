@@ -171,3 +171,18 @@ Note that Targets can be substituted for Taps in each of these examples
 Meltano is a registered trademark in the USA and China.
 
 Further details, such as the registration number and certificate, can be found in the "Meltano" 1Password vault.
+
+## Logos and Artwork
+
+### Zoom Backgrounds
+
+For community calls use one of the Meltano-branded backgrounds. These are available through Zoom's background settings. You can find the latest artwork for these images on the [Marketing Shared Drive](https://drive.google.com/drive/folders/1e88OE-AhMqcZ5pw9WUI8ssOe_RMej8QI).
+
+**Note:** If you mirror your video then the image will look backwards on your screen, but to others in the call it will look correct.
+
+#### Updating Zoom Backgrounds
+
+Admins of our Zoom instance can add new ones for the team as needed.
+
+- Add the new artwork to the [Zoom Backrounds](https://drive.google.com/drive/folders/1e88OE-AhMqcZ5pw9WUI8ssOe_RMej8QI) folder on Google Drive.
+- [Open an issue](https://gitlab.com/meltano/marketing/marketing-general/-/issues/new?issue%5Bmilestone_id%5D=) and link to the artwork from GDrive and tag a Zoom admin.
