@@ -4,13 +4,11 @@ title: SQL Style Guide
 weight: 2
 ---
 
-## SQL Style Guide
-
 We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enforces a majority of our Style Guide, although there are still some limitations.
 
 **It is _our collective responsibility_ to enforce this Style Guide.**
 
-### Field Naming and Reference Conventions
+## Field Naming and Reference Conventions
 
 - Field names should all be lowercased.
 
@@ -156,7 +154,7 @@ We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enfo
     - Similarly, `SELECT DATEDIFF('days', '2001-12-01 00:00:00.001', '2001-12-01 23:59:59.999')` return `0` even though the timestamps are nearly an entire day apart.
     - Using the appropriate interval with the `DATEDIFF` function will ensure you are getting the right results. For example, `DATEDIFF('days', '2001-12-01 23:59:59.999', '2001-12-02 00:00:00.000')` will provide a `1 day interval` and `DATEDIFF('ms', '2001-12-01 23:59:59.999', '2001-12-02 00:00:00.000')` will provide a `1 millisecond interval`.
 
-### Use CTEs (Common Table Expressions), not subqueries
+## Use CTEs (Common Table Expressions), not subqueries
 
 - [CTEs make SQL more readable and are more performant](https://www.alisa-in.tech/post/2019-10-02-ctes/)
 - Use CTEs to reference other tables. Think of these as import statements
@@ -184,7 +182,7 @@ We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enfo
     FROM filtered_events
     ```
 
-### General
+## General
 
 - No tabs should be used - only spaces. Your editor should be setup to convert tabs to spaces.
 
@@ -302,7 +300,7 @@ We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enfo
 
 - **DO NOT OPTIMIZE FOR A SMALLER NUMBER OF LINES OF CODE. NEWLINES ARE CHEAP. [BRAIN TIME IS EXPENSIVE.](https://blog.getdbt.com/write-better-sql-a-defense-of-group-by-1/)**
 
-### Data Types
+## Data Types
 
 - Use default data types and not aliases. Review the [Snowflake summary of data types](https://docs.snowflake.com/en/sql-reference/intro-summary-data-types.html) for more details. The defaults are:
     - `NUMBER` instead of `DECIMAL`, `NUMERIC`, `INTEGER`, `BIGINT`, etc.
@@ -312,7 +310,7 @@ We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enfo
 
 The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that the default for `TIMESTAMP` is `TIMESTAMP_NTZ` which does not include a time zone.
 
-### Functions
+## Functions
 
 - Function names and keywords should all be capitalized
 - Prefer `IFNULL` TO `NVL`
@@ -342,7 +340,7 @@ The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that
     END AS field_type
     ```
 
-### JOINs
+## JOINs
 
 - Be explicit when joining, e.g. use `LEFT JOIN` instead of `JOIN`. (Default joins are `INNER`)
 - Prefix the table name to a column when joining, otherwise omit
@@ -362,7 +360,7 @@ The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that
     WHERE ...
     ```
 
-### Example Code
+## Example Code
 
 - Putting it all together:
 
@@ -424,7 +422,7 @@ The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that
 
     ```
 
-### Commenting
+## Commenting
 
 - When making single line comments in a model use the `--` syntax
 - When making multi-line comments in a model use the `/*  */` syntax
@@ -433,7 +431,7 @@ The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that
 - Calculations made in SQL should have a brief description of what's going on and a link to the handbook defining the metric (and how it's calculated)
 - Instead of leaving `TODO` comments, create new issues for improvement
 
-### Other SQL Style Guides
+## Other SQL Style Guides
 
 - [GitLab SQL Style Guide](https://about.gitlab.com/handbook/business-technology/data-team/platform/sql-style-guide/)
 - [Brooklyn Data Co](https://github.com/brooklyn-data/co/blob/master/sql_style_guide.md)
