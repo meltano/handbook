@@ -332,21 +332,6 @@ Releases that only address regressions introduced in the most recent release get
 
 The Meltano and the SDK version bump processes are documented in the Release issue templates. No further actions are needed besides what is listed in the checklist.
 
-## Zoom
-
-For community calls, use one of the following background in Zoom depending on whether you mirror your video or not.
-
-Note that if you mirror your video then the image will look backwards on your screen, but to others in the call it will look correct.
-
-![Meltano Background](images/zoom-backgrounds/meltano-background.png)
-
-Add it by doing the following:
-
-* Download the file and store it on your computer
-* Navigate to Preferences
-* Click Background & Filters
-* Within Virtual Backgrounds, click the `+` icon and add the file
-
 ## Outages & escalation
 
 <https://www.meltano.com> is automatically monitored using Pingdom, with notifications of downtime posted to:
