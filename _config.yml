@@ -27,7 +27,7 @@ defaults:
   - scope:
       path: ""
     values:
-      toc: false # Don't show TOC by default. Set `toc: true` in Front Matter to override this.
+      toc: true # Show TOC by default. Set `toc: false` in Front Matter to override this.
 
 # Every top level section of the handbook is actually a collection. Their files are in a _folder in src/
 collections:
