@@ -175,7 +175,7 @@ Account details are in the `Engineering` 1Password vault.
 
 ## [Pingdom](https://my.pingdom.com/)
 
-Downtime alerts for <https://meltano.com>.
+Downtime alerts for the properties listed under [Outages & escalation](/engineering/#outages--escalation).
 
 Account details are in the `Engineering` 1Password vault.
 
