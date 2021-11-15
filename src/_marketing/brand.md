@@ -9,16 +9,16 @@ weight: 2
 ## Meltano Brand Kit
 
 ### Brand Personality
-Our personality is built around four main characteristics.
+Our personality is built around five main characteristics:
 
 * **Human**: We write like we talk. We avoid buzzwords and jargon, and instead communicate simply, clearly, and honestly.
 * **Competent**: We aim to be masterly at what we offer, and communicate with conviction.
 * **Humble**: We care about helping those around us achieve great things more than we care about our personal accomplishments.
-* **Inclusive**: We embrace new ideas, new voices and new perspectives. We are always happy to be educated.
-* **Fun**: We like Shramp and other oddities. 
+* **Inclusive**: We embrace new ideas, new voices, and new perspectives. We are always happy to be educated.
+* **Fun**: We like Shramp and other oddities. We appreciate whimsical, curious, and delightful moments.
 
 ### Meet Melty the Dragon
-As the Regional Fire Chief, Melty prioritized the efficiency and collaboration of their district teams.  Feeling frustrated with the current state of their data stack, Melty had trouble determining how to get the most out of the department’s data . Seeking a seamless solution, Melty found Meltano, and after working together for a couple of years, we developed an undeniable connection. Melty asked all the right questions and drove us to make better products and documentation so they could thrive in their pursuit of perpetual learning and improvement.
+As the Regional Fire Chief, Melty prioritized the efficiency and collaboration of their district teams.  Feeling frustrated with the current state of their data stack, Melty had trouble determining how to get the most out of the department’s data. Seeking a seamless solution, Melty found Meltano, and after working together for a couple of years, we developed an undeniable connection. Melty asked all the right questions and drove us to make better products and documentation so they could thrive in their pursuit of perpetual learning and improvement.
 
 Melty the Meltano Dragon will melt your heart with its curious and adventurous nature. 
 
@@ -33,18 +33,52 @@ We selected a dragon as our mascot, because dragons are mythical, strong, enduri
 
 
 ### Tone of Voice
-Friendly, informative yet ambitious. We bring empathy to all interactions and stewardship to those new to the space. 
+We communicate to be understood most broadly. As a global company with an international workforce and community, we use language that is, first and foremost, clear and devoid of jargon, slang, and acronyms when possible. 
+
+While we are highly competent in our industry, we use language and terminology that is comprehensible by the broadest audience. Our goal is to educate, inform, and welcome others with the information we have. This goes back to our open source ethos, core desire to support a broad community, and mission to enable everyone to realize the full potential of their data.
+
+Another facet of being our most intelligible selves is consistently building our authenticity and trustworthiness. This builds over time with every interaction and all prose and content we put out into the world. We are thoughtful, truthful, and transparent in our comms and interactions. 
+
+We communicate and interact as much as possible in a conversational tone and demeanour. The goal is always to open up discussions and opportunities for education. We have a continuous open invitation for discussion and our casual tone helps build a sense of camaraderie. 
+
+You're encouraged to have fun and to celebrate the community. We want to help champion this industry and wins. There is always room for authentic celebration and excitement. 
+
+Lastly, all of this only matters if we are consistent in our approach. Consistency is key to building the comprehensive brand voice and tone we strive to achieve.
+
+##### Quick comms guiding words:
+* Trustworthy 
+* Informative and clear
+* Fun
+* Authentic
+* Consistent
+* Empathetic 
+
+##### Quick guide of dos and don'ts
+* DO
+  * Use "you" pronouns to keep language casual (e.g. "You might find it useful to..." vs "One might find it useful to...")
+  * Pair text with images or videos to ensure accessibility and clarity
+  * Be honest 
+  * Use examples whenever possible 
+  * Highlight community wins and individuals
+
+* Avoid
+  * Slang 
+  * Swearing
+  * Highly technical jargon or acronyms
+  * Being flippant with sensitive topics 
+  * Don’t oversell or over promise 
+  * The passive voice
 
 ### Brand Resources
-Coming Soon! (Fonts, Colors, Logos, and much more)
+Coming soon! (Fonts, Colors, Logos, and much more)
 
-* [Slide Deck Template](https://docs.google.com/presentation/u/0/?ftv=1&tgif=d)- please always start from this templte and make a copy before making any changes
+* [Slide Deck Template](https://docs.google.com/presentation/u/0/?ftv=1&tgif=d): Please always start from this templte and make a copy before making changes
 
-* Font- [IBM Plex Sans](https://github.com/IBM/plex/tree/master/IBM-Plex-Sans)
+* Font: [IBM Plex Sans](https://github.com/IBM/plex/tree/master/IBM-Plex-Sans)
 
 ### Talking about the Meltano Product Family and Team
 
-As of 2021 we have 3 main "product lines". Each of these should be referenced in speech and text communications in specific ways.
+As of 2021 we have 3 main "product lines." Each of these should be referenced in speech and text communications in specific ways.
 
 ### Meltano
 
@@ -53,7 +87,7 @@ As of 2021 we have 3 main "product lines". Each of these should be referenced in
 **Recommended**
 
     * Meltano
-    * The Meltano Open-Source Project
+    * The Meltano Open Source Project
 
      Example usage: Last week, a new version for Meltano was released
 
@@ -74,7 +108,7 @@ Note that Targets can be substituted for Taps in each of these examples
     * The Meltano SDK for Taps
     * The Meltano SDK for Singer Taps
 
-    Example usage: Today we're releasing a new update for the Meltano Tap SDK that...
+    Example usage: Today, we're releasing a new update for the Meltano Tap SDK that...
 
 **OK**
 
@@ -86,7 +120,7 @@ Note that Targets can be substituted for Taps in each of these examples
     * The Tap SDK by Meltano
 
     These are OK when the proper, Meltano-specific name has already been referenced. 
-    Example usage: Today we're releasing a new update for the SDK for Taps that...
+    Example usage: Today, we're releasing a new update for the SDK for Taps that...
 
 **Incorrect**
 
@@ -97,7 +131,7 @@ Note that Targets can be substituted for Taps in each of these examples
     * Meltano's Singer SDK
     * Singer SDK by Meltano
 
-    Incorrect example usage: Today we're releasing a new update for the Singer SDK for Taps that...
+    Incorrect example usage: Today, we're releasing a new update for the Singer SDK for Taps that...
 
 ### MeltanoHub
 
@@ -107,7 +141,7 @@ Note that Targets can be substituted for Taps in each of these examples
     * MeltanoHub for Singer
     * The Hub
 
-    Example usage: Today we're releasing an update for MeltanoHub for Singer to...
+    Example usage: Today, we're releasing an update for MeltanoHub for Singer to...
 
 **Incorrect**
 
@@ -115,7 +149,7 @@ Note that Targets can be substituted for Taps in each of these examples
     * The SingerHub
     * The Hub for Singer
 
-    Incorrect example usage: Today we're releasing an update for the MeltanoHub for Singer to...
+    Incorrect example usage: Today, we're releasing an update for the MeltanoHub for Singer to...
 
 #### Team
 
@@ -124,13 +158,13 @@ Note that Targets can be substituted for Taps in each of these examples
     * the Meltano Team
     * the Meltano Core Team
 
-    Example usage: The Meltano Team is announcing today...
+    Example usage: The Meltano Team announces...
 
 **Incorrect**
 
     * The Meltano
 
-    Incorrect example usage: The Meltano is announcing today...
+    Incorrect example usage: The Meltano announces...
 
 ## Trademarks
 
