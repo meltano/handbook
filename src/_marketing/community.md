@@ -4,8 +4,6 @@ title: "Community"
 weight: 2
 ---
 
-# Community
-
 ## Regular Community Events & Livestreams
 
 ### Office Hours

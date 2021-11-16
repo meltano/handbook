@@ -4,8 +4,6 @@ title: "Content Marketing"
 weight: 2
 ---
 
-# Content Marketing
-
 ## Tools
 We use Sprout Social for most social posting and planning. PLease try to do as many posts as possible from this tool for tracking and management purposes. 
 

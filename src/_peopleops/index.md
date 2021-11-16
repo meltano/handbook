@@ -5,8 +5,6 @@ weight: 1
 permalink: /peopleops/
 ---
 
-# PeopleOps Handbook
-
 ## Hiring Process
 
 We're currently using [Greenhouse](https://www.greenhouse.io/) to manage the hiring process and referrals. All employees should have an account.
