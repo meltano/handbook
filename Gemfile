@@ -10,3 +10,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "webrick", "~> 1.7"
 gem "html-proofer", "~> 3.19"
 gem 'jekyll-toc'
+
+gem "jekyll-sitemap", "~> 1.4"
