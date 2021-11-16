@@ -60,6 +60,7 @@ collections_dir: src
 # Add plugins here.
 plugins:
   - jekyll-toc
+  - jekyll-sitemap
 
 # jekyll-toc Config
 toc:
