@@ -6,9 +6,7 @@ permalink: /marketing/brand
 weight: 2
 ---
 
-## Meltano Brand Kit
-
-### Brand Personality
+## Brand Personality
 Our personality is built around five main characteristics:
 
 * **Human**: We write like we talk. We avoid buzzwords and jargon, and instead communicate simply, clearly, and honestly.
@@ -17,22 +15,20 @@ Our personality is built around five main characteristics:
 * **Inclusive**: We embrace new ideas, new voices, and new perspectives. We are always happy to be educated.
 * **Fun**: We like Shramp and other oddities. We appreciate whimsical, curious, and delightful moments.
 
-### Meet Melty the Dragon
+## Meet Melty the Dragon
 As the Regional Fire Chief, Melty prioritized the efficiency and collaboration of their district teams.  Feeling frustrated with the current state of their data stack, Melty had trouble determining how to get the most out of the department’s data. Seeking a seamless solution, Melty found Meltano, and after working together for a couple of years, we developed an undeniable connection. Melty asked all the right questions and drove us to make better products and documentation so they could thrive in their pursuit of perpetual learning and improvement.
 
 Melty the Meltano Dragon will melt your heart with its curious and adventurous nature. 
 
-#### Melty personality: 
+### Melty personality: 
 Melty is friendly, kind, and empathetic. Melty loves creating delightful moments and bringing people together. The best parties are the dinner parties that Melty hosts every month.
 
 Melty is approachable and wants to use their skills for good. 
 
-
-#### Why a dragon/ Why Melty:
+### Why a dragon/ Why Melty:
 We selected a dragon as our mascot, because dragons are mythical, strong, enduring, and can be fierce but also cute. They are not afraid of challenges, and they approach obstacles with honor, confidence, intelligence, and enthusiasm. We appreciate that they are “imaginary” and spark a sense of curiosity and the pursuit of the unknown. We imagine a better way forward in the data space and the future of work and that optimism and belief is mirrored in our conviction in Melty the dragon. 
 
-
-### Tone of Voice
+## Tone of Voice
 We communicate to be understood most broadly. As a global company with an international workforce and community, we use language that is, first and foremost, clear and devoid of jargon, slang, and acronyms when possible. 
 
 While we are highly competent in our industry, we use language and terminology that is comprehensible by the broadest audience. Our goal is to educate, inform, and welcome others with the information we have. This goes back to our open source ethos, core desire to support a broad community, and mission to enable everyone to realize the full potential of their data.
@@ -45,7 +41,7 @@ You're encouraged to have fun and to celebrate the community. We want to help ch
 
 Lastly, all of this only matters if we are consistent in our approach. Consistency is key to building the comprehensive brand voice and tone we strive to achieve.
 
-##### Quick comms guiding words:
+#### Quick comms guiding words:
 * Trustworthy 
 * Informative and clear
 * Fun
@@ -53,7 +49,7 @@ Lastly, all of this only matters if we are consistent in our approach. Consisten
 * Consistent
 * Empathetic 
 
-##### Quick guide of dos and don'ts
+#### Quick guide of dos and don'ts
 * DO
   * Use "you" pronouns to keep language casual (e.g. "You might find it useful to..." vs "One might find it useful to...")
   * Pair text with images or videos to ensure accessibility and clarity
@@ -69,20 +65,20 @@ Lastly, all of this only matters if we are consistent in our approach. Consisten
   * Don’t oversell or over promise 
   * The passive voice
 
-### Brand Resources
+## Brand Resources
 Coming soon! (Fonts, Colors, Logos, and much more)
 
 * [Slide Deck Template](https://docs.google.com/presentation/u/0/?ftv=1&tgif=d): Please always start from this templte and make a copy before making changes
 
 * Font: [IBM Plex Sans](https://github.com/IBM/plex/tree/master/IBM-Plex-Sans)
 
-### Talking about the Meltano Product Family and Team
+## Talking about the Meltano Product Family and Team
 
 As of 2021 we have 3 main "product lines." Each of these should be referenced in speech and text communications in specific ways.
 
-### Meltano
+## Meltano
 
-#### Product/Project
+### Product/Project
   
 **Recommended**
 
@@ -97,7 +93,7 @@ As of 2021 we have 3 main "product lines." Each of these should be referenced in
 
     Example usage: Last week, a new version for the Meltano was released
 
-### SDK
+## SDK
 
 Note that Targets can be substituted for Taps in each of these examples
 
@@ -133,7 +129,7 @@ Note that Targets can be substituted for Taps in each of these examples
 
     Incorrect example usage: Today, we're releasing a new update for the Singer SDK for Taps that...
 
-### MeltanoHub
+## MeltanoHub
 
 **Recommended**
 
@@ -151,7 +147,7 @@ Note that Targets can be substituted for Taps in each of these examples
 
     Incorrect example usage: Today, we're releasing an update for the MeltanoHub for Singer to...
 
-#### Team
+### Team
 
 **Recommended**
 
