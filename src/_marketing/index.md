@@ -5,8 +5,6 @@ title: Marketing Handbook
 permalink: /marketing/
 ---
 
-# Marketing Handbook
-
 Welcome to Meltano marketing. 
 
 ## Weekly Community Activities

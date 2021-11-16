@@ -5,8 +5,6 @@ weight: 1
 permalink: /product/
 ---
 
-# Product Handbook
-
 Our [milestones and scheduled work](https://gitlab.com/groups/meltano/-/milestones) is available to the public, and we encourage anyone to [submit new issues](https://gitlab.com/meltano/meltano/issues/new).
 
 ## High-level Responsibilities

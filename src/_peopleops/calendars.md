@@ -4,9 +4,7 @@ title: Calendars
 weight: 2
 ---
 
-## Calendars
-
-### Shared Calendars
+## Shared Calendars
 
 - [Community Meetings Calendar](https://calendar.google.com/calendar/u/1?cid=Y18wMWNqNDhoYTRoMTk5Y3RqZWZpODV0OWRnY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) - Meetings open to the community
   - [Office Hours](/marketing/community#office-hours)

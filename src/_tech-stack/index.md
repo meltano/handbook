@@ -5,8 +5,6 @@ weight: 1
 permalink: /tech-stack/
 ---
 
-# Tech Stack
-
 Listing of applications and services we use at Meltano.
 
 ## [1Password](https://meltano.1password.com/)

@@ -4,45 +4,43 @@ title: Communication Guidelines
 weight: 2
 ---
 
-## Communication
-
 We're an all-remote company that allows people to work from almost anywhere in the world, so it's important for us to practice clear communication in ways that help us stay connected and work more efficiently. We communicate respectfully and professionally at all times.
 
 To accomplish this, we use asynchronous communication as a starting point and stay as open and transparent as we can by communicating through public issues, merge requests, and Slack channels. 
 
-### Asynchronous communication
+## Asynchronous communication
 
 Asynchronous communication is the practice of communicating and moving projects forward without requiring stakeholders to be available at the same time. 
 
 Asynchronous communication demonstrates consideration for team members across time zones and enables us to travel outside of our usual time zone or structure our day around commitments at home or in our community. We practice asynchronous communication by recording meetings, using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. We also place an emphasis on ensuring that conclusions of conversations outside of the issue tracker (i.e. Slack and impromptu Zoom calls) are written down: If it's not in the issue, it didn't happen. All of these actions ensure that team members are not pressured to be online outside of their working hours. Embracing asynchronous communication and learning to use it effectively requires a mental shift. This can feel unusual or even uncomfortable for those who come from a colocated environment, where in-person meetings and communiques are the norm. 
 
-### In practice
+## In practice
  
 1. Aim to respond to mentions other than FYIs within 3 business days. If you are unable to fulfill a specific request during that time, respond to the mention and indicate when you'll have an answer.
 1. If you're behind on responding to notifications and expect to miss a deadline for any new mentions (until you're caught up), please inform the team in the Kickoff, and ask that urgent requests be sent to you via Slack DM and include the issue/MR link.
 1. Use direct language when communicating. If you want someone to take action, directly tell them what's required, and when you need an answer, and whether there is urgency. Also indicate whether something is a "must have" or "nice to have" when asking for collaboration. 
 1. Overcommunication can be appropriate. You can mention someone in an issue, but we all know that sometimes we can miss something, so if a request has stagnated, you can send someone a direct message as a gentle reminder. If you need something urgently, you can also send a Slack message to request that something is prioritized. 
 
-#### Slack guidelines
+### Slack guidelines
 
 1. **Please avoid using @here or @channel unless something is urgent and important.** 
 1. Use `FYI @username` when you want someone to be aware of what's being discussed, but they're not required to take action.
 1. Use `@username` when you want someone to take a specific action, such as contributing to the discussion or answering a question.
 1. If decisions are made on Slack, please either paste a screenshot of the conversation in the relevant issue/MR or provide a summary of what was discussed.
 
-#### Issue and merge request guidelines
+### Issue and merge request guidelines
 
 1. Use `FYI @username` when you want someone to be aware of what's being discussed, but they're not required to take action.
 1. Use `@username` when you want someone to take a specific action, such as contributing to the discussion or answering a question.
 1. Directly mention (`@username`) the people you want to involve in a comment, especially the person you're replying to. Some people only work through GitLab TODOs (rather than email notifications) and will only see responses to comments and threads if they're explicitly mentioned.
 1. Be mindful that most issues and MRs are public by default (unless the project is private or the issue confidential), and our communication in them can be viewed by our community. Please always consider how we present ourselves to the public.
 
-#### Email guidelines
+### Email guidelines
 
 1. Email should only be used when communicating with external vendors or when discussing sensitive, confidential matters (e.g. PeopleOps or financial situations).
 1. Write `FYI` when you want someone to be aware of what's being discussed, but they're not required to take action.
 
-### Best practices
+## Best practices
 
 1. **Kindness matters.** Always communicate with kindness and empahty. Everyone should be comfortable in their work environment.
 1. **All written communication happens in English**, even when sent one on one, because sometimes you need to forward an email or chat.
@@ -63,6 +61,6 @@ OK," "it is on my todo list" are not helpful. If it's a small request, it's bett
 1. **Express your thoughts.** We live in different locations and often have very different perspectives. We want to know your thoughts, opinions, and feelings on things.
 1. **Feedback is Essential.** It's difficult to know what is appropriate in every one of our team members' countries. We encourage team members to give feedback and receive feedback in a considerate way.
 
-### Everyone is a Moderator
+## Everyone is a Moderator
 
 If you see something that concerns you in Slack, Issues, Merge Requests, Video, Emails or any other forum, we encourage you to respectfully say something directly to the individual in a 1:1 format. If you are not comfortable reaching out to the individual directly, please reach out to your direct manager or the Operations Analyst to discuss.
