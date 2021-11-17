@@ -40,6 +40,43 @@ Asynchronous communication demonstrates consideration for team members across ti
 1. Email should only be used when communicating with external vendors or when discussing sensitive, confidential matters (e.g. PeopleOps or financial situations).
 1. Write `FYI` when you want someone to be aware of what's being discussed, but they're not required to take action.
 
+### Meeting Guidelines
+
+1. All meetings should have an agenda. Use the "Create Meeting Notes" feature in Google Calendar to quickly create a Google Doc that is shared with all users invited to the event. Update the title of the doc to include the [ISO date](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates).
+
+### Writing Style Guidelines
+
+1. {: #american-english} At Meltano, we use American English as the standard written language.
+1. Do not use rich text, it makes it hard to copy/paste. Use [Markdown](/handbook/markdown-guide/) to format text that is stored in a Git repository. In Google Docs use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
+1. Don't use ALL CAPS because it [feels like shouting](https://en.wikipedia.org/wiki/All_caps#Association_with_shouting). However, there is the [`#all-caps` Slack channel](https://gitlab.slack.com/archives/C01BC085AVB) for your good-natured shouting needs.
+1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
+1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "Meltano CLI Reference documentation". Using [meaningful links](https://www.futurehosting.com/blog/links-should-have-meaningful-anchor-text-heres-why/){:rel="nofollow noindex"} is important to both search engine crawlers (SEO) and accessibility for people with learning differences and/or physical disabilities.
+   This guidance should be followed in all places links are provided, whether in the handbook, website, GoogleDocs, or any other content.
+   Avoid writing GoogleDocs content which states - `Zoom Link [Link]`.
+   Rather, paste the full link directly following the word `Zoom`.
+   This makes the link more prominent and makes it easier to follow while viewing the document.
+1. {: #iso-dates} Always use [ISO dates](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates) in all writing and legal documents since other formats [lead to online confusion](http://xkcd.com/1179/). Use `yyyy-mm-dd`, for example 2015-04-13, and never 04-13-2015, 13-04-2015, 2015/04/13, 20150413, 2015.04.13, nor April 13, 2015. Even if you use an unambiguous alternative format it is still harder to search for a date, sort on a date, and for other team members to know we use the ISO standard. For months use `yyyy-mm`, so 2018-01 for January. Refer to a year with CY18 (never with 2018) and a quarter with CY18-Q1 to prevent confusion with fiscal years and quarters. If the year is obvious from the context it is OK to use Dec 4, but not 12/4, since the ordering isn't obvious when using two numbers but when naming the month it is clear that the number of the day of the month.
+1. Remember that not everyone is working in the same timezone; what may be morning for you is evening for someone else. Try to say 3 hours ago or 4 hours from now, or use a timestamp, including a timezone reference.
+1. When specifying measurements, please include both Metric and Imperial equivalents.
+1. We're an internationally diverse company. Please do not refer to team members outside the US as international, instead use non-US. Please also avoid the use of offshore/overseas to refer to non-American continents.
+1. If you have multiple points in a comment or email, please number them. Numbered lists are easier to reference during a discussion over bulleted lists.
+1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available please paste that in.
+1. In making URLs, always prefer hyphens to underscores, and always use lowercase.
+1. Use [inclusive and gender-neutral language](https://techwhirl.com/gender-neutral-technical-writing/) in all writing.
+1. Correct capitalization of self-managed: The term `self-managed` should not be capitalized unless it's in a title or unless you are writing the full product name ("Self-Managed-Ultimate"). If it is used at the beginning of a sentence, then the first word only is capitalized: "Self-managed".
+1. Refer to environments that are installed and run by the end-user as "self-managed."
+1. Do not use a hyphen when writing the term "open source" except where doing so eliminates ambiguity or clumsiness.
+1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9.
+1. If an email needs a response, write the answer at the top of it.
+1. Use the future version of words, just like we don't write internet with a capital letter anymore. We write frontend and webhook without a hyphen or space.
+1. Try to use the [active voice](https://writing.wisc.edu/Handbook/CCS_activevoice.html) whenever possible.
+1. If you use headers, properly format them (`##` in Markdown, "Heading 2" in Google Docs); start at the second header level because header level 1 is for titles. Do not end headers with a colon. Do not use emoji in headers as these cause links to have strange characters.
+1. Always use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma) (a.k.a. an "Oxford comma") before the coordinating conjunction in a list of three, four, or more items.
+1. Always use a single space between sentences rather than two.
+1. Do not use acronyms when you can avoid them. Acronyms have the effect of excluding people from the conversation if they are not familiar with a particular term. Example: instead of `MR`, write `merge request (MR)`.
+   1. If acronyms are used, expand them at least once in the conversation or document and define them in the document using [Kramdown abbreviation syntax](https://kramdown.gettalong.org/syntax.html#abbreviations). Alternatively, link to the definition.
+   1. If you don't know the meaning of an acronym, ask. It's always ok to speak up.
+
 ## Best practices
 
 1. **Kindness matters.** Always communicate with kindness and empahty. Everyone should be comfortable in their work environment.
