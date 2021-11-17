@@ -1,0 +1,216 @@
+<!-- I'm sorry. -AF -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | prepend: site.url }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/css/handbook.css" | prepend: site.url }}">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+    <style>
+      .ais-search-box {
+        max-width: 100%;
+        margin-bottom: 15px;
+      }
+      .post-item {
+        margin-bottom: 30px;
+      }
+      .post-link .ais-Highlight {
+        color: #111;
+        font-style: normal;
+        text-decoration: underline;
+      }
+      .post-breadcrumbs {
+        color: #424242;
+        display: block;
+      }
+      .post-breadcrumb {
+        font-size: 18px;
+        color: #424242;
+      }
+      .post-breadcrumb .ais-Highlight {
+        font-weight: bold;
+        font-style: normal;
+      }
+      .post-snippet .ais-Highlight {
+        color: #2a7ae2;
+        font-style: normal;
+        font-weight: bold;
+      }
+      .post-snippet img {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="https://meltano.com">
+            <img src="/images/meltano-logo.png" alt="The Meltano logo with Meltano written in purple" width="112" height="28">
+        </a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="{{ site.url }}"> Home </a>
+
+        {% if site.collections %}
+          {% for collection in site.collections %}
+            {% if collection.label != "posts" %}
+              <a class="navbar-item" href="/{{ collection.label }}"> {{ collection.label | capitalize }} </a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        
+        <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> More </a>
+            <div class="navbar-dropdown">
+                <a class="navbar-item" href="https://meltano.com/docs/#mission"> About </a>
+                <a class="navbar-item" href="https://meltano.com/jobs"> Jobs </a>
+                <a class="navbar-item" href="https://meltano.com/docs/getting-help.html"> Contact </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item" href="https://gitlab.com/meltano/meltano/-/issues/new"> Report an issue </a>
+            </div>
+        </div>
+
+      </div>
+      <div class="navbar-end">
+          <a href="/search" class="navbar-item"><i class="fas fa-search"></i></a>
+          <a href="https://gitlab.com/meltano/handbook" class="navbar-item"><i class="fab fa-gitlab"></i></a>
+          <a href="https://meltano.com/slack" class="navbar-item"><i class="fab fa-slack"></i></a>
+      </div>
+  </div>
+</nav>
+
+    <div class="container">
+      <div id="search-searchbar">
+      <!--     <div class="field is-grouped">
+        <p class="control is-expanded">
+          <input class="input" type="text" placeholder="Find a repository">
+        </p>
+        <p class="control">
+          <a class="button is-info">
+            Search
+          </a>
+        </p>
+      </div> -->
+        </div>
+        
+        <div class="post-list" id="search-hits">
+          {% if site.collections %}
+            {% for collection in site.collections %}
+              {% if collection.label != "posts" %}
+                <div class="post-item">
+                  <h2>
+                    <a class="post-link" href="/{{ collection.label }}">
+                      {{ collection.label | capitalize }}
+                    </a>
+                  </h2>
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
+    </div>
+
+    <!-- TODO: No need to pull in this whole thing for a burger. Fix it later. -->
+<script 
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous">    
+</script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+  $(".navbar-burger").click(function() {
+      $(".navbar-burger, .navbar-menu", $(this).closest('.navbar')).toggleClass("is-active");
+  });
+});
+</script>
+
+<script>
+const search = instantsearch({
+  appId: '{{ site.algolia.application_id }}',
+  apiKey: '{{ site.algolia.search_only_api_key }}',
+  indexName: '{{ site.algolia.index_name }}'
+});
+
+const hitTemplate = function(hit) {
+  let date = '';
+  if (hit.date) {
+    date = moment.unix(hit.date).format('MMM D, YYYY');
+  }
+
+  let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
+
+  const title = hit._highlightResult.title.value;
+
+  let breadcrumbs = '';
+  if (hit._highlightResult.headings) {
+    breadcrumbs = hit._highlightResult.headings.map(match => {
+      return `<span class="post-breadcrumb">${match.value}</span>`
+    }).join(' > ')
+  }
+
+  const content = hit._highlightResult.html.value;
+
+  return `
+    <div class="post-item">
+      <span class="post-meta">${date}</span>
+      <h2><a class="post-link" href="${url}">${title}</a></h2>
+      {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+      <div class="post-snippet">${content}</div>
+    </div>
+  `;
+}
+
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: 'Search into posts...',
+    poweredBy: true // This is required if you're on the free Community plan
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: hitTemplate
+    }
+  })
+);
+
+search.start();
+</script>
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      Like Meltano, this handbook is open source. <a href="https://gitlab.com/meltano/handbook" target="_blank">Contribute to the project!</a>
+    </p>
+    <p>
+      Copyright 2021 Meltano — All rights reserved
+    </p>
+  </div>
+</footer>
+    
+
+    </div>
+
+  </body>
+
+</html>
