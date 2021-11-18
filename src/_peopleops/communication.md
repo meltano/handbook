@@ -48,9 +48,9 @@ Asynchronous communication demonstrates consideration for team members across ti
 
 1. At Meltano, we use American English as the standard written language.
 1. Do not use rich text, it makes it hard to copy/paste. Use Markdown to format text that is stored in a Git repository. In Google Docs use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
-1. Don't use ALL CAPS because it [feels like shouting](https://en.wikipedia.org/wiki/All_caps#Association_with_shouting). However, there is the [`#all-caps` Slack channel](https://gitlab.slack.com/archives/C01BC085AVB) for your good-natured shouting needs.
+1. Don't use ALL CAPS because it [feels like shouting](https://en.wikipedia.org/wiki/All_caps#Association_with_shouting).
 1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
-1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "Meltano CLI Reference documentation". Using [meaningful links](https://www.futurehosting.com/blog/links-should-have-meaningful-anchor-text-heres-why/){:rel="nofollow noindex"} is important to both search engine crawlers (SEO) and accessibility for people with learning differences and/or physical disabilities.
+1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "Meltano CLI Reference documentation". Using [meaningful links](https://www.futurehosting.com/blog/links-should-have-meaningful-anchor-text-heres-why/) is important to both search engine crawlers (SEO) and accessibility for people with learning differences and/or physical disabilities.
    This guidance should be followed in all places links are provided, whether in the handbook, website, GoogleDocs, or any other content.
    Avoid writing GoogleDocs content which states - `Zoom Link [Link]`.
    Rather, paste the full link directly following the word `Zoom`.
@@ -63,7 +63,6 @@ Asynchronous communication demonstrates consideration for team members across ti
 1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available please paste that in.
 1. In making URLs, always prefer hyphens to underscores, and always use lowercase.
 1. Use [inclusive and gender-neutral language](https://techwhirl.com/gender-neutral-technical-writing/) in all writing.
-1. Correct capitalization of self-managed: The term `self-managed` should not be capitalized unless it's in a title or unless you are writing the full product name ("Self-Managed-Ultimate"). If it is used at the beginning of a sentence, then the first word only is capitalized: "Self-managed".
 1. Refer to environments that are installed and run by the end-user as "self-managed."
 1. Do not use a hyphen when writing the term "open source" except where doing so eliminates ambiguity or clumsiness.
 1. Monetary amounts shouldn't have one digit, so prefer $19.90 to $19.9.
@@ -73,7 +72,7 @@ Asynchronous communication demonstrates consideration for team members across ti
 1. If you use headers, properly format them (`##` in Markdown, "Heading 2" in Google Docs); start at the second header level because header level 1 is for titles. Do not end headers with a colon. Do not use emoji in headers as these cause links to have strange characters.
 1. Always use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma) (a.k.a. an "Oxford comma") before the coordinating conjunction in a list of three, four, or more items.
 1. Always use a single space between sentences rather than two.
-1. Do not use acronyms when you can avoid them. Acronyms have the effect of excluding people from the conversation if they are not familiar with a particular term. Example: instead of `MR`, write `merge request (MR)`.
+1. Do not use acronyms when you can avoid them. Acronyms have the effect of excluding people from the conversation if they are not familiar with a particular term. Example: instead of `MR`, write `merge request`.
    1. If acronyms are used, expand them at least once in the conversation or document and define them in the document using [Kramdown abbreviation syntax](https://kramdown.gettalong.org/syntax.html#abbreviations). Alternatively, link to the definition.
    1. If you don't know the meaning of an acronym, ask. It's always ok to speak up.
 
