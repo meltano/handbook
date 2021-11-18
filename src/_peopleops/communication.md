@@ -42,14 +42,13 @@ Asynchronous communication demonstrates consideration for team members across ti
 
 ### Meeting Guidelines
 
-1. All meetings should have an agenda. Use the "[Create Meeting Notes](https://workspaceupdates.googleblog.com/2021/10/create-meeting-notes-in-google-calendar.html)" feature in Google Calendar to quickly create a Google Doc that is shared with all users invited to the event. Update the title of the doc to include the [ISO date](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates).
+1. All meetings should have an agenda. Use the "[Create Meeting Notes](https://workspaceupdates.googleblog.com/2021/10/create-meeting-notes-in-google-calendar.html)" feature in Google Calendar to quickly create a Google Doc that is shared with all users invited to the event. Update the title of the doc to include the [ISO date](#iso-dates).
 
 ### Writing Style Guidelines
 
 1. At Meltano, we use American English as the standard written language.
 1. Do not use rich text, it makes it hard to copy/paste. Use Markdown to format text that is stored in a Git repository. In Google Docs use "Normal text" using the style/heading/formatting dropdown and paste without formatting.
 1. Don't use ALL CAPS because it [feels like shouting](https://en.wikipedia.org/wiki/All_caps#Association_with_shouting).
-1. We use Unix style (lf) line endings, not Windows style (crlf), please ensure `*.md text eol=lf` is set in the repository's `.gitattributes` and run `git config --global core.autocrlf input` on your client.
 1. Do not create links like "here" or "click here". All links should have relevant anchor text that describes what they link to, such as: "Meltano CLI Reference documentation". Using [meaningful links](https://www.futurehosting.com/blog/links-should-have-meaningful-anchor-text-heres-why/) is important to both search engine crawlers (SEO) and accessibility for people with learning differences and/or physical disabilities.
    This guidance should be followed in all places links are provided, whether in the handbook, website, GoogleDocs, or any other content.
    Avoid writing GoogleDocs content which states - `Zoom Link [Link]`.
