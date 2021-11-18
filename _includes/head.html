@@ -5,6 +5,10 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css"/>
+  {% if page.url == "/search" %}
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+  {% endif %}
   <link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | prepend: site.url }}">
   <link rel="stylesheet" type="text/css" href="{{ "/css/handbook.css" | prepend: site.url }}">
 </head>

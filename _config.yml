@@ -61,6 +61,7 @@ collections_dir: src
 plugins:
   - jekyll-toc
   - jekyll-sitemap
+  - jekyll-algolia
 
 # jekyll-toc Config
 toc:
@@ -73,3 +74,9 @@ toc:
   sublist_class: ''
   item_class: toc-entry
   item_prefix: toc-
+
+# jekyll-algolia
+algolia:
+  application_id: 'N55Y9CP0EI'
+  index_name: handbook_search
+  search_only_api_key: '7d4f3fb94b8a6e1e0f262d626a9ff51f'
