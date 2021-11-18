@@ -3,6 +3,7 @@ image: ruby:3.0.2-bullseye
 variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
+  ALGOLIA_API_KEY: $ALGOLIA_API_KEY
 
 before_script:
   - apt install curl
@@ -26,6 +27,7 @@ pages:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
+  - bundle exec jekyll algolia
   artifacts:
     paths:
     - public
