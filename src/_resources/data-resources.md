@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resources
+title: Data Resources
 weight: 2
 ---
 
