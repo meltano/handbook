@@ -4,6 +4,7 @@ image: registry.gitlab.com/meltano/handbook
 variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
+  ALGOLIA_API_KEY: $ALGOLIA_API_KEY
 
 before_script:
   - bundle install
@@ -24,6 +25,7 @@ pages:
   stage: deploy
   script:
   - bundle exec jekyll build -d public
+  - bundle exec jekyll algolia
   artifacts:
     paths:
     - public
