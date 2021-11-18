@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resources
-weight: 1
+weight: 2
 permalink: /resources/
 ---
 
