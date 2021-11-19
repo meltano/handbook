@@ -6,10 +6,6 @@ variables:
   LC_ALL: C.UTF-8
   ALGOLIA_API_KEY: $ALGOLIA_API_KEY
 
-before_script:
-  - bundle install
-  - npm install
-
 test:
   stage: test
   script:
