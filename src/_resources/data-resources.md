@@ -103,7 +103,6 @@ Recommended Reading, Listening, & Watching
 - [Storytelling with Data](http://storytellingwithdata.com/)
 - [The Functional Art](http://www.thefunctionalart.com/)
 - [The Pudding](https://pudding.cool/)
-- [Visualising Data](http://www.visualisingdata.com/)
 - [VizWiz](http://www.vizwiz.com/)
 - [WTF Visualizations](http://viz.wtf/)
 
