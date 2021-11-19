@@ -6,6 +6,7 @@ variables:
   LC_ALL: C.UTF-8
   ALGOLIA_API_KEY: $ALGOLIA_API_KEY
 
+# This is technically taken care of in the Docker image but if someone installs new packages this should still find them.
 before_script:
   - bundle install
   - npm install
