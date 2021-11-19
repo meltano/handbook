@@ -1,14 +1,13 @@
-image: ruby:3.0.2-bullseye
+# Custom Docker image based off of ruby:3.0.2-bullseye
+image: registry.gitlab.com/meltano/handbook
 
 variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
   ALGOLIA_API_KEY: $ALGOLIA_API_KEY
 
+# This is technically taken care of in the Docker image but if someone installs new packages this should still find them.
 before_script:
-  - apt install curl
-  - curl -fsSL https://deb.nodesource.com/setup_current.x | bash -
-  - apt-get install -y nodejs
   - bundle install
   - npm install
 
