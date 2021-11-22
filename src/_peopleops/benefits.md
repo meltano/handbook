@@ -33,7 +33,7 @@ We recommend every team member takes a minimum 30 days off a year, and we have r
 * Minimum 15 days for victims of domestic violence
 * Minimum 15 days for burnout
 
-To log time off, team members should use [PTO by Roots](/company/tech-stck/#pto-by-roots) in Slack (under Apps).
+To log time off, team members should use [PTO by Roots](/company/tech-stack/#pto-by-roots) in Slack (under Apps).
 
 ### Visiting grant
 
@@ -61,7 +61,7 @@ Inspired by GitLab's [Family and Friends Day](https://about.gitlab.com/company/f
 * 2021-11-24
 
 These dates are tracked in the [Team Meetings Calendar](calendars). 
-Meltano team members should mark these days off using [PTO by Roots](/company/tech-stck/#pto-by-roots).
+Meltano team members should mark these days off using [PTO by Roots](/company/tech-stack/#pto-by-roots).
 
 In line with our Paid Time Off policy, we encourage Meltano team members to continue to take additional days off, as needed. 
 Family and Friends Day is a reminder to do this.

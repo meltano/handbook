@@ -4,7 +4,7 @@ title: "Marketing Ops"
 weight: 2
 ---
 
-Please see a full list of all our [tooling here](/company/tech-stck/).
+Please see a full list of all our [tooling here](/company/tech-stack/).
 
 ## Domains
 
