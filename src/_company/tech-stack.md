@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tech Stack
-weight: 1
+weight: 2
 ---
 
 Listing of applications and services we use at Meltano.
