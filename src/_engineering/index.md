@@ -31,14 +31,14 @@ We mirror the three main Meltano repositories (meltano/sdk/hub) from GitLab to G
 
 ## Domain names, DNS, and hosting
 
-Domain names are typically registered with [Amazon Web Services](/tech-stack/#amazon-web-services).
-[NameCheap](/tech-stack/#namecheap) can be used if a TLD is not available there.
-For legacy reasons, one domain name is still registered with [Gandi](/tech-stack/#gandi).
+Domain names are typically registered with [Amazon Web Services](/company/tech-stck/#amazon-web-services).
+[NameCheap](/company/tech-stck/#namecheap) can be used if a TLD is not available there.
+For legacy reasons, one domain name is still registered with [Gandi](/company/tech-stck/#gandi).
 
-DNS is typically managed at [SiteGround](/tech-stack/#siteground).
-DNS for `*.meltanodata.com` is managed at [DigitalOcean](/tech-stack/#digitalocean).
-DNS for `singerhub.io` is managed at [NameCheap](/tech-stack/#namecheap).
+DNS is typically managed at [SiteGround](/company/tech-stck/#siteground).
+DNS for `*.meltanodata.com` is managed at [DigitalOcean](/company/tech-stck/#digitalocean).
+DNS for `singerhub.io` is managed at [NameCheap](/company/tech-stck/#namecheap).
 
-<https://meltano.com> is hosted at [SiteGround](/tech-stack/#siteground).
+<https://meltano.com> is hosted at [SiteGround](/company/tech-stck/#siteground).
 <https://hub.meltano.com> is hosted using [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) for <https://gitlab.com/meltano/hub>.
-<https://sdk.meltano.com> is hosted at [Read the Docs](/tech-stack/#read-the-docs).
+<https://sdk.meltano.com> is hosted at [Read the Docs](/company/tech-stck/#read-the-docs).

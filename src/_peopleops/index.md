@@ -73,7 +73,7 @@ We expect Meltano team members to take responsibility to determine what they nee
 
 1. Purchases of at least $10 USD require a receipt.
 1. Employees should file expense reports in the same month that the purchase was made. Contractors should include receipts with their invoices.
-1. To be reimbursed for company expenses, please submit a report in [Expensify](/tech-stack/#expensify) (all team members). Non-US team members will also submit a report in Remote.
+1. To be reimbursed for company expenses, please submit a report in [Expensify](/company/tech-stck/#expensify) (all team members). Non-US team members will also submit a report in Remote.
 
 #### US team member reimbursement process
 
@@ -85,7 +85,7 @@ We expect Meltano team members to take responsibility to determine what they nee
 Although non-US team members will not receive reimbursement through Expensify, the company needs to have a single source of truth for expenses. So, all team members will need to use Expensify. You'll then submit an additional report in Remote to receive reimbursement.
 
 1. Upload receipts in Expensify and submit a report. Please use the appropriate tags/categories and include comments when appropriate. If a tag/category is missing, you may be asked to edit your report.
-1. Once the Expensify report is approved, create an expense in [Remote](/tech-stack/#remote) referencing the Expensify report number and matching its full amount. 
+1. Once the Expensify report is approved, create an expense in [Remote](/company/tech-stck/#remote) referencing the Expensify report number and matching its full amount. 
 1. The approved expense amount will be deposited in your account with your monthly salary.
 
 ### Office equipment and supplies
@@ -104,7 +104,7 @@ Meltano team members are encouraged to create a comfortable, ergonomic workspace
 
 #### Software
 
-1. We do not issue Microsoft Office 365 licenses, as Meltano uses [Google Workspace](/tech-stack/#google-workspace)
+1. We do not issue Microsoft Office 365 licenses, as Meltano uses [Google Workspace](/company/tech-stck/#google-workspace)
    (Docs, Slides, Sheets, etc.) instead.
 
 ##### Individual subscriptions
@@ -149,7 +149,7 @@ The technology price guidelines are based on acquiring products in the United St
 
 ### Tech stack
 
-View the [complete list](/tech-stack) of our tech stack. 
+View the [complete list](/company/tech-stck) of our tech stack. 
 
 ### Laptop configurations
 
@@ -204,7 +204,7 @@ Please see the [Calendars](calendars) page for a list of company calendars.
 
 ## GitLab workflow best practices
 
-We use [GitLab](/tech-stack/#gitlab) for project management across the organization. Whether you work in engineering or marketing, GitLab will be the central tool for collaboration and delivery. To ensure end-to-end visibility and asynchronous communication, we use epics, issues, and merge requests to organize our work. 
+We use [GitLab](/company/tech-stck/#gitlab) for project management across the organization. Whether you work in engineering or marketing, GitLab will be the central tool for collaboration and delivery. To ensure end-to-end visibility and asynchronous communication, we use epics, issues, and merge requests to organize our work. 
 
 As you work within GitLab, please be sure to follow these best practices:
 
