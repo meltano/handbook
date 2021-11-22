@@ -11,6 +11,6 @@ The Meltano team handbook is the central repository for how we run the company. 
 
 ## Company
 
-* [Communication](/communication)
-* [Issue Trackers](/issue-trackers)
-* [Tech Stack](/tech-stack)
+* [Communication](communication)
+* [Issue Trackers](issue-trackers)
+* [Tech Stack](tech-stack)
