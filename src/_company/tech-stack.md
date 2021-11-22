@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Tech Stack
-weight: 1
-permalink: /tech-stack/
+weight: 2
+permalink: /company/tech-stack/
 ---
 
 Listing of applications and services we use at Meltano.

@@ -31,6 +31,9 @@ defaults:
 
 # Every top level section of the handbook is actually a collection. Their files are in a _folder in src/
 collections:
+  company:
+    output: true
+    icon: "fa-laptop-house"
   engineering:
     output: true
     icon: "fa-cogs"
@@ -46,9 +49,6 @@ collections:
   resources:
     output: true
     icon: "fa-book"
-  tech-stack:
-    output: true
-    icon: "fa-server"
   support:
     output: true
   posts:
