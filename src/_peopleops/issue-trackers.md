@@ -20,13 +20,14 @@ If an issue fits best in a public tracker but should be private anyway, use a [c
 - [Administration (`meltano/administration`)](https://gitlab.com/meltano/administration/-/issues): Private issue tracker for **administrative tasks** related to running the business. Used primarily by CEO and Operations Analyst.
 - [Hiring (`meltano/hiring`)](https://gitlab.com/meltano/hiring/-/issues): Private issue tracker for **hiring topics**: hiring plans, job openings, and interview processes. Repository contains processes, questions, and exercises.
 - [Marketing (`meltano/marketing/marketing-general`)](https://gitlab.com/meltano/marketing/marketing-general/-/issues): Public issue tracker for **all things marketing**. Use confidential issues as needed.
-- [Meltano Squared](https://gitlab.com/meltano/squared): Where Meltano runs Meltano internally.
+
 
 ## Product-specific
 
 - [Meltano (`meltano/meltano`)](https://gitlab.com/meltano/meltano/-/issues)
 - [Meltano SDK (`meltano/sdk`)](https://gitlab.com/meltano/sdk/-/issues)
 - [MeltanoHub (`meltano/hub`)](https://gitlab.com/meltano/hub/-/issues)
+- [Meltano Squared (`meltano/squared`)](https://gitlab.com/meltano/squared/-/issues)
 
 ## Useful issue boards
 
