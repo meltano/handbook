@@ -21,15 +21,18 @@ If an issue fits best in a public tracker but should be private anyway, use a [c
 - [Hiring (`meltano/hiring`)](https://gitlab.com/meltano/hiring/-/issues): Private issue tracker for **hiring topics**: hiring plans, job openings, and interview processes. Repository contains processes, questions, and exercises.
 - [Marketing (`meltano/marketing/marketing-general`)](https://gitlab.com/meltano/marketing/marketing-general/-/issues): Public issue tracker for **all things marketing**. Use confidential issues as needed.
 
+
 ## Product-specific
 
 - [Meltano (`meltano/meltano`)](https://gitlab.com/meltano/meltano/-/issues)
 - [Meltano SDK (`meltano/sdk`)](https://gitlab.com/meltano/sdk/-/issues)
 - [MeltanoHub (`meltano/hub`)](https://gitlab.com/meltano/hub/-/issues)
+- [Meltano Squared (`meltano/squared`)](https://gitlab.com/meltano/squared/-/issues)
 
 ## Useful issue boards
 
 - [Development Flow](https://gitlab.com/groups/meltano/-/boards/536761), with a column for each `flow::` label. Don't forget to filter by milestone, and/or assignee!
+- [Engineering Assignments](https://gitlab.com/groups/meltano/-/boards/3546394?scope=all&milestone_title=%23started&not[label_name][]=valuestream%3A%3ABusiness%20Operation&not[label_name][]=kind%3A%3ANon-Product) - useful for understanding the WIP for engineers in the company.
 - [Kind](https://gitlab.com/groups/meltano/-/boards/2917606) - useful for understanding the distribution of work across the different flow types (Bug, Feature, etc.)
 - [Value Stream](https://gitlab.com/groups/meltano/-/boards/2917637) - useful for understanding the distribution of work acrss the different product areas of Meltano
 - [Urgency](https://gitlab.com/groups/meltano/-/boards/2917749) - useful for understanding the overall priority of issues in a milestone.
