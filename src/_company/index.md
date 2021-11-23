@@ -12,5 +12,6 @@ The Meltano team handbook is the central repository for how we run the company. 
 ## Company
 
 * [Communication](communication)
+* [Leadership](leadership)
 * [Using GitLab](using-gitlab)
 * [Tech Stack](tech-stack)
