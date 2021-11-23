@@ -30,9 +30,11 @@ The [opportunity assessment was created by Marty Cagan at Silicon Valley Product
 
 ## Roadmap Planning
 
-Each item on the roadmap (/docs/#roadmap) will be linked to an Epic. 
+Each item on the [roadmap](https://meltano.com/docs/#roadmap) will be linked to an Epic. 
 
-On the first and third monday of the month, the Head of Product and Head of Engineering will meet to validate the current state of the roadmap. This will be a high-level discussion around progress on current items and negotiation on inclusion of items for current and upcoming months.
+On the first and third monday of the month, the Head of Product and Head of Engineering will meet to validate the current state of the roadmap. 
+This will be a high-level discussion around progress on current items and negotiation on inclusion of items for current and upcoming months.
+They will also discuss spike-worthy itmes and add the appropriate labels as needed.
 
 Key questions to ask are:
 
