@@ -9,8 +9,8 @@ Our [milestones and scheduled work](https://gitlab.com/groups/meltano/-/mileston
 
 ## Getting in Touch
 
-Use the public #product channel to have open discussions about product priorities.
-Use the private #internal-product channel for non-public product discussions.
+Use the public [#product](https://meltano.slack.com/archives/C02FRTMPHL0) channel to have open discussions about product priorities.
+Use the private [#internal-product](https://meltano.slack.com/archives/C02MBDUHCCD) channel for non-public product discussions.
 
 ## Responsibilities
 
