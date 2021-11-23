@@ -17,6 +17,19 @@ community member to present on your behalf. Alternatively, you may also post a r
 of length between 2 and 10 minutes, to the `#contributing` channel on slack, posting a link also on your MR. You
 may use Slack's built-in video message feature, the free tool [Loom](https://loom.com), or another similar tool.
 
+## Research Spikes
+
+Some issues may be large in scope and need further refinement. 
+This is done in collaboration with Product.
+For larger issues, it may be necessary to do a research spike to better understand the technical challenges in the proposed solution.
+
+If something needs a research spike, the `Needs Research Spike` [label](/using-gitlab/#refinement-labels) will be used. 
+The spike can either be tracked in the main issue in the comments, or as part of a separate issue created just for the spike. 
+
+When you do a spike, be clear on how much time you are spending. 
+Anything less than a few hours you are ok to prioritize when you're ready. 
+If the spike is longer than half a day, coordinate with your manager and Product on the best time to prioritize. 
+
 ## Outages & escalation
 
 <https://www.meltano.com> is automatically monitored using Pingdom, with notifications of downtime posted to:

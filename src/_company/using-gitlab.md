@@ -60,6 +60,13 @@ Every open issue _with a sprint milestone_ should have a `flow` label:
 
 These labels do not indicate urgency and should only be used to indicate the work status.
 
+### Refinement Labels
+
+We have 2 labels to indicate that something is prioritized but needs more refinement:
+
+- `Needs Refinement` : Used by Product and Engineering to indicate that more details, user stories, and organization are needed
+- `Needs Research Spike` : Used by Product and Engineering to indicate that a [Spike](http://agiledictionary.com/209/spike/) is need to better understand the scope of work.
+
 ### Urgency Labels
 
 We have 5 urgency labels:
