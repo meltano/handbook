@@ -5,13 +5,14 @@ weight: 1
 permalink: /company/
 ---
 
-## Introduction
+This section of the handbook describes concepts, processes, and best practices that apply to the company as a whole, and don't fall under a specific department or area.
 
-The Meltano team handbook is the central repository for how we run the company. As part of our value of being transparent the handbook is open to the world, and we welcome feedback. Please make a [merge request](https://gitlab.com/meltano/handbook/-/merge_requests) to suggest improvements or add clarifications. Please use [issues](https://gitlab.com/meltano/handbook/-/issues) to ask questions.
+To explore the full contents of this handbook, refer to the sidebar.
 
-## Company
+## Values
 
-* [Communication](communication)
-* [Issue Trackers](issue-trackers)
-* [Leadership](leadership)
-* [Tech Stack](tech-stack)
+Our values define how we work together and make decisions.
+They are empathy, community, sustainability, transparency, iteration, ambition, and accountability.
+
+You can learn more about these values on the [Values](values) page.
+
