@@ -10,7 +10,7 @@ weight: 2
 * Professional development support and budget
 * Reimbursable coworking fees and external office space
 * Budget for office equipment and workspace supplies
-* Team offsites
+* [Team offsites](/company/all-remote#meltano-assemble)
 * Work with a global, distributed team
 * Flexible working hours
 * Access to world class founders, investors and mentors
