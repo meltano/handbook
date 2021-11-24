@@ -7,7 +7,7 @@ weight: 2
 At Meltano, we use GitLab issues to track everything that needs to (one day) be done or discussed.
 Find the appropriate tracker for your issue below.
 
-In line with our [Transparency](https://meltano.com/docs/#transparency) value, most of these trackers and the issues they hold are public so that our entire community can participate.
+In line with our [Transparency](/company/values/#transparency) value, most of these trackers and the issues they hold are public so that our entire community can participate.
 If an issue fits best in a public tracker but should be private anyway, use a [confidential issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html).
 
 ## General
