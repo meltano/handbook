@@ -7,7 +7,7 @@ weight: 2
 At Meltano, we use GitLab issues to track everything that needs to (one day) be done or discussed.
 Find the appropriate tracker for your issue below.
 
-In line with our [Transparency](https://handbook.meltano.com/company/values/#transparency) value, most of these trackers and the issues they hold are public so that our entire community can participate.
+In line with our [Transparency](/company/values#transparency) value, most of these trackers and the issues they hold are public so that our entire community can participate.
 If an issue fits best in a public tracker but should be private anyway, use a [confidential issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html).
 
 ## General
@@ -64,11 +64,11 @@ We have 5 urgency labels:
 - `urgency::higher`
 - `urgency::highest`
 
-The majority of issues should have the `urgency::default` label, which is a sign that we are accomplishing [the important as well as the urgent](https://www.mindtools.com/pages/article/newHTE_91.htm). 
+The majority of issues should have the `urgency::default` label, which is a sign that we are accomplishing [the important as well as the urgent](https://www.mindtools.com/pages/article/newHTE_91.htm).
 The `urgency::low` tag can optionally be used to indicate issues that should be the first to be deprioritized.
 
-Issues with the `urgency::default` label, or no urgency label at all, in a milestone have a ~80% chance of being completed within a milestone. 
-Issues with the `urgency::low` label have a ~50% chance of being completed within a milestone. 
+Issues with the `urgency::default` label, or no urgency label at all, in a milestone have a ~80% chance of being completed within a milestone.
+Issues with the `urgency::low` label have a ~50% chance of being completed within a milestone.
 We aim to close 100% of issues with `urgency::high` or above within the milestone.
 
 The `urgency::highest` should be resolved for urgent user-facing issues such as the website going down - and should be resolved within 24 hours or less.
@@ -83,10 +83,10 @@ All issues should have a label indicating its kind:
 - `kind::Bug`
 - `kind::Feature`
 - `kind::Tech Debt`
-- `kind::Risk` 
+- `kind::Risk`
 
-These kinds map onto the [Flow Framework](https://flowframework.org/) items of Feature, Defect, Debt, and Risk. 
-These are meant to be mutually exclusive and collectively exhaustive, meaning an issue will have 1 and only 1 of these labels. 
+These kinds map onto the [Flow Framework](https://flowframework.org/) items of Feature, Defect, Debt, and Risk.
+These are meant to be mutually exclusive and collectively exhaustive, meaning an issue will have 1 and only 1 of these labels.
 There is a fifth label available for filtering purposes: `kind::Non-Product` which is used for administrative and business-related issues.
 
 | Kind Item      | Delivers                                  | Description                                                           | Example Artifacts                                    |
@@ -100,7 +100,7 @@ There is a fifth label available for filtering purposes: `kind::Non-Product` whi
 
 FAQ:
 
-* Q: Where would documentation issues fit? 
+* Q: Where would documentation issues fit?
   * A: Documentation issues will most likely be considered a Bug if they are not delivered as part of a Feature.
 
 It is the responsibility of the Product team to add this label, but Engineers are welcome to add it as well.
@@ -113,7 +113,7 @@ All issues should have a label indicating its value stream:
 - `valuestream::Hub`
 - `valuestream::SDK`
 - `valuestream::Academy`
-- `valuestream::Ecosystem` - This is a bit of a catchall for general "community" type work that benefits the Meltano and Singer communities but does not neatly fit into another value stream. 
+- `valuestream::Ecosystem` - This is a bit of a catchall for general "community" type work that benefits the Meltano and Singer communities but does not neatly fit into another value stream.
 
 These map to our "product lines" and are used to understand allocation of work across the value streams.
 There is an additional label for filtering purposes: `valuestream::BusinessOperation` which is used for administrative and business-related issues.
@@ -134,7 +134,7 @@ If appropriate, an issue should have a stage label (one of the letters in "melta
 - `Notebook` (currently unused)
 - `Orchestrate`
 
-The value of these labels is under discussion as forcing them to fit the Meltano acronym may not be optimal. 
+The value of these labels is under discussion as forcing them to fit the Meltano acronym may not be optimal.
 We want a way to indicate the part of Meltano specifically that the work applies to, such as transformation, integration, etc.
 
 ### Community Engagement and Marketing Labels
