@@ -4,8 +4,6 @@ title: Leadership Team
 weight: 2
 ---
 
-# Leadership Team
-
 The Meltano Leadership team is:
 
 * Douwe Maan, CEO

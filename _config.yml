@@ -51,6 +51,7 @@ collections:
     icon: "fa-book"
   support:
     output: true
+    icon: "fa-question-circle"
   posts:
     output: false
 
