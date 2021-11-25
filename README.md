@@ -88,7 +88,7 @@ This is added to all pages by default. It can be turned off by setting `toc: fal
 Builds will fail to deploy if links are broken. You can check for broken links locally with this command before pushing changes:
 
 ```
-bundle exec jekyll build && bundle exec htmlproofer --log-level :debug ./_site --assume_extension --http_status_ignore 503 --url-ignore "/www.linkedin.com/,/www.dell.com/"
+bundle exec jekyll build && bundle exec htmlproofer --log-level :debug ./_site --assume_extension --http_status_ignore 503 --url-ignore "/www.linkedin.com/,/www.dell.com/,/www.optionimpact.com/"
 ```
 
 ## Deploy
