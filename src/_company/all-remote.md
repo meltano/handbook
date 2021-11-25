@@ -33,3 +33,5 @@ If your country shows as "Available" in Remote's [Country Explorer](https://remo
 
 In terms of time zones, we require there to be some overlap with your manager for 1:1s, but you are generally free to arrange your working hours however works for you.
 Some community-facing roles require you to be in a specific time zone or region, in which case this will be specified in the job description.
+
+Check out our section on [compensation](/peopleops/compensation) to learn how that is affected by where you live and work from.
