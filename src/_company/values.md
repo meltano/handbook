@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Meltano Values
-permalink: /values
+weight: 2
+title: Values
 ---
 
 Meltano's core values are empathy, community, sustainability, transparency, iteration, ambition, and accountability.
@@ -47,17 +47,17 @@ We work in small iterations so that we can be efficient, add value quickly, and 
 We have a bias for action and aim to continually improve our product and processes, and we believe small, positive steps are the best way to achieve large goals.
 In practice, we ship minimum viable changes, and we continually seek to improve ourselves.
 
-## Ambition 
+## Ambition
 
-We have high aspirations and the drive to exceed them. 
-We want to collaborate with those who are inspired and motivated by our mission. 
-We’re determined to realize our goals and achieve strong results in everything we set out to accomplish. 
+We have high aspirations and the drive to exceed them.
+We want to collaborate with those who are inspired and motivated by our mission.
+We’re determined to realize our goals and achieve strong results in everything we set out to accomplish.
 To us, ambition means:
-* Resilience in the face of setbacks 
+* Resilience in the face of setbacks
 * Continual learning
-* A strong sense of purpose and priorities 
-* Passion 
-* Perseverance 
+* A strong sense of purpose and priorities
+* Passion
+* Perseverance
 * Calculated risk taking
 
 ## Accountability
