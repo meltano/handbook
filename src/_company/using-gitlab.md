@@ -4,13 +4,12 @@ title: Using GitLab to Track Work
 weight: 2
 ---
 
-At Meltano, we use GitLab issues to track everything that needs to (one day) be done or discussed.
-Find the appropriate tracker for your issue below.
+At Meltano, we use GitLab to track everything that needs to (one day) be done or discussed.
+
+## Issue Trackers
 
 In line with our [Transparency](/values#transparency) value, most of these trackers and the issues they hold are public so that our entire community can participate.
 If an issue fits best in a public tracker but should be private anyway, use a [confidential issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html).
-
-## Issue Trackers
 
 - [Meta (`meltano/meta`)](https://gitlab.com/meltano/meta/-/issues): Public issue tracker for **meta-level topics** around the team, company, or community that don't concern a specific [product](#product-specific) and don't fit in any other project. Use confidential issues as needed.
 - [Handbook (`meltano/handbook`)](https://gitlab.com/meltano/handbook/-/issues): Public issue tracker for **process and policy proposals** that will be documented in the public [company handbook](https://handbook.meltano.com/). Use confidential issues as needed.
@@ -29,7 +28,7 @@ If an issue fits best in a public tracker but should be private anyway, use a [c
 - [MeltanoHub (`meltano/hub`)](https://gitlab.com/meltano/hub/-/issues)
 - [Meltano Squared (`meltano/squared`)](https://gitlab.com/meltano/squared/-/issues)
 
-### Useful issue boards
+## Useful Issue Boards
 
 - [Development Flow](https://gitlab.com/groups/meltano/-/boards/536761), with a column for each `flow::` label. Don't forget to filter by milestone, and/or assignee!
 - [Engineering Assignments](https://gitlab.com/groups/meltano/-/boards/3546394?scope=all&milestone_title=%23started&not[label_name][]=valuestream%3A%3ABusiness%20Operation&not[label_name][]=kind%3A%3ANon-Product) - useful for understanding the WIP for engineers in the company.
