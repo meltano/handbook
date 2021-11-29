@@ -7,9 +7,18 @@ permalink: /product/
 
 Our [milestones and scheduled work](https://gitlab.com/groups/meltano/-/milestones) is available to the public, and we encourage anyone to [submit new issues](https://gitlab.com/meltano/meltano/issues/new).
 
-## High-level Responsibilities
+## Getting in Touch
 
-The Head of Product will review any [new issues](https://gitlab.com/groups/meltano/-/issues) in the Meltano group on a daily cadence and organize appropriately with labels and milestones.
+Use the public [#product](https://meltano.slack.com/archives/C02FRTMPHL0) channel to have open discussions about product priorities.
+Use the private [#internal-product](https://meltano.slack.com/archives/C02MBDUHCCD) channel for non-public product discussions.
+
+## Responsibilities
+
+The Product team will review any [new issues](https://gitlab.com/groups/meltano/-/issues) in the Meltano group on a daily cadence and organize appropriately with labels and milestones.
+
+Product is responsible for reaching out to users and talking with them about their experiences with all Meltano properties. 
+This is an important sensing mechanism for understanding how users interact with Meltano and it informs product priorities. 
+We aim for an average of 4 user interviews per month at a minimum.
 
 ## Choosing What to Work On
 
@@ -32,7 +41,9 @@ The [opportunity assessment was created by Marty Cagan at Silicon Valley Product
 
 Each item on the [roadmap](roadmap) will be linked to an Epic.
 
-On the first and third monday of the month, the Head of Product and Head of Engineering will meet to validate the current state of the roadmap. This will be a high-level discussion around progress on current items and negotiation on inclusion of items for current and upcoming months.
+On the first and third monday of the month, the Head of Product and Head of Engineering will meet to validate the current state of the roadmap. 
+This will be a high-level discussion around progress on current items and negotiation on inclusion of items for current and upcoming months.
+They will also discuss spike-worthy itmes and add the appropriate labels as needed.
 
 Key questions to ask are:
 
@@ -53,23 +64,17 @@ Sometimes, it can feel like we are chosing between two important things and this
 
 Meltano uses weekly milestones to track work. They are named for the Friday on which the milestone ends, i.e. `Fri: July 9, 2021`.
 
-### Planning
-
-### Labels
-
-
-
 ### Weekly Kickoff
 
 Every Monday we have a Kickoff call to highlight for the community what the priorities are for the week. Prior to the actual call, there are several work items to do.
 
-### Friday - Last day of Milestone
+#### Friday - Last day of Milestone
 
 * Create a kickoff issue highlighting the general priority for the next week.
   * Title: `Weekly Kickoff for Milestone - <milestone>`
   * Due Date for the Monday of the milestone
 
-### Monday - Kickoff Day
+#### Monday - Kickoff Day
 
 Before the Kickoff Call:
 
@@ -101,6 +106,7 @@ This [article from BVP](https://www.bvp.com/atlas/roadmap-data-infrastructure/) 
 * [Rudderstack](https://rudderstack.com/) - Customer Data Platform
 * [Soda SQL](https://github.com/sodadata/soda-sql) - Data Testing and Monitoring
 * [Feast](https://github.com/feast-dev/feast) - ML Feature Store
+* [fal](https://github.com/fal-ai/fal) - run python scripts from dbt
 
 Additionally, there are many "git for data" tools tracked in [this spreadsheet](https://docs.google.com/spreadsheets/d/1jGQY_wjj7dYVne6toyzmU7Ni0tfm-fUEmdh7Nw_ZH0k/edit#gid=0).
 [Project Nessie](https://projectnessie.org/) is another option not listed in the sheet.
