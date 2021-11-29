@@ -43,7 +43,7 @@ Asynchronous communication demonstrates consideration for team members across ti
 ### Meeting Guidelines
 
 1. All meetings should have an agenda. Use the "[Create Meeting Notes](https://workspaceupdates.googleblog.com/2021/10/create-meeting-notes-in-google-calendar.html)" feature in Google Calendar to quickly create a Google Doc that is shared with all users invited to the event. Update the title of the doc to include the [ISO dates](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates).
-1. If a meeting needs an additional document for internal documentation, create an issue in an appropriate issue tracker, link a new Google Doc to the issue, and link the issue to the calendar invite. 
+1. If a meeting needs an additional document for internal documentation, create an issue in an appropriate [issue tracker](/company/using-gitlab#issue-trackers), mark it as confidential if necessary, link a new Google Doc to the issue, share and link the issue to the calendar invite. 
 
 ### Writing Style Guidelines
 
