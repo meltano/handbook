@@ -17,7 +17,8 @@ Follow the steps below to work locally with this project.
 
 1. Make sure you have a Ruby environment set up locally. You'll need the Ruby version specified in the [`.gitlab-ci.yml` file](https://gitlab.com/meltano/handbook/-/blob/master/.gitlab-ci.yml#L1).
 1. Fork, clone or download this project.
-1. Install dependencies: `bundle install`
+1. Install ruby dependencies: `bundle install`
+1. Install node dependencies: `npm install`
 1. Build and preview: `bundle exec jekyll serve`
 1. Preview the site at [http://127.0.0.1:4000](http://127.0.0.1:4000).
 1. Make changes to the content of the site and preview them at the link above.
