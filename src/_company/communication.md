@@ -43,6 +43,7 @@ Asynchronous communication demonstrates consideration for team members across ti
 ### Meeting Guidelines
 
 1. All meetings should have an agenda. Use the "[Create Meeting Notes](https://workspaceupdates.googleblog.com/2021/10/create-meeting-notes-in-google-calendar.html)" feature in Google Calendar to quickly create a Google Doc that is shared with all users invited to the event. Update the title of the doc to include the [ISO dates](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates).
+1. If a meeting needs an additional document for internal documentation, create a new document in the appropriate folder in the [`External Meetings` folder](https://drive.google.com/drive/u/1/folders/17bM6lL5XG0i_onFtlR0wwoA6HEVnZCL1) in the shared [`Meltano Team` Google Drive](https://drive.google.com/drive/u/1/folders/0AMdtIhQUeQ-1Uk9PVA) and link to it in the public notes doc. Preface the link with "Internal Meltano Ref: `link`". If a relevant private GitLab issue exists as well, link to it inline with the Google Doc link. 
 
 ### Writing Style Guidelines
 
