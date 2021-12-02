@@ -162,6 +162,7 @@ We want a way to indicate the part of Meltano specifically that the work applies
 - `Exploration`
 - `Community Support`
 - `CLI` or `UI` for issues specifically concerning the CLI or UI
+- `Backend` or `Frontend` for issues specifically concerning the Backend or Frontend
 - `Documentation` for new or updated documentation
 - `Integrations` for issues relating to integrations with other open source data tools, typically as plugins
 - `Configuration` for issues relating to configuration
