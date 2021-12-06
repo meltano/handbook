@@ -24,7 +24,7 @@ In [PTO by Roots](/company/tech-stack/#pto-by-roots), there are several options 
 When taking a vacation, personal time, etc., use the "Paid Time Off" option type in the "Short-term leave" list. 
 You may optionally indicate what the OOO is for as a way for your manager, co-workers, and the community to better understand your availability. 
 
-If you or a family member is ill, use the "Personal Illness" option type in the "Short-term leave" list. 
+If you or a family member you care for is ill, use the "Personal Illness" option type in the "Short-term leave" list. 
 
 For Public Holidays, use the "Public Holidays" option type and indicate the holiday in the description field. 
 
