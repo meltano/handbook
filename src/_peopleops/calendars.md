@@ -21,10 +21,12 @@ Holidays, Family and Friend Days, and Paid Time Off (PTO) are all tracked via [P
 ### Short-term Leave
 
 In [PTO by Roots](/company/tech-stack/#pto-by-roots), there are several options for indicating time off. 
-For any time that you need off, whether it's a vacation, personal time, personal illnes, family illness, etc., use the "Paid Time Off" option type in the "Short-term leave" list. 
+When taking a vacation, personal time, etc., use the "Paid Time Off" option type in the "Short-term leave" list. 
 You may optionally indicate what the OOO is for as a way for your manager, co-workers, and the community to better understand your availability. 
 
-For Public Holidays, use the "Public Holidays" OOO type and indicate the holiday in the description field. 
+If you or a family member is ill, use the "Personal Illness" option type in the "Short-term leave" list. 
+
+For Public Holidays, use the "Public Holidays" option type and indicate the holiday in the description field. 
 
 [Family and Friends days](/peopleops/benefits#family-and-friends-day) are considered PTO and should be indicated using the "Paid Time Off" option.
 If your PTO includes a Family and Friends Day, there is no need to create a separate event for the day. 
