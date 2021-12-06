@@ -19,47 +19,26 @@ Each item should link to an Epic with the relevant issue linked to that epic.
 As this projects out into the future it is subject to change based on feedback.
 Don't see something you want on the roadmap? [Make an issue](https://gitlab.com/meltano/meltano/-/issues) and let us know!
 
-Our focus for the rest of the year is going to mainly be in two categories:
-* Improving the overall quality of the Singer ecosystem
-* Making Meltano the best data integration (ELT) tool on the market
+These efforts are the foundation of our larger vision to enable a full DataOps OS.
+To learn more about our strategy around the DataOps OS, check out [this blog post](https://meltano.com/blog/our-strategy-to-achieving-meltanos-ambitious-mission-and-vision/).
 
-These efforts are the foundation of our larger vision to enable a full DataOps platform.
-
-### November 2021
+### December 2021
 
 * Composable Meltano Pipelines - [Epic](https://gitlab.com/groups/meltano/-/epics/116)
   * `meltano run` [Issue](https://gitlab.com/meltano/meltano/-/issues/2301)
   * Stream Maps [Issue](https://gitlab.com/meltano/meltano/-/issues/2300)
-* Structured Logging [Issue](https://gitlab.com/meltano/meltano/-/issues/2772)
+* Documentation Overhaul - [Epic](https://gitlab.com/groups/meltano/-/epics/81)
 * Easy deployment of Meltano for production development - [Epic](https://gitlab.com/groups/meltano/-/epics/124)
 * Add validator plugin type with Great Expectations and `dbt test` support  - [Epic](https://gitlab.com/groups/meltano/-/epics/111)
 * Telemetry Enhancements for Meltano, Meltano SDK, and MeltanoHub - [Epic](https://gitlab.com/groups/meltano/-/epics/122)
 
-### December 2021
-
-* Release v1.0 of Meltano SDK - [Epic](https://gitlab.com/groups/meltano/-/epics/121)
-* Documentation Overhaul - [Epic](https://gitlab.com/groups/meltano/-/epics/81)
-* Support non-Python plugins - [Issue](https://gitlab.com/meltano/meltano/-/issues/2205)
-* Add support for OpenMetadata observability - [Epic](https://gitlab.com/groups/meltano/-/epics/93) & [Issue](https://gitlab.com/meltano/meltano/-/issues/2805)
-* Add Fast Sync / `BATCH` Messages to Meltano SDK - [Epic](https://gitlab.com/groups/meltano/-/epics/114)
-* Add Dagster as an Orchestrator - [Epic](https://gitlab.com/groups/meltano/-/epics/113) & [Issue](https://gitlab.com/meltano/meltano/-/issues/2393)
-
-
-### January 2022
+### 2022-Q1
 
 * Add Pluggable Log / Metadata Shipping for Observability Enhancement - [Issue](https://gitlab.com/meltano/meltano/-/issues/3008) & [Epic](https://gitlab.com/groups/meltano/-/epics/93)
 * Support Secrets Backends Natively -[Issue](https://gitlab.com/meltano/meltano/-/issues/2918)
 * UI Improvements and Parity - [Issue](https://gitlab.com/groups/meltano/-/epics/78)
-
-### 2022-H1
-
-Next year will be continuing to make Meltano the best data integration tool on the market and Singer the best open source ecosystem.
-With this great foundation in place, we'll continue to invest in making Meltano the best DataOps platform on the market.
-This means focusing more on the user interface and on adding features that enable our DataOps vision.
-
-* [SaaS Deployment of Meltano](https://gitlab.com/groups/meltano/-/epics/94)
-* [Out-of-the-box support for an OLAP Database](https://gitlab.com/meltano/meltano/-/issues/2634)
-* [Initial conversion of MeltanoHub to dynamic site](https://gitlab.com/groups/meltano/-/epics/101)
-* [Prefect](https://gitlab.com/meltano/meltano/-/issues/2668)
-* [Jupyter Notebooks](https://gitlab.com/meltano/meltano/-/issues/2595)
-* [Git-provider Integrations](https://gitlab.com/groups/meltano/-/epics/92)
+* Release v1.0 of Meltano SDK - [Epic](https://gitlab.com/groups/meltano/-/epics/121)
+* Support non-Python plugins - [Issue](https://gitlab.com/meltano/meltano/-/issues/2205)
+* Add support for OpenMetadata observability - [Epic](https://gitlab.com/groups/meltano/-/epics/93) & [Issue](https://gitlab.com/meltano/meltano/-/issues/2805)
+* Add Fast Sync / `BATCH` Messages to Meltano SDK - [Epic](https://gitlab.com/groups/meltano/-/epics/114)
+* Add Dagster as an Orchestrator - [Epic](https://gitlab.com/groups/meltano/-/epics/113) & [Issue](https://gitlab.com/meltano/meltano/-/issues/2393)
