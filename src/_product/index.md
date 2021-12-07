@@ -12,6 +12,18 @@ Our [milestones and scheduled work](https://gitlab.com/groups/meltano/-/mileston
 Use the public [#product](https://meltano.slack.com/archives/C02FRTMPHL0) channel to have open discussions about product priorities.
 Use the private [#internal-product](https://meltano.slack.com/archives/C02MBDUHCCD) channel for non-public product discussions.
 
+### Who to contact 
+
+For each Meltano property, we have a primary point of contact:
+
+* Meltano - Taylor & AJ
+* Meltano SDK - AJ
+* MeltanoHub - Taylor
+* MeltanoLabs - Pat
+* Handbook / Website - Amanda
+
+You should feel comfortable reaching out to each of us either in issues or on Slack if you have questions or concerns about any of these. 
+
 ## Responsibilities
 
 The Product team will review any [new issues](https://gitlab.com/groups/meltano/-/issues) in the Meltano group on a daily cadence and organize appropriately with labels and milestones.
