@@ -8,11 +8,13 @@ weight: 2
 
 This page is your guide to working with me, AJ Steers. My role at Meltano is Head of Engineering means I will interact regularly with virtually everyone in Meltano - and this page is your one-stop guide to working with me, including communication preferences, details on my prioritization strategies, how to get on my Todo list, how to request prioritization/escalations, how to get on my calendar, etc.
 
+Note: This page is modeled in large part after Sid's CEO page on the Gitlab handbook [here](https://about.gitlab.com/handbook/ceo/#related-pages) and driven by my own desire to be transparent with the company about my preferences, working style, and values.
+
 ## How does this affect relate to general handbook guidelines
 
 Nothing in this page should contradict material and guidelines in other areas of the handbook. However, in some cases, the guidance or preferences here may be more specific or targeted versus general guidelines.
 
-That said, some of the content here may land initially as a personal interaction preference and eventually spread as a Meltano-wide practice or guidance. I remain open to modifications in either of these directions: changes here adapted as informed by other updates in the handbook, and/or changes adapted in the general handbook to more closely align with what is here.
+That said, some of the content here may land initially as a personal interaction preference and eventually spread as a Meltano-wide practice or guidance. I remain open to modifications in either of these directions: changes here adapted as informed by other updates in the handbook, and/or changes adapted into the general handbook to more closely align with what is here.
 
 ## Setting up 1:1s with AJ
 
@@ -30,7 +32,7 @@ I aim to have at least a monthly 1:1 with all Meltano department leads and all m
 
 ### 1:1s for Partners and Community Members
 
-I encourage 1:1s from community members and partners whenever a face-to-face connection would be valuable. For topics that could easily be covered in office hours, my preference is generally to use office hours for this time. If you have a topic you'd like to discuss with me and it's not a great fit for office hours, please ping me on Slack and to request a Calendly link. I have pre-created calendly links for 25 and 45 minute 1:1s.
+I encourage 1:1s from community members and partners whenever a face-to-face connection would be valuable. For topics that could easily be covered in office hours, my preference is generally to use office hours for this time. If you have a topic you'd like to discuss with me and it's not a great fit for office hours, please ping me on Slack and to request a Calendly link. I have pre-created Calendly links for 25 and 45 minute 1:1s.
 
 ## AJ's Priorities and OKRs
 
