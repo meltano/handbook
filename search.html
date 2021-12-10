@@ -9,11 +9,12 @@ toc: false
 <div class="post-list" id="search-hits">
   {% if site.collections %}
     {% for collection in site.collections %}
-      {% if collection.label != "posts" %}
+      {% assign label = collection.label | replace: "_", "" %}
+      {% if label != "posts" %}
         <div class="post-item">
           <h2>
-            <a class="post-link" href="/{{ collection.label }}">
-              {{ collection.label | capitalize }}
+            <a class="post-link" href="/{{ label }}">
+              {{ label | capitalize }}
             </a>
           </h2>
         </div>

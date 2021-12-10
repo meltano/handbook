@@ -34,6 +34,9 @@ collections:
   company:
     output: true
     icon: "fa-laptop-house"
+  data_:
+    output: true
+    icon: "fa-database"
   engineering:
     output: true
     icon: "fa-cogs"
