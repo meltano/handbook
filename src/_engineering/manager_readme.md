@@ -12,15 +12,24 @@ Note: This page is modeled in large part after Sid's CEO page on the GitLab hand
 
 ## How does this affect relate to general handbook guidelines
 
-Nothing in this page should contradict material and guidelines in other areas of the handbook. However, in some cases, the guidance or preferences here may be more specific or targeted versus general guidelines.
+<!-- TODO: Move this disclaimer text (or some adaptation) elsewhere in the handbook as more managers have their own pages with similar expectation-setting. -->
+
+Nothing on this page should contradict materials and guidelines in other areas of the handbook. However, in some cases, the guidance or preferences here may be more specific or targeted versus general guidelines.
 
 That said, some of the content here may land initially as a personal interaction preference and eventually spread as a Meltano-wide practice or guidance. I remain open to modifications in either of these directions: changes here adapted as informed by other updates in the handbook, and/or changes adapted into the general handbook to more closely align with what is here.
 
 ## Setting up 1:1s with AJ
 
+My preferred time for 1:1s are as follows:
+
+- Monday afternoons 1pm-4:30pm Pacific (preferred)
+- Tuesday mornings 8am-10am Pacific (for non-US/Mexico/Canada timezones, and/or by special request)
+
+I keep "Free/Public" calendar blocks noting these spaces in my calendar, recurring on the preferred fortnightly cadence. If you are trying to schedule time with me and time is not available, please let me know and I'll open up more time.
+
 ### 1:1s for Engineers
 
-All engineers in the engineering team should immediately setup a weekly 1:1 with AJ on Tuesdays, recurring for 8-12 occurrences. After those 8-12 weekly occurrences (approximately 2-3 months), the 1:1 cadence should move to a bi-weekly (aka "fortnightly") cadence for the following 3 months.
+All members of the engineering team should setup a weekly 1:1 with AJ in one of the blocks noted above. New team members' 1:1s should start weekly as we get to know each other and while there are more likely to be questions or pressing topics we need to address. After 8-12 weekly occurrences (approximately 2-3 months), the 1:1 cadence should move to a bi-weekly (aka "fortnightly") cadence.
 
 #### Supporting Engineering Team 1:1s
 
