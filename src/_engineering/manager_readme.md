@@ -8,7 +8,7 @@ weight: 2
 
 This page is your guide to working with me, AJ Steers. My role at Meltano is Head of Engineering which means I will interact regularly with virtually everyone in Meltano - and this page is your one-stop guide to working with me, including communication preferences, details on my prioritization strategies, how to get on my Todo list, how to request prioritization/escalations, how to get on my calendar, etc.
 
-Note: This page is modeled in large part after Sid's CEO page on the Gitlab handbook [here](https://about.gitlab.com/handbook/ceo/#related-pages) and driven by my own desire to be transparent with the company about my preferences, working style, and values.
+Note: This page is modeled in large part after Sid's CEO page on the GitLab handbook [here](https://about.gitlab.com/handbook/ceo/#related-pages) and driven by my own desire to be transparent with the company about my preferences, working style, and values.
 
 ## How does this affect relate to general handbook guidelines
 
