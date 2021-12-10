@@ -22,23 +22,41 @@ Don't see something you want on the roadmap? [Make an issue](https://gitlab.com/
 These efforts are the foundation of our larger vision to enable a full DataOps OS.
 To learn more about our strategy around the DataOps OS, check out [this blog post](https://meltano.com/blog/our-strategy-to-achieving-meltanos-ambitious-mission-and-vision/).
 
+### How to think about the roadmap
+
+The goal of this roadmap is to give clarity into what we've prioritized for the current month and the next 3 months after that. Beyond 4 months we share the general themes we're thinking about. These will usually link to specific epics or issues. 
+
 ### December 2021
 
 * Composable Meltano Pipelines - [Epic](https://gitlab.com/groups/meltano/-/epics/116)
   * `meltano run` [Issue](https://gitlab.com/meltano/meltano/-/issues/2301)
   * Stream Maps [Issue](https://gitlab.com/meltano/meltano/-/issues/2300)
-* Documentation Overhaul - [Epic](https://gitlab.com/groups/meltano/-/epics/81)
 * Easy deployment of Meltano for production development - [Epic](https://gitlab.com/groups/meltano/-/epics/124)
-* Add validator plugin type with Great Expectations and `dbt test` support  - [Epic](https://gitlab.com/groups/meltano/-/epics/111)
+* Add generic validator plugin interface - [Epic](https://gitlab.com/groups/meltano/-/epics/111)
 * Telemetry Enhancements for Meltano, Meltano SDK, and MeltanoHub - [Epic](https://gitlab.com/groups/meltano/-/epics/122)
 
-### 2022-Q1
+### January 2022
+
+* Enhance dbt integration - [Epic](https://gitlab.com/groups/meltano/-/epics/82)
+* Discovery.yml refactor and Hub synchronization - [Epic](https://gitlab.com/groups/meltano/-/epics/128)
+* Documentation Overhaul - [Epic](https://gitlab.com/groups/meltano/-/epics/81)
+* Add Great Expectations as an installable plugin - [Issue](https://gitlab.com/meltano/meltano/-/issues/2454)
+* Support non-Python plugins - [Issue](https://gitlab.com/meltano/meltano/-/issues/2205)
+
+
+### The next 3 months
+
+* Enhance Airflow integration - [Epic](https://gitlab.com/groups/meltano/-/epics/113)
+* Add Lightdash and Superset as Analyzers - [Epic](https://gitlab.com/groups/meltano/-/epics/112)
+* Release v1.0 of Meltano SDK - [Epic](https://gitlab.com/groups/meltano/-/epics/121)
+* Add Fast Sync / `BATCH` Messages to Meltano SDK - [Epic](https://gitlab.com/groups/meltano/-/epics/114)
+* Add Dagster as an Orchestrator - [Epic](https://gitlab.com/groups/meltano/-/epics/113) & [Issue](https://gitlab.com/meltano/meltano/-/issues/2393)
+* UI Improvements and Parity - [Issue](https://gitlab.com/groups/meltano/-/epics/78)
+* Python-based Plugin Architecture - [Epic](https://gitlab.com/groups/meltano/-/epics/134)
+
+
+### Future themes
 
 * Add Pluggable Log / Metadata Shipping for Observability Enhancement - [Issue](https://gitlab.com/meltano/meltano/-/issues/3008) & [Epic](https://gitlab.com/groups/meltano/-/epics/93)
 * Support Secrets Backends Natively -[Issue](https://gitlab.com/meltano/meltano/-/issues/2918)
-* UI Improvements and Parity - [Issue](https://gitlab.com/groups/meltano/-/epics/78)
-* Release v1.0 of Meltano SDK - [Epic](https://gitlab.com/groups/meltano/-/epics/121)
-* Support non-Python plugins - [Issue](https://gitlab.com/meltano/meltano/-/issues/2205)
 * Add support for OpenMetadata observability - [Epic](https://gitlab.com/groups/meltano/-/epics/93) & [Issue](https://gitlab.com/meltano/meltano/-/issues/2805)
-* Add Fast Sync / `BATCH` Messages to Meltano SDK - [Epic](https://gitlab.com/groups/meltano/-/epics/114)
-* Add Dagster as an Orchestrator - [Epic](https://gitlab.com/groups/meltano/-/epics/113) & [Issue](https://gitlab.com/meltano/meltano/-/issues/2393)
