@@ -2,7 +2,6 @@
 layout: page
 title: Data Handbook
 weight: 1
-permalink: /data/
 ---
 
 ## Domains and Responsibilities
