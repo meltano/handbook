@@ -9,7 +9,7 @@ toc: false
 <div class="post-list" id="search-hits">
   {% if site.collections %}
     {% for collection in site.collections %}
-      {% assign label = collection.label | replace: "_", "" %}
+      {% assign label = collection.label %}
       {% if label != "posts" %}
         <div class="post-item">
           <h2>
