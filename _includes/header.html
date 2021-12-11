@@ -15,9 +15,9 @@
 
         {% if site.collections %}
           {% for collection in site.collections %}
-            {% assign label = collection.label | replace: "_", "" %}
+            {% assign label = collection.label %}
             {% if label != "posts" %}
-              <a class="navbar-item" href="/{{ label }}"> {{ label | capitalize }} </a>
+              <a class="navbar-item" href="/{{ label }}"> {{ collection.name }} </a>
             {% endif %}
           {% endfor %}
         {% endif %}

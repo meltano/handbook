@@ -13,7 +13,7 @@
             <aside class="menu is-fullheight is-narrow-mobile is-hidden-mobile">
               {% if site.collections %}
                 {% for collection in site.collections %}
-                  {% assign label = collection.label | replace: "_", "" %}
+                  {% assign label = collection.label %}
                   {% if label != "posts" %}
                     <p class="menu-label"> 
                     {% if collection.icon %}
@@ -23,7 +23,7 @@
                       <span class="icon"><i class="fas fa-book-open"></i></span>
                     {% endif %}
                     
-                    {{ label | capitalize }}
+                    {{ collection.name | capitalize }}
                     </p>
                     <ul class="menu-list">
                       {% assign items = site[collection.label] | sort: "weight" %}
