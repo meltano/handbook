@@ -34,7 +34,7 @@ We recommend every team member takes a minimum 30 days off a year, and we have r
 * Minimum 15 days for burnout
 
 To log time off, team members should use [PTO by Roots](/company/tech-stack/#pto-by-roots) in Slack (under Apps).
-Follow the instructions in [Tracking Time Off](/peopleops/calendars/#tracking-time-off) to indicate your PTO.
+Follow the instructions in [Tracking Time Off](/peopleops/calendars#tracking-time-off) to indicate your PTO.
 
 ### Visiting grant
 
