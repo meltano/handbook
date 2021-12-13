@@ -13,8 +13,7 @@
             <aside class="menu is-fullheight is-narrow-mobile is-hidden-mobile">
               {% if site.collections %}
                 {% for collection in site.collections %}
-                  {% assign label = collection.label %}
-                  {% if label != "posts" %}
+                  {% if collection.label != "posts" %}
                     <p class="menu-label"> 
                     {% if collection.icon %}
                       {% assign icon = collection.icon %}
