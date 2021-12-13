@@ -61,7 +61,7 @@ Inspired by GitLab's [Family and Friends Day](https://about.gitlab.com/company/f
 * 2021-12-27
 * 2022-01-03
 * 2022-02-14
-* 2022-03-11
+* 2022-03-21
 
 These dates are tracked in the [Team Meetings Calendar](calendars). 
 Meltano team members should mark these days off using [PTO by Roots](/company/tech-stack/#pto-by-roots).
