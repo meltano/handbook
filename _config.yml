@@ -34,24 +34,35 @@ collections:
   company:
     output: true
     icon: "fa-laptop-house"
+    name: "Company"
+  data-team:
+    output: true
+    icon: "fa-database"
+    name: "Data Team"
   engineering:
     output: true
     icon: "fa-cogs"
+    name: "Engineering"
   marketing:
     output: true
     icon: "fa-chart-line"
+    name: "Marketing"
   peopleops:
     output: true
     icon: "fa-user-cog"
+    name: "PeopleOps"
   product:
     output: true
     icon: "fa-map-signs"
+    name: "Product"
   resources:
     output: true
     icon: "fa-book"
+    name: "Resources"
   support:
     output: true
     icon: "fa-question-circle"
+    name: "Support"
   posts:
     output: false
 
