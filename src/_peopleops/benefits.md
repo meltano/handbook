@@ -75,21 +75,21 @@ We cover 100% of health insurance coverage cost for employees and 50% of depende
 * Base Plan:
   * [UHC Premier - $2,000 - CEFK](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_gold_choice_plus_2000_cefk.pdf)
 * Alternatives:
-  * UHC Premier - $1,000 - CEFJ
-  * UHC Premier - $4,000 - CFX9
-  * UHC HSA w/Motion - HSA - $5,000 - CECY (HDHP)
+  * [UHC Premier - $1,000 - CEFJ](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_platinum_choice_plus_1000_cefj.pdf)
+  * [UHC Premier - $4,000 - CFX9](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_4000_cfx9.pdf)
+  * [UHC HSA w/Motion - HSA - $5,000 - CECY (HDHP)](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_5000_cecy_hdhp.pdf)
     ##### Company contribution
     Your company contributes separately to employees' and dependents' premiums.
       * Employee: Your company covers up to 100% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
       * Dependents: Your company covers up to 50% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
 #### Dental
-* Principal Dental Plan 4
+* [Principal Dental Plan 4](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/principal/plans/2016/principal_tx_principal_dental_plan_4.pdf)
     ##### Company contribution
         Your company contributes separately to employees' and dependents' premiums.
         * Employee: Your company covers 99% of the premium.
         * Dependents: Your company covers 50% of the premium.
 #### Vision
-* TX Beam VSP Choice Plan 2
+* [TX Beam VSP Choice Plan 2](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/beam_dental/plans/2017/beam_dental_tx_beam_vsp_choice_plan_2.pdf)
     ##### Company contribution
      Your company contributes separately to employees' and dependents' premiums.
       * Employee: Your company covers 99% of the premium.
@@ -97,7 +97,7 @@ We cover 100% of health insurance coverage cost for employees and 50% of depende
 
 ### Medical for those employed outside the US:
 
-We handle coverage outside the US country by country based on regional best practices. We partner with Remote.com and the individual(s in that region) to find an equitable offering for employee coverage. We evaluate what to offer in new countries on a case by case basis and as soon as we have set a policy for a region we document that as the coverage policy going forward. 
+We handle coverage outside the US country by country based on regional best practices. We partner with [Remote.com](https://handbook.meltano.com/company/all-remote#where-we-hire) and the individual(s in that region) to find an equitable offering for employee coverage. We evaluate what to offer in new countries on a case by case basis and as soon as we have set a policy for a region we document that as the coverage policy going forward. 
 
 ##### The current localized plans in place:
 
@@ -124,7 +124,10 @@ We are happy to cover the cost of internet in your working place. This can be yo
 #### Team offsites
 Every 9-12 months the team gathers for our company offsite, [Assemble](https://handbook.meltano.com/company/all-remote#meltano-assemble)! The name Assemble is a reference to Meltano being used to assemble a data stack/pipeline. At Assemble the entire all-remote team gathers to bond and meet face-to-face. We pick a new location every year and invite the entire team to join in for 5 days. There is nothing like meeting someone in person whom you have only ever seen virtually. Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole. 
 
-Read more about our last Assemble in Mexico City.
+Read more about our last [Assemble in Mexico City](https://www.google.com/url?q=https://meltano.com/blog/assemble-2021-mexico-city-roundup/&sa=D&source=docs&ust=1639515528558000&usg=AOvVaw0LZpL5Jgj_b6bKnswXwKgE).
+
+##### Carbon Offsets
+We are committed to offset all air travel emissions from these team offsites, which we have identified as our single largest source of emissions. We will offset our emissions through high-quality carbon credits.
 
 #### Visiting grant
 Note: To keep team members and our communities safe, we’ve temporarily suspended the visiting grant until travel is less of a risk around the world. We’ll provide updates to team members and will regularly review this policy over the course of the pandemic.
