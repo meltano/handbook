@@ -38,6 +38,7 @@ If an issue fits best in a public tracker but should be private anyway, use a [c
 - [Milestone](https://gitlab.com/groups/meltano/-/boards/1933232) - used to move issues easily between milestones.
 - [Office Hours](https://gitlab.com/groups/meltano/-/boards/2923184) - used to tee up issues for community discussion and review, generally directly
 before and/or after implementing an important user-facing feature.
+- [Demo Day](https://gitlab.com/groups/meltano/-/boards/3650469) - used to better plan what will be presented from the Meltano team and community
 
 ## Epics
 
@@ -155,6 +156,12 @@ We want a way to indicate the part of Meltano specifically that the work applies
 - `Marketing::Blog Feature` for issues which we think may deserve a blog post feature, and/or other promotion on social channels
 - `Community-Contributed MRs` for issues which have attached MRs from the community (used in prioritization and monitoring)
 - `Awaiting Action::Author` for community-contributed issues and MRs which are pending an action from the original author
+- `Office Hours::Up Next` for Office Hours to indicate what's coming next
+- `Office Hours::To Discuss` for Office Hours to indicate what's planned for the closest meeting
+- `Office Hours::Discussed` for Office Hours to indicate what has previously been discussed
+- `Demo Day::Up Next` for Demo Day to indiciate things people would like to Demo
+- `Demo Day::To Share` for Demo Day to indicate was is planned to be shared at the next meeting
+- `Demo Day::Shared` for Demo Day to indicate what has been previously shared
 
 ### Other Labels
 
