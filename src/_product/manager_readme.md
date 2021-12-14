@@ -16,21 +16,21 @@ Links about Taylor:
 * [Twitter](https://twitter.com/tayloramurphy)
 * [Meltano Bio](https://meltano.com/press/#head-of-product-data-bio)
 
-### My Communication Style
+## My Communication Style
 
 In 2021, I took a DISC profile test to better understand my communication style. I largely agreed with most things in the profile and will share some of it in this README. If you'd like to read it in full, message me and I'll most likely send it to you.
 
 From the report, my style is the "Precisionist". This means I'm high in the "S" and "C" styles. Read the [Precisionist Description](#precisionist-description) for details.
 
-### Work Bullet Points About Me
+## Work Bullet Points About Me
 
 * I am to be a [servant leader](https://en.wikipedia.org/wiki/Servant_leadership)
 * I am located in Arlington, TX (Central US Timezone)
 * I prefer 3+ hour blocks of uninterrupted time to really focus
 * It takes me a bit to ramp up my productivity. I find I'm most productive in the afternoon and evening.
-* My values align strongly with the Company's [values](/_company/values). Honesty is my most important personal value.
+* My values align strongly with the Company's [values](/company/values). Honesty is my most important personal value.
 
-### Non-Work Bullet Points About Me
+## Non-Work Bullet Points About Me
 
 * I have an amazing wife and two children who I spend most of my time with outside of work
 * I love reading - my [Goodreads](https://www.goodreads.com/user/show/23688001-taylor)
