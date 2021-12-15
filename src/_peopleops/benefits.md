@@ -23,9 +23,10 @@ Whether you go for a walk, take a nap, or watch your favorite show, you’re enc
 ### Paid time off
 Meltano has an unlimited time off policy, and we encourage team members to take the time they need to rest and recharge.
 We recommend every team member takes a minimum 30 days off per year, a minimum 5 days (one week) per quarter, and we have recommended minimums for various life events, including:
-    * Minimum 15 days for compassionate leave
-    * Minimum 15 days for victims of domestic violence
-    * Minimum 15 days for burnout
+
+* Minimum 15 days for compassionate leave
+* Minimum 15 days for victims of domestic violence
+* Minimum 15 days for burnout
     
 Taking more than 3 weeks consecutively requires explicit approval outside of the 2-yearly sabbatical. In other words, anything up to 3 business weeks can be taken off without approval.
 
