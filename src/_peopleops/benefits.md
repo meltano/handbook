@@ -93,44 +93,45 @@ We cover 100% of health insurance coverage cost for employees and 50% of depende
 * Base Plan:
   * [UHC Premier - $2,000 - CEFK](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_gold_choice_plus_2000_cefk.pdf)
 * Alternatives:
-  * [UHC Premier - $1,000 - CEFJ](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_platinum_choice_plus_1000_cefj.pdf)
-  * [UHC Premier - $4,000 - CFX9](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_4000_cfx9.pdf)
-  * [UHC HSA w/Motion - HSA - $5,000 - CECY (HDHP)](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_5000_cecy_hdhp.pdf)
-    ##### Company contribution
-    Your company contributes separately to employees' and dependents' premiums.
-      * Employee: Your company covers up to 100% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
-      * Dependents: Your company covers up to 50% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
+   * [UHC Premier - $1,000 - CEFJ](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_platinum_choice_plus_1000_cefj.pdf)
+   * [UHC Premier - $4,000 - CFX9](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_4000_cfx9.pdf)
+   * [UHC HSA w/Motion - HSA - $5,000 - CECY (HDHP)](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_5000_cecy_hdhp.pdf)
+
+Meltano contributes separately to employees' and dependents' premiums:
+
+* Employee: Meltano covers up to 100% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
+* Dependents: Meltano covers up to 50% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
 
 #### Dental
 
 * [Principal Dental Plan 4](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/principal/plans/2016/principal_tx_principal_dental_plan_4.pdf)
-    ##### Company contribution
-        Your company contributes separately to employees' and dependents' premiums.
-        * Employee: Your company covers 99% of the premium.
-        * Dependents: Your company covers 50% of the premium.
+
+Meltano contributes separately to employees' and dependents' premiums:
+
+* Employee: Meltano covers 99% of the premium.
+* Dependents: Meltano covers 50% of the premium.
 
 #### Vision
 
 * [TX Beam VSP Choice Plan 2](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/beam_dental/plans/2017/beam_dental_tx_beam_vsp_choice_plan_2.pdf)
-    ##### Company contribution
-     Your company contributes separately to employees' and dependents' premiums.
-      * Employee: Your company covers 99% of the premium.
-      * Dependents: Your company covers 50% of the premium.
 
-### Medical for those employed outside the US:
+Meltano contributes separately to employees' and dependents' premiums:
+
+* Employee: Meltano covers 99% of the premium.
+* Dependents: Meltano covers 50% of the premium.
+
+#### Medical for those employed outside the US
 
 We handle coverage outside the US country by country based on regional best practices. We partner with [Remote.com](https://handbook.meltano.com/company/all-remote#where-we-hire) and the individual(s in that region) to find an equitable offering for employee coverage. We evaluate what to offer in new countries on a case by case basis and as soon as we have set a policy for a region we document that as the coverage policy going forward. 
 
-##### The current localized plans in place:re
-
-* In the UK,  NHS covers our workers.
+* In the UK, NHS covers our workers.
 * In Mexico, we offer a "Health Insurance Allowance equal to $7,000.00 MXN per month".
 
-To find out more about how Remote can assist in visit- https://remote.com/employees
+To find out more about how Remote can assist, visit <https://remote.com/employees>.
 
 #### Home Office Setup Funds
 
-We want you to be comfortable and productive wherever you choose to work. With that in mind we offer a generous office setup stipend. We don’t have a set amount as we know there is no office setup that is one size fits all. See our list of suggested items and options here- https://handbook.meltano.com/peopleops/#office-equipment-and-supplies 
+We want you to be comfortable and productive wherever you choose to work. With that in mind we offer a generous office setup stipend. We don’t have a set amount as we know there is no office setup that is one size fits all. See our [list of suggested items and options](https://handbook.meltano.com/peopleops/#office-equipment-and-supplies).
 
 #### Office space/ non-distracting work environment optionality
 
