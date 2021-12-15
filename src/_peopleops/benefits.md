@@ -72,13 +72,11 @@ We have found it best to deep dive into very focused work when we clear a compan
 
 ## Compensation
 
-### Equity
-
-We offer equity, non-cash payment, that gives employees partial ownership in the company. This allows employees the opportunity to become part owners of Meltano. We are all working hand in hand toward the future success of Meltano.
+See our [compensation handbook page](https://handbook.meltano.com/peopleops/compensation) for details on salary and equity.
 
 ### 401k
 
-We are pleased to be able to offer a 401k plan to US employees beginning in 2022. In other countries, we defer to the Remote and localized standards. 
+We are pleased to be able to offer a 401k plan to US employees beginning in 2022. In other countries, we defer to the [Remote](https://remote.com/) and localized standards. 
 
 ## Health and Wellness
 
@@ -88,7 +86,9 @@ For those employed in the US:
 For all US employees we offer health, vision and dental coverage. See more on the details below.
 We cover 100% of health insurance coverage cost for employees and 50% of dependents. Additionally we cover 99% for Dental and Vision and 50% for dependants. We have a few plans employees can choose from.
 
-#### Medical
+#### Team members in the US
+
+##### Medical
 
 * Base Plan:
   * [UHC Premier - $2,000 - CEFK](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_gold_choice_plus_2000_cefk.pdf)
@@ -102,7 +102,7 @@ Meltano contributes separately to employees' and dependents' premiums:
 * Employee: Meltano covers up to 100% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
 * Dependents: Meltano covers up to 50% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
 
-#### Dental
+##### Dental
 
 * [Principal Dental Plan 4](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/principal/plans/2016/principal_tx_principal_dental_plan_4.pdf)
 
@@ -111,7 +111,7 @@ Meltano contributes separately to employees' and dependents' premiums:
 * Employee: Meltano covers 99% of the premium.
 * Dependents: Meltano covers 50% of the premium.
 
-#### Vision
+##### Vision
 
 * [TX Beam VSP Choice Plan 2](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/beam_dental/plans/2017/beam_dental_tx_beam_vsp_choice_plan_2.pdf)
 
@@ -120,7 +120,7 @@ Meltano contributes separately to employees' and dependents' premiums:
 * Employee: Meltano covers 99% of the premium.
 * Dependents: Meltano covers 50% of the premium.
 
-#### Medical for those employed outside the US
+#### Team members outside the US
 
 We handle coverage outside the US country by country based on regional best practices. We partner with [Remote.com](https://handbook.meltano.com/company/all-remote#where-we-hire) and the individual(s in that region) to find an equitable offering for employee coverage. We evaluate what to offer in new countries on a case by case basis and as soon as we have set a policy for a region we document that as the coverage policy going forward. 
 
@@ -129,23 +129,23 @@ We handle coverage outside the US country by country based on regional best prac
 
 To find out more about how Remote can assist, visit <https://remote.com/employees>.
 
-#### Home Office Setup Funds
+### Home Office Setup Funds
 
 We want you to be comfortable and productive wherever you choose to work. With that in mind we offer a generous office setup stipend. We don’t have a set amount as we know there is no office setup that is one size fits all. See our [list of suggested items and options](https://handbook.meltano.com/peopleops/#office-equipment-and-supplies).
 
-#### Office space/ non-distracting work environment optionality
+#### Office space / non-distracting work environment optionality
 
 We are first and foremost Remote Always, in that we do not have any offices, but we understand that some people prefer or need an out of home office option. We allow team members to expense up to $500/month no questions asked. Anything beyond $500 requires manager approval (and evidence that the choice of coworking space/sitter is reasonable and within market rate).
 
-#### Self Care of Yourself Stipend
+### Self Care of Yourself Stipend
 
 $50 a month to do something to nourish yourself. This can be a gym class, a meditation app or a lunch delivered. 
 
-#### We Have Snack Holidays
+### We Have Snack Holidays
 
 While working remotely you might be concerned about missing all those random office snacks. Not to worry! We like to create company-wide snack holidays where folks can expense snacks on us. Example: Cookie Day Dec 4th. 
 
-#### Internet Connection
+## Internet Connection
 
 We are happy to cover the cost of internet in your working place. This can be your home,  personal office wifi, or a phone you can tether to if you are a digital nomad- you choose which one is most relevant to your working situation. It's our responsibility to make sure you have everything to be productive. This is an extension to the home office perk. When expensing please make sure to isolate the cost of your wifi in case you have any phone, cable, or other packages bundled. We can cover up to $100 in wifi costs per employee per month. 
 
