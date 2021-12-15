@@ -3,7 +3,7 @@ layout: page
 title: Benefits
 weight: 2
 ---
-# Benefits
+## Highlights
 * Unlimited PTO with minimums
 * Professional development support and budget
 * Reimbursable coworking fees and external office space
