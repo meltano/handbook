@@ -102,7 +102,7 @@ We handle coverage outside the US country by country based on regional best prac
 
 ##### The current localized plans in place:
 
-* In the UK-  NHS covers our workers.
+* In the UK,  NHS covers our workers.
 * In Mexico, we offer a "Health Insurance Allowance equal to $7,000.00 MXN per month".
 
 To find out more about how Remote can assist in visit- https://remote.com/employees
