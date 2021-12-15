@@ -21,7 +21,7 @@ weight: 2
 
 ### Flexible working hours
 
-Because Meltano is an [all and always remote](https://handbook.meltano.com/company/all-remote) and distributed team, we don’t have set working hours. Team members are encouraged to set their own work schedule, depending on their needs and working style. We understand that some people work best at certain times of the day, so please work when you’re at your best. We care much more about output over keeping up with a timesheet. Also, if you need to take a break during the day, have a doctor’s appointment, or need to pick up your kids, please feel empowered to take the time to do so. Please note that there may be times when you’ll need to adjust your schedule (e.g. a necessary synchronous meeting).
+Because Meltano is a [remote always]](https://handbook.meltano.com/company/all-remote) team, we don’t have set working hours. Team members are encouraged to set their own work schedule, depending on their needs and working style. We understand that some people work best at certain times of the day, so please work when you’re at your best. We care much more about output over keeping up with a timesheet. Also, if you need to take a break during the day, have a doctor’s appointment, or need to pick up your kids, please feel empowered to take the time to do so. Please note that there may be times when you’ll need to adjust your schedule (e.g. a necessary synchronous meeting).
 
 #### Taking breaks during the day
 
@@ -43,17 +43,17 @@ We offer a 1 month paid sabbatical every 2 years of your employment. All full ti
 To log time off, team members should use [PTO by Roots](/company/tech-stack/#pto-by-roots) in Slack (under Apps).
 Follow the instructions in [Tracking Time Off](/peopleops/calendars#tracking-time-off) to indicate your PTO.
 
-### Caregiver leave
+#### Caregiver leave
 
 Caregiver/Parental leave is intended for team members to be able to take time with their families when major life events occur. Employees should discuss leave schedules with their managers and be sure to update their time out in PTO by Roots in Slack.
 
-More to come on our US policy but it starts out at 16 weeks paid leave. We will also coordinate with state benefits of the requestor. Leave is to be taken within the course of a year and can be broken up over that period. Caregiver leave is applicable salaried employees who have been with us for 90 days or more.
+More to come on our US policy but it starts out at 16 weeks paid leave. We will also coordinate with state benefits of the requestor. Leave is to be taken within the course of a year and can be broken up over that period. Caregiver leave is applicable to salaried employees who have been with us for 90 days or more.
 
-### Family and Friends Day
+#### Family and Friends Day
 
 Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company/family-and-friends-day/), Meltano has made Family and Friends Day a regular part of the culture. On these days, we will close the doors to the Meltano virtual office, reschedule all meetings, and have a publicly visible shutdown. Taking the day off is strongly encouraged if your role allows it. If you are on call or need to work during the scheduled Friends and Family Day, please select another day that works best for your schedule.
 
-#### Upcoming Family and Friends Days
+##### Upcoming Family and Friends Days
 
 * 2021-12-27
 * 2022-01-03
@@ -76,7 +76,7 @@ See our [compensation handbook page](https://handbook.meltano.com/peopleops/comp
 
 ### 401k
 
-We are pleased to be able to offer a 401k plan to US employees beginning in 2022. In other countries, we defer to the [Remote](https://remote.com/) and localized standards. 
+We are pleased to be able to offer a 401k plan to US employees beginning in 2022. In other countries, we defer to the [Remote.com](https://remote.com/) and localized standards. 
 
 ## Health and Wellness
 
@@ -127,7 +127,7 @@ We handle coverage outside the US country by country based on regional best prac
 * In the UK, NHS covers our workers.
 * In Mexico, we offer a "Health Insurance Allowance equal to $7,000.00 MXN per month".
 
-To find out more about how Remote can assist, visit <https://remote.com/employees>.
+To find out more about how Remote.com can assist, visit <https://remote.com/employees>.
 
 ### Home Office Setup Funds
 
@@ -135,7 +135,7 @@ We want you to be comfortable and productive wherever you choose to work. With t
 
 #### Office space / non-distracting work environment optionality
 
-We are first and foremost Remote Always, in that we do not have any offices, but we understand that some people prefer or need an out of home office option. We allow team members to expense up to $500/month no questions asked. Anything beyond $500 requires manager approval (and evidence that the choice of coworking space/sitter is reasonable and within market rate).
+We are first and foremost remote always, in that we do not have any offices, but we understand that some people prefer or need an out of home office option. We allow team members to expense up to $500/month no questions asked. Anything beyond $500 requires manager approval (and evidence that the choice of coworking space/sitter is reasonable and within market rate).
 
 ### Self Care of Yourself Stipend
 
@@ -153,7 +153,7 @@ We are happy to cover the cost of internet in your working place. This can be yo
 
 ### Team offsites
 
-Every 9-12 months the team gathers for our company offsite, [Assemble](https://handbook.meltano.com/company/all-remote#meltano-assemble)! The name Assemble is a reference to Meltano being used to assemble a data stack/pipeline. At Assemble the entire all-remote team gathers to bond and meet face-to-face. We pick a new location every year and invite the entire team to join in for 5 days. There is nothing like meeting someone in person whom you have only ever seen virtually. Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole. 
+Every 9-12 months the team gathers for our company offsite, [Assemble](https://handbook.meltano.com/company/all-remote#meltano-assemble)! The name Assemble is a reference to Meltano being used to assemble a data stack/pipeline. At Assemble the entire remote always team gathers to bond and meet face-to-face. We pick a new location every year and invite the entire team to join in for 5 days. There is nothing like meeting someone in person whom you have only ever seen virtually. Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole. 
 
 Read more about our last [Assemble in Mexico City](https://www.google.com/url?q=https://meltano.com/blog/assemble-2021-mexico-city-roundup/&sa=D&source=docs&ust=1639515528558000&usg=AOvVaw0LZpL5Jgj_b6bKnswXwKgE).
 
@@ -165,7 +165,7 @@ We are committed to offset all air travel emissions from these team offsites, wh
 
 Note: To keep team members and our communities safe, we’ve temporarily suspended the visiting grant until travel is less of a risk around the world. We’ll provide updates to team members and will regularly review this policy over the course of the pandemic.
 
-Meltano is an all-remote company with team members all over the world. If you want to visit other team members to get to know them, Meltano will assist with travel expenses (e.g. flights, trains, parking, car rental, and ground transportation to/from airport) for a total of up to $150 for every team member that you visit. Please note lodging is excluded. To be clearer, if you meet 2 team members during your visit, the maximum limit of your visiting grant could be $300 ($150*2). You don’t need to work on the same project or team. We’d like you to get to know each other and your roles at Meltano, so we encourage you to discuss work for at least part of the time you’re meeting.
+Meltano is a remote always company with team members all over the world. If you want to visit other team members to get to know them, Meltano will assist with travel expenses (e.g. flights, trains, parking, car rental, and ground transportation to/from airport) for a total of up to $150 for every team member that you visit. Please note lodging is excluded. To be clearer, if you meet 2 team members during your visit, the maximum limit of your visiting grant could be $300 ($150*2). You don’t need to work on the same project or team. We’d like you to get to know each other and your roles at Meltano, so we encourage you to discuss work for at least part of the time you’re meeting.
 
 Please note: The visiting grant applies to transportation costs and not other expenses related to travel (e.g. lodging, food). It may be acceptable to cover a meal, however, if the meeting is pre-announced to other people in the region to encourage as many of them to attend as possible.
 
@@ -185,7 +185,7 @@ We hire for potential and seek out curious and persistent minds willing to learn
 
 Those in senior leadership positions (those reporting to the CEO) have the option of working with a self-selected leadership course or coach. Those who this applies to please work directly with the CEO for approval and process. 
 
-## Remote Always
+## Remote always
 
 We have and always will be a fully remote company. Much of our remote culture has been adopted and evolved from GitLab where Meltano started. We are committed to continually invest in the remote ecosystem and community to make this practice the sustainable and thriving future of work. Find out more about our [world class remote work culture here](https://handbook.meltano.com/company/all-remote). 
 
