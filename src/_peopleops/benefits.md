@@ -3,7 +3,9 @@ layout: page
 title: Benefits
 weight: 2
 ---
+
 ## Highlights
+
 * Unlimited PTO with minimums
 * Professional development support and budget
 * Reimbursable coworking fees and external office space
@@ -15,7 +17,7 @@ weight: 2
 * Company Equity
 * World Class Remote Always Culture 
 
-## Work Life Balance
+## Work-Life Balance
 
 ### Flexible working hours
 
@@ -106,6 +108,7 @@ We cover 100% of health insurance coverage cost for employees and 50% of depende
         Your company contributes separately to employees' and dependents' premiums.
         * Employee: Your company covers 99% of the premium.
         * Dependents: Your company covers 50% of the premium.
+
 #### Vision
 
 * [TX Beam VSP Choice Plan 2](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/beam_dental/plans/2017/beam_dental_tx_beam_vsp_choice_plan_2.pdf)
@@ -118,7 +121,7 @@ We cover 100% of health insurance coverage cost for employees and 50% of depende
 
 We handle coverage outside the US country by country based on regional best practices. We partner with [Remote.com](https://handbook.meltano.com/company/all-remote#where-we-hire) and the individual(s in that region) to find an equitable offering for employee coverage. We evaluate what to offer in new countries on a case by case basis and as soon as we have set a policy for a region we document that as the coverage policy going forward. 
 
-##### The current localized plans in place:
+##### The current localized plans in place:re
 
 * In the UK,  NHS covers our workers.
 * In Mexico, we offer a "Health Insurance Allowance equal to $7,000.00 MXN per month".
@@ -131,7 +134,7 @@ We want you to be comfortable and productive wherever you choose to work. With t
 
 #### Office space/ non-distracting work environment optionality
 
-We are first and foremost Remote Always, in that we do not have any offices, but we understand that some people prefer or need an out of home office option. We allow team members to stipend up to $500/month no questions asked. Anything beyond $500 requires manager approval (and evidence that the choice of coworking space/sitter is reasonable and within market rate).
+We are first and foremost Remote Always, in that we do not have any offices, but we understand that some people prefer or need an out of home office option. We allow team members to expense up to $500/month no questions asked. Anything beyond $500 requires manager approval (and evidence that the choice of coworking space/sitter is reasonable and within market rate).
 
 #### Self Care of Yourself Stipend
 
@@ -145,19 +148,19 @@ While working remotely you might be concerned about missing all those random off
 
 We are happy to cover the cost of internet in your working place. This can be your home,  personal office wifi, or a phone you can tether to if you are a digital nomad- you choose which one is most relevant to your working situation. It's our responsibility to make sure you have everything to be productive. This is an extension to the home office perk. When expensing please make sure to isolate the cost of your wifi in case you have any phone, cable, or other packages bundled. We can cover up to $100 in wifi costs per employee per month. 
 
-### Travel Opportunities
+## Travel Opportunities
 
-#### Team offsites
+### Team offsites
 
 Every 9-12 months the team gathers for our company offsite, [Assemble](https://handbook.meltano.com/company/all-remote#meltano-assemble)! The name Assemble is a reference to Meltano being used to assemble a data stack/pipeline. At Assemble the entire all-remote team gathers to bond and meet face-to-face. We pick a new location every year and invite the entire team to join in for 5 days. There is nothing like meeting someone in person whom you have only ever seen virtually. Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole. 
 
 Read more about our last [Assemble in Mexico City](https://www.google.com/url?q=https://meltano.com/blog/assemble-2021-mexico-city-roundup/&sa=D&source=docs&ust=1639515528558000&usg=AOvVaw0LZpL5Jgj_b6bKnswXwKgE).
 
-##### Carbon Offsets
+#### Carbon Offsets
 
 We are committed to offset all air travel emissions from these team offsites, which we have identified as our single largest source of emissions. We will offset our emissions through high-quality carbon credits.
 
-#### Visiting grant
+### Visiting grant
 
 Note: To keep team members and our communities safe, we’ve temporarily suspended the visiting grant until travel is less of a risk around the world. We’ll provide updates to team members and will regularly review this policy over the course of the pandemic.
 
@@ -169,19 +172,19 @@ To claim the grant, include a line item on your expense report or invoice along 
 
 The visiting grant is inspired by Douwe’s trip around the world during his time at GitLab. Douwe met [49 colleagues in 20 cities, in 14 countries, on five continents, in 6 months](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases/). 
 
-#### Significant life event grant
+### Significant life event grant
 
 Recognizing that team members may wish to share significant events in each other’s lives, such as weddings or civil partnerships, Meltano will assist with travel expenses to attend these events. This grant works the same way as the, except the reimbursement limit is $300 per team member you visit at an event.
 
-### Professional Development
+## Professional Development
 
-#### Coaching/ skill development
+### Coaching / skill development
 
 We hire for potential and seek out curious and persistent minds willing to learn new skills and rise to the new challenges that we face in our rapidly evolving company and industry. Therefore, we offer Unlimited licenses to self-guided learning like Coursera, Code Academy, etc… plus bonuses for completing coursework related to your job. We also encourage you to take explicit time out of your week for skill development and industry-specific deep dives. 
 
 Those in senior leadership positions (those reporting to the CEO) have the option of working with a self-selected leadership course or coach. Those who this applies to please work directly with the CEO for approval and process. 
 
-### Remote Always
+## Remote Always
 
 We have and always will be a fully remote company. Much of our remote culture has been adopted and evolved from GitLab where Meltano started. We are committed to continually invest in the remote ecosystem and community to make this practice the sustainable and thriving future of work. Find out more about our [world class remote work culture here](https://handbook.meltano.com/company/all-remote). 
 
