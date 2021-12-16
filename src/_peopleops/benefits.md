@@ -46,7 +46,7 @@ Follow the instructions in [Tracking Time Off](/peopleops/calendars#tracking-tim
 
 Caregiver/Parental leave is intended for team members to be able to take time with their families when major life events occur (births, adoptions, hospitalizations). Questions on what qualifies? Please contact your manager. Employees should also discuss leave schedules with their managers and be sure to update their time out in PTO by Roots in Slack.
 
-More to come on our US policy but it starts out at 16 weeks paid leave. We will also coordinate with state benefits of the requestor. Leave is to be taken within the course of a year and can be broken up over that period. Caregiver leave is applicable to salaried employees who have been with us for 90 days or more.
+More details to come on our policy but it starts out at 16 weeks paid leave. We will also coordinate to account for the state and country benefits of the requestor. Leave is to be taken within the course of a year and can be broken up over that period. Caregiver leave is applicable to salaried employees who have been with us for 90 days or more.
 
 #### Family and Friends Day
 
