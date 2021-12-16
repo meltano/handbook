@@ -34,17 +34,17 @@ We recommend every team member takes a minimum 30 days off per year, a minimum 5
 * Minimum 15 days for compassionate leave
 * Minimum 15 days for victims of domestic violence
 * Minimum 15 days for burnout
-    
-Taking more than 3 weeks consecutively requires explicit approval outside of the 2-yearly sabbatical. In other words, anything up to 3 business weeks can be taken off without approval.
 
 We offer a 1 month paid sabbatical every 2 years of your employment. All full time employees are eligible for the sabbatical program after 2 years of employment.
+
+Taking more than 3 weeks consecutively requires explicit approval outside of the 2-yearly sabbatical. In other words, anything up to 3 business weeks can be taken off without approval.
 
 To log time off, team members should use [PTO by Roots](/company/tech-stack/#pto-by-roots) in Slack (under Apps).
 Follow the instructions in [Tracking Time Off](/peopleops/calendars#tracking-time-off) to indicate your PTO.
 
 #### Caregiver leave
 
-Caregiver/Parental leave is intended for team members to be able to take time with their families when major life events occur. Employees should discuss leave schedules with their managers and be sure to update their time out in PTO by Roots in Slack.
+Caregiver/Parental leave is intended for team members to be able to take time with their families when major life events occur (births, adoptions, hospitalizations). Questions on what qualifies? Please contact your manager. Employees should also discuss leave schedules with their managers and be sure to update their time out in PTO by Roots in Slack.
 
 More to come on our US policy but it starts out at 16 weeks paid leave. We will also coordinate with state benefits of the requestor. Leave is to be taken within the course of a year and can be broken up over that period. Caregiver leave is applicable to salaried employees who have been with us for 90 days or more.
 
