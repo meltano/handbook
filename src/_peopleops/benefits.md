@@ -134,7 +134,7 @@ We want you to be comfortable and productive wherever you choose to work. With t
 
 #### Office space / non-distracting work environment optionality
 
-We are first and foremost remote always, in that we do not have any offices, but we understand that some people prefer or need an out of home office option. We allow team members to expense up to $500/month no questions asked. Anything beyond $500 requires manager approval (and evidence that the choice of coworking space/sitter is reasonable and within market rate).
+We are first and foremost remote always, in that we do not have any offices, but we understand that some people prefer or need an out of home office option. We allow team members to expense up to $500/month no questions asked. Anything beyond $500 requires manager approval (and evidence that the choice of coworking space is reasonable and within market rate).
 
 ### Self Care of Yourself Stipend
 
@@ -180,7 +180,7 @@ Recognizing that team members may wish to share significant events in each other
 
 ### Coaching / skill development
 
-We hire for potential and seek out curious and persistent minds willing to learn new skills and rise to the new challenges that we face in our rapidly evolving company and industry. Therefore, we offer Unlimited licenses to self-guided learning like Coursera, Code Academy, etc… plus bonuses for completing coursework related to your job. We also encourage you to take explicit time out of your week for skill development and industry-specific deep dives. 
+We hire for potential and seek out curious and persistent minds willing to learn new skills and rise to the new challenges that we face in our rapidly evolving company and industry. Therefore, we offer Unlimited licenses to self-guided learning like Coursera, Code Academy, etc. We also encourage you to take explicit time out of your week for skill development and industry-specific deep dives. 
 
 Those in senior leadership positions (those reporting to the CEO) have the option of working with a self-selected leadership course or coach. Those who this applies to please work directly with the CEO for approval and process. 
 
