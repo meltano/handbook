@@ -6,16 +6,15 @@ weight: 2
 
 ## Highlights
 
-* Unlimited PTO with minimums
-* Professional development support and budget
-* Reimbursable coworking fees and external office space
-* Generous budget for home office setup and workspace supplies
-* [Team offsites](/company/all-remote#meltano-assemble)
-* Work with a global, distributed team and opportunities for travel 
-* Flexible working hours
-* Access to world class founders, investors and mentors
-* Company Equity
-* World Class Remote Always Culture 
+* [Flexible working hours](#flexible-working-hours)
+* [Unlimited PTO with minimums](#paid-time-off)
+* [Caregiver leave](#caregiver-leave)
+* [Competetive Compensation and Equity](#compensation)
+* [Health and Wellness Offerings](#health-and-wellness)
+* [Generous budget for home office setup and workspace supplies](#home-office-setup-funds)
+- [Travel Opportunities](#travel-opportunities)
+- [Professional Development](#professional-development)
+- [World Class Remote Always Culture](#remote-always)
 
 ## Work-Life Balance
 
