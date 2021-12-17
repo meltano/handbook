@@ -100,3 +100,48 @@ OK," "it is on my todo list" are not helpful. If it's a small request, it's bett
 ## Everyone is a Moderator
 
 If you see something that concerns you in Slack, Issues, Merge Requests, Video, Emails or any other forum, we encourage you to respectfully say something directly to the individual in a 1:1 format. If you are not comfortable reaching out to the individual directly, please reach out to your direct manager or the Operations Analyst to discuss.
+
+## Custom Emoji
+
+We use emoji to help convey emotions and ideas quickly. You should feel empowered to add any emoji you like, just consider the entire community and keep them appropriate and generally unoffensive.
+
+Within Slack, it is possible to add emojis via the [customize interface](https://meltano.slack.com/customize/emoji). 
+
+### GitLab Custom Emoji
+
+GitLab also supports [custom emoji](https://docs.gitlab.com/ee/api/graphql/custom_emoji.html), though it is harder to add new ones. 
+
+First navigate to [`GraphiQL`](https://gitlab.com/-/graphql-explorer) where you are able to execute GraphQL commands.
+
+The command to add a new emoji is:
+
+```graphql
+mutation {
+  createCustomEmoji(input: {
+    groupPath: "meltano",
+    name: "<emoji-name>",
+    url: "<emoji-url>",
+  }) {
+    customEmoji {
+      name
+    }
+    errors
+  }
+}
+```
+
+to get a list of all emojis available, use this query:
+
+```graphql
+query GetCustomEmoji {
+  group(fullPath: "meltano") {
+    id
+    customEmoji {
+      nodes {
+        name,
+        url
+      }
+    }
+  }
+}
+```
