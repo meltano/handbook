@@ -152,7 +152,11 @@ We are happy to cover the cost of internet in your working place. This can be yo
 
 ### Team offsites
 
-Every 9-12 months the team gathers for our company offsite, [Assemble](https://handbook.meltano.com/company/all-remote#meltano-assemble)! The name Assemble is a reference to Meltano being used to assemble a data stack/pipeline. At Assemble the entire remote always team gathers to bond and meet face-to-face. We pick a new location every year and invite the entire team to join in for 5 days. There is nothing like meeting someone in person whom you have only ever seen virtually. Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole. 
+Every nine months, we get the whole team together somewhere on the planet for Meltano Assemble.
+
+Assemble 2021 took place in beautiful Mexico City. The next event will be held in Lisbon, Portugal in 2022. 
+
+The name Assemble is a reference to Meltano being used to assemble a data stack/pipeline. At Assemble the entire remote always team gathers to bond and meet face-to-face. We pick a new location every year and invite the entire team to join in for 5 days. There is nothing like meeting someone in person whom you have only ever seen virtually. Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole. 
 
 Read more about our last [Assemble in Mexico City](https://www.google.com/url?q=https://meltano.com/blog/assemble-2021-mexico-city-roundup/&sa=D&source=docs&ust=1639515528558000&usg=AOvVaw0LZpL5Jgj_b6bKnswXwKgE).
 
