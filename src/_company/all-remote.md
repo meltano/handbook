@@ -16,13 +16,6 @@ GitLab's [Remote Playbook](https://about.gitlab.com/company/culture/all-remote/)
 
 Of course, we move things over to our own handbook (which you are reading right now) when we can adapt them to be more appropriate for our size and unique culture.
 
-# Meltano Assemble
-
-Every nine months, we get the whole team together somewhere on the planet for Meltano Assemble.
-
-Assemble 2021 took place in beautiful Mexico City.
-To learn more about our adventures in Mexico and Assemble in general, check out [the roundup on our blog](https://meltano.com/blog/assemble-2021-mexico-city-roundup/).
-
 # Where we hire
 
 Our [team](https://meltano.com/team) is currently distributed over the United States, Mexico, and the United Kingdom.
