@@ -145,3 +145,10 @@ query GetCustomEmoji {
   }
 }
 ```
+
+Currently available GitLab custom emojis are:
+
+* `melty-flame`
+* `tanuki`
+
+Use them in comments or descriptions by typing `:emoji-name:`. Unfortunately, autocomplete and reactions (award emojis) are not currently supported for Custom Emojis.
