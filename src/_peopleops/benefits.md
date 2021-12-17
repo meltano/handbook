@@ -12,15 +12,19 @@ weight: 2
 * [Competetive Compensation and Equity](#compensation)
 * [Health and Wellness Offerings](#health-and-wellness)
 * [Generous budget for home office setup and workspace supplies](#home-office-setup-funds)
-- [Travel Opportunities](#travel-opportunities)
-- [Professional Development](#professional-development)
-- [World Class Remote Always Culture](#remote-always)
+* [Travel Opportunities](#travel-opportunities)
+* [Professional Development](#professional-development)
+* [World Class All-Remote Culture](#remote-always)
 
 ## Work-Life Balance
 
 ### Flexible working hours
 
-Because Meltano is a [remote always]](https://handbook.meltano.com/company/all-remote) team, we don’t have set working hours. Team members are encouraged to set their own work schedule, depending on their needs and working style. We understand that some people work best at certain times of the day, so please work when you’re at your best. We care much more about output over keeping up with a timesheet. Also, if you need to take a break during the day, have a doctor’s appointment, or need to pick up your kids, please feel empowered to take the time to do so. Please note that there may be times when you’ll need to adjust your schedule (e.g. a necessary synchronous meeting).
+Because Meltano is an [all-remote](/company/all-remote) team, we don’t have set working hours. Team members are encouraged to set their own work schedule, depending on their needs and working style. We understand that some people work best at certain times of the day, so please work when you’re at your best. We care much more about output over keeping up with a timesheet.
+
+Also, if you need to take a break during the day, have a doctor’s appointment, or need to pick up your kids, please feel empowered to take the time to do so.
+
+Please note that there may be times when you’ll need to adjust your schedule (e.g. a necessary synchronous meeting).
 
 #### Taking breaks during the day
 
@@ -59,23 +63,23 @@ Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company
 * 2022-02-14
 * 2022-03-21
 
-These dates are tracked in the [Team Meetings Calendar](calendars). 
+These dates are tracked in the [Team Meetings Calendar](calendars).
 Meltano team members should mark these days off using [PTO by Roots](/company/tech-stack/#pto-by-roots).
 
-In line with our Paid Time Off policy, we encourage Meltano team members to continue to take additional days off, as needed. 
+In line with our Paid Time Off policy, we encourage Meltano team members to continue to take additional days off, as needed.
 Family and Friends Day is a reminder to do this.
 
 ### No Meeting Friday
 
-We have found it best to deep dive into very focused work when we clear a company wide day for no meetings. Thus the birth of no meeting Friday, where we book no company calls. 
+We have found it best to deep dive into very focused work when we clear a company wide day for no meetings. Thus the birth of no meeting Friday, where we book no company calls.
 
 ## Compensation
 
-See our [compensation handbook page](https://handbook.meltano.com/peopleops/compensation) for details on salary and equity.
+See our [compensation handbook page](/peopleops/compensation) for details on salary and equity.
 
 ### 401k
 
-We are pleased to be able to offer a 401k plan to US employees beginning in 2022. In other countries, we defer to the [Remote.com](https://remote.com/) and localized standards. 
+We are pleased to be able to offer a 401k plan to US employees beginning in 2022. In other countries, we defer to the [Remote.com](https://remote.com/) and localized standards.
 
 ## Health and Wellness
 
@@ -92,9 +96,9 @@ We cover 100% of health insurance coverage cost for employees and 50% of depende
 * Base Plan:
   * [UHC Premier - $2,000 - CEFK](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_gold_choice_plus_2000_cefk.pdf)
 * Alternatives:
-   * [UHC Premier - $1,000 - CEFJ](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_platinum_choice_plus_1000_cefj.pdf)
-   * [UHC Premier - $4,000 - CFX9](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_4000_cfx9.pdf)
-   * [UHC HSA w/Motion - HSA - $5,000 - CECY (HDHP)](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_5000_cecy_hdhp.pdf)
+  * [UHC Premier - $1,000 - CEFJ](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_platinum_choice_plus_1000_cefj.pdf)
+  * [UHC Premier - $4,000 - CFX9](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_4000_cfx9.pdf)
+  * [UHC HSA w/Motion - HSA - $5,000 - CECY (HDHP)](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_5000_cecy_hdhp.pdf)
 
 Meltano contributes separately to employees' and dependents' premiums:
 
@@ -121,32 +125,31 @@ Meltano contributes separately to employees' and dependents' premiums:
 
 #### Team members outside the US
 
-We handle coverage outside the US country by country based on regional best practices. We partner with [Remote.com](https://handbook.meltano.com/company/all-remote#where-we-hire) and the individual(s in that region) to find an equitable offering for employee coverage. We evaluate what to offer in new countries on a case by case basis and as soon as we have set a policy for a region we document that as the coverage policy going forward. 
+We handle coverage outside the US country by country based on regional best practices. We partner with [Remote.com](/company/all-remote#where-we-hire) and the individual(s in that region) to find an equitable offering for employee coverage. We evaluate what to offer in new countries on a case by case basis and as soon as we have set a policy for a region we document that as the coverage policy going forward.
 
 * In the UK, NHS covers our workers.
-* In Mexico, we offer a "Health Insurance Allowance equal to $7,000.00 MXN per month".
+* In Mexico, we offer a Health Insurance Allowance equal to $7,000.00 MXN per month.
 
 To find out more about how Remote.com can assist, visit <https://remote.com/employees>.
-
 ### Home Office Setup Funds
 
-We want you to be comfortable and productive wherever you choose to work. With that in mind we offer a generous office setup stipend. We don’t have a set amount as we know there is no office setup that is one size fits all. See our [list of suggested items and options](https://handbook.meltano.com/peopleops/#office-equipment-and-supplies).
+We want you to be comfortable and productive wherever you choose to work. With that in mind we offer a generous office setup stipend. We don’t have a set amount as we know there is no office setup that is one size fits all. See our [list of suggested items and options](/peopleops/#office-equipment-and-supplies).
 
 #### Office space / non-distracting work environment optionality
 
-We are first and foremost remote always, in that we do not have any offices, but we understand that some people prefer or need an out of home office option. We allow team members to expense up to $500/month no questions asked. Anything beyond $500 requires manager approval (and evidence that the choice of coworking space is reasonable and within market rate).
+We are first and foremost all-remote, in that we do not have any offices, but we understand that some people prefer or need an out of home office option. We allow team members to expense up to $500/month no questions asked. Anything beyond that requires manager approval (and evidence that the choice of coworking space is reasonable and within market rate).
 
 ### Self Care of Yourself Stipend
 
-$50 a month to do something to nourish yourself. This can be a gym class, a meditation app or a lunch delivered. 
+$50 a month to do something to nourish yourself. This can be a gym class, a meditation app or a lunch delivered.
 
-### We Have Snack Holidays
+### Snack Holidays
 
-While working remotely you might be concerned about missing all those random office snacks. Not to worry! We like to create company-wide snack holidays where folks can expense snacks on us. Example: Cookie Day Dec 4th. 
+While working remotely you might be concerned about missing all those random office snacks. Not to worry! We like to create company-wide snack holidays where folks can expense snacks on us. Example: Cookie Day Dec 4th.
 
 ## Internet Connection
 
-We are happy to cover the cost of internet in your working place. This can be your home,  personal office wifi, or a phone you can tether to if you are a digital nomad- you choose which one is most relevant to your working situation. It's our responsibility to make sure you have everything to be productive. This is an extension to the home office perk. When expensing please make sure to isolate the cost of your wifi in case you have any phone, cable, or other packages bundled. We can cover up to $100 in wifi costs per employee per month. 
+We are happy to cover the cost of internet in your working place. This can be your home,  personal office wifi, or a phone you can tether to if you are a digital nomad- you choose which one is most relevant to your working situation. It's our responsibility to make sure you have everything to be productive. This is an extension to the home office perk. When expensing please make sure to isolate the cost of your wifi in case you have any phone, cable, or other packages bundled. We can cover up to $100 in internet costs per month.
 
 ## Travel Opportunities
 
@@ -154,9 +157,11 @@ We are happy to cover the cost of internet in your working place. This can be yo
 
 Every nine months, we get the whole team together somewhere on the planet for Meltano Assemble.
 
-Assemble 2021 took place in beautiful Mexico City. The next event will be held in Lisbon, Portugal in 2022. 
+Assemble 2021 took place in beautiful Mexico City. The next event will be held in Lisbon, Portugal in 2022.
 
-The name Assemble is a reference to Meltano being used to assemble a data stack/pipeline. At Assemble the entire remote always team gathers to bond and meet face-to-face. We pick a new location every year and invite the entire team to join in for 5 days. There is nothing like meeting someone in person whom you have only ever seen virtually. Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole. 
+The name Assemble is a reference to Meltano being used to assemble a data stack/pipeline. At Assemble the entire all-remote team gathers to bond and meet face-to-face. We pick a new location every year and invite the entire team to join in for 5 days. There is nothing like meeting someone in person whom you have only ever seen virtually.
+
+Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole.
 
 Read more about our last [Assemble in Mexico City](https://www.google.com/url?q=https://meltano.com/blog/assemble-2021-mexico-city-roundup/&sa=D&source=docs&ust=1639515528558000&usg=AOvVaw0LZpL5Jgj_b6bKnswXwKgE).
 
@@ -168,13 +173,13 @@ We are committed to offset all air travel emissions from these team offsites, wh
 
 Note: To keep team members and our communities safe, we’ve temporarily suspended the visiting grant until travel is less of a risk around the world. We’ll provide updates to team members and will regularly review this policy over the course of the pandemic.
 
-Meltano is a remote always company with team members all over the world. If you want to visit other team members to get to know them, Meltano will assist with travel expenses (e.g. flights, trains, parking, car rental, and ground transportation to/from airport) for a total of up to $150 for every team member that you visit. Please note lodging is excluded. To be clearer, if you meet 2 team members during your visit, the maximum limit of your visiting grant could be $300 ($150*2). You don’t need to work on the same project or team. We’d like you to get to know each other and your roles at Meltano, so we encourage you to discuss work for at least part of the time you’re meeting.
+Meltano is an all-remote company with team members all over the world. If you want to visit other team members to get to know them, Meltano will assist with travel expenses (e.g. flights, trains, parking, car rental, and ground transportation to/from airport) for a total of up to $150 for every team member that you visit. Please note lodging is excluded. To be clearer, if you meet 2 team members during your visit, the maximum limit of your visiting grant could be $300 ($150*2). You don’t need to work on the same project or team. We’d like you to get to know each other and your roles at Meltano, so we encourage you to discuss work for at least part of the time you’re meeting.
 
 Please note: The visiting grant applies to transportation costs and not other expenses related to travel (e.g. lodging, food). It may be acceptable to cover a meal, however, if the meeting is pre-announced to other people in the region to encourage as many of them to attend as possible.
 
-To claim the grant, include a line item on your expense report or invoice along with the receipt of your flights, trains, and/or transportation to/from the airport with a list of the team members you visited. The expense report may be submitted during the first month of travel or up to 3 months after your trip has concluded. That said, if it’s more frugal to book and expense your travel further in advance, please do so. 
+To claim the grant, include a line item on your expense report or invoice along with the receipt of your flights, trains, and/or transportation to/from the airport with a list of the team members you visited. The expense report may be submitted during the first month of travel or up to 3 months after your trip has concluded. That said, if it’s more frugal to book and expense your travel further in advance, please do so.
 
-The visiting grant is inspired by Douwe’s trip around the world during his time at GitLab. Douwe met [49 colleagues in 20 cities, in 14 countries, on five continents, in 6 months](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases/). 
+The visiting grant is inspired by Douwe’s trip around the world during his time at GitLab. Douwe met [49 colleagues in 20 cities, in 14 countries, on five continents, in 6 months](https://about.gitlab.com/blog/2017/01/31/around-the-world-in-6-releases/).
 
 ### Significant life event grant
 
@@ -182,14 +187,16 @@ Recognizing that team members may wish to share significant events in each other
 
 ## Professional Development
 
-### Coaching / skill development
+### Skill development
 
-We hire for potential and seek out curious and persistent minds willing to learn new skills and rise to the new challenges that we face in our rapidly evolving company and industry. Therefore, we offer Unlimited licenses to self-guided learning like Coursera, Code Academy, etc. We also encourage you to take explicit time out of your week for skill development and industry-specific deep dives. 
+We hire for potential and seek out curious and persistent minds willing to learn new skills and rise to the new challenges that we face in our rapidly evolving company and industry. Therefore, we offer a $250/month stipend for self-guided learning like Coursera, Code Academy, Plato, Reforge, etc. We also encourage you to take explicit time out of your week for skill development and industry-specific deep dives.
 
-Those in senior leadership positions (those reporting to the CEO) have the option of working with a self-selected leadership course or coach. Those who this applies to please work directly with the CEO for approval and process. 
+## Coaching
 
-## Remote always
+Those in senior leadership positions (those reporting to the CEO) have the option of working with a self-selected leadership course or coach. Those who this applies to please work directly with the CEO for approval and process.
 
-We have and always will be a fully remote company. Much of our remote culture has been adopted and evolved from GitLab where Meltano started. We are committed to continually invest in the remote ecosystem and community to make this practice the sustainable and thriving future of work. Find out more about our [world class remote work culture here](https://handbook.meltano.com/company/all-remote). 
+## All-remote
 
-Love what you have heard thus far? Check out the [Meltano Company Values](https://handbook.meltano.com/company/values).
+We have and always will be a fully remote company. Much of our remote culture has been adopted and evolved from GitLab where Meltano started. We are committed to continually invest in the remote ecosystem and community to make this practice the sustainable and thriving future of work. Find out more about our [world class remote work culture here](/company/all-remote).
+
+Love what you have heard thus far? Check out the [Meltano Company Values](/company/values).
