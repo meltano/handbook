@@ -9,12 +9,12 @@ weight: 2
 * [Flexible working hours](#flexible-working-hours)
 * [Unlimited PTO with minimums](#paid-time-off)
 * [Caregiver leave](#caregiver-leave)
-* [Competetive Compensation and Equity](#compensation)
+* [Competitive Compensation and Equity](#compensation)
 * [Health and Wellness Offerings](#health-and-wellness)
 * [Generous budget for home office setup and workspace supplies](#home-office-setup-funds)
 * [Travel Opportunities](#travel-opportunities)
 * [Professional Development](#professional-development)
-* [World Class All-Remote Culture](#remote-always)
+* [World Class All-Remote Culture](#all-remote)
 
 ## Work-Life Balance
 
@@ -75,7 +75,8 @@ We have found it best to deep dive into very focused work when we clear a compan
 
 ## Compensation
 
-See our [compensation handbook page](/peopleops/compensation) for details on salary and equity.
+We pay competitively around the world in a combination of salary and equity.
+See our [compensation handbook page](/peopleops/compensation) for more details.
 
 ### 401k
 
