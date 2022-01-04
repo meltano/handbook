@@ -26,22 +26,16 @@ To learn more about our strategy around the DataOps OS, check out [this blog pos
 
 The goal of this roadmap is to give clarity into what we've prioritized for the current month and the next 3 months after that. Beyond 4 months we share the general themes we're thinking about. These will usually link to specific epics or issues. 
 
-### December 2021
-
-* Composable Meltano Pipelines - [Epic](https://gitlab.com/groups/meltano/-/epics/116)
-  * `meltano run` [Issue](https://gitlab.com/meltano/meltano/-/issues/2301)
-  * Stream Maps [Issue](https://gitlab.com/meltano/meltano/-/issues/2300)
-* Easy deployment of Meltano for production development - [Epic](https://gitlab.com/groups/meltano/-/epics/124)
-* Add generic validator plugin interface - [Epic](https://gitlab.com/groups/meltano/-/epics/111)
-* Telemetry Enhancements for Meltano, Meltano SDK, and MeltanoHub - [Epic](https://gitlab.com/groups/meltano/-/epics/122)
-
 ### January 2022
 
+* Composable Meltano Pipelines - [Epic](https://gitlab.com/groups/meltano/-/epics/116)
+  * Stream Maps [Issue](https://gitlab.com/meltano/meltano/-/issues/2300)
 * Enhance dbt integration - [Epic](https://gitlab.com/groups/meltano/-/epics/82)
 * Discovery.yml refactor and Hub synchronization - [Epic](https://gitlab.com/groups/meltano/-/epics/128)
 * Documentation Overhaul - [Epic](https://gitlab.com/groups/meltano/-/epics/81)
 * Add Great Expectations as an installable plugin - [Issue](https://gitlab.com/meltano/meltano/-/issues/2454)
 * Support non-Python plugins - [Issue](https://gitlab.com/meltano/meltano/-/issues/2205)
+* Telemetry Enhancements for Meltano, Meltano SDK, and MeltanoHub - [Epic](https://gitlab.com/groups/meltano/-/epics/122)
 
 
 ### The next 3 months
