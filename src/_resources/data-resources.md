@@ -28,7 +28,7 @@ Recommended Reading, Listening, & Watching
 - The Value of Data: [Part 1](https://www.codingvc.com/the-value-of-data-part-1-using-data-as-a-competitive-advantage), [Part 2](https://www.codingvc.com/the-value-of-data-part-2-building-valuable-datasets), [Part 3](https://www.codingvc.com/the-value-of-data-part-3-data-business-models)
 - [Building a Data Practice](https://www.locallyoptimistic.com/post/building-a-data-practice/)
 - [Does my Startup Data Team Need a Data Engineer](https://blog.fishtownanalytics.com/does-my-startup-data-team-need-a-data-engineer-b6f4d68d7da9)
-- [Data Science is different now](https://veekaybee.github.io/2019/02/13/data-science-is-different/) (Note: this is why GitLab doesn't have a Data Scientist yet.)
+- [Data Science is different now](https://vickiboykis.com/2019/02/13/data-science-is-different-now/) (Note: this is why GitLab doesn't have a Data Scientist yet.)
 - [Why You Don't Need Data Scientists](https://medium.com/@kurtcagle/why-you-dont-need-data-scientists-a9654cc9f0e4)
 - [Resources Written by dbt Community Members](https://discourse.getdbt.com/t/resources-written-by-community-members/276)
 - [Is your company too dumb to be data-driven?](https://towardsdatascience.com/is-your-company-too-dumb-to-be-data-driven-696932d597c3)
