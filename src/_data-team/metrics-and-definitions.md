@@ -8,20 +8,43 @@ The following are the metrics and definitions that we currently track for unders
 
 ## Metrics - Product Usage
 
-These metrics are all sourced from the Google Analytics event data and use the project_id UUID as the definition of a project.
+These metrics are all sourced from the Google Analytics [anonymous usage data](https://meltano.com/docs/settings.html#send-anonymous-usage-stats) and use the [Meltano project_id](https://meltano.com/docs/settings.html#project-id) UUID as the definition of a project.
 Events in this context are CLI commands.
 
 #### 28 Day Active Users
-The distinct count of project_ids using a trailing 28 day sliding window.
+The distinct count of [project_ids](https://meltano.com/docs/settings.html#project-id) using a trailing 28 day sliding window.
 A project is considered active if it had any event in the 28 day window.
 
 #### Plugin Usage Percentage
 The percentage of projects in a particular time range that have executed one of more CLI commands using the plugin.
 Due to the nature of our Google Analytics implementation we parse the CLI command strings to determine if it uses the plugin, refer to the [squared transformation logic](https://gitlab.com/meltano/squared/-/tree/master/data/transform/models) to understand how each plugin is parsed from the command.
 
+Transformers:
+- dbt
+
+Orchestrators:
+- Airflow (all `schedule run` commands are assumed to be Airflow)
+- Dagster
+
+EL:
+- Singer
+
+Utilities:
+- sqlfluff
+
+Analyzers:
+- Lightdash
+- Superset
+
+
 #### OS Feature Usage Percentage
 The percentage of projects in a particular time range that have executed one of more CLI commands using the OS feature.
 Due to the nature of our Google Analytics implementation we parse the CLI command strings to determine if it uses the OS feature, refer to the [squared transformation logic](https://gitlab.com/meltano/squared/-/tree/master/data/transform/models) to understand how each OS feature is parsed from the command.
+
+Current Features:
+- [Environments](https://meltano.com/docs/environments.html#environments)
+- [Run](https://meltano.com/docs/command-line-interface.html#run) - `meltano run`
+- [Test](https://meltano.com/docs/command-line-interface.html#test) - `meltano test`
 
 #### Average Events per Project
 The count of projects where their last event was in the particular time range.
