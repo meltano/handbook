@@ -14,7 +14,7 @@ Recommended Reading, Listening, & Watching
 - [DataOps in a Cloud Native World](https://www.youtube.com/watch?v=PLe9sovhtGA&list=PLFGfElNsQthaaqEAb6ceZvYnZgzSM50Kg&index=9&t=0s)
 - [The Three Levels of Data Analysis- A Framework for Assessing Data Organization Maturity](https://about.gitlab.com/blog/2019/11/04/three-levels-data-analysis/)
 - [Lessons learned managing the GitLab Data team](https://about.gitlab.com/blog/2020/02/10/lessons-learned-as-data-team-manager/)
-- [Views on Vue Podcast with Jacob Schatz and Taylor Murphy](https://devchat.tv/views-on-vue/vov-030-how-we-use-vue-in-data-science-with-jacob-schatz-taylor-murphy-gitlab-team/)
+- [Views on Vue Podcast with Jacob Schatz and Taylor Murphy](https://viewsonvue.com/29)
 - [The AI Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
 - [Data Meta Metrics](https://caitlinhudon.com/2017/11/14/data-meta-metrics/)
 - [Engineers Shouldn’t Write ETL](https://multithreaded.stitchfix.com/blog/2016/03/16/engineers-shouldnt-write-etl/)
