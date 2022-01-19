@@ -231,7 +231,7 @@ Chat with the community and the team.
 
 Every team member has their own account.
 
-## [Snowflake](https://mca68843.snowflakecomputing.com/)
+## [Snowflake](https://www.snowflake.com/)
 
 Data warehouse.
 
