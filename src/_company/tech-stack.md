@@ -103,8 +103,10 @@ Main account details are in the `Executive` 1Password vault.
 
 ### Non-team-member email addresses
 
-- `ap`: Accounts Payable, monitored by Operations Analyst
+- `ap`: Accounts Payable, monitored by Operations
+- `assemble`: for Assemble events, monitored by Marketing and Operations as appropriate
 - `hello`: generic company inbox, hooked up to [Zendesk](#zendesk)
+- `marketing`: Marketing inbox, monitored by Marketing
 - `ops`: Operations inbox, monitored by Operations
 - `security`: Security Disclosures, hooked up to [Zendesk](#zendesk)
 
