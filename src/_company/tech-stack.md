@@ -233,9 +233,8 @@ Every team member has their own account.
 
 ## [Snowflake](https://www.snowflake.com/)
 
-Data warehouse.
-
-Select team members have their own account.
+Cluod data warehouse. 
+Meltano's instance runs in us-west-2 and can be accessed via [this url](https://epa06486.snowflakecomputing.com).
 
 ## [Substack](https://meltano.substack.com/)
 
