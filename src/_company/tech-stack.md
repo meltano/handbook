@@ -233,7 +233,7 @@ Every team member has their own account.
 
 ## [Snowflake](https://www.snowflake.com/)
 
-Cluod data warehouse. 
+Cloud data warehouse. 
 Meltano's instance runs in us-west-2 and can be accessed via [this url](https://epa06486.snowflakecomputing.com).
 
 ## [Substack](https://meltano.substack.com/)
