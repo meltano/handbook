@@ -24,11 +24,11 @@ Plugins are also automatically updated and typically update overnight. A ticket 
 
 ##### Jetpack
 
-You can configure the social media buttons that appear on posts [here](https://meltano.com/blog/wp-admin/options-general.php?page=sharing).
+You can configure the social media buttons that appear on posts [here](https://meltano.com/wp-admin/options-general.php?page=sharing).
 
 ##### Permalink Manager
 
-You can update the permalinks for a post through the post's settings or through this [list](https://meltano.com/blog/wp-admin/tools.php?page=permalink-manager).
+You can update the permalinks for a post through the post's settings or through this [list](https://meltano.com/wp-admin/tools.php?page=permalink-manager).
 
 ### Troubleshooting
 

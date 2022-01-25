@@ -35,10 +35,12 @@ Recommended Reading, Listening, & Watching
 - [Models for integrating data science teams within organizations](https://medium.com/@djpardis/models-for-integrating-data-science-teams-within-organizations-7c5afa032ebd)
 - [Building a Mature Analytics Workflow](https://blog.fishtownanalytics.com/building-a-mature-analytics-workflow/) (Note: this explains the "Analytics is a subfield of software engineering" premise.)
 - [DataOps playlist on YouTube](https://www.youtube.com/playlist?list=PLVbsAdgZXvtyy6HVKCP0HChjCcq2oW3eK)
+- [Data mesh at Flexport](https://www.youtube.com/watch?v=-POiudR2_R0)
 
 ## Data Newsletters
 
 - [Algos & Ethics](https://algosandethics.substack.com)
+- [Analytics Engineering Roundup Newsletter](https://roundup.getdbt.com/)
 - [The Batch](https://www.deeplearning.ai/the-batch/)
 - [Calogica](https://calogica.com/signup)
 - [The Carpentries](https://carpentries.topicbox.com/latest)
@@ -49,7 +51,6 @@ Recommended Reading, Listening, & Watching
 - [Data Elixir](https://dataelixir.com/)
 - [Data is Plural](https://tinyletter.com/data-is-plural)
 - [Data Science Newsletter](https://academicdatascience.org/resources/newsletter)
-- [Data Science Roundup Newsletter](http://roundup.fishtownanalytics.com/)
 - [Data Science Weekly](https://www.datascienceweekly.org/)
 - [Import AI](https://us13.campaign-archive.com/home/?u=67bd06787e84d73db24fb0aa5&id=6c9d98ff2c)
 - [Insight](https://zeynep.substack.com)
@@ -71,9 +72,9 @@ Recommended Reading, Listening, & Watching
 - [Calogica](https://calogica.com/blog)
 - [Data Ops](https://medium.com/data-ops)
 - [Data.gov](https://www.data.gov/)
+- [dbt Labs Blog](https://blog.getdbt.com/)
 - [Eugene Yan](https://eugeneyan.com)
 - [Fast Forward Labs](https://blog.fastforwardlabs.com)
-- [Fishtown Analytics Blog](https://blog.fishtownanalytics.com)
 - [Five Thirty Eight](https://data.fivethirtyeight.com/)
 - [Go Data Driven](https://blog.godatadriven.com)
 - [Inner Join](https://www.holistics.io/blog/newsletter/)

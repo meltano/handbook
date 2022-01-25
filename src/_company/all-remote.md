@@ -18,7 +18,7 @@ Of course, we move things over to our own handbook (which you are reading right 
 
 # Where we hire
 
-Our [team](https://meltano.com/team) is currently distributed over the United States, Mexico, and the United Kingdom.
+Our [team](https://meltano.com/about) is currently distributed over the United States, Mexico, and the United Kingdom.
 We hope to keep growing that list until we cover all continents and time zones.
 
 To hire globally, we use [Remote](https://remote.com), who currently provide service in over 50 countries with dozens being added every year.
