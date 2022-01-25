@@ -254,7 +254,7 @@ Account details are in the `Social` 1Password vault.
 
 Account details are in the `Social` 1Password vault.
 
-## [WordPress](https://meltano.com/blog/wp-admin/)
+## [WordPress](https://meltano.com/wp-admin/)
 
 Blog at <https://meltano.com/blog/>.
 
