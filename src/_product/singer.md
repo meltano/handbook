@@ -37,7 +37,7 @@ that aims to be clearer for newcomers to the project. We believe the spec is gre
 confusing documentation has made it challenging for some to onboard to the community.
 
 Last but not least, we're also **[**unlocking the evolution**](https://gitlab.com/groups/meltano/-/epics/88) of the
-[**Singer spec**](https://hub.meltano.com/singer/spec)** through the [Singer Working Group](https://meltano.com/blog/2021/10/13/announcing-the-singer-working-group-the-future-of-singer-is-bright/).
+[**Singer spec**](https://hub.meltano.com/singer/spec)** through the [Singer Working Group](https://meltano.com/blog/announcing-the-singer-working-group-the-future-of-singer-is-bright/).
 This is a framework built with the community for the proposal and consideration of optional extensions to the spec
 that compatible tools, including the SDK and Meltano, can choose to support,
 while maintaining compatibility between all taps and targets.
