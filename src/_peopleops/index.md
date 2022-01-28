@@ -222,3 +222,9 @@ Please see the [Benefits](benefits) page for more information.
 ### Calendar quarters
 
 Use calendar quarters (e.g. 2021-Q4) rather than fiscal quarters (e.g. FY22-Q4) when discussing time. 
+
+### Address and Phone Numbers
+
+Meltano's incorporation and mailing address can be found in the Shared 1Password vault item called `Meltano Address`. 
+
+Meltano's phone number can be found in the Shared 1Password vault item called `Meltano Phone Number`.
