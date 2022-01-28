@@ -51,13 +51,13 @@ The distinct count of [project_ids](https://meltano.com/docs/settings.html#proje
 A project is considered active if it had any event in the 28 day window.
 
 #### Monthly Acquired Projects
-A project is considered acquired if its first event was sent in the month.
+A project is considered acquired for a given month if its first event was sent in that month.
 
 #### Monthly Churned Projects
-A project is considered churned if its last event was sent in the month.
+A project is considered churned for a given month if its last event was sent in that month.
 
 #### Monthly Retained Projects
-Retained means the project was active in the month but was not acquired or churned, just retained.
+Retained means the project was active in a given month but was not acquired or churned.
 A project is considered retained if it sent an event thats greater than its acquired month and less than its churned month.
 
 #### Monthly Tracking Disabled Projects
@@ -68,11 +68,11 @@ In the [getting started guide](https://meltano.com/docs/getting-started.html#cre
 It would be odd behavior to create a project but not actually run any commands, so this seems like a fair assumption.
 
 #### Percentage Cohort Usage vs Original
-A cohort's total events in a month compared to it's total events in it's acquired month.
+A cohort's total events in a given month compared to it's total events in it's acquired month.
 The acquired month is the first month that an event was received from that project.
 
 #### Percentage Cohort Projects Active vs Original
-A cohort's count of active projects in a month compared to it's count of projects in it's acquired month.
+A cohort's count of active projects in a given month compared to its count of projects in its acquired month.
 Since this considers only active projects in a month, meaning an event was received, its possible for projects to become inactive then later re-activate.
 
 #### Slack Members
