@@ -155,7 +155,7 @@ View the [complete list](/company/tech-stack) of our tech stack.
 
 Meltano approves the use of Apple and Linux operating systems, Windows is prohibited. The prohibition on Microsoft Windows is for the following reasons:
 
-- While there has been security issues with all operating systems, due to the popularity of the Windows operating system it is the main platform targeted by attackers with spyware, viruses, and ransomware.
+- While there have been security issues with all operating systems, due to the popularity of the Windows operating system it is the main platform targeted by attackers with spyware, viruses, and ransomware.
 - macOS is pre-loaded onto Apple hardware.
     Linux is free.
     To take advantage of the features in Windows as a business, Meltano would have to purchase Windows Pro licensing as these business features are not available on Windows Home Edition.
