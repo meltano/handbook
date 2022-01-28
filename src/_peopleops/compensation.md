@@ -32,6 +32,57 @@ Specifically, we divide the 75th percentile Gross Equity Value by the latest val
 
 Options vest monthly over 4 years, with a 1-year cliff. Early exercise is allowed in countries where this has potential tax benefits, like the US.
 
+## Bonuses
+
+### Discretionary Bonuses for Individuals
+ - Every now and then, individual team members really shine as they live
+   our values and impact the company positively. We especially like to
+   celebrate the special moments that exemplify the behavior we want to
+   see in all Meltano team members.
+   
+ - Anyone can nominate any full-time employee for a discretionary bonus.
+   Please contact the person’s manager to do so.
+ - Bonuses are at the fixed amount of $1,000.
+ - There is no limit to the frequency with which someone can receive a
+   bonus but they cannot get more than one for the same activity/project for the same reasons.
+ - Only individuals in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing a performance improvement plan).
+    
+
+#### Valid and Invalid criteria for discretionary bonuses
+
+Discretionary bonuses are to celebrate team members. To make sure we are recognizing the right behaviors, below are some criteria to help you decide if a bonus meets the requirements.
+
+**Valid bonus criteria**
+
+-   Going above and beyond what is expected in regard to the team member's role description.
+    
+-   Truly exceptional work. Good and great is already expected in a team member's work and performance.
+    
+-   Providing additional coverage or project load for other team members.
+    
+-   Team members' work results in higher productivity or improved processes that create efficiencies and results. This may also result in identifying cost-saving initiatives.
+    
+
+**Invalid bonus criteria**
+
+-   Supplement to income.
+    
+-   For being nice and friendly.
+    
+-   For being helpful.
+    
+-   Doing a project or task that is core to their role.
+    
+-   For help onboarding a new GitLab team member.
+    
+-   Hitting target or quota
+    
+-   Providing customer insight
+    
+-   Partnering or collaborating with other groups within GitLab
+    
+-   Working long hours or on weekends
+
 ## Benefits
 
 See the page on [Benefits](benefits).
