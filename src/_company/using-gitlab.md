@@ -31,7 +31,8 @@ If an issue fits best in a public tracker but should be private anyway, use a [c
 ## Useful Issue Boards
 
 - [Development Flow](https://gitlab.com/groups/meltano/-/boards/536761), with a column for each `flow::` label. Don't forget to filter by milestone, and/or assignee!
-- [Engineering Assignments](https://gitlab.com/groups/meltano/-/boards/3546394?scope=all&milestone_title=%23started&not[label_name][]=valuestream%3A%3ABusiness%20Operation&not[label_name][]=kind%3A%3ANon-Product) - useful for understanding the WIP for engineers in the company.
+- [Engineering Assignments](https://gitlab.com/groups/meltano/-/boards/3546394?not[label_name][]=valuestream::Business+Operation&not[label_name][]=kind::Non-Product&iteration_id=Current) - useful for understanding the WIP for engineers in the company.
+- [Iterations](https://gitlab.com/groups/meltano/-/boards/3831997?not[label_name][]=valuestream::Business+Operation&not[label_name][]=kind::Non-Product) - useful for understanding development scheduled on a weekly basis
 - [Kind](https://gitlab.com/groups/meltano/-/boards/2917606) - useful for understanding the distribution of work across the different flow types (Bug, Feature, etc.)
 - [Value Stream](https://gitlab.com/groups/meltano/-/boards/2917637) - useful for understanding the distribution of work acrss the different product areas of Meltano
 - [Urgency](https://gitlab.com/groups/meltano/-/boards/2917749) - useful for understanding the overall priority of issues in a milestone.
@@ -177,34 +178,42 @@ We want a way to indicate the part of Meltano specifically that the work applies
 
 New labels can be created as appropriate at the Group Level and should be documented them here.
 
-## Best Practices 
+## Milestones
 
-### Milestones
+Milestones have a few different goals. 
+Product manages all date-defined milestones (May 2022, 2022-Q2, etc.). 
+Dated milestones are defined _only_ at the [group level](https://gitlab.com/groups/meltano/-/milestones). 
+Anyone else can create a non-dated milestone for their own purposes at the group or project level.
+
+### Best Practices
+
+At the end of every dated milestone, the Product team will roll all issues to the next dated milestone. 
+Issues in a monthly milestone will go to the next month, and the same for quarterly dated milestones. 
+The milestone will then be closed.
 
 Every open issue should have a [milestone](https://gitlab.com/groups/meltano/-/milestones).
 If something we want to happen eventually is not a priority yet, use `Backlog`.
-If there is an issue we want to start prioritizing, there is a `Staging` milestone which can be used to alert the Product Lead that this is something we'd like to move into an upcoming milestone. 
+If there is an issue we want to start prioritizing, there is a `Staging` milestone which can be used to alert the Product Lead that this is something we'd like to move into an upcoming milestone or iteration. 
 If we don't want it to happen, close the issue.
 
-Once an issue becomes a priority, set a sprint milestone (identified by the Friday of the week in question),
-even if it's still weeks away and may end up being moved.
+Issues that are in a dated milestone indicate the "rough delivery window" of when we aim to deliver the issue.
 
-New sprint milestones are created about 6 weeks in advance as part of preparation for the weekly kickoff meeting.
+## Iterations
 
-#### End of Week Expectations
+Once an issue becomes a priority, a sprint [iteration](https://gitlab.com/groups/meltano/-/iterations) is set (identified by the Friday of the week in question), even if it's still weeks away and may end up being moved.
 
-By the end of day Friday, or the last day of their work week, everyone is expected to:
+New iterations are created about 6 weeks in advance as part of preparation for the weekly kickoff meeting.
 
-1. Update the flow label to reflect an accurate status.
-2. Close any completed items.
-3. Add a progress comment to issues which have the `flow:Doing` label.
-4. Issues with the `flow:Review` label will be expected to be closed out once review completes.
-   - No need to add a progress comment since action items should be self-documenting.
-   - If review is not progressing due to other factors, a `flow:Blocked` label may be appropriate.
+Check out the GitLab documentation on [Iterations](https://docs.gitlab.com/ee/user/group/iterations/#iterations) to better understand the differences between iterations and milestones.
 
-This is in preparation for the Product milestone review and [Weekly Kickoff](/product/#weekly-kickoff) on Monday.
+### Best Practices
 
-### Sizing
+The Product team manages all iterations. 
+They can only be made at the group level, they always have a start and end date, and the date ranges cannot overlap.
+
+Anyone can add an issue to an iteration, but at the end of the issue, all incomplete issues will be rolled to the next iteration by Product. 
+
+## Issue Sizing
 
 The team uses Gitlab's `weight` feature to align on rough estimates of relative size. We bias towards
 a system where most increments are double of the prior increment, to avoid debates of "is this a 2 or a 3?"
@@ -227,7 +236,7 @@ Sizing should always take into account these three factors:
 40 - Probably an epic, to be planned out in smaller deliverables
 ```
 
-#### Why do we size issues?
+### Why do we size issues?
 
 It's important to document the _why_ behind sizing:
 
@@ -236,13 +245,13 @@ It's important to document the _why_ behind sizing:
 3. To provide a lexicon around value creation vs relative time and effort.
 4. To provide a means of escalation when items are found to be under-scoped, to minimize the impact on other deliverables when "scope creep" or "unknown unknowns" are identified during development.
 
-#### Initial Sizing Estimate
+### Initial Sizing Estimate
 
 Anyone reviewing or submitting an issue can add a `weight` estimate to a new issue. 
 Engineering team management otherwise has the responsibility of filling out missing `weight` values prior to each week's kickoff. 
 When `weight` is not clear, we will ping an individual on the team to ask for second opinion.
 
-#### Sizing Estimate Adjustments
+### Sizing Estimate Adjustments
 
 As an engineer, whenever you are assigned an issue, you should immediately check the `weight` and
 confirm if it is correct. In the case that an item is significantly over- or under-estimated, please
@@ -250,3 +259,18 @@ raise a comment and tag head of engineering and product. This may inform priorit
 
 Whenever a new milestone starts, we re-estimate the remaining `weight` for anything still in-progress.
 Again, this may inform prioritization.
+
+## Best Practices
+
+### End of Week Expectations
+
+By the end of day Friday, or the last day of their work week, everyone is expected to:
+
+1. Update the flow label to reflect an accurate status.
+2. Close any completed items.
+3. Add a progress comment to issues which have the `flow:Doing` label.
+4. Issues with the `flow:Review` label will be expected to be closed out once review completes.
+   - No need to add a progress comment since action items should be self-documenting.
+   - If review is not progressing due to other factors, a `flow:Blocked` label may be appropriate.
+
+This is in preparation for the Product milestone review and [Weekly Kickoff](/product/#weekly-kickoff) on Monday.
