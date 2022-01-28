@@ -8,9 +8,18 @@ This page defines recurring practices which help the Engineering team to functio
 
 ## Weekly and Fortnightly Rituals
 
-### Weekly Milestones
+### Weekly Iterations
 
-We adhere to a weekly milestone delivery cycle. We do not adhere to formal sprints. Instead, leadership from Engineering and Product meet each Thursday to discuss the upcoming week's priorities and to add or update the following week's tasks. A "milestone" is simply a bucket of issues in Gitlab which are assigned for work over a given week.
+We adhere to a [weekly iteration](https://gitlab.com/groups/meltano/-/iterations) delivery cycle. 
+We do not adhere to formal sprints. 
+Instead, leadership from Engineering and Product meet each Thursday to discuss the upcoming week's priorities and to add or update the following week's tasks. 
+An "iteration" is simply a bucket of issues in Gitlab which are assigned for work over a given week.
+
+We generally work with more of a kanban style.
+We do this as it works better with our committment to asynchronous work.
+We aim to minimize Work in Progress (WIP) which, for Meltano, means assigned work in a given iteration.
+
+Engineers are expected to deliver at least one feature or bug fix at least every 3 out of 4 weeks.
 
 ### Mid-Week Virtual Standup
 
@@ -28,9 +37,9 @@ On a weekly basis (generally Thursdays), Engineering and Product leadership meet
 
 During the process of creating engineering assignments for the coming week, Product and Engineering leadership will take care that each engineer is assigned at least one small or medium-sized work item (`<=4` weight) _in addition_ to any larger long-running work items. This is to that ensure every engineer has the ability to ship at least one work item in the coming week, per the Engineering team's standard practice - and that at any time if an engineer becomes blocked on a larger work item (waiting for code review feedback, for instance), they can immediately fall back to the smaller item as needed.
 
-### Fortnightly Demo Day
+### Monthly Demo Day
 
-Every other Thursday, engineers present demoable features in our community Demo Days, alongside demos from the community. Engineers will be prepared to demo all features they've released as of the Demo Day following the merge of the feature. Note that merge dates - not release dates - are used to determine the demo schedule.
+Once a month on a Thursday, engineers present demoable features in our community Demo Days, alongside demos from the community. Engineers will be prepared to demo all features they've released as of the Demo Day following the merge of the feature. Note that merge dates - not release dates - are used to determine the demo schedule.
 
 The following items _do not_ require a demo:
 
