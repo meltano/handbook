@@ -35,18 +35,17 @@ Options vest monthly over 4 years, with a 1-year cliff. Early exercise is allowe
 ## Bonuses
 
 ### Discretionary Bonuses for Individuals
- - Every now and then, individual team members really shine as they live
-   our values and impact the company positively. We especially like to
-   celebrate the special moments that exemplify the behavior we want to
-   see in all Meltano team members.
-   
- - Anyone can nominate any full-time employee for a discretionary bonus.
-   Please contact the person’s manager to do so.
+ - Every now and then, individual team members really shine as they live our values and impact the company positively. We especially like to celebrate the  special moments that exemplify the behavior we want to see in all Meltano team members.
+ - Anyone can nominate any full-time employee for a discretionary bonus. 
  - Bonuses are at the fixed amount of $1,000.
  - There is no limit to the frequency with which someone can receive a
    bonus but they cannot get more than one for the same activity/project for the same reasons.
  - Only individuals in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing a performance improvement plan).
-    
+
+#### Process to Nominate Someone for a Bonus    
+- Contact the person’s manager with the nomination info (name of person and why you are nominating them). 
+- Once the manager approves the nomination, the manager will let the person know in their 1:1 and announce in Slack (`internal-chatter`). 
+- Manager must also add the deatil to the [Bonus Sheet](https://docs.google.com/spreadsheets/d/1uuiJj5tySFO6XtjnkiGV0mOuysU3N4xECp1aF8xLpEg/edit#gid=0) so the person can get paid out. Ops will handle bonus allocation in new payroll. 
 
 #### Valid and Invalid criteria for discretionary bonuses
 
@@ -62,7 +61,6 @@ Discretionary bonuses are to celebrate team members. To make sure we are recogni
     
 -   Team members' work results in higher productivity or improved processes that create efficiencies and results. This may also result in identifying cost-saving initiatives.
     
-
 **Invalid bonus criteria**
 
 -   Supplement to income.
