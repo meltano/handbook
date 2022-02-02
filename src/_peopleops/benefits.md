@@ -63,7 +63,7 @@ Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company
 * 2022-02-14
 * 2022-03-21
 * 2022-04-18
-* 2022-05-37
+* 2022-05-27
 * 2022-06-20
 
 These dates are tracked in the [Team Meetings Calendar](calendars).
