@@ -73,13 +73,13 @@ Discretionary bonuses are to celebrate team members. To make sure we are recogni
     
 -   Doing a project or task that is core to their role.
     
--   For help onboarding a new GitLab team member.
+-   For help onboarding a new Meltano team member.
     
 -   Hitting target or quota
     
 -   Providing customer insight
     
--   Partnering or collaborating with other groups within GitLab
+-   Partnering or collaborating with other groups within Meltano
     
 -   Working long hours or on weekends
 
