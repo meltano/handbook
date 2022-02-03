@@ -176,7 +176,7 @@ We want a way to indicate the part of Meltano specifically that the work applies
 - `Configuration` for issues relating to configuration
 - `Plugin Management` for issues relating to plugin management
 
-New labels can be created as appropriate at the Group Level and should be documented them here.
+New labels can be created as appropriate at the Group Level and should be documented here.
 
 ## Milestones
 
