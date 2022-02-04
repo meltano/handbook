@@ -34,7 +34,7 @@ If an issue fits best in a public tracker but should be private anyway, use a [c
 - [Engineering Assignments](https://gitlab.com/groups/meltano/-/boards/3546394?not[label_name][]=valuestream::Business+Operation&not[label_name][]=kind::Non-Product&iteration_id=Current) - useful for understanding the WIP for engineers in the company.
 - [Iterations](https://gitlab.com/groups/meltano/-/boards/3831997?not[label_name][]=valuestream::Business+Operation&not[label_name][]=kind::Non-Product) - useful for understanding development scheduled on a weekly basis
 - [Kind](https://gitlab.com/groups/meltano/-/boards/2917606) - useful for understanding the distribution of work across the different flow types (Bug, Feature, etc.)
-- [Value Stream](https://gitlab.com/groups/meltano/-/boards/2917637) - useful for understanding the distribution of work acrss the different product areas of Meltano
+- [Value Stream](https://gitlab.com/groups/meltano/-/boards/2917637) - useful for understanding the distribution of work across the different product areas of Meltano
 - [Urgency](https://gitlab.com/groups/meltano/-/boards/2917749) - useful for understanding the overall priority of issues in a milestone.
 - [Milestone](https://gitlab.com/groups/meltano/-/boards/1933232) - used to move issues easily between milestones.
 - [Office Hours](https://gitlab.com/groups/meltano/-/boards/2923184) - used to tee up issues for community discussion and review, generally directly
