@@ -10,7 +10,7 @@ To get an idea of what the team and community are currently working on, check ou
 
 If you'd like to look further into the future, the [Milestones board](https://gitlab.com/groups/meltano/-/boards/536761?not[label_name][]=valuestream::Business+Operation&not[label_name][]=kind::Non-Product&iteration_id=Current) has a column for each upcoming milestone.
 
-Be aware that issue [milestones]((/company/using-gitlab/#milestones)) serve more as a rough indication of relative priority than as hard deadlines,
+Be aware that issue [milestones](/company/using-gitlab/#milestones) serve more as a rough indication of relative priority than as hard deadlines,
 since short-term priorities can change quickly in response to community feedback, and it's hard to predict how much progress can be made in a week.
 
 These efforts are the foundation of our larger vision to enable a full DataOps OS.
