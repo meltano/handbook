@@ -66,7 +66,7 @@ These labels do not indicate urgency and should only be used to indicate the wor
 We have 2 labels to indicate that something is prioritized but needs more refinement:
 
 - `Needs Refinement` : Used by Product and Engineering to indicate that more details, user stories, and organization are needed
-- `Needs Research Spike` : Used by Product and Engineering to indicate that a [Spike](http://agiledictionary.com/209/spike/) is need to better understand the scope of work.
+- `Needs Research Spike` : Used by Product and Engineering to indicate that a [Spike](http://agiledictionary.com/209/spike/) is needed to better understand the scope of work.
 
 ### Urgency Labels
 
