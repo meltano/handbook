@@ -28,31 +28,25 @@ On a weekly basis (generally Thursdays), Engineering and Product leadership meet
 
 During the process of creating engineering assignments for the coming week, Product and Engineering leadership will take care that each engineer is assigned at least one small or medium-sized work item (`<=4` weight) _in addition_ to any larger long-running work items. This is to that ensure every engineer has the ability to ship at least one work item in the coming week, per the Engineering team's standard practice - and that at any time if an engineer becomes blocked on a larger work item (waiting for code review feedback, for instance), they can immediately fall back to the smaller item as needed.
 
-### Fortnightly Demo Day
+### Weekly Release Party (Internal)
 
-Every other Thursday, engineers present demoable features in our community Demo Days, alongside demos from the community. Engineers will be prepared to demo all features they've released as of the Demo Day following the merge of the feature. Note that merge dates - not release dates - are used to determine the demo schedule.
+Every Monday before our weekly Kickoff meeting, engineers demo released features in our internal Release Party. The Release Party is a chance for engineers to show off to each other what they've delivered in the prior week. We record these sessions but in order to keep a relaxed tone, we do not livestream them.
+
+Engineers should be prepared to demo all features they've released as of the Monday following the merge of the feature.
 
 The following items _do not_ require a demo:
 
-1. Minor bug fixes.
-2. Refactoring efforts.
-3. Deprecating features or functionality.
+1. Very minor bug fixes.
+2. Internal refactoring.
+3. Deprecated features or functionality.
 4. Tap and target updates in `discovery.yml`.
 5. Minor updates to docs and/or website content.
 
-Whenever in doubt if something should be demoed, you may contact `@aj` or `@amanda` to confirm expectations.
+Each week, we go through the release notes from the prior week's launches and each engineer demos their respective features and/or changes.
 
-#### Demo Day Prep
+### Community Demo Days
 
-On or before the Tuesday of each Demo Day week, our DevRel Manager (`@amanda`) will review the merge history and community members who have offered to demo, with the goal of creating the agenda for the upcoming demo day. Demos from community members generally will have priority over team demos; in cases where we have a large number of community demos, those will take priority and it is feasible that some demoable content from the engineering team will be held over until the next Demo Day.
-
-Following from the Engineering team's demo prep guidelines for engineers, the DevRel Manager should reasonably assume that anything merged since the last Demo Day also been prepared by the engineer to be demoed (including items not yet released). The DevRel Manager can therefor create a demo agenda directly from the merge commit history, combined of course with content from community members.
-
-#### Demo Day Content Escalations
-
-We aim to have 40-60 minutes of content to justify community members joining the session, and we will cancel Demo Days if we have less than 30 minutes of demoable content as of Wednesday EOD (or sooner, per discretion of the DevRel Manager).
-
-In rare cases, the sum of demoable content from community volunteers and the Engineering team will not be sufficient to fill 40 minutes. On any preceding Tuesday, if this appears to be the case, The DevRel Manager will escalate by beginning a thread in the `#engineering-team` Slack channel, informing the team that we are light on demo content - and will include an estimate of approximately how much time is needed to fill the upcoming session (where "40 minutes needed" roughly indicates a fully-blank agenda). The Engineering Manager (`@aj`) will work with the Engineering and Product teams throughout the day Wednesday to ensure prioritization of content creation. As needed, we will brainstorm amongst the teams for other relevant and engaging demoable content. This expanded demo scope then may include unfinished (aka unmerged) features, hobby projects, improvements to our own internal Meltano projects, etc.
+Community Demo Days are monthly and managed by the Marketing team. More info on the [Community](../_marketing/community.md) Handbook page.
 
 ### Weekly Office Hours
 

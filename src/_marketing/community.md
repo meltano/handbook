@@ -46,6 +46,12 @@ For each demo day, we need to ensure that the following process is followed:
 4. Upload recording to YouTube
 5. Add features + timestamps to YouTube description
 
+#### Demo Day Content Escalations
+
+We aim to have 40-60 minutes of content to justify community members joining the session, and we will cancel Demo Days if we have less than 30 minutes of demoable content as of Wednesday EOD (or sooner, per discretion of the DevRel Manager).
+
+In rare cases, the sum of demoable content from community volunteers and the Engineering team will not be sufficient to fill 40 minutes. On any preceding Tuesday, if this appears to be the case, The DevRel Manager can escalate by beginning a thread in the `#engineering-team` Slack channel, informing the team that we are light on demo content - and will include an estimate of approximately how much time is needed to fill the upcoming session (where "40 minutes needed" roughly indicates a fully-blank agenda). The Engineering Manager (`@aj`) will work with the Engineering and Product teams throughout the day Wednesday to ensure prioritization of content creation. As needed, we will brainstorm amongst the teams for other relevant and engaging demoable content. This expanded demo scope then may include unfinished (aka unmerged) features, hobby projects, improvements to our own internal Meltano projects, etc.
+
 ### Streaming From Zoom to YouTube
 
 1. Launch zoom meeting room as usual.
