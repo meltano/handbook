@@ -173,3 +173,49 @@ Currently available GitLab custom emojis are:
 * `tanuki`
 
 Use them in comments or descriptions by typing `:emoji-name:`. Unfortunately, autocomplete and reactions (award emojis) are not currently supported for Custom Emojis.
+
+## Giving and Receiving Feedback
+### Our feedback philosophy
+
+Harsh feedback does not help people thrive and excel and is generally not constructive. Effective critique should be delivered with respect and care.
+
+### Types of Feedback
+
+#### Positive
+Positive feedback is critical for learning. People are often quick to notice what’s wrong, but it’s equally important to pay attention to and provide input on what is working to support development. This can also be considered recognition. Give thanks to a job well done even if it is not someone one your team. People always appreciate a compliment and validation fo their work and efforts. Put it out in the thanks channel or let their manager know you noticed their excellent work or efforts.
+
+**Best Venue:** Public channels, directly to their manger or them.
+
+**Examples:** Melty I have observed you taking charge of this project and i am so impressed with how proactive you have been involving stakeholder searly and how you communicate with them. Keep it up.
+
+#### Constructive
+The most constructive feedback is more of a two-way conversation. Feedback should be delivered with the intent to help someone improve vs scolding them or making them feel shame. Try to avoid telling someone how to fix the problem - this becomes a missed learning and experimenting opportunity. Alternatively, talk through solutions with them.
+    
+When you deliver negative feedback you want to do so in a way that minimizees the threat response. Start by ddressing both strengths and positivies before weaknesses. Do so in a a clear, specific, professional and caring way. If possible try to add in the impact of the behavior so people can fully see both the behavior and how it effects the team or projects. Avoid judgment and sweeping generalizations.
+    
+Make sure you leave time when giving feedback to allow the person to ask clarifying questions. Again, it should be a conversation or working shopping improvements.
+    
+**Best Venue**: 1:1
+    
+**Examples:** Melty we are super happy with the results of this project but in the process of getting it over the finishline you seemed ot alienate some of your peers by exlusding them in the decision making. We want to see you build yourself as a leader and often that involves bringing people up with you and being a mentor which we kow you ar capable of. Let’s talk about how we can try to involve other more going forward.
+   
+#### Checking in / Reminders
+Technically this is not feedback, but it can be construed as such if not given in a productive manner. If you are waiting on someone for something or cannot find info you need, first try looking for a related issue to make a request there. It is alway best to make request that aren’t urgent in our normal async work flow to allow the person to respond as part of their daily work flows. If you need info more urgently try pinging the person directly in slack. Do this in the spirit of info seeking vs implying they dropped the ball on something.
+    
+**Example approach:** Hey I was looking for the latest info on project xyz and didn’t see anything new in the issue is it possible to find otu the latest.
+    
+-   This is good because you have already done your homework to see if the info is out there, you are not accusing them of anything and you are just trying to gather info. Even better add a timeline to your request if you have one so people can knwo how o prioritize the request appropriately.
+    
+ **Best venue**: First try in the issue then try 1:1 slack message unless you are unsure who the DRI is and just generally asking the group.
+
+#### Receiving
+
+-   Don’t rush to react
+    
+-   Ask questions if you don’t fully understand the feedback. The desire with feedback is that it is constructive and actionable. So it is critical to leave with a clear understanding of how to internalize the feedback.
+    
+-   It’s okay to need time ot think about your response and ask for that time to reflect.
+    
+-   Try to listen and not get defensive.
+    
+-   **Example:** Can you give me more information about why you have concerns about my approach here I would love to learn for next time.
