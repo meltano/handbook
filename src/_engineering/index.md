@@ -5,6 +5,12 @@ weight: 1
 permalink: /engineering/
 ---
 
+## Responsibilities
+
+The Engineering team collectively reviews any incoming community [merge requests](https://gitlab.com/groups/meltano/-/merge_requests) within the Meltano Group on a daily cadence. 
+Merge requests are given the `Community-Contributed MR` label and a relevant issue is made if one does not exist. 
+Product will take the created issue so it can be fully triaged and prioritized appropriately.
+
 ## Significant Product Changes
 
 We aim to engage with the community for feedback whenever significant product changes are being proposed for Meltano,
