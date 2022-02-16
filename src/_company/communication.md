@@ -27,6 +27,7 @@ Asynchronous communication demonstrates consideration for team members across ti
 1. Use `FYI @username` when you want someone to be aware of what's being discussed, but they're not required to take action.
 1. Use `@username` when you want someone to take a specific action, such as contributing to the discussion or answering a question.
 1. If decisions are made on Slack, please either paste a screenshot of the conversation in the relevant issue/MR or provide a summary of what was discussed.
+1. Use the private #internal-thanks channel when you want to thank a team member for something. If it's less sensitive, consider sharing in the public #thanks channel so the wider Meltano community can see it.
 
 ### Issue and merge request guidelines
 
