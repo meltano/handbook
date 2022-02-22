@@ -45,7 +45,7 @@ Options vest monthly over 4 years, with a 1-year cliff. Early exercise is allowe
 #### Process to Nominate Someone for a Bonus    
 - Contact the person’s manager with the nomination info (name of person and why you are nominating them). 
 - Once the manager approves the nomination, the manager will let the person know in their 1:1 and announce in Slack (`internal-chatter`). 
-- Manager must also add the deatil to the [Bonus Sheet](https://docs.google.com/spreadsheets/d/1uuiJj5tySFO6XtjnkiGV0mOuysU3N4xECp1aF8xLpEg/edit#gid=0) so the person can get paid out. Ops will handle bonus allocation in new payroll. 
+- Manager must also add the detail to the [Bonus Sheet](https://docs.google.com/spreadsheets/d/1uuiJj5tySFO6XtjnkiGV0mOuysU3N4xECp1aF8xLpEg/edit#gid=0) so the person can get paid out. Ops will handle bonus allocation in new payroll. 
 
 #### Valid and Invalid criteria for discretionary bonuses
 
