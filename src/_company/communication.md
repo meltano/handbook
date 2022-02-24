@@ -102,6 +102,26 @@ OK," "it is on my todo list" are not helpful. If it's a small request, it's bett
 
 If you see something that concerns you in Slack, Issues, Merge Requests, Video, Emails or any other forum, we encourage you to respectfully say something directly to the individual in a 1:1 format. If you are not comfortable reaching out to the individual directly, please reach out to your direct manager or the Operations Analyst to discuss.
 
+## Emergency communications
+Slack and Zoom are two of our primary forms of communication with each other.  If either is down, use the following methods to communicate with the rest of the team.
+### Slack is down
+Use the "Slack is down" group chat on Zoom.  To access this, do the following:
+1. Open the Zoom desktop app and select "Chat" from the top menu.
+1. Open the "Channels" menu on the left hand navigation.
+1. Select the "Slack is down" channel.
+    1. If the "Slack is down" channel is not listed, select "+" to the right of "Channels" in the menu
+    1. Find the "Slack is down" channel listing
+    1. Select "Join"
+1. Once Slack is back up, revert to using that instead of Zoom chat.
+
+### Zoom is down
+If Zoom is down one can use Slack for calls between team members. To use Slack calling, do the following:
+1. Navigate to the appropriate Slack or direct message channel.
+1. Use `/call` to initiate a call. 
+    - You may be asked for appropriate permission the first time you do this.
+1. Once Zoom is back up and running, go back to using Zoom.
+
+
 ## Custom Emoji
 
 We use emoji to help convey emotions and ideas quickly. You should feel empowered to add any emoji you like, just consider the entire community and keep them appropriate and generally unoffensive.
