@@ -15,7 +15,7 @@ test:
   stage: test
   script:
   - bundle exec jekyll build -d test
-  - bundle exec htmlproofer --log-level :debug ./test --assume_extension --http_status_ignore 503 --url-ignore "/www.linkedin.com/,/www.dell.com/,/www.optionimpact.com/,/gusto.com/"
+  - bundle exec htmlproofer --log-level :debug ./test --assume_extension --http_status_ignore 503 --disable_external true --url-ignore "/www.linkedin.com/,/www.dell.com/,/www.optionimpact.com/,/gusto.com/"
   artifacts:
     paths:
     - test
