@@ -8,7 +8,7 @@ weight: 2
 
 A Key Performance Indicator (KPI) is a way to measure and understand progress towards a particular result.
 
-## North Star KPI - Average Plugins per Project
+## North Star KPI - Average Plugin Types per Project
 
 Meltano's current North Star KPI is the average number of plugin types per project (APP).
 
