@@ -77,11 +77,13 @@ we will update this section and the [Contributor Guide](https://meltano.com/docs
 and reviewers will learn new things to look out for until they catch (almost) everything the expert would,
 at which points they will be experts themselves.
 
-## Project Permissions in Gitlab
+## Project Settings and Permissions in Gitlab
 
 _This section describes the project permissioning model and project-level settings which are required for our merge process to work correctly._
 
 ### Protected branches
+
+Per project or repo, these settings are found at `Settings` > `Repository` > `Protected Branches`:
 
 - The `main` or `master` branch should be marked as a "protected" branch.
 - The protected branch should be set to allow Merges from "Developers and Maintainers".
