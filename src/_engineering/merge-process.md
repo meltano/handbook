@@ -94,6 +94,7 @@ Per project or repo, these settings are found at `Settings` > `Repository` > `Pr
 Per project or repo, these settings are found at `Settings` > `General` > `Merge Requests`:
 
 - These options should be set as follows:
+  - `Enable "Delete source branch" option by default`: `Enabled`
   - `Squash commits when merging`: `Encourage`
   - `Merge checks: Pipelines must succeed`: `Enabled` if a CI Pipeline exists, otherwise `Disabled` to avoid infinite loop/freeze of MRs.
   - `Merge checks: All discussions must be resolved`: `Enabled`
