@@ -106,4 +106,5 @@ Users are de-duplicated across platforms by first using an exact match then fall
 
 #### Company Domains
 The list of company domains that were first acquired in slack per month.
-The domain is based on emails of the slack users and their 
+The domain is based on emails of new slack users.
+The date the domain was acquired is based on the first user to join with that domain.
