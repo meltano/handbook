@@ -76,3 +76,38 @@ As experts catch issues in MRs that the original reviewers did not,
 we will update this section and the [Contributor Guide](https://meltano.com/docs/contributor-guide.html#reviews),
 and reviewers will learn new things to look out for until they catch (almost) everything the expert would,
 at which points they will be experts themselves.
+
+## Project Settings and Permissions in Gitlab
+
+_This section describes the project permissioning model and project-level settings which are required for our merge process to work correctly._
+
+### `Protected Branches` Settings
+
+Per project or repo, these settings are found at `Settings` > `Repository` > `Protected Branches`:
+
+- The `main` or `master` branch should be marked as a "protected" branch.
+- The protected branch should be set to allow Merges from "Developers and Maintainers".
+- The protected branch should be set to allow Push from "None".
+
+### `Merge requests` project settings
+
+Per project or repo, these settings are found at `Settings` > `General` > `Merge Requests`:
+
+- These options should be set as follows:
+  - `Enable "Delete source branch" option by default`: `Enabled`
+  - `Squash commits when merging`: `Encourage`
+  - `Merge checks: Pipelines must succeed`: `Enabled` if a CI Pipeline exists, otherwise `Disabled` to avoid infinite loop/freeze of MRs.
+  - `Merge checks: All discussions must be resolved`: `Enabled`
+
+_Important: The Gitlab UI requires you to hit "Save" after making changes in this section._
+
+### `Merge request appprovals` project settings
+
+Per project or repo, these settings are found at `Settings` > `General` > `Merge request approvals`:
+
+- These options should be set as follows:
+  - `Enabled`: `Prevent approval by author`
+  - `Disabled`: `Prevent approvals by users who add commits`
+  - `Disabled`: `Remove all approvals when commits are added to source branch`
+
+_Important: The Gitlab UI requires you to hit "Save" after making changes in this section._
