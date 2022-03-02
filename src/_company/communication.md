@@ -201,6 +201,8 @@ Make sure you leave time when giving feedback to allow the person to ask clarify
    
 #### Checking in / Reminders
 Technically this is not feedback, but it can be construed as such if not given in a productive manner. If you are waiting on someone for something or cannot find info you need, first try looking for a related issue to make a request there. It is alway best to make request that aren’t urgent in our normal async work flow to allow the person to respond as part of their daily work flows. If you need info more urgently try pinging the person directly in slack. Do this in the spirit of info seeking vs implying they dropped the ball on something.
+
+Managers should be sensitive to the power dynamics potentially at play in any potential feedback engagement. They should consciously compensate for that dynamic in their communication. This can often come into play when sending reminders. Things can come across as a reprimand vs a reminder if one does not that this into account. 
     
 **Example approach:** Hey I was looking for the latest info on project xyz and didn’t see anything new in the issue is it possible to find otu the latest.
     
