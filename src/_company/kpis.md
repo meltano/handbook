@@ -14,6 +14,9 @@ Meltano's current North Star KPI is the average number of plugin types per proje
 
 The goal of APP is to help us validate our vision and our progress towards product-market fit for Meltano as a DataOps OS. 
 
+APP is a lagging indicator that should be interpreted in context of other KPIs and health metrics. 
+Short-term fluctuations are expected and our goal is improvement of the KPI over the long term.
+
 APP is calculated using CLI invocations for elt, run, test, and invoke and by categorizing 
 each plugin into its appropriate type (i.e. Singer, dbt, Airflow, etc.). 
 
