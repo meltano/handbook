@@ -36,6 +36,6 @@ APP for this project is 3 because only Singer, dbt, and Airflow plugins are used
 
 ### Other KPIs
 
-We care about a number of other KPIs and metrics, but we believe APP to be the most important. 
+Additional KPIs and health metrics will be added to this page as we're able to define and measure them.
 
 Other metrics we track are documented in the [data team handbook](/data-team/metrics-and-definitions)
