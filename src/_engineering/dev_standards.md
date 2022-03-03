@@ -42,14 +42,15 @@ Note that within these qualifications, there's still tons of room for variabilit
 
 #### A: The invisible high cost of missing docs
 
-There are several invisible costs that appear immediately after docs are delayed: support costs, training costs, administrative costs, and priorization costs.
+There are several invisible costs that appear immediately after docs are delayed: additional support costs and training costs, along with additional overhead related to administrating and prioritizating the follow-on issue. All of these together can easily add up to 3x or 4x the cost of writing the docs in the first place.
 
-All of these together are generally 4x or more the cost of writing the docs in the first place. 
-Apart from the greater overall costs from _not_ having docs in place, there's an additional risk that a user will _discover_ the feature, _fail_ to implement it. Rather than provide a valuable feature they were interested in, we've potentially damaged a user's confidence because of a bad onboarding experience.
+Apart from the above-mentioned costs, there's an additional risk that a user will _discover_ the feature and then _fail_ to implement it. Contrary to our goal of providing "early access" to a valuable feature, we risk damaging a user's confidence in our product because of a bad onboarding experience.
 
 ### Exceptions to documentation requirements
 
-The only valid exceptions to this requirement are: (1) if another team member (such as a member of the PM team) is separately assigned the docs authoring, or (2) if we are accepting a contribution contribution and taking the docs authoring role upon ourselves. Even in these cases, however, docs still need to be completed before the feature is released.
+The only valid exceptions to this requirement are: (1) if another team member (such as a member of the PM team) is separately assigned the docs authoring, or (2) if we are accepting a contribution contribution and taking the docs authoring role upon ourselves.
+
+Even in these cases, however, docs still need to be completed before the feature is released.
 
 ## SQL Standards
 
