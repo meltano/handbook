@@ -78,6 +78,30 @@ Meltano - [CODEOWNERS](https://gitlab.com/meltano/meltano/-/blob/main/.gitlab/CO
 
 As we grow and the complexity of the various code base increases, we will appoint additional code owners to specific subject areas as needed.
 
+### Terraform and IAC Resources
+
+Terraform and IAC are an increasingly important codebase for our team's success. For any terraform and IAC resources which don't already have a `CODEOWNERS` ruleset, the following approval model should apply:
+
+- Primary Approver: @edgarrmondragon 
+- Secondary Approvers: @aaronsteers, @kgpayne (both required as 'additional' approvers **)
+
+Note:
+
+- More eyes are needed _temporarily_ on infra-related resources, but we'll scale this down to the standard primary/secondary approval model once a set of best practices and standard coding guidelines have been established. (Tracked in [handbook#68](https://gitlab.com/meltano/handbook/-/issues/68))
+
+### EM and PM Approval
+
+Whenever spec changes/updates are introduced during the process of development, and/or whenever a large impactful feature is being implemented, please add `@aaronsteers` and `@tayloramurphy` as required approvers.
+
+All EM/PM approval requests should be paired with a comment tagging one or both, specifically addressing the details of _where_ spec has changed and/or _which_ components or choices are needing approval.
+
+There are three types of EM/PM approval requests:
+
+1. **Pre-approval.** In this case, approval is being requested early in the dev cycle regarding a critical design choice or spec change. Generally a tagged comment is sufficient, and "approval" may just be in the form of a comment reply.
+2. **Final approval.** In this case, you are requesting final approval before merging a completed feature into the main branch. This generally is most appropriate _after_ the default/primary approver has completed providing their own feedback.
+3. **ADR Approval.** If your MR contains an ADR, it should _always_ be approved by both EM and PM, with cc mention to @DouweM.
+
+
 
 ## Responsibility to Merge
 
