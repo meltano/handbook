@@ -36,6 +36,6 @@ APP for this project is 3 because only Singer, dbt, and Airflow plugins are used
 
 ### Other KPIs
 
-Additional KPIs and health metrics will be added to this page as we're able to define and measure them.
+Additional KPIs and health metrics like retention, overall usage, and community engagement will be added to this page as we're able to define and measure them.
 
 Other metrics we track are documented in the [data team handbook](/data-team/metrics-and-definitions)
