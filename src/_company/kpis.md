@@ -13,9 +13,10 @@ A Key Performance Indicator (KPI) is a way to measure and understand progress to
 Meltano's current North Star KPI is the average number of plugin types per project (APP).
 
 The goal of APP is to help us validate our vision and our progress towards product-market fit for Meltano as a DataOps OS. 
+We want to increase APP but it's as much a tool to aid in prioritization as it is a metric we care about.
 
 APP is a lagging indicator that should be interpreted in context of other KPIs and health metrics. 
-Short-term fluctuations are expected and our goal is improvement of the KPI over the long term.
+Short-term fluctuations are expected and our goal is an increase of the KPI over the long term.
 
 APP is calculated using CLI invocations for elt, run, test, and invoke and by categorizing 
 each plugin into its appropriate type (i.e. Singer, dbt, Airflow, etc.). 
@@ -33,6 +34,11 @@ meltano test tap-gitlab some-map target-snowflake
 ```
 
 APP for this project is 3 because only Singer, dbt, and Airflow plugins are used.
+
+This definition of type is different from how we discuss plugin types in the [Meltano documentation](https://docs.meltano.com/concepts/plugins#types).
+In the above example, tap-gitlab, some-map, and target-snowflake are 3 different plugin types (Extractor, Mapper, and Loader, respecitvely), but for this metric they are all Singer-based plugins.
+
+To learn more about North Star Metrics checkout these articles from [Mixpanel](https://mixpanel.com/blog/north-star-metric/) and Amplitude.
 
 ### Other KPIs
 
