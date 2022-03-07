@@ -66,7 +66,7 @@ Lastly, all of this only matters if we are consistent in our approach. Consisten
   * The passive voice
 
 ## Brand Resources
-* [Meltano Brand Guide](https://drive.google.com/file/d/1I-OLWH9Lmps8Ql2F2KY6AW6A9CTK4UR4/view?usp=sharing) (includes colors, logo usage, fonts...)
+* [Meltano Brand Guide](https://drive.google.com/file/d/1f_WrPh75UIINAlphXb31OR5xTNxk8yIg/view?usp=sharing) (includes colors, logo usage, fonts...)
 
 * [Slide Deck Template](https://docs.google.com/presentation/u/0/?ftv=1&tgif=d): Please always start from this templte and make a copy before making changes
 
