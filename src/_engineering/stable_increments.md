@@ -12,13 +12,13 @@ Our value of constant iteration is balanced by a requirement that each increment
 
 ## What drives us to merge unstable increments?
 
-Unstable increments are often a introduced due to implied or expressly communicated deadlines. When a deadline approaches and time is running out, there's a natural instinct to "just get something shipped". When asking whether something should ship or not, we should remember to ask if it will be stable or unstable over 30 days, 90 days or 180 days.
+Unstable increments are often introduced due to implied or expressly communicated deadlines. When a deadline approaches and time is running out, there's a natural instinct to "just get something shipped". When asking whether something should ship or not, we should remember to ask if it will be stable or unstable over 30 days, 90 days or 180 days.
 
 ## Is tech debt stable?
 
 Sometimes yes, ironically. Tech debt can often be extremely stable. Stability is not a measure of our own developer cost when adding the _next_ feature, but the impact of the feature itself being released "as is" without guarantee of follow-on investments.
 
-We should always try to avoid knowingly creating _new_ tech debt, but leaving in existing tech debt does not imply the increment will be unstable. Often the opposite is true: while removing tech debt we increase the risk that our increment will be unstable - and we often have to counter the additional stability risk by investing in new tests while refactoring, for instance.
+We should always try to avoid knowingly creating _new_ tech debt, but leaving in existing tech debt does not imply the increment will be unstable. Often the opposite is true: while removing tech debt we increase the risk that our increment will be unstable -introduced due to implied and we often have to counter the additional stability risk by investing in new tests while refactoring, for instance.
 
 ## Examples of stable increments
 
