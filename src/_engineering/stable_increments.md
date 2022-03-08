@@ -18,7 +18,7 @@ Unstable increments are often a introduced due to implied or expressly communica
 
 Sometimes yes, ironically. Tech debt can often be extremely stable. Stability is not a measure of our own developer cost when adding the _next_ feature, but the impact of the feature itself being released "as is" without guarantee of follow-on investments.
 
-We should always try to avoid knowingly creating _new_ tech debt, but leaving in existing tech debt does not imply the increment will be unstable. Often the opposite is true: while removing tech debt we increase the risk that our increment will be unstable - and often will counter this by investing in new tests, for instance.
+We should always try to avoid knowingly creating _new_ tech debt, but leaving in existing tech debt does not imply the increment will be unstable. Often the opposite is true: while removing tech debt we increase the risk that our increment will be unstable - and we often have to counter the additional stability risk by investing in new tests while refactoring, for instance.
 
 ## Examples of stable increments
 
