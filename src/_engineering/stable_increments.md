@@ -12,7 +12,7 @@ Our value of constant iteration is balanced by a requirement that each increment
 
 ## What drives us to merge unstable increments?
 
-Unstable increments are often a introduced due to implied or expressly communicated deadlines. When a deadline approaches and time is running out, there's a natural instinct to "just get something shipped". When asking whether something should ship or not, we should remember to ask if it will be stable or unstable over 30 days, 90 days or 180 days.
+Unstable increments are often introduced due to implied or expressly communicated deadlines. When a deadline approaches and time is running out, there's a natural instinct to "just get something shipped". When asking whether something should ship or not, we should remember to ask if it will be stable or unstable over 30 days, 90 days or 180 days.
 
 ## Is tech debt stable?
 
