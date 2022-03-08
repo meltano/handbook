@@ -20,7 +20,7 @@ An iterative approach _does not_ mean that docs and tests can be saved for a lat
 
 Our Meltano value of ongoing `Iteration` is balanced by a requirement that each increment is "stable". A stable increment is an iteration that provides value without disproportionately adding maintenance and support costs.
 
-For more information, please see the handbook section on [Stable Increments](stable_increments.md).
+_For more information, please see the handbook section on [Stable Increments](./stable-increments)._
 
 ## Documentation Standards
 
@@ -35,7 +35,7 @@ Documentation is critical and should be included in _every_ increment. Docs shou
 A test of _minimally complete documentation_ is as follows:
 
 1. **Feature discoverability.** Can a user reading through our docs understand what the feature is and whether they should use it?
-2. **Implementation intructions.** Can a user implement this feature successfully using _only_ the available docs? _(Excluding complementary resources such as blogs, Slack notifications, and demos.)_
+2. **Implementation instructions.** Can a user implement this feature successfully using _only_ the available docs? _(Excluding complementary resources such as blogs, Slack notifications, and demos.)_
 
 If either of these conditions is not met, the MR _should not be merged_ as it does not meet the minimal definition of done as related to documentation.
 
@@ -47,9 +47,9 @@ Note that within these qualifications, there's still tons of room for variabilit
 
 #### A: The invisible high cost of missing docs
 
-There are several invisible costs that appear immediately after docs are delayed: additional support costs and training costs, along with additional overhead related to administrating and prioritizating the follow-on issue. All of these together can easily add up to 3x or 4x the cost of writing the docs in the first place.
+There are several invisible costs that appear immediately after docs are delayed: additional support costs and training costs, along with additional overhead related to administrating and prioritizing the follow-on issue. All of these together can quickly add up to more than the cost of the docs authoring itself.
 
-Apart from the above-mentioned costs, there's an additional risk that a user will _discover_ the feature and then _fail_ to implement it. Contrary to our goal of providing "early access" to a valuable feature, we risk damaging a user's confidence in our product because of a bad onboarding experience.
+Apart from the above-mentioned costs, there's an additional risk that a user will _discover_ the feature and then fail to implement it. Contrary to our goal of providing "early access" to a valuable feature, we risk damaging a user's confidence in our product because of a bad onboarding experience.
 
 ### Exceptions to documentation requirements
 
@@ -59,9 +59,9 @@ Even in these cases, however, docs still need to be completed before the feature
 
 ## SQL Standards
 
-SQL code should validate against the SQLFluff checks and should match with SQLFLuff autoformat output. (Ideally, CI tests are to be enabled wherever possible.)
+SQL code should validate against the SQLFluff checks and should match with SQLFLuff auto-format output. (Ideally, CI tests are to be enabled wherever possible.)
 
-- Additional guidance is available in the **SQL Style Guide**, in the **Data Team** section of this Handbook.
+- Additional guidance is available in the [SQL Style Guide](/data-team/sql-style-guide), in the **Data Team** section of this Handbook.
 - SQLFluff settings defaults (including a sample SQLFluff config file) will be made official in [handbook#69](https://gitlab.com/meltano/handbook/-/issues/69).
 
 ## Python Standards
@@ -70,7 +70,7 @@ COMING SOON
 
 ## Terraform Standards
 
-Terraform code should validate against the `terraform fmt` checks and should match with `terraform fmt` autoformat output. (Ideally, CI tests are to be enabled wherever possible.)
+Terraform code should validate against the `terraform fmt` checks and should match with `terraform fmt` auto-format output. (Ideally, CI tests are to be enabled wherever possible.)
 
 As a general guide, please refer to [Gruntwork's Terraform Style Guide](https://docs.gruntwork.io/guides/style/terraform-style-guide/) - except the "Testing" section, which does not yet apply.
 
