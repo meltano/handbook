@@ -16,6 +16,12 @@ The definition of done for any increment of work should always include:
 
 An iterative approach _does not_ mean that docs and tests can be saved for a later iteration. To save time, it's generally a good practice to write docs and tests before writing the code.
 
+## Every Iteration should be a stable increment
+
+Our Meltano value of ongoing `Iteration` is balanced by a requirement that each increment is "stable". A stable increment is an iteration that provides value without disproportionately adding maintenance and support costs.
+
+For more information, please see the handbook section on [Stable Increments](stable_increments.md).
+
 ## Documentation Standards
 
 ### Markdown Linting
