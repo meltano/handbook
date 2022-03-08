@@ -6,14 +6,13 @@ weight: 3
 
 This page is a resource for development standards across all Meltano products and Meltano code repos.
 
-
 ## General Standards
 
 The definition of done for any increment of work should always include:
 
-1. Docs meet or exceed documentation standards (in [Docs section](#Documentation_Standards) below)
-1. Code meets the standards for the respective language (documented in sections below).
-1. Code is sufficiently tested
+1. Docs meet or exceed documentation standards (in [Docs section](#documentation-standards) below).
+2. Code meets the standards for the respective language (documented in sections below).
+3. Code is sufficiently tested.
 
 An iterative approach _does not_ mean that docs and tests can be saved for a later iteration. To save time, it's generally a good practice to write docs and tests before writing the code.
 
@@ -56,7 +55,7 @@ Even in these cases, however, docs still need to be completed before the feature
 
 SQL code should validate against the SQLFluff checks and should match with SQLFLuff autoformat output. (Ideally, CI tests are to be enabled wherever possible.)
 
-- Additional guidance is available in the [SQL Style Guide](../_data-team/sql-style-guide.md).
+- Additional guidance is available in the **SQL Style Guide**, in the **Data Team** section of this Handbook.
 - SQLFluff settings defaults (including a sample SQLFluff config file) will be made official in [handbook#69](https://gitlab.com/meltano/handbook/-/issues/69).
 
 ## Python Standards
