@@ -42,7 +42,7 @@ Unstable increments can put company-wide priorities at risk by introducing often
 - A feature release that is not sufficiently tested (for example) is likely to lead to bug reports, which raise the support cost of the product.
   - This is a visible cost, generally `Urgency:high` bug reports and must be reprioritized.
 
-Unlike stable increments, where the feature will be fine if it is deprioritized for a few weeks or more, and unstable increment demands to stay prioritized, at risk of ongoing impact to the users and/or the team's velocity.
+Unlike stable increments, where the feature will be fine if it is deprioritized for a few weeks or more, an unstable increment demands to stay prioritized, at risk of ongoing impact to the users and/or the team's velocity.
 
 ## Estimating an increment's stability
 
