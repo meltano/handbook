@@ -23,7 +23,7 @@ We should always try to avoid knowingly creating _new_ tech debt, but leaving in
 ## Examples of stable increments
 
 - Releasing a feature which as of the first iteration only resolves 20% of expected use cases, but which can be utilized immediately for use cases which it addresses. (The subsequent use cases can be prioritized as follow-on increments.)
-- Any bug fix. (Bug fixes are always stable because they don't create additional cost.)
+- _Most_ bug fixes, assuming new issues are not being introduced.
 - Resolving ambiguity in documentation. (Improvements to documentation are always a stable increment.)
 - Updating an existing feature _without_ significantly refactoring legacy code, even when the additional refactor would be helpful in the longrun. (Refactoring reduces technical debt at the cost of additional time and _also_ at additional risk to short and mid-term stability. Often the most stable increment is to change _only_ the code you need to change.)
 
@@ -32,6 +32,7 @@ We should always try to avoid knowingly creating _new_ tech debt, but leaving in
 - Releasing a feature without docs.
 - Adding a large new feature without tests.
 - Adding a feature with an unstable spec - meaning the spec is known to be non-final and is expected to later be updated in a non-backwards compatible manner.
+- Releasing a "short-term bug fix" with known remaining defects or undesirable behaviors. (Those will in turn need to be patched as part of a later "permanent" fix.)
 
 ## The high cost of unstable increments
 
