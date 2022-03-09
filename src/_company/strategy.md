@@ -68,9 +68,9 @@ These metrics are used to measure whether we've successfully reached the stated 
 
 #### Timeframe for measurement
 
-- 2 of 7 development initiatives tracked with this OKR are planned to resolve by end of March 2022.
-- 6 of 7 development initiatives tracked with this OKR are planned to resolve by end of April 2022.
-- 7 of 7 development initiatives tracked with this OKR are planned to resolve by end of May 2022.
+- 2 of 7 development initiatives tracked with this goal are planned to resolve by end of March 2022.
+- 6 of 7 development initiatives tracked with this goal are planned to resolve by end of April 2022.
+- 7 of 7 development initiatives tracked with this goal are planned to resolve by end of May 2022.
 - Because of the time lag between initiatives (mostly feature releases) and their impact on metrics, we expect the metrics to have moderate gains at end of May and beginning of June, with more significant gains shown throughout July and August.
 
 ### `Goal: Shorten the Meltano Learning Curve and Begin Tracking New User Retention`
