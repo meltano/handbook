@@ -57,12 +57,13 @@ These metrics are used to measure Key Results for this objective.
 
 The initiatives impacting this OKR are tracked with the label: `OKR 2022.M1`:
 
-- [Tracked Initiatives (Issues) in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR+2022.M1)
+- [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR+2022.M1)
+- [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR%202022.M1)
 
 #### `2022.M1` Timeframe for measurement
 
-- 50% of initiatives tracked with this OKR are expected to resolve by end of April 2022.
-- 100% or initiatives tracked with this OKR are expected to resolve by end of May 2022.
+- 2 of 6 of development initiatives tracked with this OKR are planned to resolve by end of March 2022.
+- 6 of 6 or development initiatives tracked with this OKR are planned to resolve by end of April 2022.
 - Because of the time lag between initiatives (mostly feature releases) and their impact on metrics, we expect the metrics to have moderate gains at end of May and beginning of June, with more significant gains shown throughout July and August.
 
 ## OKR '2022.M2': Shorten the Meltano Learning Curve and Address New User Retention
