@@ -65,7 +65,7 @@ The initiatives impacting this OKR are tracked with the label: `OKR 2022.M1`:
 - 100% or initiatives tracked with this OKR are expected to resolve by end of May 2022.
 - Because of the time lag between initiatives (mostly feature releases) and their impact on metrics, we expect the metrics to have moderate gains at end of May and beginning of June, with more significant gains shown throughout July and August.
 
-## OKR '2022.M2': Shorten the Meltano Learning Curve and Address New User Attrition
+## OKR '2022.M2': Shorten the Meltano Learning Curve and Address New User Retention
 
 Scope: Company-Wide (`'M'`)
 
