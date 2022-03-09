@@ -49,11 +49,12 @@ To learn more about North Star Metrics checkout these articles from [Mixpanel](h
 
 ## Product Penetration Ratios - The Components of APP
 
-Since we have 4 tracked plugin types for the purposes of APP tracking, and since there are two ways of tracking each metric, there are likewise 8 (4x2) component product penetration KPIs:
+Since we have 5 tracked plugin types for the purposes of APP tracking, and since there are two ways of tracking each metric, there are 10 (5x2) component product penetration KPIs:
 
 - `#` and `%` monthly projects with "Orchestrator" plugins usage.
 - `#` and `%` monthly projects with "Transformer" plugins usage.
-- `#` and `%` monthly projects with "Utility" plugins usage.
+- `#` and `%` monthly projects with "Utility" plugins usage for BI/Analytics.
+- `#` and `%` monthly projects with "Utility" plugins usage (Other).
 - `#` and `%` monthly projects with "Singer" plugins usage.
 
 ## Diagnosing APP Metric Volatility
