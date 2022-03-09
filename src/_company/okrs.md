@@ -23,7 +23,7 @@ A Key Result consists of the following elements:
 - Start value
 - Target value
 
-KR tracking occurs in GitLab issues, with KRs linked to their OKR ID via Gitlab labels.
+KR tracking occurs in GitLab issues, with KRs linked to their OKR ID via Gitlab labels. KR titles are public and are listed below under each OKR definition, with links to the Gitlab issues with additional information.
 
 ## OKR IDs
 
