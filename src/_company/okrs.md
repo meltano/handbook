@@ -18,10 +18,12 @@ There are three components to OKRs:
 
 A Key Result consists of the following elements:
 
+- A KR title
 - Metric or KPI
 - Start value
 - Target value
-- A KR title
+
+KR tracking occurs in GitLab issues, with KRs linked to their OKR ID via Gitlab labels.
 
 ## OKR IDs
 
@@ -42,6 +44,7 @@ Initiatives impacting the OKR are tracked in Gitlab and should be tagged with a 
 - OKR and KPI definitions are **public** in the `handbook` repo.
 - Metric calculation logics are **public** in the `squared` repo.
 - KPI metric values, metric goals, and metric history are kept **internal** by default, according to the guidelines on the [KPIs](/data-team/kpis) page.
+- KR tracking likewise occurs in **internal** GitLab issues.
 
 ## List of Current OKRs and Links to Metrics
 
