@@ -11,7 +11,7 @@ weight: 2
 There are three components to OKRs:
 
 1. Objectives - These are the priorities we need to achieve.
-2. Key Results - These are metrics or "[KPIs](/data-team/kpis)" which measure our success, relative to the states objectives.
+2. Key Results - These are quantifiable measurements of success towards the stated objectives.
 3. Initiatives - These are specific actions we can take which improve our Key Result metrics and, in turn, our help us reach our Objectives.
 
 ## Definition of a Key Result
