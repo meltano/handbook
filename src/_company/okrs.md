@@ -33,11 +33,11 @@ We identify OKRs with the id number "YYYY.XN" where:
 - `X` is the initial of the team: `'C'` for Company-wide objectives, `E` for Engineering, `M` for Marketing, `P` for product, etc.
 - `N` is the sequence number of the OKR with respect to the above factors.
 
-In day-to-day speech, we can shorten these to just "M1" for the main/primary company-wide OKR, "E1" for the primary Engineering OKR, etc.
+In day-to-day speech, we can shorten these to just "C1" for the main/primary company-wide OKR, "E1" for the primary Engineering OKR, etc.
 
 ## Tracking Initiatives in Gitlab
 
-Initiatives impacting the OKR are tracked in Gitlab and should be tagged with a label matching the key of the specific OKR, for instance `OKR 2022.M1`.
+Initiatives impacting the OKR are tracked in Gitlab and should be tagged with a label matching the key of the specific OKR, for instance `OKR 2022.C1`.
 
 ## Transparency Guidelines for OKRs and KPIs
 
@@ -48,13 +48,13 @@ Initiatives impacting the OKR are tracked in Gitlab and should be tagged with a 
 
 ## List of Current OKRs and Links to Metrics
 
-### OKR '2022.M1': "Validate Meltano vision and PMF as the DataOps OS"
+### OKR '2022.C1': "Validate Meltano vision and PMF as the DataOps OS"
 
-Scope: Company-Wide (`'M'`)
+Scope: Company-Wide (`'C'`)
 
 **Objective: We will achieve our broad Meltano vision as the DataOps OS.**
 
-#### '2022.M1' Key Results
+#### '2022.C1' Key Results
 
 - [KR: Increase APP](https://gitlab.com/meltano/meta/-/issues/217)
   - [KR: Increase usage of `orchestrator` plugins](https://gitlab.com/meltano/meta/-/issues/220)
@@ -68,14 +68,14 @@ Scope: Company-Wide (`'M'`)
 
 These metrics are used to measure Key Results for this objective.
 
-#### `2022.M1` Initiatives
+#### `2022.C1` Initiatives
 
-The initiatives impacting this OKR are tracked with the label: `OKR 2022.M1`:
+The initiatives impacting this OKR are tracked with the label: `OKR 2022.C1`:
 
-- [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR+2022.M1)
-- [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR%202022.M1)
+- [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR+2022.C1)
+- [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR%202022.C1)
 
-#### `2022.M1` Timeframe for measurement
+#### `2022.C1` Timeframe for measurement
 
 - 2 of 7 development initiatives tracked with this OKR are planned to resolve by end of March 2022.
 - 6 of 7 development initiatives tracked with this OKR are planned to resolve by end of April 2022.
