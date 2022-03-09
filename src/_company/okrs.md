@@ -60,11 +60,11 @@ Scope: Company-Wide (`'C'`)
   - [KR: Increase usage of `orchestrator` plugins](https://gitlab.com/meltano/meta/-/issues/220)
     - orchestrator plugin tracking currently blocked by [this issue](https://gitlab.com/meltano/meta/-/issues/216)
   - [KR: Increase usage of `transformer` plugins](https://gitlab.com/meltano/meta/-/issues/219)
-  - KR: Increase usage of `utility` plugins linked to `BI` or `analyze` functions
+  - [KR: Increase usage of `utility` plugins linked to `BI` or `analyze` functions](https://gitlab.com/meltano/meta/-/issues/219)
     - How to measure this is still TBD. Would likely include:
       - Utilities with an 'analyzer' capability or similar. (Not trackable currently.)
       - Utilities in a static list of known analyzer names: 'superset', 'lightdash', etc. (Trackable but must be manually maintained.)
-  - [KR: Increase usage of `utility` plugins (other)](https://gitlab.com/meltano/meta/-/issues/219)
+  - [KR: Increase usage of `utility` plugins (other)](https://gitlab.com/meltano/meta/-/issues/221)
 
 These metrics are used to measure Key Results for this objective.
 
