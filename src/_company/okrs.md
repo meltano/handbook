@@ -30,7 +30,7 @@ KR tracking occurs in GitLab issues, with KRs linked to their OKR ID via Gitlab 
 We identify OKRs with the id number "YYYY.XN" where:
 
 - `YYYY` is the year that the OKR was established.
-- `X` is the initial of the team: `'M'` for Company-wide objectives, `E` for Engineering, `M` for Marketing, `P` for product, etc.
+- `X` is the initial of the team: `'C'` for Company-wide objectives, `E` for Engineering, `M` for Marketing, `P` for product, etc.
 - `N` is the sequence number of the OKR with respect to the above factors.
 
 In day-to-day speech, we can shorten these to just "M1" for the main/primary company-wide OKR, "E1" for the primary Engineering OKR, etc.
