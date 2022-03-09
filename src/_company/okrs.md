@@ -52,7 +52,7 @@ Initiatives impacting the OKR are tracked in Gitlab and should be tagged with a 
 
 Scope: Company-Wide (`'M'`)
 
-**Objective: We will validate our broad Meltano vision as the DataOps OS.**
+**Objective: We will achieve our broad Meltano vision as the DataOps OS.**
 
 #### '2022.M1' Key Results
 
