@@ -6,25 +6,29 @@ weight: 2
 
 ## What is this page
 
-This page highlights Meltano's most important strategic goals, as a means for teams to focus on important company-wide priorities, and giving each team a framework to contextualized and measure their contributions towards our stated objectives.
+This page highlights Meltano's most important strategic goals, as a means for everyone in the company to align their efforts with important company-wide priorities. This gives teams a framework to contextualize and measure their contributions towards our stated objectives, and to determine the relative priority between different tasks to ensure that limited time is spent in the most impactful way.
 
-For each goal, are three components:
+For each goal, there are three components:
 
 1. Objectives - The priorities we need to achieve.
 2. KPIs - The quantifiable measurements of success towards the stated goals.
-3. Initiatives - Specific actions we can take which improve our KPI metrics and, in turn, our help us reach our Goals.
+3. Initiatives - Specific actions we can take which improve our KPI metrics and, in turn, help us reach our Goals.
 
 ## Tracking KPIs and KPI-specific Goals
 
-KPI goals may be _optionally_ be tracked in Gitlab issues:
+We aim to have dashboards in Superset for each of the KPIs.
+Charts and dashboards for KPIs should be linked back to the handbook and specific Goals where possible.
+
+KPI goals may be _optionally_ be tracked in GitLab issues:
 
 - KPI Name
 - A KPI Goal title (e.g. "Improve Metric X")
 - Start value
 - Target value
 - Timeframe for evaluation (e.g. "by July 10")
+- Dashboard Link (if available)
 
-KPI Goal tracking occurs in GitLab issues, with links to related Objectives and Initiatives when appropriate via linked issues and/or via Gitlab labels. The list of KPIs and (optionally) of the KPI goal is public and listed below under each Goal definition, including links to the Gitlab issues with additional information.
+KPI Goal tracking occurs in GitLab issues, with links to related Objectives and Initiatives when appropriate via linked issues and/or via GitLab labels. The list of KPIs and (optionally) of the KPI goal is public and listed below under each Goal definition, including links to the GitLab issues with additional information.
 
 ## Goals in Gitlab
 
@@ -32,7 +36,7 @@ We track goals in GitLab as labels, using the format `Goal: Short Description`.
 
 ## Tracking related Initiatives in Gitlab
 
-Initiatives impacting the Goal are tracked in Gitlab and should be tagged with a label which associates the issue with the Goal it is targeted to help us achieve.
+Initiatives impacting the Goal are tracked in GitLab and should be tagged with a label which associates the issue with the Goal it is targeted to help us achieve.
 
 ## Transparency Guidelines for Goals and KPIs
 
@@ -43,7 +47,7 @@ Initiatives impacting the Goal are tracked in Gitlab and should be tagged with a
 
 ## List of Current Goals and KPIs
 
-### `Goal: Achieve Meltano vision and PMF as the DataOps OS`
+### Goal: Achieve Meltano vision and PMF as the DataOps OS
 
 - Scope: Company-Wide
 - Objective: **We will achieve our broad Meltano vision as the DataOps OS.**
@@ -73,7 +77,7 @@ These metrics are used to measure whether we've successfully reached the stated 
 - 7 of 7 development initiatives tracked with this goal are planned to resolve by end of May 2022.
 - Because of the time lag between initiatives (mostly feature releases) and their impact on metrics, we expect the metrics to have moderate gains at end of May and beginning of June, with more significant gains shown throughout July and August.
 
-### `Goal: Shorten the Meltano Learning Curve and Begin Tracking New User Retention`
+### Goal: Shorten the Meltano Learning Curve and Begin Tracking New User Retention
 
 - Scope: Company-Wide
 - Objective: **We will address feedback regarding the Meltano learning curve and begin actively monitoring attrition and retention metrics.**
@@ -84,7 +88,7 @@ These metrics are used to measure whether we've successfully reached the stated 
 
 #### Related KPIs and Goals
 
-_Currently we do not have metrics in place to track this. See logged Initiative issues below._
+_Currently we do not have metrics in place to track this. See logged Initiative issues linked above._
 
 #### Timeframe for Measurement
 
