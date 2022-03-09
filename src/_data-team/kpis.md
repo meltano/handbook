@@ -18,7 +18,7 @@ Certain KPIs are Health Metrics and not part of any OKR, which means we may pass
 
 ## APP - Average Plugin Types per Project
 
-Meltano's current North Star OKR to help us validate our vision and our progress towards product-market fit for Meltano as a DataOps OS. Our primary metric for this OKR is the average number of plugin types per project (APP).
+Meltano's current North Star OKR is to help us validate our vision and our progress towards product-market fit for Meltano as a DataOps OS. Our primary metric for this OKR is the average number of plugin types per project (APP).
 
 We want to increase APP but it's as much a tool to aid in prioritization as it is a metric we care about.
 
