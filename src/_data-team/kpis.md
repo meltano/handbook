@@ -8,17 +8,13 @@ weight: 2
 
 A Key Performance Indicator (KPI) is a way to measure and understand progress towards a particular result.
 
-## KPIs as Key Results in an OKR
-
-KPIs are often used to measure Key Results in an [OKR](/company/okrs). Not all KPIs are input metrics to OKRs. Certain KPIs are tracked as health metrics and certain metrics or KPIs are not yet actionable because they are still being socialized and analyzed.
-
 ## KPIs as Health Metrics
 
-Certain KPIs are Health Metrics and not part of any OKR, which means we may passively monitor them and alarm on them and take action when and if they fall out of expected range. Otherwise we may or may not have goals or initiatives associated with their outputs.
+Certain KPIs are considered Health Metrics, which means we actively monitor them and alarm on them and take action when and if they fall out of expected range. Otherwise we may or may not have goals or initiatives associated with their outputs.
 
 ## APP - Average Plugin Types per Project
 
-Meltano's current North Star OKR is to help us achieve our vision and our progress towards product-market fit for Meltano as a DataOps OS. Our primary metric for this OKR is the average number of plugin types per project (APP).
+Meltano's primary strategic goal is to achieve our vision towards product-market fit for Meltano as a DataOps OS. Our primary metric for measuring progress towards this goal is the average number of plugin types per project (APP).
 
 We want to increase APP but it's as much a tool to aid in prioritization as it is a metric we care about.
 
