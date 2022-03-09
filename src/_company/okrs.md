@@ -14,6 +14,15 @@ There are three components to OKRs:
 2. Key Results - These are metrics or "[KPIs](/data-team/kpis)" which measure our success, relative to the states objectives.
 3. Initiatives - These are specific actions we can take which improve our Key Result metrics and, in turn, our help us reach our Objectives.
 
+## Definition of a Key Result
+
+A Key Result consists of the following elements:
+
+- Metric or KPI
+- Start value
+- Target value
+- A KR title
+
 ## OKR IDs
 
 We identify OKRs with the id number "YYYY.XN" where:
@@ -30,7 +39,7 @@ Initiatives impacting the OKR are tracked in Gitlab and should be tagged with a 
 
 ## Transparency Guidelines for OKRs and KPIs
 
-- All OKR and KPI definitions are **public** in the `handbook` repo.
+- OKR and KPI definitions are **public** in the `handbook` repo.
 - Metric calculation logics are **public** in the `squared` repo.
 - KPI metric values, metric goals, and metric history are kept **internal** by default, according to the guidelines on the [KPIs](/data-team/kpis) page.
 
@@ -42,16 +51,15 @@ Scope: Company-Wide (`'M'`)
 
 **Objective: We will validate our broad Meltano vision as the DataOps OS.**
 
-#### Key Results
+#### '2022.M1' Key Results
+
+- [KR: Increase APP](https://gitlab.com/meltano/meta/-/issues/217)
+  - [KR: Increase Utility Usage](https://gitlab.com/meltano/meta/-/issues/218)
+  - [KR: Increase Transformer Usage](https://gitlab.com/meltano/meta/-/issues/219)
+  - [KR: Increase Orchestrator Usage](https://gitlab.com/meltano/meta/-/issues/220)
+    - orchestrator plugin tracking currently blocked by [this issue](https://gitlab.com/meltano/meta/-/issues/216)
 
 These metrics are used to measure Key Results for this objective.
-
-- `2022.M1.01` - Monthly Average Product Types per Project (APP).
-  - Note: this metric can also go down due to increased new users. It is also not on its own an actionable metric, since alone it does not provide any hints to root cause. To address this, the additional KPIs below will be used to (1) contextualize relative success and (2) to hone into any specific problem areas.
-  - This metric is highly impacted by the size of the time window used when measuring.: e.g. rolling 14 days, 28 days, monthly rollup. _Our standard calculation is based a calendar month aggregate - as are the component metrics below._
-- `2022.M1.01.1` - % monthly projects with "Orchestrator" plugins usage.
-- `2022.M1.01.2` - % monthly projects with "Transformer" plugins usage.
-- `2022.M1.01.2` - % monthly projects with "Utility" plugins usage.
 
 #### `2022.M1` Initiatives
 
@@ -65,7 +73,7 @@ The initiatives impacting this OKR are tracked with the label: `OKR 2022.M1`:
 - 2 of 7 development initiatives tracked with this OKR are planned to resolve by end of March 2022.
 - 6 of 7 development initiatives tracked with this OKR are planned to resolve by end of April 2022.
 - 7 of 7 development initiatives tracked with this OKR are planned to resolve by end of May 2022.
-- Because of the time lag between initiatives (mostly feature releases) and their impact on metrics, we expect the metrics to have moderate gains at **end of May and beginning of June**, with more significant gains shown throughout **July and August**.
+- Because of the time lag between initiatives (mostly feature releases) and their impact on metrics, we expect the metrics to have moderate gains at end of May and beginning of June, with more significant gains shown throughout July and August.
 
 ## OKR '2022.M2': Shorten the Meltano Learning Curve and Address New User Retention
 
