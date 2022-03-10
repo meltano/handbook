@@ -35,7 +35,7 @@ Options vest monthly over 4 years, with a 1-year cliff. Early exercise is allowe
 ## Bonuses
 
 ### Discretionary Bonuses for Individuals
-- There will be times where a team member goes "above the call of duty" and expemplifies [our values](https://handbook.meltano.com/company/values) in a way that the leadership recognizes as extraordinary.  We want to highlight these achievements to others and to acknowledge these contributions with special recognition in the form of a discretionary bonus.
+- There will be times where a team member goes "above the call of duty" and exemplifies [our values](/company/values) in a way that the leadership recognizes as extraordinary.  We want to highlight these achievements to others and to acknowledge these contributions with special recognition in the form of a discretionary bonus.
  - Anyone can nominate any full-time team member who is not on the leadership team for a discretionary bonus. 
  - Bonuses are awarded as a dinner of up to $150.
  - There is no limit to the frequency with which someone can receive a
@@ -43,7 +43,7 @@ Options vest monthly over 4 years, with a 1-year cliff. Early exercise is allowe
  - Only team members in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing a performance improvement plan).
 
 #### Process to Nominate Someone for a Bonus    
-- Identify a team member who has truly gone above and beyond what is expected of them as it relates to one of the [company values](https://handbook.meltano.com/company/values).
+- Identify a team member who has truly gone above and beyond what is expected of them as it relates to one of the [company values](/company/values).
 - Contact the team member’s manager with the nomination information:
    - The name of team member
    - The specifics of why you are nominating them. 
