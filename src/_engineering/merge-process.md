@@ -81,7 +81,11 @@ Optionally, merge in the latest from master and resolve conflicts:
 git merge origin/master
 ```
 
-Then make any other changes needed.
+Then make any other changes needed. For example, commonly we need to re-lock the python library refs:
+
+```bash
+poetry lock
+```
 
 ### Step 4: Push the changes back to the fork
 
