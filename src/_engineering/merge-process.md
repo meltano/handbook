@@ -54,6 +54,41 @@ The first team member to review should assign themselves to the review and check
 - Whenever blocked on a response for 48+ hours, we may flag as such using the `Awaiting Action::Author` label. Sparingly and with due respect, we may ping a contributor on Slack (in DM or in the `#contributing` channel) to notify them of pending action on their side.
 - In the case that a contributor becomes non-responsive due to competing priorities, time lag, or other factors, we evaluate internally within the team (and with help from Product) to decide if we can prioritize and deliver any remaining outstanding tasks ourselves.
 
+### Contributing to branches on a community-member's fork
+
+Occasionally we need to help a contributor get their MR completed by contributing back to their fork. The GitLab-provided instructions are incorrect for this process. Please use the following:
+
+#### Step 1: Set some env vars
+
+```bash
+export ORG_NAME=name-of-user
+export REPO_NAME=meltano
+export BRANCH_NAME=name-of-branch
+```
+
+#### Step 2: Pull from the fork ref to a local branch
+
+```bash
+git fetch "git@gitlab.com:$ORG_NAME/$REPO_NAME.git" '$BRANCH_NAME'
+git checkout -b '$BRANCH_NAME' FETCH_HEAD
+```
+
+### Step 3: Make changes in your local copy of the branch as usual
+
+Optionally, merge in the latest from master and resolve conflicts:
+
+```bash
+git merge origin/master
+```
+
+Then make any other changes needed.
+
+### Step 4: Push the changes back to the fork
+
+```bash
+git push $ORG_NAME/$REPO_NAME
+```
+
 ## Code owners and approvers
 
 For our core repos we use a pattern of Primary/Fallback ownership, where each area of the codebase has a designated primary and secondary owners. Approval is required for both Community-Contributed MRs and Team-Authored MRs from one of these individuals. 
