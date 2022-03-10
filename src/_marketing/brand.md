@@ -66,11 +66,21 @@ Lastly, all of this only matters if we are consistent in our approach. Consisten
   * The passive voice
 
 ## Brand Resources
-* [Meltano Brand Guide](https://drive.google.com/file/d/1I-OLWH9Lmps8Ql2F2KY6AW6A9CTK4UR4/view?usp=sharing) (includes colors, logo usage, fonts...)
+* [Meltano Brand Guide](https://drive.google.com/file/d/1f_WrPh75UIINAlphXb31OR5xTNxk8yIg/view?usp=sharing) (includes colors, logo usage, fonts...)
 
 * [Slide Deck Template](https://docs.google.com/presentation/u/0/?ftv=1&tgif=d): Please always start from this templte and make a copy before making changes
 
 * Font: [IBM Plex Sans](https://github.com/IBM/plex/tree/master/IBM-Plex-Sans)
+
+## A Quick Guide to Meltano
+### Overview (75 words): 
+Meltano (https://meltano.com) is the open source DataOps OS that bridges the gap between DevOps and the modern data stack. It lets data teams manage all their data tools in one place and treat their entire data platform like a coherent internal software product, unlocking best practices such as version control and CI/CD that enable more effective collaboration and rapid iteration to meet the ever-evolving needs of the organization so it can keep its data edge.
+
+### Why now: 
+The modern data stack continues to expand, and the lack of infrastructure tooling to manage the increasing complexity leaves organizations unable to move fast and make the most of their data. Software development best practices such as DevOps provide many answers, but cannot be applied directly to a set of tools held together by ad-hoc integrations (i.e. duct tape).
+
+### Differentiation: 
+Meltano was founded inside GitLab, who build the leading open source DevOps platform, and spun out in 2021 by its first engineering manager and data lead. Building an open source developer tool in constant collaboration with a thriving community of contributors is in their DNA, and they see the parallels between data engineering and software development and the opportunity to bridge them more clearly than anyone else.
 
 ## Talking about the Meltano Product Family and Team
 

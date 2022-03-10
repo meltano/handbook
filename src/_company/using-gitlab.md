@@ -34,7 +34,7 @@ If an issue fits best in a public tracker but should be private anyway, use a [c
 - [Engineering Assignments](https://gitlab.com/groups/meltano/-/boards/3546394?not[label_name][]=valuestream::Business+Operation&not[label_name][]=kind::Non-Product&iteration_id=Current) - useful for understanding the WIP for engineers in the company.
 - [Iterations](https://gitlab.com/groups/meltano/-/boards/3831997?not[label_name][]=valuestream::Business+Operation&not[label_name][]=kind::Non-Product) - useful for understanding development scheduled on a weekly basis
 - [Kind](https://gitlab.com/groups/meltano/-/boards/2917606) - useful for understanding the distribution of work across the different flow types (Bug, Feature, etc.)
-- [Value Stream](https://gitlab.com/groups/meltano/-/boards/2917637) - useful for understanding the distribution of work acrss the different product areas of Meltano
+- [Value Stream](https://gitlab.com/groups/meltano/-/boards/2917637) - useful for understanding the distribution of work across the different product areas of Meltano
 - [Urgency](https://gitlab.com/groups/meltano/-/boards/2917749) - useful for understanding the overall priority of issues in a milestone.
 - [Milestone](https://gitlab.com/groups/meltano/-/boards/1933232) - used to move issues easily between milestones.
 - [Office Hours](https://gitlab.com/groups/meltano/-/boards/2923184) - used to tee up issues for community discussion and review, generally directly
@@ -66,7 +66,7 @@ These labels do not indicate urgency and should only be used to indicate the wor
 We have 2 labels to indicate that something is prioritized but needs more refinement:
 
 - `Needs Refinement` : Used by Product and Engineering to indicate that more details, user stories, and organization are needed
-- `Needs Research Spike` : Used by Product and Engineering to indicate that a [Spike](http://agiledictionary.com/209/spike/) is need to better understand the scope of work.
+- `Needs Research Spike` : Used by Product and Engineering to indicate that a [Spike](http://agiledictionary.com/209/spike/) is needed to better understand the scope of work.
 
 ### Urgency Labels
 
@@ -176,7 +176,7 @@ We want a way to indicate the part of Meltano specifically that the work applies
 - `Configuration` for issues relating to configuration
 - `Plugin Management` for issues relating to plugin management
 
-New labels can be created as appropriate at the Group Level and should be documented them here.
+New labels can be created as appropriate at the Group Level and should be documented here.
 
 ## Milestones
 

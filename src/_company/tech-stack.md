@@ -51,11 +51,19 @@ Expense tracking.
 Every team member has their own account.
 Main account details are in the `Finance` 1Password vault.
 
+## [Facebook](https://www.facebook.com/)
+
+Maintains a business page and offers paid advertisements.
+
 ## [Gandi](https://admin.gandi.net/)
 
 Domain name registration of `meltano.app`.
 
 Account details are in the `Engineering` 1Password vault.
+
+## [GitHub](https://github.com/)
+
+Software development and version control provider.
 
 ## [GitLab](https://gitlab.com/meltano/)
 
@@ -129,6 +137,10 @@ Aliases:
 Manage job applicants, our job board, and our hiring process.
 
 Every team member has their own account.
+
+## [Gusto](https://gusto.com/)
+
+Payroll and benefits platform for US-based team members.
 
 ## [Instagram](https://www.instagram.com/)
 
@@ -235,6 +247,12 @@ Every team member has their own account.
 
 Cloud data warehouse. 
 Meltano's instance runs in us-west-2 and can be accessed via [this url](https://epa06486.snowflakecomputing.com).
+
+## [Sprout Social](https://sproutsocial.com/)
+
+Social media management platform.
+
+Account details are in the `Social` 1Password vault.
 
 ## [Substack](https://meltano.substack.com/)
 
