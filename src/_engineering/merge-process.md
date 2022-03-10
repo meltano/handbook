@@ -66,11 +66,21 @@ export REPO_NAME=meltano
 export BRANCH_NAME=name-of-branch
 ```
 
-#### Step 2: Pull from the fork ref to a local branch
+#### Step 2: Add the remote and checkout locally
 
 ```bash
-git fetch "git@gitlab.com:$ORG_NAME/$REPO_NAME.git" '$BRANCH_NAME'
-git checkout -b '$BRANCH_NAME' FETCH_HEAD
+# Add the remote
+git remote add $ORG_NAME "git@gitlab.com:$ORG_NAME/$REPO_NAME.git"
+# Fetch the branch refs
+git fetch $ORG_NAME
+# Checkout the branch
+git checkout -b "$ORG_NAME-$BRANCH_NAME" --track "$ORG_NAME/$BRANCH_NAME"
+```
+
+If you need to pull new commits later on (before deleting the remote):
+
+```bash
+git pull $ORG_NAME $BRANCH_NAME
 ```
 
 ### Step 3: Make changes in your local copy of the branch as usual
@@ -87,10 +97,16 @@ Then make any other changes needed. For example, commonly we need to re-lock the
 poetry lock
 ```
 
-### Step 4: Push the changes back to the fork
+### Step 4: Push the changes back to the fork and remove the remote
 
 ```bash
-git push $ORG_NAME/$REPO_NAME
+git push $ORG_NAME "$ORG_NAME-$BRANCH_NAME:$BRANCH_NAME"
+```
+
+Remove the local remote ref:
+
+```bash
+git remote rm $ORG_NAME
 ```
 
 ## Code owners and approvers
