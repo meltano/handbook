@@ -26,7 +26,11 @@ _For more information, please see the handbook section on [Stable Increments](./
 
 ### Markdown Linting
 
-Every docs page should be linted and should adhere to linting standards. (VS Code has several good linting options.)
+Every docs page should be linted and should adhere to linting standards.
+
+It is a good idea to install the [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) VS Code extension, or similar, so you have realtime lint guidance while editing.
+
+Whenever possible, GitLab and GitHub projects should have automated lint checks, including markdown lint checks and broken link checks.
 
 ### Docs and the "Definition of Done"
 
