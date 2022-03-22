@@ -22,6 +22,7 @@ Asynchronous communication demonstrates consideration for team members across ti
 1. Overcommunication can be appropriate. You can mention someone in an issue, but we all know that sometimes we can miss something, so if a request has stagnated, you can send someone a direct message as a gentle reminder. If you need something urgently, you can also send a Slack message to request that something is prioritized. 
 
 ### Working Hours and Availability
+
 We indicate our working hours and availability using Google Calendar and Slack so that our teammates know when they are able to reach us. Within Google Calendar you can set your working hours by going to "Settings" and then "Working Hours and Location". If your working hours change, be sure to update Google Calendar to reflect those changes. During short periods of unavailability during normal work hours, for instance going to a dentist appointment, stepping away from your desk for lunch, or taking a walk around the block, update your Slack status to indicate that you are unavailable. You can also have your Slack status and availability updated automatically by [connecting Slack to your Google Calendar](https://slack.com/help/articles/206329808-Google-Calendar-for-Slack) or by using a third-party tool such as [reclaim.ai](https://reclaim.ai)
 
 ### Slack guidelines
