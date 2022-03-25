@@ -16,6 +16,8 @@ The [Dev Standards](/engineering/dev-standards#sql-standards) guide now has guid
 
 SQLFLuff has a [Rules Reference](https://docs.sqlfluff.com/en/stable/rules.html) with descriptions of all rules and many helpful examples. We recommend everyone read or scan through the rules documentation (and the other SQLFluff docs) at least once.
 
+You can also become familiar with these rules by installing the [SQLFluff VS Code extension](https://marketplace.visualstudio.com/items?itemName=dorzey.vscode-sqlfluff) which will give real time lint feedback and which has autoformat capabilities.
+
 ## Casing
 
 These are enforced by SQLFLuff:

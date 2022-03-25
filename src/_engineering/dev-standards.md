@@ -67,6 +67,8 @@ SQL code should validate against the SQLFluff checks and should match with SQLFL
 
 All projects containing SQL code should include a `.sqlfluff` configuration file with the minimal settings. Changes to these settings (such as max line length) should be considered on a per-project basis.
 
+If using VS Code, developers writing SQL should install the [SQLFluff VS Code extension](https://marketplace.visualstudio.com/items?itemName=dorzey.vscode-sqlfluff). This extension gives real time lint feedback and has autoformat capabilities for many of its rules.
+
 ### `.sqlfluff` sample config
 
 ```ini
