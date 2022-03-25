@@ -8,6 +8,8 @@ We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enfo
 
 **It is _our collective responsibility_ to enforce this Style Guide.**
 
+_**NEW: The [Dev Standards](/engineering/dev-standards#sql-standards) guide now has guidance for SQL code, including SQLFLuff settings recommendations.**_
+
 ## Field Naming and Reference Conventions
 
 - Field names should all be lowercased.
