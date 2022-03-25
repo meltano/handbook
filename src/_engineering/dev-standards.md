@@ -65,7 +65,7 @@ Even in these cases, however, docs still need to be completed before the feature
 
 SQL code should validate against the SQLFluff checks and should match with SQLFLuff auto-format output. (Ideally, CI tests are to be enabled wherever possible.)
 
-All projects containing SQL code should include a `.sqlfluff` configuration file with the minimal settings. Changes to these settings (such as line length) should be considered on a per-project basis.
+All projects containing SQL code should include a `.sqlfluff` configuration file with the minimal settings. Changes to these settings (such as max line length) should be considered on a per-project basis.
 
 ### `.sqlfluff` sample config
 
@@ -79,7 +79,7 @@ runaway_limit = 100
 
 [sqlfluff:rules]
 tab_space_size = 4
-max_line_length = 100
+max_line_length = 80
 indent_unit = space
 comma_style = trailing
 

@@ -4,15 +4,33 @@ title: SQL Style Guide
 weight: 2
 ---
 
-We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enforces a majority of our Style Guide, although there are still some limitations.
-
 **It is _our collective responsibility_ to enforce this Style Guide.**
 
-_**NEW: The [Dev Standards](/engineering/dev-standards#sql-standards) guide now has guidance for SQL code, including SQLFLuff settings recommendations.**_
+## SQLFLuff Linting
+
+We use [SQLFluff](https://github.com/sqlfluff/sqlfluff) as our linter which enforces a majority of our Style Guide, although there are still some limitations.
+
+Over time, we expect an increasing number of these guidelines will be handled by the SQLFluff lint checks. Areas that are known to be checked by SQLFluff are marked as such.
+
+The [Dev Standards](/engineering/dev-standards#sql-standards) guide now has guidance for SQL code, including SQLFLuff settings file defaults.**
+
+## Casing
+
+These are enforced by SQLFLuff:
+
+- Field names should all be lowercase.
+- Keywords should be UPPERCASE.
+- Function names should be UPPERCASE.
+
+## General Formatting
+
+These are enforced by SQLFLuff:
+
+- No tabs should be used - only spaces. Your editor should be setup to convert tabs to spaces.
+- Lines of SQL should be no longer than 80 characters
+- Commas should be at the end-of-line (EOL) as a right comma.
 
 ## Field Naming and Reference Conventions
-
-- Field names should all be lowercased.
 
 - An `id`, `name`, or generally ambiguous value such as `type` should always be prefixed by what it is identifying or naming
 
@@ -184,9 +202,9 @@ _**NEW: The [Dev Standards](/engineering/dev-standards#sql-standards) guide now 
     FROM filtered_events
     ```
 
-## General
+## CTEs and Subqueries
 
-- No tabs should be used - only spaces. Your editor should be setup to convert tabs to spaces.
+These are _not_ validated by SQLFLuff:
 
 - Within a CTE, the entire SQL statement should be indented 4 spaces
 
@@ -242,37 +260,8 @@ _**NEW: The [Dev Standards](/engineering/dev-standards#sql-standards) guide now 
     AND column_name2 > 0
     ```
 
-- Lines of SQL should be no longer than 80 characters
 
-- Commas should be at the end-of-line (EOL) as a right comma.
-
-    ```sql
-    -- Good
-    SELECT
-        deleted AS is_deleted, -- EOL right comma
-        acct_id AS account_id
-    FROM table
-    WHERE is_deleted = FALSE
-        AND account_id NOT IN (
-            '232', -- EOL right comma
-            '234',
-            '425'
-        )
-
-    -- Bad
-    SELECT
-        deleted AS is_deleted
-        , acct_id AS account_id
-    FROM table
-    WHERE is_deleted = false
-        AND account_id NOT IN (
-            '232'
-            , '234'
-            , '425'
-        )
-
-    ```
-
+## General (Other)
 - When `SELECT`ing, always give each column its own row, with the exception of `SELECT *` which can be on a single row
 
 - `DISTINCT` should be included on the same row as `SELECT`
@@ -314,7 +303,6 @@ The exception to this is for timestamps. Prefer `TIMESTAMP` to `TIME`. Note that
 
 ## Functions
 
-- Function names and keywords should all be capitalized
 - Prefer `IFNULL` TO `NVL`
 - Prefer `IFF` to a single line `CASE` statement
 - Prefer `IFF` to selecting a boolean statement `(amount < 10) AS is_less_than_ten`
