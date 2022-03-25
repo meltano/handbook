@@ -14,6 +14,8 @@ Over time, we expect an increasing number of these guidelines will be handled by
 
 The [Dev Standards](/engineering/dev-standards#sql-standards) guide now has guidance for SQL code, including SQLFLuff settings file defaults.**
 
+SQLFLuff has a [Rules Reference](https://docs.sqlfluff.com/en/stable/rules.html) with descriptions of all rules and many helpful examples. We recommend everyone read or scan through the rules documentation (and the other SQLFluff docs) at least once.
+
 ## Casing
 
 These are enforced by SQLFLuff:
