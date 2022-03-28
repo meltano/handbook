@@ -208,8 +208,6 @@ These are enforced by SQLFLuff:
 
 ## CTEs and Subqueries
 
-These are _not_ validated by SQLFLuff:
-
 - Within a CTE, the entire SQL statement should be indented 4 spaces
 
     ```sql
