@@ -18,6 +18,7 @@ While asynchronous communication is strongly preferred, there are scenarios in w
 - "Coffee Chats" or short informal social meetings used for teammates to get to know one another.
 - Recurring 1:1s between managers and direct reports
 - Paired work sessions between teammates
+- Deep dives on complex topics and areas of competing viewpoints 
 When meeting synchronously, be sure to document any outcomes, follow-up items, or other relevant information discussed in the meeting so that it is accessible to teammates and the community. 
 
 
