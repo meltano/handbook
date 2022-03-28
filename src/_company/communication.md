@@ -14,6 +14,14 @@ Asynchronous communication is the practice of communicating and moving projects 
 
 Asynchronous communication demonstrates consideration for team members across time zones and enables us to travel outside of our usual time zone or structure our day around commitments at home or in our community. We practice asynchronous communication by recording meetings, using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. We also place an emphasis on ensuring that conclusions of conversations outside of the issue tracker (i.e. Slack and impromptu Zoom calls) are written down: If it's not in the issue, it didn't happen. All of these actions ensure that team members are not pressured to be online outside of their working hours. Embracing asynchronous communication and learning to use it effectively requires a mental shift. This can feel unusual or even uncomfortable for those who come from a colocated environment, where in-person meetings and communiques are the norm. 
 
+While asynchronous communication is strongly preferred, there are scenarios in which synchronous communication via Zoom meetings can be more productive. Such scenarios include:
+- "Coffee Chats" or short informal social meetings used for teammates to get to know one another.
+- Recurring 1:1s between managers and direct reports
+- Paired work sessions between teammates
+- Deep dives on complex topics and areas of competing viewpoints 
+When meeting synchronously, be sure to document any outcomes, follow-up items, or other relevant information discussed in the meeting so that it is accessible to teammates and the community. 
+
+
 ## In practice
  
 1. Aim to respond to mentions other than FYIs within 3 business days. If you are unable to fulfill a specific request during that time, respond to the mention and indicate when you'll have an answer.
