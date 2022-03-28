@@ -65,8 +65,47 @@ Even in these cases, however, docs still need to be completed before the feature
 
 SQL code should validate against the SQLFluff checks and should match with SQLFLuff auto-format output. (Ideally, CI tests are to be enabled wherever possible.)
 
-- Additional guidance is available in the [SQL Style Guide](/data-team/sql-style-guide), in the **Data Team** section of this Handbook.
-- SQLFluff settings defaults (including a sample SQLFluff config file) will be made official in [handbook#69](https://gitlab.com/meltano/handbook/-/issues/69).
+All projects containing SQL code should include a `.sqlfluff` configuration file with the minimal settings. Changes to these settings (such as max line length) should be considered on a per-project basis.
+
+If using VS Code, developers writing SQL should install the [SQLFluff VS Code extension](https://marketplace.visualstudio.com/items?itemName=dorzey.vscode-sqlfluff). This extension gives real time lint feedback and has autoformat capabilities for many of its rules.
+
+### `.sqlfluff` sample config
+
+```ini
+[sqlfluff]
+dialect = snowflake  # or another dialect as needed
+templater = dbt
+output_line_length = 80
+ignore_templated_areas = True
+runaway_limit = 100
+
+[sqlfluff:rules]
+tab_space_size = 4
+max_line_length = 80
+indent_unit = space
+comma_style = trailing
+
+[sqlfluff:rules:L010] # Keywords
+capitalisation_policy = upper
+
+[sqlfluff:rules:L014] # Unquoted Identifiers
+extended_capitalisation_policy = lower
+
+[sqlfluff:rules:L030] # Function Names
+capitalisation_policy = upper
+
+[sqlfluff:templater:dbt]
+# TODO: Replace with project-specific dbt settings:
+project_dir = transform
+profiles_dir = transform/profile
+profile = meltano
+target = snowflake
+```
+
+### See also:
+
+- [SQL Style Guide](/data-team/sql-style-guide), in the **Data Team** section of this Handbook.
+- [Squared project SQLFluff config](https://gitlab.com/meltano/squared/blob/master/data/.sqlfluff)
 
 ## Python Standards
 
