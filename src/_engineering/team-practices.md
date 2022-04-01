@@ -12,7 +12,7 @@ This page defines recurring practices which help the Engineering team to functio
 
 We adhere to a [weekly iteration](https://gitlab.com/groups/meltano/-/iterations) delivery cycle. 
 We do not adhere to formal sprints. 
-Instead, leadership from Engineering and Product meet each Thursday to discuss the upcoming week's priorities and to add or update the following week's tasks. 
+Instead, leadership from Engineering and Product meet each Thursday to discuss the upcoming priorities for the next two weeks and to add or update the following week's tasks. 
 An "iteration" is simply a bucket of issues in Gitlab which are assigned for work over a given week.
 
 We generally work with more of a kanban style.
