@@ -32,6 +32,13 @@ Cap table and stock options management.
 Every team member has their own account.
 Main account details are in the `Finance` 1Password vault.
 
+## [Calendly](https://calendly.com/)
+
+Calendar scheduling tool.
+
+Every team member has their own account.
+Team members who desire the features of the paid version may request a paid account.
+
 ## [DigitalOcean](https://www.digitalocean.com/)
 
 Hosting and DNS management for `*.meltanodata.com`.
