@@ -51,15 +51,20 @@ New epics can be created for topics or efforts that will take multiple issues ov
 
 ### Flow Labels
 
-Every open issue _with a sprint milestone_ should have a `flow` label:
+Every open issue _assigned to an iteration_ should have a `flow` label:
 
-- `flow::Triage` : We are considering removing this label.
-- `flow::To Do`: The issue is refined, assigned, and ready to be worked on
-- `flow::Doing`: Currently being worked on
-- `flow::Blocked`: Blocked by some other issue
-- `flow::Review`: Currently in review
+- `flow::Not Started`: The issue is refined, assigned, and ready to be worked on
+- `flow::Started`: Currently being worked on
+- `flow::Review`: Currently in the review cycle
 
 These labels do not indicate urgency and should only be used to indicate the work status.
+
+Issues should be moved into `flow::review` once reviewers have been assigned and the majority of the scope is complete for an issue. 
+Consider moving the issue back to `flow::Started` if significant amounts of rework are required. 
+
+The [Development Flow Board](https://gitlab.com/groups/meltano/-/boards/536761) has swimlanes dedicated to each issue.
+
+Ideally this would be a mostly automated task, but it is currently on the engineers to label the issues.
 
 ### Refinement Labels
 
