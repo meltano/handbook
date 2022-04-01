@@ -38,7 +38,7 @@ Feature specs describe the desired end state that should result from resolving t
 They are created in close collaboration with Product and must be completed before an issue is assigned.
 Issues are typically assigned on Thursday of the week before the iteration in which the issue will be worked on.
 
-Implementation specs describe the code, test, and documentation changes that will be required to satisfy the provided implementation spec.
+Implementation specs describe the code, test, and documentation changes that will be required to satisfy the provided feature spec.
 Typically an implementation spec will be written by the issue's assignee but they should be written in such a way that the issue could be assigned to a different engineer and it would be clear what work the assigned engineer would need to perform--even if they are relatively junior or less familiar with the relevant parts of our codebase.
 
 After an upcoming iteration's issues are assigned on Thursday, engineers should spend no more than three hours on that Friday to review their upcoming issues and do the following:
