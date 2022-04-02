@@ -127,10 +127,10 @@ All individual team members, managers, and leaders will be subject to disciplina
 
 First time occurrences of inappropriate behavior. An act out of character. After formal investigation, coworkers still feel comfortable working with the offender.
 
--Suspension (Paid/Unpaid based on country)
+- Suspension (Paid/Unpaid based on country)
 - Formal apology towards inflicted parties
 
-## Level 2
+### Level 2
 
 Recurring socially inappropriate behavior.
 
@@ -141,13 +141,13 @@ Recurring socially inappropriate behavior.
 - Potential transfer to another team
 - Potential of termination
 
-## Level 3
+### Level 3
 
 Major infraction, including retaliation, or recurring socially inappropriate behavior after a written admonition.
 
 - Termination of employment
 
-## Level 4
+### Level 4
 
 Serious cases, including any criminal offense.
 
