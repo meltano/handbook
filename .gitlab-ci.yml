@@ -16,18 +16,18 @@ test:
   script:
   - bundle exec jekyll build -d test
   - bundle exec htmlproofer --log-level :debug ./test --assume_extension --http_status_ignore 503 --disable_external true --url-ignore "/www.linkedin.com/,/www.dell.com/,/www.optionimpact.com/,/gusto.com/"
-    - |
-      git fetch origin $CI_DEFAULT_BRANCH;
-      echo "Comparing to $CI_DEFAULT_BRANCH";
-      REF="origin/${CI_DEFAULT_BRANCH}";
-    - 'declare FILES=$(git diff --name-only ${CI_COMMIT_SHA} $REF | grep "\.md$")'
-    - |
-      if [ -n "${FILES}" ]; then
-        echo "Changed files are\n$FILES";
-        prettier -c $(echo $FILES | xargs);
-      else
-        echo "Nothing to lint"
-      fi
+  - |
+    git fetch origin $CI_DEFAULT_BRANCH;
+    echo "Comparing to $CI_DEFAULT_BRANCH";
+    REF="origin/${CI_DEFAULT_BRANCH}";
+  - 'declare FILES=$(git diff --name-only ${CI_COMMIT_SHA} $REF | grep "\.md$")'
+  - |
+    if [ -n "${FILES}" ]; then
+      echo "Changed files are\n$FILES";
+      prettier -c $(echo $FILES | xargs);
+    else
+      echo "Nothing to lint"
+    fi
   artifacts:
     paths:
     - test
