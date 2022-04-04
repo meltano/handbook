@@ -24,7 +24,7 @@ test:
   - |
     if [ -n "${FILES}" ]; then
       echo "Changed files are\n$FILES";
-      /usr/app/node_modules/.bin/prettier -c $(echo $FILES | xargs);
+      npx prettier -c $(echo $FILES | xargs);
     else
       echo "Nothing to lint"
     fi
