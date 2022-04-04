@@ -11,8 +11,8 @@ This page is a resource for development standards across all Meltano products an
 The definition of done for any increment of work should always include:
 
 1. Docs meet or exceed documentation standards (in [Docs section](#documentation-standards) below).
-2. Code meets the standards for the respective language (documented in sections below).
-3. Code is sufficiently tested.
+1. Code meets the standards for the respective language (documented in sections below).
+1. Code is sufficiently tested.
 
 An iterative approach _does not_ mean that docs and tests can be saved for a later iteration. To save time, it's generally a good practice to write docs and tests before writing the code.
 
@@ -39,11 +39,13 @@ Documentation is critical and should be included in _every_ increment. Docs shou
 A test of _minimally complete documentation_ is as follows:
 
 1. **Feature discoverability.** Can a user reading through our docs understand what the feature is and whether they should use it?
-2. **Implementation instructions.** Can a user implement this feature successfully using _only_ the available docs? _(Excluding complementary resources such as blogs, Slack notifications, and demos.)_
+1. **Implementation instructions.** Can a user implement this feature successfully using _only_ the available docs? _(Excluding complementary resources such as blogs, Slack notifications, and demos.)_
 
 If either of these conditions is not met, the MR _should not be merged_ as it does not meet the minimal definition of done as related to documentation.
 
 Note that within these qualifications, there's still tons of room for variability in the overall "first iteration" time investment.
+
+For more information on writing quality documentation, check out [Divio's documentation system](https://documentation.divio.com).
 
 ### Is it okay to add docs as follow-on?
 
@@ -60,6 +62,13 @@ Apart from the above-mentioned costs, there's an additional risk that a user wil
 The only valid exceptions to this requirement are: (1) if another team member (such as a member of the PM team) is separately assigned the docs authoring, or (2) if we are accepting a contribution contribution and taking the docs authoring role upon ourselves.
 
 Even in these cases, however, docs still need to be completed before the feature is released.
+
+## CLI Standards
+
+For many users, the CLI is the primary Meltano interface interacted with on a regular basis.
+As such, we aim to make to make working with our CLI as intuitive and joyful as possible.
+
+When adding or changing functionality in Meltano's CLI, refer to [clig.dev](https://clig.dev) for guidelines on creating human-centric CLIs.
 
 ## SQL Standards
 
