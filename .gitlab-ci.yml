@@ -14,6 +14,7 @@ before_script:
 test:
   stage: test
   script:
+  - echo $CI_PROJECT_NAMESPACE
   - bundle exec jekyll build -d test
   - bundle exec htmlproofer --log-level :debug ./test --assume_extension --http_status_ignore 503 --disable_external true --url-ignore "/www.linkedin.com/,/www.dell.com/,/www.optionimpact.com/,/gusto.com/"
   - |
