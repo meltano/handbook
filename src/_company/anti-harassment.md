@@ -43,7 +43,7 @@ Having a diverse workforce, made up of team members who bring a wide variety of 
 
 We do not tolerate discrimination against anyone, including team members, customers, business partners, or other stakeholders. Any form of discrimination towards an individual is strictly prohibited, including:
 
-- On the basis of race, color, religion, ethnicity, national origin, sex (including pregnancy), age, disability, HIV status, sexual orientation, gender identity, marital status, past or present military service, religious belief or lack of religious belief, life expectancy, or any other status protected by the laws or regulations in the locations where we operate.
+- On the basis of race, color, religion, ethnicity, national origin, sex (including pregnancy), age, disability, health-related issues or diagnoses, HIV status, sexual orientation, gender identity, marital status, past or present military service, religious belief or lack of religious belief, life expectancy, or any other status protected by the laws or regulations in the locations where we operate.
 - We comply with laws regarding employment of immigrants and non-citizens and provide equal employment opportunity to everyone who is legally authorized to work in the applicable country.
 - We provide reasonable accommodations to individuals with disabilities and remove any artificial barriers to success.
 
