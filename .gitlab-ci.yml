@@ -16,7 +16,7 @@ test:
   script:
   - bundle exec jekyll build -d test
   - bundle exec htmlproofer --log-level :debug ./test --assume_extension --http_status_ignore 503 --disable_external true --url-ignore "/www.linkedin.com/,/www.dell.com/,/www.optionimpact.com/,/gusto.com/"
-  - git remote add meltano git@gitlab.com:meltano/handbook.git || return 0
+  - git remote add meltano https://gitlab.com/meltano/handbook.git || return 0
   - |
     git fetch meltano  $CI_DEFAULT_BRANCH;
     echo "Comparing to $CI_DEFAULT_BRANCH";
