@@ -65,7 +65,7 @@ Note:
   - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Be+the+DataOps+OS)
 - Key Results:
   - [KR: Increase APP](https://gitlab.com/meltano/meta/-/issues/217)
-    - [APP Metric Definition](/data-team/kpis.md#APP+-+Average+Plugin Types+per+Project)
+    - [APP Metric Definition](/data-team/kpis.md#app---average-plugin-types-per-project)
   - [KR: Increase usage of `orchestrator` plugins](https://gitlab.com/meltano/meta/-/issues/220)
     - orchestrator plugin tracking currently blocked by [this issue](https://gitlab.com/meltano/meta/-/issues/216)
   - [KR: Increase usage of `transformer` plugins](https://gitlab.com/meltano/meta/-/issues/219)
