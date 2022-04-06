@@ -12,15 +12,15 @@ Meltano has several domains we've purchased and managed. These are documented in
 
 ## Website/blog
 
-The website and blog are currently hosted on SiteGround. You can find the credentials in 1Password.
+The website and blog are currently hosted on WPEngine. You can find the credentials in 1Password.
 
 ### WordPress
 
-WordPress has automatic updates enabled so that we always run the latest stable release.
+WordPress has updates disabled so that we can manually check that updates will work with our theme. Please do not update WordPress or plugins without testing updates on dev or staging environments.
 
 #### Plugins
 
-Plugins are also automatically updated and typically update overnight. A ticket is automatically created in ZenDesk whenever plugins are updated.
+Plugins do not update by default. Please test new plugins and updates on a dev or staging instance.
 
 ##### Jetpack
 
@@ -38,7 +38,11 @@ It's not clear why this happens, but clearing the cache resolves it. Follow Site
 
 ## Intercom
 
+Intercom is used as a support channel. Only select team members have access to this but please ask Amanda if need access or reports.
+
 ## Social
+
+We use [SproutSocial](https://sproutsocial.com/) to manage our social media accounts. Please ask Emily for access if you need it.
 
 ## Design
 
@@ -46,19 +50,18 @@ It's not clear why this happens, but clearing the cache resolves it. Follow Site
 
 ## Community Management Tools
 
+### Orbit
+
+We use [Orbit](https://orbit.love) to track champions within the community. Anyone with a `meltano.com` email address can log into our workspace.
+
 ## Slack
 
 ### Slack Invite URL
 
 [https://meltano.com/slack](https://meltano.com/slack) points to an invite to join our Slack workspace. The Slack links we generate can be used 2,000 times and do not expire.
 
-1. **Generate an invite URL in Slack.** 
-  1. On Slack, click "Meltano" in the top left menu and select "Invite people to Meltano".
-  1. Click "Edit link settings" and create a new link with no expiry.
-    1. **Note:** You can also deactivate the invite URL entirely from here if needed. Please proceed with caution as `https://meltano.com/slack` is linked in our documentation and marketing materials.
-  1. Copy and save the link for the next step.
-1. Edit SiteGround
-  1. Log into SiteGround using the credentials in 1Password
-  1. Visit the [Redirects](https://tools.siteground.com/redirect) page and click the pencil icon next to `https://meltano.com/slack`.
-  1. Keep the "Redirect Type" set to "Permanent (301)" and replace the existing Slack invite with the new one from above.
-  1. Click "Confirm". It may take several minutes for [https://meltano.com/slack](https://meltano.com/slack) to point to the new invite.
+1. Generate an invite URL in Slack.
+    1. On Slack, click "Meltano" in the top left menu and select "Invite people to Meltano".
+    1. Click "Edit link settings" and create a new link with no expiry. **Note:** You can also deactivate the invite URL entirely from here if needed. Please proceed with caution as `https://meltano.com/slack` is linked in our documentation and marketing materials.
+    1. Copy and save the link for the next step.
+1. [Edit the redirect in WPEngine](/marketing/wpengine#add-or-edit-redirects).
