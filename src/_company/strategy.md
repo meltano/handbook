@@ -14,7 +14,9 @@ Every company defines and tracks OKRs differently. The common ground for any OKR
 2. **Key Results (KRs)** - The quantifiable measurements of success towards the stated objectives, tied to a specific timeframe of measurement.
 3. **Initiatives** - Specific actions we can take which improve our KPI metrics and, in turn, help us reach our objectives.
 
-## Understanding Key Results and KPIs
+## Meltano's OKR Process
+
+### Understanding Key Results and KPIs
 
 We aim to have BI dashboards in Superset for each KPI that is connected to Key Results.
 Where possible, we should have a dedicated dashboard page for each KR.
@@ -31,26 +33,26 @@ KRs are tracked in GitLab issues:
 
 KPI Goal tracking occurs in GitLab issues, with links to related Objectives and Initiatives via linked issues and/or via GitLab labels. The list of KRs is public and listed below under each OKR definition, including links to the GitLab issues with additional information.
 
-## OKRs in Gitlab
+### Tracking OKRs in Gitlab
 
 We track OKRs in GitLab as labels, using the format `OKR: Short Description`.
 
-## Tracking related Initiatives in Gitlab
+### Tracking related Initiatives in Gitlab
 
 Initiatives impacting the OKR are tracked in GitLab and should be tagged with a label which associates the issue with the OKR it is targeted to help us achieve.
 
 Note:
 
-- OKR labels should be applied carefully, only for those issues which are (1) prioritized to be built within the timeframe of the OKR, and (2) directly influencing a related Key Result.
+- OKR labels should be applied selectively, and only for those issues which are (1) prioritized to be built within the timeframe of the OKR, and (2) directly influencing a related Key Result.
 
-## Transparency Guidelines for OKRs and KPIs
+### Transparency Guidelines for OKRs, KRs, and KPIs
 
-- OKR and KPI definitions are **public** in the `handbook` repo.
-- Metric calculation logics are **public** in the `squared` repo.
-- KPI metric values, KPI goal targets, and metric history are kept **internal** by default, according to the guidelines on the [KPIs](/data-team/kpis#why-kpis-are-internal-by-default) page.
-- If tracking a KPI Goal in GitLab issues, this tracking likewise occurs in **internal** GitLab issues.
+- OKR definitions are **public** in the `handbook` repo ([below](#list-of-current-goals-and-kpis)).
+- Metric calculation logics are **public** in the [`squared`](https://gitlab.com/meltano/squared) repo and on the Data Team [KPIs](/data-team/kpis) handbook page.
+- KR details, such as current metric values, goal targets, and metric history are kept **internal** by default, according to the guidelines on the [KPIs](/data-team/kpis#why-kpis-are-internal-by-default) page.
+- If tracking a Key Result's status in GitLab issues, this tracking likewise occurs in **internal** GitLab issues.
 
-## List of Current Goals and KPIs
+## List of Current OKRs
 
 ### OKR: Be the DataOps OS
 
@@ -80,7 +82,7 @@ Note:
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Improve+New+User+Experience)
   - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Improve+New+User+Experience)
 - Key Results:
-  - COMING SOON
+  - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/232).
 
 ### OKR: Build the team (Hiring)
 
@@ -92,7 +94,7 @@ Note:
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Build+the+Team+(Hiring))
   - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Build+the+Team+(Hiring))
 - Key Results:
-  - COMING SOON
+  - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/230).
 
 ### OKR: Managed service beta
 
@@ -104,4 +106,4 @@ Note:
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Managed+Service+Beta)
   - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Managed+Service+Beta)
 - Key Results:
-  - COMING SOON
+  - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/231).
