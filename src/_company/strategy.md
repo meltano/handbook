@@ -47,7 +47,7 @@ Note:
 
 - OKR and KPI definitions are **public** in the `handbook` repo.
 - Metric calculation logics are **public** in the `squared` repo.
-- KPI metric values, KPI goal targets, and metric history are kept **internal** by default, according to the guidelines on the [KPIs](/data-team/kpis) page.
+- KPI metric values, KPI goal targets, and metric history are kept **internal** by default, according to the guidelines on the [KPIs](/data-team/kpis#why-kpis-are-internal-by-default) page.
 - If tracking a KPI Goal in GitLab issues, this tracking likewise occurs in **internal** GitLab issues.
 
 ## List of Current Goals and KPIs
