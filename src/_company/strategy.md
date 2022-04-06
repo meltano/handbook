@@ -53,8 +53,8 @@ Every company defines and tracks OKRs differently. The common ground for any OKR
 - Timeframe: Ongoing (dates tied to individual KRs).
 - GitLab Label: `OKR: Build the Team (Hiring)`
 - Initiatives:
-  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Build+the+Team+(Hiring))
-  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Build+the+Team+(Hiring))
+  - [Issues List in GitLab](<https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Build+the+Team+(Hiring)>)
+  - [Filtered Milestone Board](<https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Build+the+Team+(Hiring)>)
 - Key Results:
   - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/230).
 
