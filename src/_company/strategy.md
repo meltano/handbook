@@ -53,8 +53,8 @@ Initiatives impacting the Goal are tracked in GitLab and should be tagged with a
 - Objective: **We will achieve our broad Meltano vision as the DataOps OS.**
 - GitLab Label: `OKR: Be the DataOps OS`
 - Initiatives:
-  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=Goal:+Achieve+DataOps+OS+PMF)
-  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=Goal:+Achieve+DataOps+OS+PMF)
+  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Be+the+DataOps+OS)
+  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Be+the+DataOps+OS)
 - Key Results:
   - [KR: Increase APP](https://gitlab.com/meltano/meta/-/issues/217)
     - [KR: Increase usage of `orchestrator` plugins](https://gitlab.com/meltano/meta/-/issues/220)
@@ -72,8 +72,8 @@ Initiatives impacting the Goal are tracked in GitLab and should be tagged with a
 - Objective: **We will address feedback regarding the Meltano learning curve and begin actively monitoring attrition and retention metrics.**
 - GitLab Label: `OKR: Improve New User Experience`
 - Initiatives:
-  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=Goal:+Tackle+Learning+Curve)
-  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=Goal:+Tackle+Learning+Curve)
+  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Improve+New+User+Experience)
+  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Improve+New+User+Experience)
 - Key Results:
   - TODO: Currently we do not have metrics in place to track this. See logged Initiative issues linked above.
 
@@ -83,8 +83,8 @@ Initiatives impacting the Goal are tracked in GitLab and should be tagged with a
 - Objective: **Through a increased focus on hiring, we will build the team we need to deliver on our vision.**
 - GitLab Label: `OKR: Build the Team (Hiring)`
 - Initiatives:
-  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=Goal:+Tackle+Learning+Curve)
-  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=Goal:+Tackle+Learning+Curve)
+  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Build+the+Team+(Hiring))
+  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Build+the+Team+(Hiring))
 - Key Results:
   - TODO: Currently we do not have metrics in place to track this. See logged Initiative issues linked above.
 
@@ -94,7 +94,7 @@ Initiatives impacting the Goal are tracked in GitLab and should be tagged with a
 - Objective: **We will build the managed service and onboard our first private beta users.**
 - GitLab Label: `OKR: Managed service beta`
 - Initiatives:
-  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=Goal:+Tackle+Learning+Curve)
-  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=Goal:+Tackle+Learning+Curve)
+  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Managed+Service+Beta)
+  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Managed+Service+Beta)
 - Key Results:
   - TODO: Currently we do not have metrics in place to track this. See logged Initiative issues linked above.
