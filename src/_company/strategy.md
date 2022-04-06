@@ -4,8 +4,6 @@ title: Strategic Goals
 weight: 2
 ---
 
-## What is this page
-
 This page highlights Meltano's most important strategic objectives, as a means for everyone in the company to align their efforts with important company-wide priorities. This gives teams a framework to contextualize and measure their contributions towards our stated objectives, and to determine the relative priority between different tasks to ensure that limited time is spent in the most impactful way.
 
 ## What is an OKR?
