@@ -54,4 +54,3 @@ Before adding a partner, you'll need to collect the company name, a short blurb 
 
 1. Navigate to the [Partner Re-Order page](https://meltano.com/wp-admin/edit.php?post_type=partners&page=order-post-types-partners) and make sure the partners are sorted in the list alphabetically.
 1. Click update. The partner should now be live on the site in the right order.
-
