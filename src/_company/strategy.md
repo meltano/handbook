@@ -47,50 +47,54 @@ Initiatives impacting the Goal are tracked in GitLab and should be tagged with a
 
 ## List of Current Goals and KPIs
 
-### Goal: Achieve Meltano vision and PMF as the DataOps OS
+### OKR: Be the DataOps OS
 
 - Scope: Company-Wide
 - Objective: **We will achieve our broad Meltano vision as the DataOps OS.**
-- GitLab Label: `Goal: Achieve DataOps OS PMF`
-- Related Initiatives:
+- GitLab Label: `OKR: Be the DataOps OS`
+- Initiatives:
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=Goal:+Achieve+DataOps+OS+PMF)
   - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=Goal:+Achieve+DataOps+OS+PMF)
+- Key Results:
+  - [KR: Increase APP](https://gitlab.com/meltano/meta/-/issues/217)
+    - [KR: Increase usage of `orchestrator` plugins](https://gitlab.com/meltano/meta/-/issues/220)
+      - orchestrator plugin tracking currently blocked by [this issue](https://gitlab.com/meltano/meta/-/issues/216)
+    - [KR: Increase usage of `transformer` plugins](https://gitlab.com/meltano/meta/-/issues/219)
+    - [KR: Increase usage of `utility` plugins linked to `BI` or `analyze` functions](https://gitlab.com/meltano/meta/-/issues/219)
+      - How to measure this is still TBD. Would likely include:
+        - Utilities with an 'analyzer' capability or similar. (Not trackable currently.)
+        - Utilities in a static list of known analyzer names: 'superset', 'lightdash', etc. (Trackable but must be manually maintained.)
+    - [KR: Increase usage of `utility` plugins (other)](https://gitlab.com/meltano/meta/-/issues/221)
 
-#### Related KPIs and KPI Goals
-
-- [KPI Goal: Increase APP](https://gitlab.com/meltano/meta/-/issues/217)
-  - [KPI Goal: Increase usage of `orchestrator` plugins](https://gitlab.com/meltano/meta/-/issues/220)
-    - orchestrator plugin tracking currently blocked by [this issue](https://gitlab.com/meltano/meta/-/issues/216)
-  - [KPI Goal: Increase usage of `transformer` plugins](https://gitlab.com/meltano/meta/-/issues/219)
-  - [KPI Goal: Increase usage of `utility` plugins linked to `BI` or `analyze` functions](https://gitlab.com/meltano/meta/-/issues/219)
-    - How to measure this is still TBD. Would likely include:
-      - Utilities with an 'analyzer' capability or similar. (Not trackable currently.)
-      - Utilities in a static list of known analyzer names: 'superset', 'lightdash', etc. (Trackable but must be manually maintained.)
-  - [KPI Goal: Increase usage of `utility` plugins (other)](https://gitlab.com/meltano/meta/-/issues/221)
-
-These metrics are used to measure whether we've successfully reached the stated objective.
-
-#### Timeframe for measurement
-
-- 2 of 7 development initiatives tracked with this goal are planned to resolve by end of March 2022.
-- 6 of 7 development initiatives tracked with this goal are planned to resolve by end of April 2022.
-- 7 of 7 development initiatives tracked with this goal are planned to resolve by end of May 2022.
-- Because of the time lag between initiatives (mostly feature releases) and their impact on metrics, we expect the metrics to have moderate gains at end of May and beginning of June, with more significant gains shown throughout July and August.
-
-### Goal: Shorten the Meltano Learning Curve and Begin Tracking New User Retention
+### OKR: Improve New User Experience
 
 - Scope: Company-Wide
 - Objective: **We will address feedback regarding the Meltano learning curve and begin actively monitoring attrition and retention metrics.**
-- GitLab Label: `Goal: Tackle Learning Curve`
-- Related Initiatives:
+- GitLab Label: `OKR: Improve New User Experience`
+- Initiatives:
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=Goal:+Tackle+Learning+Curve)
   - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=Goal:+Tackle+Learning+Curve)
+- Key Results:
+  - TODO: Currently we do not have metrics in place to track this. See logged Initiative issues linked above.
 
-#### Related KPIs and Goals
+### OKR: Build the team (Hiring)
 
-_Currently we do not have metrics in place to track this. See logged Initiative issues linked above._
+- Scope: Company-Wide
+- Objective: **Through a increased focus on hiring, we will build the team we need to deliver on our vision.**
+- GitLab Label: `OKR: Build the Team (Hiring)`
+- Initiatives:
+  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=Goal:+Tackle+Learning+Curve)
+  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=Goal:+Tackle+Learning+Curve)
+- Key Results:
+  - TODO: Currently we do not have metrics in place to track this. See logged Initiative issues linked above.
 
-#### Timeframe for Measurement
+### OKR: Managed service beta
 
-- Setting up the initial tracking metrics are logged in of [this `squared` issue](https://gitlab.com/meltano/squared/-/issues/81).
-- Metrics will lag between 14-60 days after completion of each initiative, depending on the age cohorts we find most useful in the above metrics/analysis work.
+- Scope: Company-Wide
+- Objective: **We will build the managed service and onboard our first private beta users.**
+- GitLab Label: `OKR: Managed service beta`
+- Initiatives:
+  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=Goal:+Tackle+Learning+Curve)
+  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=Goal:+Tackle+Learning+Curve)
+- Key Results:
+  - TODO: Currently we do not have metrics in place to track this. See logged Initiative issues linked above.
