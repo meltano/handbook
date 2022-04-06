@@ -59,6 +59,7 @@ Note:
 - Scope: Company-Wide
 - Objective: **We will achieve our broad Meltano vision as the DataOps OS.**
 - GitLab Label: `OKR: Be the DataOps OS`
+- Timeframe: By 2022-07-31
 - Initiatives:
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Be+the+DataOps+OS)
   - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Be+the+DataOps+OS)
@@ -76,30 +77,33 @@ Note:
 - Scope: Company-Wide
 - Objective: **We will address feedback regarding the Meltano learning curve and begin actively monitoring attrition and retention metrics.**
 - GitLab Label: `OKR: Improve New User Experience`
+- Timeframe: By 2022-07-31
 - Initiatives:
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Improve+New+User+Experience)
   - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Improve+New+User+Experience)
 - Key Results:
-  - TODO: Currently we do not have metrics in place to track this. See logged Initiative issues linked above.
+  - COMING SOON
 
 ### OKR: Build the team (Hiring)
 
 - Scope: Company-Wide
 - Objective: **Through a increased focus on hiring, we will build the team we need to deliver on our vision.**
+- Timeframe: Ongoing (dates tied to individual KRs).
 - GitLab Label: `OKR: Build the Team (Hiring)`
 - Initiatives:
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Build+the+Team+(Hiring))
   - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Build+the+Team+(Hiring))
 - Key Results:
-  - TODO: Currently we do not have metrics in place to track this. See logged Initiative issues linked above.
+  - COMING SOON
 
 ### OKR: Managed service beta
 
 - Scope: Company-Wide
 - Objective: **We will build the managed service and onboard our first private beta users.**
+- Timeframe: By 2022-01-30.
 - GitLab Label: `OKR: Managed service beta`
 - Initiatives:
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Managed+Service+Beta)
   - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Managed+Service+Beta)
 - Key Results:
-  - TODO: Currently we do not have metrics in place to track this. See logged Initiative issues linked above.
+  - COMING SOON
