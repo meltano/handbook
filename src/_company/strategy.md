@@ -6,20 +6,23 @@ weight: 2
 
 ## What is this page
 
-This page highlights Meltano's most important strategic goals, as a means for everyone in the company to align their efforts with important company-wide priorities. This gives teams a framework to contextualize and measure their contributions towards our stated objectives, and to determine the relative priority between different tasks to ensure that limited time is spent in the most impactful way.
+This page highlights Meltano's most important strategic objectives, as a means for everyone in the company to align their efforts with important company-wide priorities. This gives teams a framework to contextualize and measure their contributions towards our stated objectives, and to determine the relative priority between different tasks to ensure that limited time is spent in the most impactful way.
 
-For each goal, there are three components:
+## What is an OKR?
 
-1. Objectives - The priorities we need to achieve.
-2. KPIs - The quantifiable measurements of success towards the stated goals.
-3. Initiatives - Specific actions we can take which improve our KPI metrics and, in turn, help us reach our Goals.
+Every company defines and tracks OKRs differently. The common ground for any OKR framework is a focus on three core components:
 
-## Tracking KPIs and KPI-specific Goals
+1. **Objectives** - The priorities we need to achieve and the timeframe by which to achieve them.
+2. **Key Results (KRs)** - The quantifiable measurements of success towards the stated objectives, tied to a specific timeframe of measurement.
+3. **Initiatives** - Specific actions we can take which improve our KPI metrics and, in turn, help us reach our objectives.
 
-We aim to have dashboards in Superset for each of the KPIs.
+## Understanding Key Results and KPIs
+
+We aim to have BI dashboards in Superset for each KPI that is connected to Key Results.
+Where possible, we should have a dedicated dashboard page for each KR.
 Charts and dashboards for KPIs should be linked back to the handbook and specific Goals where possible.
 
-KPI goals may be _optionally_ be tracked in GitLab issues:
+KRs may be tracked in GitLab issues:
 
 - KPI Name
 - A KPI Goal title (e.g. "Improve Metric X")
@@ -30,17 +33,21 @@ KPI goals may be _optionally_ be tracked in GitLab issues:
 
 KPI Goal tracking occurs in GitLab issues, with links to related Objectives and Initiatives when appropriate via linked issues and/or via GitLab labels. The list of KPIs and (optionally) of the KPI goal is public and listed below under each Goal definition, including links to the GitLab issues with additional information.
 
-## Goals in Gitlab
+## OKRs in Gitlab
 
-We track goals in GitLab as labels, using the format `Goal: Short Description`.
+We track OKRs in GitLab as labels, using the format `OKR: Short Description`.
 
 ## Tracking related Initiatives in Gitlab
 
-Initiatives impacting the Goal are tracked in GitLab and should be tagged with a label which associates the issue with the Goal it is targeted to help us achieve.
+Initiatives impacting the OKR are tracked in GitLab and should be tagged with a label which associates the issue with the OKR it is targeted to help us achieve.
 
-## Transparency Guidelines for Goals and KPIs
+Note:
 
-- Goal and KPI definitions are **public** in the `handbook` repo.
+- OKR labels should be applied carefully, only for those issues which are (1) prioritized to be built within the timeframe of the OKR, and (2) directly influencing a related Key Result.
+
+## Transparency Guidelines for OKRs and KPIs
+
+- OKR and KPI definitions are **public** in the `handbook` repo.
 - Metric calculation logics are **public** in the `squared` repo.
 - KPI metric values, KPI goal targets, and metric history are kept **internal** by default, according to the guidelines on the [KPIs](/data-team/kpis) page.
 - If tracking a KPI Goal in GitLab issues, this tracking likewise occurs in **internal** GitLab issues.
@@ -57,11 +64,12 @@ Initiatives impacting the Goal are tracked in GitLab and should be tagged with a
   - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Be+the+DataOps+OS)
 - Key Results:
   - [KR: Increase APP](https://gitlab.com/meltano/meta/-/issues/217)
-    - [KR: Increase usage of `orchestrator` plugins](https://gitlab.com/meltano/meta/-/issues/220)
-      - orchestrator plugin tracking currently blocked by [this issue](https://gitlab.com/meltano/meta/-/issues/216)
-    - [KR: Increase usage of `transformer` plugins](https://gitlab.com/meltano/meta/-/issues/219)
-    - [KR: Increase usage of `utility` plugins linked to `BI` or `analyze` functions](https://gitlab.com/meltano/meta/-/issues/218)
-    - [KR: Increase usage of `utility` plugins (other)](https://gitlab.com/meltano/meta/-/issues/221)
+    - [APP Metric Definition](/data-team/kpis.md#APP+-+Average+Plugin Types+per+Project)
+  - [KR: Increase usage of `orchestrator` plugins](https://gitlab.com/meltano/meta/-/issues/220)
+    - orchestrator plugin tracking currently blocked by [this issue](https://gitlab.com/meltano/meta/-/issues/216)
+  - [KR: Increase usage of `transformer` plugins](https://gitlab.com/meltano/meta/-/issues/219)
+  - [KR: Increase usage of `utility` plugins linked to `BI` or `analyze` functions](https://gitlab.com/meltano/meta/-/issues/218)
+  - [KR: Increase usage of `utility` plugins (other)](https://gitlab.com/meltano/meta/-/issues/221)
 
 ### OKR: Improve New User Experience
 
