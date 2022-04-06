@@ -20,7 +20,7 @@ We aim to have BI dashboards in Superset for each KPI that is connected to Key R
 Where possible, we should have a dedicated dashboard page for each KR.
 Charts and dashboards for KPIs should be linked back to the handbook and specific Goals where possible.
 
-KRs may be tracked in GitLab issues:
+KRs are tracked in GitLab issues:
 
 - KPI Name
 - A KPI Goal title (e.g. "Improve Metric X")
