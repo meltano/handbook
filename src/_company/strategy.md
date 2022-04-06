@@ -29,7 +29,7 @@ KRs are tracked in GitLab issues:
 - Timeframe for evaluation (e.g. "by July 10")
 - Dashboard Link (if available)
 
-KPI Goal tracking occurs in GitLab issues, with links to related Objectives and Initiatives when appropriate via linked issues and/or via GitLab labels. The list of KPIs and (optionally) of the KPI goal is public and listed below under each Goal definition, including links to the GitLab issues with additional information.
+KPI Goal tracking occurs in GitLab issues, with links to related Objectives and Initiatives via linked issues and/or via GitLab labels. The list of KRs is public and listed below under each OKR definition, including links to the GitLab issues with additional information.
 
 ## OKRs in Gitlab
 
