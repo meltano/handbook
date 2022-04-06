@@ -35,53 +35,22 @@ Options vest monthly over 4 years, with a 1-year cliff. Early exercise is allowe
 ## Bonuses
 
 ### Discretionary Bonuses for Individuals
- - Every now and then, individual team members really shine as they live
-   our values and impact the company positively. We especially like to
-   celebrate the special moments that exemplify the behavior we want to
-   see in all Meltano team members.
-   
- - Anyone can nominate any full-time employee for a discretionary bonus.
-   Please contact the person’s manager to do so.
- - Bonuses are at the fixed amount of $1,000.
+- There will be times where a team member goes "above the call of duty" and exemplifies [our values](/company/values) in a way that the leadership recognizes as extraordinary.  We want to highlight these achievements to others and to acknowledge these contributions with special recognition in the form of a discretionary bonus.
+ - Anyone can nominate any full-time team member who is not on the leadership team for a discretionary bonus. 
+ - Bonuses are awarded as a dinner of up to $150.
  - There is no limit to the frequency with which someone can receive a
-   bonus but they cannot get more than one for the same activity/project for the same reasons.
- - Only individuals in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing a performance improvement plan).
-    
+   bonus but they cannot receive more than one for the same activity/project or for the same reasons.
+ - Only team members in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing a performance improvement plan).
 
-#### Valid and Invalid criteria for discretionary bonuses
-
-Discretionary bonuses are to celebrate team members. To make sure we are recognizing the right behaviors, below are some criteria to help you decide if a bonus meets the requirements.
-
-**Valid bonus criteria**
-
--   Going above and beyond what is expected in regard to the team member's role description.
-    
--   Truly exceptional work. Good and great is already expected in a team member's work and performance.
-    
--   Providing additional coverage or project load for other team members.
-    
--   Team members' work results in higher productivity or improved processes that create efficiencies and results. This may also result in identifying cost-saving initiatives.
-    
-
-**Invalid bonus criteria**
-
--   Supplement to income.
-    
--   For being nice and friendly.
-    
--   For being helpful.
-    
--   Doing a project or task that is core to their role.
-    
--   For help onboarding a new Meltano team member.
-    
--   Hitting target or quota
-    
--   Providing customer insight
-    
--   Partnering or collaborating with other groups within Meltano
-    
--   Working long hours or on weekends
+#### Process to Nominate Someone for a Bonus    
+- Identify a team member who has truly gone above and beyond what is expected of them as it relates to one of the [company values](/company/values).
+- Contact the team member’s manager with the nomination information:
+   - The name of team member
+   - The specifics of why you are nominating them. 
+- The manager will bring the nomination to the leadership team.
+- Once apprioved, the manager will let the team member know in their 1:1 and announce in Slack (`internal-chatter`). 
+- The manager must also add the detail to the [Bonus Sheet](https://docs.google.com/spreadsheets/d/1uuiJj5tySFO6XtjnkiGV0mOuysU3N4xECp1aF8xLpEg/edit#gid=0) so the bonus can be given.
+- The team member will expense the bonus and operations will handle reimbursement via the expense reporting system. 
 
 ## Benefits
 

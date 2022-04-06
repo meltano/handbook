@@ -30,7 +30,7 @@ MR approvals are set (on a per-repo basis) to _not_ use the option to `Remove al
 
 ## Team-Authored MRs
 
-Team authored MRs may be reviewed by any other team member, but should also be approved by a Manager (probably AJ), as described below.
+Team authored MRs may be reviewed by any other team member, but should also be approved by a code owner, as described below.
 
 ## Community-Contributed MRs
 
@@ -54,13 +54,109 @@ The first team member to review should assign themselves to the review and check
 - Whenever blocked on a response for 48+ hours, we may flag as such using the `Awaiting Action::Author` label. Sparingly and with due respect, we may ping a contributor on Slack (in DM or in the `#contributing` channel) to notify them of pending action on their side.
 - In the case that a contributor becomes non-responsive due to competing priorities, time lag, or other factors, we evaluate internally within the team (and with help from Product) to decide if we can prioritize and deliver any remaining outstanding tasks ourselves.
 
-## Manager-Level Approval
+### Contributing to branches on a community-member's fork
 
-For both Community-Contributed MRs and Team-Authored MRs, a Manager-Level approval is required for any non-trivial updates - in addition to Team Member approval. This can be requested either when the MR foundation is in place or as a "final check". The manager-level approval should generally be requested _after_ the MR is otherwise "clean" - and after known action items and questions are called out in the text of the MR.
+Occasionally we need to help a contributor get their MR completed by contributing back to their fork. The GitLab-provided instructions are incorrect for this process. Please use the following:
 
-The goal in the dual-approval approach is to create a virtuous cycle of individual ownership combined with manager-level accountability, while fostering organic and supportive training opportunities for new team members.
+#### Step 1: Set some env vars
 
-- **Note:** In future, as we scale, we will replace "Manager-Level" approval with "Senior-Level" approval or similar.
+```bash
+export ORG_NAME=name-of-user
+export REPO_NAME=meltano
+export BRANCH_NAME=name-of-branch
+```
+
+#### Step 2: Add the remote and checkout locally
+
+```bash
+# Add the remote
+git remote add $ORG_NAME "git@gitlab.com:$ORG_NAME/$REPO_NAME.git"
+# Fetch the branch refs
+git fetch $ORG_NAME
+# Checkout the branch
+git checkout -b "$ORG_NAME-$BRANCH_NAME" --track "$ORG_NAME/$BRANCH_NAME"
+```
+
+If you need to pull new commits later on (before deleting the remote):
+
+```bash
+git pull $ORG_NAME $BRANCH_NAME
+```
+
+### Step 3: Make changes in your local copy of the branch as usual
+
+Optionally, merge in the latest from master and resolve conflicts:
+
+```bash
+git merge origin/master
+```
+
+Then make any other changes needed. For example, commonly we need to re-lock the python library refs:
+
+```bash
+poetry lock
+```
+
+### Step 4: Push the changes back to the fork and remove the remote
+
+```bash
+git push $ORG_NAME "$ORG_NAME-$BRANCH_NAME:$BRANCH_NAME"
+```
+
+Remove the local remote ref:
+
+```bash
+git remote rm $ORG_NAME
+```
+
+## Code owners and approvers
+
+For our core repos we use a pattern of Primary/Fallback ownership, where each area of the codebase has a designated primary and secondary owners. Approval is required for both Community-Contributed MRs and Team-Authored MRs from one of these individuals. 
+This can be requested either when the MR foundation is in place or as a "final check". The final approval from the Primary code owner should generally be requested _after_ the MR is otherwise "clean" - and after known action items and questions are called out in the text of the MR.
+In the scenario where the primary code owner is also an author they must obtain approval from the "fallback" owner.
+
+Currently, we have the following owners (listed in order eg. primary, fallback):
+
+SDK - [CODEOWNERS](https://gitlab.com/meltano/sdk/-/blob/main/.gitlab/CODEOWNERS):
+- `/docs/` owners: @edgarrmondragon @afolson
+- `*` (everything else) owners: @edgarrmondragon @aaronsteers
+
+
+Meltano - [CODEOWNERS](https://gitlab.com/meltano/meltano/-/blob/main/.gitlab/CODEOWNERS):
+
+- `/src/meltano/core/bundle/discovery.yml` owners:  @aaronsteers @pnadolny13
+- `/docs/` owners: @tayloramurphy @afolson
+- `/src/webapp/` owners: @alex1126 @pandemicsyn
+- `/src/meltano/api/` owners: @pandemicsyn @alex1126
+- `/docs/` owners: @tayloramurphy @afolson
+- `*` (everything else) owners: @pandemicsyn @edgarrmondragon
+
+As we grow and the complexity of the various code base increases, we will appoint additional code owners to specific subject areas as needed.
+
+### Terraform and IAC Resources
+
+Terraform and IAC are an increasingly important codebase for our team's success. For any terraform and IAC resources which don't already have a `CODEOWNERS` ruleset, the following approval model should apply:
+
+- Primary Approver: @edgarrmondragon 
+- Secondary Approvers: @aaronsteers, @kgpayne (both required as 'additional' approvers **)
+
+Note:
+
+- More eyes are needed _temporarily_ on infra-related resources, but we'll scale this down to the standard primary/secondary approval model once a set of best practices and standard coding guidelines have been established. (Tracked in [handbook#68](https://gitlab.com/meltano/handbook/-/issues/68))
+
+### EM and PM Approval
+
+Whenever spec changes/updates are introduced during the process of development, and/or whenever a large impactful feature is being implemented, please add `@aaronsteers` and `@tayloramurphy` as required approvers.
+
+All EM/PM approval requests should be paired with a comment tagging one or both, specifically addressing the details of _where_ spec has changed and/or _which_ components or choices are needing approval.
+
+There are three types of EM/PM approval requests:
+
+1. **Pre-approval.** In this case, approval is being requested early in the dev cycle regarding a critical design choice or spec change. Generally a tagged comment is sufficient, and "approval" may just be in the form of a comment reply.
+2. **Final approval.** In this case, you are requesting final approval before merging a completed feature into the main branch. This generally is most appropriate _after_ the default/primary approver has completed providing their own feedback.
+3. **ADR Approval.** If your MR contains an ADR, it should _always_ be approved by both EM and PM, with cc mention to @DouweM.
+
+
 
 ## Responsibility to Merge
 

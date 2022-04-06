@@ -14,12 +14,24 @@ Asynchronous communication is the practice of communicating and moving projects 
 
 Asynchronous communication demonstrates consideration for team members across time zones and enables us to travel outside of our usual time zone or structure our day around commitments at home or in our community. We practice asynchronous communication by recording meetings, using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. We also place an emphasis on ensuring that conclusions of conversations outside of the issue tracker (i.e. Slack and impromptu Zoom calls) are written down: If it's not in the issue, it didn't happen. All of these actions ensure that team members are not pressured to be online outside of their working hours. Embracing asynchronous communication and learning to use it effectively requires a mental shift. This can feel unusual or even uncomfortable for those who come from a colocated environment, where in-person meetings and communiques are the norm. 
 
+While asynchronous communication is strongly preferred, there are scenarios in which synchronous communication via Zoom meetings can be more productive. Such scenarios include:
+- "Coffee Chats" or short informal social meetings used for teammates to get to know one another.
+- Recurring 1:1s between managers and direct reports
+- Paired work sessions between teammates
+- Deep dives on complex topics and areas of competing viewpoints 
+When meeting synchronously, be sure to document any outcomes, follow-up items, or other relevant information discussed in the meeting so that it is accessible to teammates and the community. 
+
+
 ## In practice
  
 1. Aim to respond to mentions other than FYIs within 3 business days. If you are unable to fulfill a specific request during that time, respond to the mention and indicate when you'll have an answer.
 1. If you're behind on responding to notifications and expect to miss a deadline for any new mentions (until you're caught up), please inform the team in the Kickoff, and ask that urgent requests be sent to you via Slack DM and include the issue/MR link.
 1. Use direct language when communicating. If you want someone to take action, directly tell them what's required, and when you need an answer, and whether there is urgency. Also indicate whether something is a "must have" or "nice to have" when asking for collaboration. 
 1. Overcommunication can be appropriate. You can mention someone in an issue, but we all know that sometimes we can miss something, so if a request has stagnated, you can send someone a direct message as a gentle reminder. If you need something urgently, you can also send a Slack message to request that something is prioritized. 
+
+### Working Hours and Availability
+
+We indicate our working hours and availability using Google Calendar and Slack so that our teammates know when they are able to reach us. Within Google Calendar you can set your working hours by going to "Settings" and then "Working Hours and Location". If your working hours change, be sure to update Google Calendar to reflect those changes. During short periods of unavailability during normal work hours, for instance going to a dentist appointment, stepping away from your desk for lunch, or taking a walk around the block, update your Slack status to indicate that you are unavailable. You can also have your Slack status and availability updated automatically by [connecting Slack to your Google Calendar](https://slack.com/help/articles/206329808-Google-Calendar-for-Slack) or by using a third-party tool such as [reclaim.ai](https://reclaim.ai)
 
 ### Slack guidelines
 
@@ -45,6 +57,7 @@ Asynchronous communication demonstrates consideration for team members across ti
 
 1. All meetings should have an agenda. Use the "[Create Meeting Notes](https://workspaceupdates.googleblog.com/2021/10/create-meeting-notes-in-google-calendar.html)" feature in Google Calendar to quickly create a Google Doc that is shared with all users invited to the event. Update the title of the doc to include the [ISO dates](https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates).
 1. If a meeting needs an additional document for internal documentation, create a new document in the appropriate folder in the [`External Meetings` folder](https://drive.google.com/drive/u/1/folders/17bM6lL5XG0i_onFtlR0wwoA6HEVnZCL1) in the shared [`Meltano Team` Google Drive](https://drive.google.com/drive/u/1/folders/0AMdtIhQUeQ-1Uk9PVA) and link to it in the public notes doc. Preface the link with "Internal Meltano Ref: `link`". If a relevant private GitLab issue exists as well, link to it inline with the Google Doc link. 
+1. We strongly prefer _speedy meetings_, which is to say that meetings which would otherwise be 30 minutes should be ended 5 minutes early and meetings which would be longer should be ended 10 minutes early. This ensures that team members have opportunities for short breaks throughout the day between consecutive meetings. To enable speedy meetings in Google Calendar, go to "Settings", then "Event Settings", and check the box next to "Speedy meetings".
 
 ### Writing Style Guidelines
 

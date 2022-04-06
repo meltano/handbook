@@ -32,6 +32,13 @@ Cap table and stock options management.
 Every team member has their own account.
 Main account details are in the `Finance` 1Password vault.
 
+## [Calendly](https://calendly.com/)
+
+Calendar scheduling tool.
+
+Every team member has their own account.
+Team members who desire the features of the paid version may request a paid account.
+
 ## [DigitalOcean](https://www.digitalocean.com/)
 
 Hosting and DNS management for `*.meltanodata.com`.
@@ -141,6 +148,12 @@ Every team member has their own account.
 ## [Gusto](https://gusto.com/)
 
 Payroll and benefits platform for US-based team members.
+
+## [HubSpot](https://www.hubspot.com/)
+
+Customer relationship management (CRM) and marketing automation platform (MAP). 
+
+HubSpot Insights can only enrich company data if the company name is pulled in: https://knowledge.hubspot.com/companies/hubspot-insights-on-company-records
 
 ## [Instagram](https://www.instagram.com/)
 

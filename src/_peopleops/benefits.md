@@ -58,11 +58,7 @@ Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company
 
 ##### Upcoming Family and Friends Days
 
-* 2021-12-27
-* 2022-01-03
-* 2022-02-14
-* 2022-03-21
-* 2022-04-11
+* 2022-04-15
 * 2022-05-27
 * 2022-06-24
 
