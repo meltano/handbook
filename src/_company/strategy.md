@@ -100,7 +100,7 @@ Note:
 
 - Scope: Company-Wide
 - Objective: **We will build the managed service and onboard our first private beta users.**
-- Timeframe: By 2022-01-30.
+- Timeframe: By 2023-01-30.
 - GitLab Label: `OKR: Managed service beta`
 - Initiatives:
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Managed+Service+Beta)
