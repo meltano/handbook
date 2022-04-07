@@ -36,6 +36,6 @@ You should block a couple days to read the entire handbook, focusing on sections
 
 #### Improving the Handbook
 
-As you go through your onboarding procedure, we ask each new employee to consider the experience of the next person who will follow the new hire onboarding process. Please aim to make _at least one_ handbook update by the end of your second week. This is good practice for Meltano handbook-driven culture and it helps the next team member who will benefit from what you learned along the way. An easy first update is to add your name to 
+As you go through your onboarding procedure, we ask each new employee to consider the experience of the next person who will follow the new hire onboarding process. Please aim to make _at least one_ handbook update by the end of your second week. This is good practice for Meltano handbook-driven culture and it helps the next team member who will benefit from what you learned along the way. An easy first update is to add your name to
 
 In general, topics which you discuss with your onboarding buddy are good candidates for Handbook improvements. Your buddy may also ask you to create Handbook MRs for topics that you cover together in your discussions but which are not (yet!) covered sufficiently in the handbook.

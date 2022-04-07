@@ -5,102 +5,112 @@ weight: 2
 ---
 
 ## Tools
-We use Sprout Social for most social posting and planning. PLease try to do as many posts as possible from this tool for tracking and management purposes. 
+
+We use Sprout Social for most social posting and planning. PLease try to do as many posts as possible from this tool for tracking and management purposes.
 
 ### Social listening
+
 coming soon
 
 ## Social
 
-
-
 ## Social Channels
 
-| Channels |
-| ------------------------------------------ |
-| [Meltano Twitter](https://twitter.com/meltanodata) |
+| Channels                                                      |
+| ------------------------------------------------------------- |
+| [Meltano Twitter](https://twitter.com/meltanodata)            |
 | [Meltano LinkedIn](https://www.linkedin.com/company/meltano/) |
-| [Meltano Facebook](https://www.facebook.com/meltano) |
-| [Meltano Instagram](https://www.instagram.com/meltanodata/) |
-| [Meltano YouTube](https://www.youtube.com/meltano) |
+| [Meltano Facebook](https://www.facebook.com/meltano)          |
+| [Meltano Instagram](https://www.instagram.com/meltanodata/)   |
+| [Meltano YouTube](https://www.youtube.com/meltano)            |
 
 ### Channel Use
 
 #### Twitter <a name="twitter"></a>
-* **What do we use it for?**
-  * New, engagement, announcements, releases/ key feature announcements, company announcements, info gathering (polls)
+
+- **What do we use it for?**
+  - New, engagement, announcements, releases/ key feature announcements, company announcements, info gathering (polls)
 
 #### LinkedIn <a name="linkedin"></a>
-* **What do we use it for?**
-  * Hiring, thought leadership, sharing media
-* **relevant topics?**
-  * trends, best practices, events, jobs, key features, investments, partners, culture topics, remote work stuff
-* other considerations 
-* **What content performs well**
-  * photos and text, suggest using tags (to expand reach) and hashtags, around 3 is optimal (use keywords you want to be associated with)
-  * Provide a call to action
+
+- **What do we use it for?**
+  - Hiring, thought leadership, sharing media
+- **relevant topics?**
+  - trends, best practices, events, jobs, key features, investments, partners, culture topics, remote work stuff
+- other considerations
+- **What content performs well**
+  - photos and text, suggest using tags (to expand reach) and hashtags, around 3 is optimal (use keywords you want to be associated with)
+  - Provide a call to action
 
 **Note:** LinkedIn's API requires apps and integrations to re-authorize every 60 days. Sprout Social will ask us to re-authorize the LinkedIn connection before it expires. Check the "Warnings" tab on the right side menu to re-authorize.
 
 #### Facebook <a name="facebook"></a>
-* **What do we use it for?**
-  * Hiring, thought leadership, sharing media, events, news, community building
-* **relevant topics?**
-  * best practices, events, jobs, how tos, investments, partners, culture topics, remote work stuff
-* other considerations 
-* **What content performs well**
-  * photos, vidoes and text
-  * Provide a call to action
+
+- **What do we use it for?**
+  - Hiring, thought leadership, sharing media, events, news, community building
+- **relevant topics?**
+  - best practices, events, jobs, how tos, investments, partners, culture topics, remote work stuff
+- other considerations
+- **What content performs well**
+  - photos, vidoes and text
+  - Provide a call to action
 
 #### Instagram <a name="instagram"></a>
-* coming soon
+
+- coming soon
 
 #### TikTok <a name="tiktok"></a>
+
 Tips and Tricks:
-* Putting a title card on videos makes them easy for folks to find later on
-* TikTok has automated closed captioning but it regularly messes up. We should review CC before putting the video live (important for accessibility)
-* TikTok is notorious for shadow banning people for vague community guidelines violations, so let's make sure content has minimal swearing and nothing TikTok could consider dangerous 
-* You can stream to TikTok and Twitch at the same time with some work- this is an easy way to invite guests ans the community to collaborate. Live streams can also get temporarily blocked on TikTok for vague violations, so let's make sure guests are aware of the rules too.
+
+- Putting a title card on videos makes them easy for folks to find later on
+- TikTok has automated closed captioning but it regularly messes up. We should review CC before putting the video live (important for accessibility)
+- TikTok is notorious for shadow banning people for vague community guidelines violations, so let's make sure content has minimal swearing and nothing TikTok could consider dangerous
+- You can stream to TikTok and Twitch at the same time with some work- this is an easy way to invite guests ans the community to collaborate. Live streams can also get temporarily blocked on TikTok for vague violations, so let's make sure guests are aware of the rules too.
 
 #### Slack <a name="slack"></a>
-* **What do we use it for?** 
-  * Community engagement, announcements, support, releases (consider info gathering)
-* **target audience?**
-   * core community members, super fans, those getting started, trying to learn 
-* **Suggested posting cadence?**
-  * TBD- don't change until we update metrics
-* **relevant topics?**
-  * announcements, new releases, key features, 
-* **other considerations**
-  * Use it to cross-promote partners and top community members
+
+- **What do we use it for?**
+  - Community engagement, announcements, support, releases (consider info gathering)
+- **target audience?**
+  - core community members, super fans, those getting started, trying to learn
+- **Suggested posting cadence?**
+  - TBD- don't change until we update metrics
+- **relevant topics?**
+  - announcements, new releases, key features,
+- **other considerations**
+  - Use it to cross-promote partners and top community members
 
 #### YouTube <a name="youtube"></a>
-* **What do we use it for?**
-  * long-form content, training, informational/ deep learning
-* **target audience?**
-  * Anyone looking to learn about how we work, function and the product
-* **relevant topics?**
-  * thought leadership, product demos and deep dives, road map walkthroughs, office hours, demo days, pitch deck overviews 
-* **other considerations** 
-  * need to be careful and curate and tag appropriately. 
 
-#### Stack Overflow <a name="stackoverflow"></a>  
-* coming soon
+- **What do we use it for?**
+  - long-form content, training, informational/ deep learning
+- **target audience?**
+  - Anyone looking to learn about how we work, function and the product
+- **relevant topics?**
+  - thought leadership, product demos and deep dives, road map walkthroughs, office hours, demo days, pitch deck overviews
+- **other considerations**
+  - need to be careful and curate and tag appropriately.
 
-#### Hacker news <a name="hackernews"></a>  
-* **What do we use it for?**
-  * deep community and subject matter engagement
-  * Product discussions, thought leadership
-* **target audience?**
-  * Developers, SREs/ops folks, and some data folks. Overall a pretty technical audience.
-  * FOSS advocates
-* **Suggested posting cadence?**
-  * Post our jobs on the monthly "Who's hiring?" thread as needed.
-  * Don't submit our own content to HN. Let our own community members post to HN organically.
-* **relevant topics?**
-  * We could participate in more data/dataops threads, but right now we only show up when someone is talking about us.
-* **other considerations**
-  * The HN community values transparency so you should disclose that you're an employee of Meltano when responding to Meltano-related threads.
+#### Stack Overflow <a name="stackoverflow"></a>
+
+- coming soon
+
+#### Hacker news <a name="hackernews"></a>
+
+- **What do we use it for?**
+  - deep community and subject matter engagement
+  - Product discussions, thought leadership
+- **target audience?**
+  - Developers, SREs/ops folks, and some data folks. Overall a pretty technical audience.
+  - FOSS advocates
+- **Suggested posting cadence?**
+  - Post our jobs on the monthly "Who's hiring?" thread as needed.
+  - Don't submit our own content to HN. Let our own community members post to HN organically.
+- **relevant topics?**
+  - We could participate in more data/dataops threads, but right now we only show up when someone is talking about us.
+- **other considerations**
+  - The HN community values transparency so you should disclose that you're an employee of Meltano when responding to Meltano-related threads.
 
 ## Meltano Newsletter
 
@@ -111,18 +121,21 @@ Meltano uses [Substack](https://meltano.substack.com/) to collect newsletter sub
 Want to hear everything we are talking and thinking about internally and in the open source data would. Follow along, it's easy!
 
 ### Naming a Blog Post
-Start with the title of the post, be as descriptive as possible but succinct. Do not begin with the date. Only include a date if the content will not be evergreen and it is critical to note the date for the timeliness of the post. Adding a date to the title will instantly date the post and generally when people are looking for content they are not looking for when it was published more what they can learn in the post. 
 
-### Blog Publishing Process 
-Start and issue in the marketing project for all new log posts. Please provide a link to the blog draft in the issue as well as desired go live date. We try not to post two blogs on one day unless they are strategically related. 
+Start with the title of the post, be as descriptive as possible but succinct. Do not begin with the date. Only include a date if the content will not be evergreen and it is critical to note the date for the timeliness of the post. Adding a date to the title will instantly date the post and generally when people are looking for content they are not looking for when it was published more what they can learn in the post.
 
-Please draft all blogs in google docs. We will move the blog to WP once we are in the final stages of editing and we are just putting final touches on it. 
+### Blog Publishing Process
+
+Start and issue in the marketing project for all new log posts. Please provide a link to the blog draft in the issue as well as desired go live date. We try not to post two blogs on one day unless they are strategically related.
+
+Please draft all blogs in google docs. We will move the blog to WP once we are in the final stages of editing and we are just putting final touches on it.
 
 All blogs much meet a certain min umber of requirements to be published on the company blog. The topic needs to be relevant to the company narrative and product messages. Additionally, it must be substantive enough for posting. This means it must be long enough, relevant and educational enough to help readers learn about Meltano or the data space. Please review the [SEO post guides for more info](https://docs.google.com/document/d/1s9UsxZ7igSCMYudi4oFOI5LoftqDOKkFCgrxRuHbBNY/edit).
 
-Note: we aim to post blogs Tues- Thurs if possible and during peak US ET business hours. 
+Note: we aim to post blogs Tues- Thurs if possible and during peak US ET business hours.
 
-### Blog Promotion 
+### Blog Promotion
+
 The marketing team will schedule content to go out on our social channels to promote the blog post. It will be up to the blog author to promote the blog in the appropriate slack channel on the same day as the main promotion is occurring. Promotion is generally best received from the author vs marketing.
 
 ## YouTube
@@ -151,6 +164,7 @@ Examples of great YouTube video names include:
 Video descriptions should have a short (can be one sentence or phrase) blurb at the beginning, followed by evergreen information about Meltano that can simply be copied and pasted.
 
 Things to consider when writing a great, short, video description:
+
 - Descriptions are short and to the point, explaining what the video is covering and optionally the teams participating (engineering, marketing, leadership, security, etc)
 - Don’t worry about “how” something is being worked on, discussed, solved - that’s what the video is for! Description should cover “what, who, why"
 - Great descriptions highlight key words/phrases, especially when discussing specific integrations (“we’re discussing how to fix a bug with our Google Analytics data tap”) or an external component (“our data source for XYZ has a new feature”)
@@ -160,6 +174,7 @@ Examples of a great YouTube video description include:
 
 ```md
 Meltano v1.3.0 is publicly released, adding the ability to distill rocket fuel and manufacture widgets, with numerous bug fixes and improvements, including:
+
 - bug fix #1
 - improvement #1
 - improvement #2
@@ -173,9 +188,11 @@ This full example of a Meltano YouTube video description includes evergreen cont
 
 ```md
 Meltano v1.3.0 is publicly released, adding the ability to distill rocket fuel and manufacture widgets, with numerous bug fixes and improvements, including:
+
 - bug fix #1 (link)
 - improvement #1 (link)
 - improvement #2 (link)
 
 1:55​ Meltano team - who we are...
 3:15​ Discussion of bug fix #1
+```

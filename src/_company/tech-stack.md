@@ -151,7 +151,7 @@ Payroll and benefits platform for US-based team members.
 
 ## [HubSpot](https://www.hubspot.com/)
 
-Customer relationship management (CRM) and marketing automation platform (MAP). 
+Customer relationship management (CRM) and marketing automation platform (MAP).
 
 HubSpot Insights can only enrich company data if the company name is pulled in: https://knowledge.hubspot.com/companies/hubspot-insights-on-company-records
 
@@ -258,7 +258,7 @@ Every team member has their own account.
 
 ## [Snowflake](https://www.snowflake.com/)
 
-Cloud data warehouse. 
+Cloud data warehouse.
 Meltano's instance runs in us-west-2 and can be accessed via [this url](https://epa06486.snowflakecomputing.com).
 
 ## [Sprout Social](https://sproutsocial.com/)

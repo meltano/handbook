@@ -6,15 +6,15 @@ weight: 2
 
 ## Highlights
 
-* [Flexible working hours](#flexible-working-hours)
-* [Unlimited PTO with minimums](#paid-time-off)
-* [Caregiver leave](#caregiver-leave)
-* [Competitive Compensation and Equity](#compensation)
-* [Health and Wellness Offerings](#health-and-wellness)
-* [Generous budget for home office setup and workspace supplies](#home-office-setup-funds)
-* [Travel Opportunities](#travel-opportunities)
-* [Professional Development](#professional-development)
-* [World Class All-Remote Culture](#all-remote)
+- [Flexible working hours](#flexible-working-hours)
+- [Unlimited PTO with minimums](#paid-time-off)
+- [Caregiver leave](#caregiver-leave)
+- [Competitive Compensation and Equity](#compensation)
+- [Health and Wellness Offerings](#health-and-wellness)
+- [Generous budget for home office setup and workspace supplies](#home-office-setup-funds)
+- [Travel Opportunities](#travel-opportunities)
+- [Professional Development](#professional-development)
+- [World Class All-Remote Culture](#all-remote)
 
 ## Work-Life Balance
 
@@ -35,9 +35,9 @@ Whether you go for a walk, take a nap, or watch your favorite show, you’re enc
 Meltano has an unlimited time off policy, and we encourage team members to take the time they need to rest and recharge.
 We recommend every team member takes a minimum 30 days off per year, a minimum 5 days (one week) per quarter, and we have recommended minimums for various life events, including:
 
-* Minimum 15 days for compassionate leave
-* Minimum 15 days for victims of domestic violence
-* Minimum 15 days for burnout
+- Minimum 15 days for compassionate leave
+- Minimum 15 days for victims of domestic violence
+- Minimum 15 days for burnout
 
 We offer a 1 month paid sabbatical every 2 years of your employment. All full time employees are eligible for the sabbatical program after 2 years of employment.
 
@@ -58,9 +58,9 @@ Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company
 
 ##### Upcoming Family and Friends Days
 
-* 2022-04-15
-* 2022-05-27
-* 2022-06-24
+- 2022-04-15
+- 2022-05-27
+- 2022-06-24
 
 These dates are tracked in the [Team Meetings Calendar](calendars).
 Meltano team members should mark these days off using [PTO by Roots](/company/tech-stack/#pto-by-roots).
@@ -93,44 +93,45 @@ We cover 100% of health insurance coverage cost for employees and 50% of depende
 
 ##### Medical
 
-* Base Plan:
-  * [UHC Premier - $2,000 - CEFK](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_gold_choice_plus_2000_cefk.pdf)
-* Alternatives:
-  * [UHC Premier - $1,000 - CEFJ](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_platinum_choice_plus_1000_cefj.pdf)
-  * [UHC Premier - $4,000 - CFX9](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_4000_cfx9.pdf)
-  * [UHC HSA w/Motion - HSA - $5,000 - CECY (HDHP)](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_5000_cecy_hdhp.pdf)
+- Base Plan:
+  - [UHC Premier - $2,000 - CEFK](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_gold_choice_plus_2000_cefk.pdf)
+- Alternatives:
+  - [UHC Premier - $1,000 - CEFJ](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_platinum_choice_plus_1000_cefj.pdf)
+  - [UHC Premier - $4,000 - CFX9](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_4000_cfx9.pdf)
+  - [UHC HSA w/Motion - HSA - $5,000 - CECY (HDHP)](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_5000_cecy_hdhp.pdf)
 
 Meltano contributes separately to employees' and dependents' premiums:
 
-* Employee: Meltano covers up to 100% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
-* Dependents: Meltano covers up to 50% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
+- Employee: Meltano covers up to 100% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
+- Dependents: Meltano covers up to 50% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
 
 ##### Dental
 
-* [Principal Dental Plan 4](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/principal/plans/2016/principal_tx_principal_dental_plan_4.pdf)
+- [Principal Dental Plan 4](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/principal/plans/2016/principal_tx_principal_dental_plan_4.pdf)
 
 Meltano contributes separately to employees' and dependents' premiums:
 
-* Employee: Meltano covers 99% of the premium.
-* Dependents: Meltano covers 50% of the premium.
+- Employee: Meltano covers 99% of the premium.
+- Dependents: Meltano covers 50% of the premium.
 
 ##### Vision
 
-* [TX Beam VSP Choice Plan 2](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/beam_dental/plans/2017/beam_dental_tx_beam_vsp_choice_plan_2.pdf)
+- [TX Beam VSP Choice Plan 2](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/beam_dental/plans/2017/beam_dental_tx_beam_vsp_choice_plan_2.pdf)
 
 Meltano contributes separately to employees' and dependents' premiums:
 
-* Employee: Meltano covers 99% of the premium.
-* Dependents: Meltano covers 50% of the premium.
+- Employee: Meltano covers 99% of the premium.
+- Dependents: Meltano covers 50% of the premium.
 
 #### Team members outside the US
 
 We handle coverage outside the US country by country based on regional best practices. We partner with [Remote.com](/company/all-remote#where-we-hire) and the individual(s in that region) to find an equitable offering for employee coverage. We evaluate what to offer in new countries on a case by case basis and as soon as we have set a policy for a region we document that as the coverage policy going forward.
 
-* In the UK, NHS covers our workers.
-* In Mexico, we offer a Health Insurance Allowance equal to $7,000.00 MXN per month.
+- In the UK, NHS covers our workers.
+- In Mexico, we offer a Health Insurance Allowance equal to $7,000.00 MXN per month.
 
 To find out more about how Remote.com can assist, visit <https://remote.com/employees>.
+
 ### Home Office Setup Funds
 
 We want you to be comfortable and productive wherever you choose to work. With that in mind we offer a generous office setup stipend. We don’t have a set amount as we know there is no office setup that is one size fits all. See our [list of suggested items and options](/peopleops/#office-equipment-and-supplies).
@@ -149,7 +150,7 @@ While working remotely you might be concerned about missing all those random off
 
 ## Internet Connection
 
-We are happy to cover the cost of internet in your working place. This can be your home,  personal office wifi, or a phone you can tether to if you are a digital nomad- you choose which one is most relevant to your working situation. It's our responsibility to make sure you have everything to be productive. This is an extension to the home office perk. When expensing please make sure to isolate the cost of your wifi in case you have any phone, cable, or other packages bundled. We can cover up to $100 in internet costs per month.
+We are happy to cover the cost of internet in your working place. This can be your home, personal office wifi, or a phone you can tether to if you are a digital nomad- you choose which one is most relevant to your working situation. It's our responsibility to make sure you have everything to be productive. This is an extension to the home office perk. When expensing please make sure to isolate the cost of your wifi in case you have any phone, cable, or other packages bundled. We can cover up to $100 in internet costs per month.
 
 ## Travel Opportunities
 
@@ -173,7 +174,7 @@ We are committed to offset all air travel emissions from these team offsites, wh
 
 Note: To keep team members and our communities safe, we’ve temporarily suspended the visiting grant until travel is less of a risk around the world. We’ll provide updates to team members and will regularly review this policy over the course of the pandemic.
 
-Meltano is an all-remote company with team members all over the world. If you want to visit other team members to get to know them, Meltano will assist with travel expenses (e.g. flights, trains, parking, car rental, and ground transportation to/from airport) for a total of up to $150 for every team member that you visit. Please note lodging is excluded. To be clearer, if you meet 2 team members during your visit, the maximum limit of your visiting grant could be $300 ($150*2). You don’t need to work on the same project or team. We’d like you to get to know each other and your roles at Meltano, so we encourage you to discuss work for at least part of the time you’re meeting.
+Meltano is an all-remote company with team members all over the world. If you want to visit other team members to get to know them, Meltano will assist with travel expenses (e.g. flights, trains, parking, car rental, and ground transportation to/from airport) for a total of up to $150 for every team member that you visit. Please note lodging is excluded. To be clearer, if you meet 2 team members during your visit, the maximum limit of your visiting grant could be $300 ($150\*2). You don’t need to work on the same project or team. We’d like you to get to know each other and your roles at Meltano, so we encourage you to discuss work for at least part of the time you’re meeting.
 
 Please note: The visiting grant applies to transportation costs and not other expenses related to travel (e.g. lodging, food). It may be acceptable to cover a meal, however, if the meeting is pre-announced to other people in the region to encourage as many of them to attend as possible.
 
