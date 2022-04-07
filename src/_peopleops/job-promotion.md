@@ -21,7 +21,7 @@ Meltano | All positions are full time and remote | https://meltano.com (follow t
 
 We're a seed stage startup that recently spun out of GitLab. A bit about us:
 
-Meltano is an open source DataOps platform that brings together best-in-class open source tools and technologies for the data lifecycle, including the Singer standard for data integration, dbt for transformation, Airflow for orchestration, and soon Superset for visualization. It simplifies configuration, deployment, and monitoring, and lets data teams benefit from DevOps best practices such as version control, code review, and CI/CD. 
+Meltano is an open source DataOps platform that brings together best-in-class open source tools and technologies for the data lifecycle, including the Singer standard for data integration, dbt for transformation, Airflow for orchestration, and soon Superset for visualization. It simplifies configuration, deployment, and monitoring, and lets data teams benefit from DevOps best practices such as version control, code review, and CI/CD.
 
 Stack: Meltano and the Meltano SDK are written in Python. Vue.js (as part of VuePress) and Bulma CSS are used on the front end.
 

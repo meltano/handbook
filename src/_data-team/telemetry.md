@@ -16,7 +16,7 @@ GA is the current event aggregator that we use for telemetry data.
 Our implementation has some known flaws including the use of a user_id that is commonly short lived in a Meltano project.
 This means that some projects look like a new user on every instantiation.
 Due to this we choose to retrieve the raw events from GA and use project_id as the unique identifier for a Meltano project.
-This is currently done by pulling the GA data, using Meltano in the squared [repo](https://gitlab.com/meltano/squared), into Snowflake and analyzing it there. 
+This is currently done by pulling the GA data, using Meltano in the squared [repo](https://gitlab.com/meltano/squared), into Snowflake and analyzing it there.
 
 ## Snowplow
 
