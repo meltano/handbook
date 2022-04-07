@@ -53,12 +53,13 @@ We have high aspirations and the drive to exceed them.
 We want to collaborate with those who are inspired and motivated by our mission.
 We’re determined to realize our goals and achieve strong results in everything we set out to accomplish.
 To us, ambition means:
-* Resilience in the face of setbacks
-* Continual learning
-* A strong sense of purpose and priorities
-* Passion
-* Perseverance
-* Calculated risk taking
+
+- Resilience in the face of setbacks
+- Continual learning
+- A strong sense of purpose and priorities
+- Passion
+- Perseverance
+- Calculated risk taking
 
 ## Accountability
 
