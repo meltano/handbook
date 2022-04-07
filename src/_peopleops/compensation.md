@@ -35,22 +35,24 @@ Options vest monthly over 4 years, with a 1-year cliff. Early exercise is allowe
 ## Bonuses
 
 ### Discretionary Bonuses for Individuals
-- There will be times where a team member goes "above the call of duty" and exemplifies [our values](/company/values) in a way that the leadership recognizes as extraordinary.  We want to highlight these achievements to others and to acknowledge these contributions with special recognition in the form of a discretionary bonus.
- - Anyone can nominate any full-time team member who is not on the leadership team for a discretionary bonus. 
- - Bonuses are awarded as a dinner of up to $150.
- - There is no limit to the frequency with which someone can receive a
-   bonus but they cannot receive more than one for the same activity/project or for the same reasons.
- - Only team members in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing a performance improvement plan).
 
-#### Process to Nominate Someone for a Bonus    
+- There will be times where a team member goes "above the call of duty" and exemplifies [our values](/company/values) in a way that the leadership recognizes as extraordinary. We want to highlight these achievements to others and to acknowledge these contributions with special recognition in the form of a discretionary bonus.
+- Anyone can nominate any full-time team member who is not on the leadership team for a discretionary bonus.
+- Bonuses are awarded as a dinner of up to $150.
+- There is no limit to the frequency with which someone can receive a
+  bonus but they cannot receive more than one for the same activity/project or for the same reasons.
+- Only team members in good standing with the company are eligible for discretionary bonuses (I.E. not currently undergoing a performance improvement plan).
+
+#### Process to Nominate Someone for a Bonus
+
 - Identify a team member who has truly gone above and beyond what is expected of them as it relates to one of the [company values](/company/values).
 - Contact the team member’s manager with the nomination information:
-   - The name of team member
-   - The specifics of why you are nominating them. 
+  - The name of team member
+  - The specifics of why you are nominating them.
 - The manager will bring the nomination to the leadership team.
-- Once apprioved, the manager will let the team member know in their 1:1 and announce in Slack (`internal-chatter`). 
+- Once apprioved, the manager will let the team member know in their 1:1 and announce in Slack (`internal-chatter`).
 - The manager must also add the detail to the [Bonus Sheet](https://docs.google.com/spreadsheets/d/1uuiJj5tySFO6XtjnkiGV0mOuysU3N4xECp1aF8xLpEg/edit#gid=0) so the bonus can be given.
-- The team member will expense the bonus and operations will handle reimbursement via the expense reporting system. 
+- The team member will expense the bonus and operations will handle reimbursement via the expense reporting system.
 
 ## Benefits
 

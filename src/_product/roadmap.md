@@ -23,7 +23,7 @@ The goal of the roadmap board is to be a "near-sighted" roadmap where the curren
 
 [Roadmap Board](https://gitlab.com/groups/meltano/-/boards/3860358?label_name[]=Roadmap)
 
-As of 2022-Q1, our [DataOps OS blog post](https://meltano.com/blog/our-next-steps-for-building-the-dataops-os/) is a valid summary of what we're building over the next few months. 
+As of 2022-Q1, our [DataOps OS blog post](https://meltano.com/blog/our-next-steps-for-building-the-dataops-os/) is a valid summary of what we're building over the next few months.
 
 As this projects out into the future it is subject to change based on feedback.
 Don't see something you want on the roadmap? [Make an issue](https://gitlab.com/meltano/meltano/-/issues) and let us know! Miss the previous version of the roadmap? Reach out to Taylor on Slack.
