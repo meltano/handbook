@@ -30,13 +30,6 @@ Every docs page should be linted and should adhere to linting standards.
 
 It is a good idea to install the [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) VS Code extension, or similar, so you have realtime lint guidance while editing.
 
-You can also use [Prettier](https://prettier.io/docs/en/index.html) or another code formatter with Markdown support to automate formatting.
-Prettier [integrates with most editors](https://prettier.io/docs/en/editors.html) to automatically format Markdown whenever a file is saved.
-
-Sentences in Markdown should never be split across multiple lines.
-Keeping sentences to one line makes for more readable diffs.
-Linters and formatters should be configured to ignore line length to avoid triggering false positives or splitting longer sentences across multiple lines.
-
 Whenever possible, GitLab and GitHub projects should have automated lint checks, including markdown lint checks and broken link checks.
 
 ### Docs and the "Definition of Done"

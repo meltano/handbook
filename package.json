@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "bulma": "^0.9.3",
-    "bulma-timeline": "^3.0.4",
-    "prettier": "^2.6.2"
+    "bulma-timeline": "^3.0.4"
   }
 }
