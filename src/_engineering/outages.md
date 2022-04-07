@@ -20,7 +20,7 @@ Examples of outages include:
 - `hub.meltano.com` website is down.
 - `discovery.yml` web endpoint is down.
 - Discovery API service is down.
-- `pipx install meltano` is failing for any reason - including upstream package dependency breakages, PyPi outages, etc.
+- `pipx install meltano` is failing for any reason - including upstream package dependency breakages, PyPI outages, etc.
 
 ### Critical Bugs (`urgency::highest`)
 
