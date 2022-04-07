@@ -67,4 +67,4 @@ Occasionally we observe outages due to upstream services failures.
 
 If the issue requires action from us or is otherwise worthy of investigation, we should log an issue for tracking our work and then proceed with the alerting process.
 
-If the issue does not require any action from us, such as a significant PyPi or GitLab service outage, we may not need to open an issue but we should nevertheless [notify users](#notifying-users) as appropriate.
+If the issue does not require any action from us, such as a significant PyPI or GitLab service outage, we may not need to open an issue but we should nevertheless [notify users](#notifying-users) as appropriate.
