@@ -5,9 +5,10 @@ title: Marketing Handbook
 permalink: /marketing/
 ---
 
-Welcome to Meltano marketing. 
+Welcome to Meltano marketing.
 
 ## Weekly Community Activities
+
 The Meltano convenes regularly to generate content for community and learning purposes.
 
 These items include:
@@ -19,14 +20,13 @@ These items include:
 
 Each item (linked below) has a corresponding guide to promoting that activity. Each week should roughly follow the following content schedule:
 
-| Day | Content |
-| ------ | ------ |
-| Monday | Kickoff blog & promotion, Monday release blog & promotion |
-| Tuesday | Social promotion of weekly activity |
-| Wednesday | Social promotion of weekly activity |
-| Thursday | Thursday release blog & promotion, weekly newsletter |
-| Friday | Demo day blog & promotion |
-
+| Day       | Content                                                   |
+| --------- | --------------------------------------------------------- |
+| Monday    | Kickoff blog & promotion, Monday release blog & promotion |
+| Tuesday   | Social promotion of weekly activity                       |
+| Wednesday | Social promotion of weekly activity                       |
+| Thursday  | Thursday release blog & promotion, weekly newsletter      |
+| Friday    | Demo day blog & promotion                                 |
 
 --
 
@@ -49,4 +49,7 @@ Blog: https://meltano.com/blog/
 GitLab: https://gitlab.com/meltano/meltano
 Twitter: https://twitter.com/meltanodata
 Newsletter: https://meltano.substack.com/
+
+```
+
 ```

@@ -16,7 +16,7 @@ Meltano is an all-remote start-up that has a global fully distributed team. We s
 
 ## Scope
 
-This policy applies to all team members of Meltano, in all locations, whether contractor or employee. There are local labor laws in every country and in the case of the United States, state laws, that must be followed when handling, reporting and investigating incidents of harassment. The Head of Operations and CEO, along with legal counsel, if required, in each of those jurisdictions will be called upon to ensure compliance and that the appropriate legal processes and procedures are followed.  All individual contributors, managers, and leaders will be subject to disciplinary action, up to and including termination, for any act of harassment they commit.
+This policy applies to all team members of Meltano, in all locations, whether contractor or employee. There are local labor laws in every country and in the case of the United States, state laws, that must be followed when handling, reporting and investigating incidents of harassment. The Head of Operations and CEO, along with legal counsel, if required, in each of those jurisdictions will be called upon to ensure compliance and that the appropriate legal processes and procedures are followed. All individual contributors, managers, and leaders will be subject to disciplinary action, up to and including termination, for any act of harassment they commit.
 
 ## Types of Harassment
 

@@ -50,12 +50,12 @@ For each demo day, we need to ensure that the following process is followed:
 
 1. Launch zoom meeting room as usual.
 2. Immediately start the YouTube auth flow (5-10 minutes ahead of the stream start):
-    1. From the "More" or "..." menu, select "Live on Youtube".
-    2. When asked which account, select your `@meltano` account.
-    3. When asked which brand account, select the `Meltano` brand.
-    4. When asked for a stream title, accept the default title `Meltano Office Hours`. (We'll update this title later.)
-    5. Wait on this screen until the designated meeting time and you are ready to hit 'Go Live!'
-    6. Optionally, in Zoom you may copy the livestream link and paste into Slack `#office-hours` channel.
+   1. From the "More" or "..." menu, select "Live on Youtube".
+   2. When asked which account, select your `@meltano` account.
+   3. When asked which brand account, select the `Meltano` brand.
+   4. When asked for a stream title, accept the default title `Meltano Office Hours`. (We'll update this title later.)
+   5. Wait on this screen until the designated meeting time and you are ready to hit 'Go Live!'
+   6. Optionally, in Zoom you may copy the livestream link and paste into Slack `#office-hours` channel.
 
 #### After the livestream session ends
 
@@ -68,17 +68,13 @@ For each demo day, we need to ensure that the following process is followed:
 7. Note: Although YouTube does allow editing in the website, this feature is not available until
    several hours after the recording, and video edits might take up to several hours to apply.
 
-
 #### Troubleshooting
 
 - "Please grant necessary privilege for live streaming." error means you may need to re-authorize your `name@meltano.com` account to be able to stream to the Meltano YouTube account. You may need to restart your Zoom call for these permissions to take effect.
 
-
 #### Preventing and responding to accidental secrets leakage
 
-As a standard practice, we should remind community members whenever they are sharing their screens: `"As a
-reminder, this session is being livestreamed and recorded. We recommend closing any
-credential files or other sensitive documents prior to starting the screenshare."`
+As a standard practice, we should remind community members whenever they are sharing their screens: `"As a reminder, this session is being livestreamed and recorded. We recommend closing any credential files or other sensitive documents prior to starting the screenshare."`
 
 And, although we should make a reasonable attempt to prevent confidential information on screenshare, these
 things do accasionally happen. In those cases, our goal is to mitigate exposure such to significantly reduce the
@@ -88,35 +84,33 @@ credentials/secrets exposed:
 
 1. Immediately reach out on slack to whoever was sharing their screen and advise them to rotate their credentials
    as soon as possible.
-    - You can also refer them to this page. Since we don't know if they are watching slack,
-      it is a good idea to ask them for confirmation that they received your message. If they do not reply,
-      kindly call out in Zoom chat that they should check their Slack messages.
-    - Note: because users who were watching in the stream could technically pause or screenshot the leaked creds,
-      this guidance to reset credentials should apply regardless of the duration of time that the credentials
-      were onscreen.
+   - You can also refer them to this page. Since we don't know if they are watching slack,
+     it is a good idea to ask them for confirmation that they received your message. If they do not reply,
+     kindly call out in Zoom chat that they should check their Slack messages.
+   - Note: because users who were watching in the stream could technically pause or screenshot the leaked creds,
+     this guidance to reset credentials should apply regardless of the duration of time that the credentials
+     were onscreen.
 2. Immediately after notifying the presenter of the issue, go to our
    [Meltano YouTube channel](https://studio.youtube.com/channel/UCmp7zJAZEC7I_n9BEydH8XQ/videos/upload) ->
    "Manage Content" and locate the in-progress livestream.
-    - Change the privacy settings on the livestream to from 'Public' to 'Private'.
-    - Optionally, post to the slack channel that the livestream is temporarily down and users can rejoin with the
-      Zoom link.
+   - Change the privacy settings on the livestream to from 'Public' to 'Private'.
+   - Optionally, post to the slack channel that the livestream is temporarily down and users can rejoin with the
+     Zoom link.
 3. After the livestream ends:
-    1. Wait up to 24 hours for YouTube to complete processing _OR_ download the raw video so that you can editing
-       locally.
-    2. Once video is processed, you will be able to use YouTube's content editor to clip out the frames which
-       contained the onscreen secrets exposure.
-    3. Once the video is edited, you may need to wait again for YouTube to finish processing the edited video.
-    4. After confirming the edit by watching the video you can re-share as "Public".
-    5. If you downloaded and edited the video locally, you will need to provide a new YouTube link. If you edited
-       directly, the old links will still work once the video is made "Public" again.
+   1. Wait up to 24 hours for YouTube to complete processing _OR_ download the raw video so that you can editing
+      locally.
+   2. Once video is processed, you will be able to use YouTube's content editor to clip out the frames which
+      contained the onscreen secrets exposure.
+   3. Once the video is edited, you may need to wait again for YouTube to finish processing the edited video.
+   4. After confirming the edit by watching the video you can re-share as "Public".
+   5. If you downloaded and edited the video locally, you will need to provide a new YouTube link. If you edited
+      directly, the old links will still work once the video is made "Public" again.
 
-* _Note: if one person is leading the meeting and multiple team members are present, whoever is not presenting should take steps (1) and (2) above, while the other team member continues to lead the remainder of the session._
-
+- _Note: if one person is leading the meeting and multiple team members are present, whoever is not presenting should take steps (1) and (2) above, while the other team member continues to lead the remainder of the session._
 
 ## Community Support Tools
 
 We currently have no SLAs for support but try to respond within 24 business hours across each channel.
-
 
 ### Slack
 
@@ -137,7 +131,6 @@ ZenDesk mostly gets transactional emails and job applicants.
   - Emails from Netlify about our available minutes running out get deleted because Netlify will automatically add more minutes if we run out.
 - Marketing emails/newsletters are deleted on a case by case basis or assigned to Emily Kyle.
 
-
 ## Community Management Tools
 
 We're piloting a few things and these tools are subject to change.
@@ -149,7 +142,6 @@ We're trialing [Orbit](https://app.orbit.love/signup) as a community CRM and act
 ### Dots
 
 We're trialing [Dots](https://app.dots.community/) as another community CRM tool. Currently only Amanda Folson has access to this.
-
 
 ## Champions
 
