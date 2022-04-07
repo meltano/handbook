@@ -15,7 +15,12 @@ test:
   stage: test
   script:
   - bundle exec jekyll build -d test
-  - bundle exec htmlproofer --log-level :debug ./test --assume_extension --http_status_ignore 503 --url-ignore "/www.linkedin.com/,/www.dell.com/,/www.optionimpact.com/,/gusto.com/" --file_ignore "/\/resources\//"
+  - bundle exec htmlproofer ./test 
+    --log-level :debug 
+    --assume_extension 
+    --http_status_ignore 503 
+    --url-ignore "/www.linkedin.com/,/www.dell.com/,/www.optionimpact.com/,/gusto.com/,/gitlab.com\/meltano\/meta\//" 
+    --file_ignore "/\/resources\//"
   artifacts:
     paths:
     - test
