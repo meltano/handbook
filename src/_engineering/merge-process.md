@@ -122,7 +122,7 @@ SDK - [CODEOWNERS](https://gitlab.com/meltano/sdk/-/blob/main/.gitlab/CODEOWNERS
 - `/docs/` owners: @edgarrmondragon @afolson
 - `*` (everything else) owners: @edgarrmondragon @aaronsteers
 
-Meltano - [CODEOWNERS](https://gitlab.com/meltano/meltano/-/blob/main/.gitlab/CODEOWNERS):
+Meltano - [CODEOWNERS](https://gitlab.com/meltano/meltano/-/blob/master/.gitlab/CODEOWNERS):
 
 - `/src/meltano/core/bundle/discovery.yml` owners: @aaronsteers @pnadolny13
 - `/docs/` owners: @tayloramurphy @afolson
