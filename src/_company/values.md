@@ -30,5 +30,6 @@ We recognize we are better as a collective, built-in the open and collaborativel
 We have an open-door policy where anyone can weigh in or question anything and learn about anything. We want to enable everyone to contribute, learn, and thrive.
 
 We recognize that our vibrant community is at the core of Meltano. We will always keep the interests of our open source users and contributors in mind as we continue to grow.
+
 ## Kindness is key
 We work with empathy, recognizing we’re not alone in this journey. We bring kindness, humility, trust, honesty, and an assumption of good faith to all of our interactions.

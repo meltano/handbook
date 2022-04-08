@@ -8,7 +8,7 @@ At Meltano, we use GitLab to track everything that needs to (one day) be done or
 
 ## Issue Trackers
 
-In line with our [Transparency](/company/values#transparency) value, most of these trackers and the issues they hold are public so that our entire community can participate.
+In line with our [Together we thrive](/company/values#together-we-thrive) value, most of these trackers and the issues they hold are public so that our entire community can participate.
 If an issue fits best in a public tracker but should be private anyway, use a [confidential issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html).
 
 - [Meta (`meltano/meta`)](https://gitlab.com/meltano/meta/-/issues): Public issue tracker for **meta-level topics** around the team, company, or community that don't concern a specific [product](#product-specific) and don't fit in any other project. Use confidential issues as needed.
