@@ -12,7 +12,7 @@ To accomplish this, we use asynchronous communication as a starting point and st
 
 Asynchronous communication is the practice of communicating and moving projects forward without requiring stakeholders to be available at the same time.
 
-Asynchronous communication demonstrates consideration for team members across time zones and enables us to travel outside of our usual time zone or structure our day around commitments at home or in our community. We practice asynchronous communication by recording meetings, using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. We also place an emphasis on ensuring that conclusions of conversations outside of the issue tracker (i.e. Slack and impromptu Zoom calls) are written down: If it's not in the issue, it didn't happen. All of these actions ensure that team members are not pressured to be online outside of their working hours. Embracing asynchronous communication and learning to use it effectively requires a mental shift. This can feel unusual or even uncomfortable for those who come from a colocated environment, where in-person meetings and communiques are the norm.
+Asynchronous communication demonstrates consideration for team members across time zones and enables us to travel outside of our usual time zone or structure our day around commitments at home or in our community. We practice asynchronous communication by recording meetings, using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. We also place an emphasis on ensuring that conclusions of conversations outside of the issue tracker (i.e. Slack and impromptu Zoom calls) are written down: If it's not in the issue, it didn't happen. All of these actions ensure that team members are not pressured to be online outside of their working hours. Embracing asynchronous communication and learning to use it effectively requires a mental shift. This can feel unusual or even uncomfortable for those who come from a co-located environment, where in-person meetings and communiques are the norm.
 
 While asynchronous communication is strongly preferred, there are scenarios in which synchronous communication via Zoom meetings can be more productive. Such scenarios include:
 
@@ -27,7 +27,7 @@ While asynchronous communication is strongly preferred, there are scenarios in w
 1. Aim to respond to mentions other than FYIs within 3 business days. If you are unable to fulfill a specific request during that time, respond to the mention and indicate when you'll have an answer.
 1. If you're behind on responding to notifications and expect to miss a deadline for any new mentions (until you're caught up), please inform the team in the Kickoff, and ask that urgent requests be sent to you via Slack DM and include the issue/MR link.
 1. Use direct language when communicating. If you want someone to take action, directly tell them what's required, and when you need an answer, and whether there is urgency. Also indicate whether something is a "must have" or "nice to have" when asking for collaboration.
-1. Overcommunication can be appropriate. You can mention someone in an issue, but we all know that sometimes we can miss something, so if a request has stagnated, you can send someone a direct message as a gentle reminder. If you need something urgently, you can also send a Slack message to request that something is prioritized.
+1. Over-communication can be appropriate. You can mention someone in an issue, but we all know that sometimes we can miss something, so if a request has stagnated, you can send someone a direct message as a gentle reminder. If you need something urgently, you can also send a Slack message to request that something is prioritized.
 
 ### Working Hours and Availability
 
@@ -92,7 +92,7 @@ We indicate our working hours and availability using Google Calendar and Slack s
 
 ## Best practices
 
-1. **Kindness matters.** Always communicate with kindness and empahty. Everyone should be comfortable in their work environment.
+1. **Kindness matters.** Always communicate with kindness and empathy. Everyone should be comfortable in their work environment.
 1. **All written communication happens in English**, even when sent one on one, because sometimes you need to forward an email or chat.
 1. **Own your actions**: If you say it or type it, own it. If it hurts the company or an individual, even unintentionally, we encourage you to look at things from other points of view and apologize easily.
 1. **You're not expected to be available all the time**. There is no expectation to respond to messages outside of your planned working hours.
@@ -204,19 +204,19 @@ Positive feedback is critical for learning. People are often quick to notice wha
 
 **Best Venue:** Public channels, directly to their manger or them.
 
-**Examples:** Melty I have observed you taking charge of this project and i am so impressed with how proactive you have been involving stakeholder searly and how you communicate with them. Keep it up.
+**Examples:** Melty I have observed you taking charge of this project and i am so impressed with how proactive you have been involving stakeholders early and how you communicate with them. Keep it up.
 
 #### Constructive
 
 The most constructive feedback is more of a two-way conversation. Feedback should be delivered with the intent to help someone improve vs scolding them or making them feel shame. Try to avoid telling someone how to fix the problem - this becomes a missed learning and experimenting opportunity. Alternatively, talk through solutions with them.
 
-When you deliver negative feedback you want to do so in a way that minimizees the threat response. Start by ddressing both strengths and positivies before weaknesses. Do so in a a clear, specific, professional and caring way. If possible try to add in the impact of the behavior so people can fully see both the behavior and how it effects the team or projects. Avoid judgment and sweeping generalizations.
+When you deliver negative feedback you want to do so in a way that minimizes the threat response. Start by addressing both strengths and positives before weaknesses. Do so in a a clear, specific, professional and caring way. If possible try to add in the impact of the behavior so people can fully see both the behavior and how it effects the team or projects. Avoid judgment and sweeping generalizations.
 
 Make sure you leave time when giving feedback to allow the person to ask clarifying questions. Again, it should be a conversation or working shopping improvements.
 
 **Best Venue**: 1:1
 
-**Examples:** Melty we are super happy with the results of this project but in the process of getting it over the finishline you seemed ot alienate some of your peers by exlusding them in the decision making. We want to see you build yourself as a leader and often that involves bringing people up with you and being a mentor which we kow you ar capable of. Let’s talk about how we can try to involve other more going forward.
+**Examples:** Melty we are super happy with the results of this project but in the process of getting it over the finish line you seemed ot alienate some of your peers by excluding them in the decision making. We want to see you build yourself as a leader and often that involves bringing people up with you and being a mentor which we kow you ar capable of. Let’s talk about how we can try to involve other more going forward.
 
 #### Checking in / Reminders
 
@@ -224,9 +224,9 @@ Technically this is not feedback, but it can be construed as such if not given i
 
 Managers should be sensitive to the power dynamics potentially at play in any potential feedback engagement. They should consciously compensate for that dynamic in their communication. This can often come into play when sending reminders. Things can come across as a reprimand vs a reminder if one does not that this into account.
 
-**Example approach:** Hey I was looking for the latest info on project xyz and didn’t see anything new in the issue is it possible to find otu the latest.
+**Example approach:** Hey I was looking for the latest info on project xyz and didn’t see anything new in the issue is it possible to find out the latest.
 
-- This is good because you have already done your homework to see if the info is out there, you are not accusing them of anything and you are just trying to gather info. Even better add a timeline to your request if you have one so people can knwo how o prioritize the request appropriately.
+- This is good because you have already done your homework to see if the info is out there, you are not accusing them of anything and you are just trying to gather info. Even better add a timeline to your request if you have one so people can know how o prioritize the request appropriately.
 
 **Best venue**: First try in the issue then try 1:1 slack message unless you are unsure who the DRI is and just generally asking the group.
 
