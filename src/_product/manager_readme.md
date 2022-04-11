@@ -5,16 +5,17 @@ weight: 2
 ---
 
 ## What is this page?
-This page is your guide to working with me, Taylor Murphy. It is a README of sorts for working with me. My role at Meltano is Head of Product and Data which means I will interact regularly with virtually everyone in Meltano. I aim to keep this page up to date as I continuously learn about myself and what works for me. 
+
+This page is your guide to working with me, Taylor Murphy. It is a README of sorts for working with me. My role at Meltano is Head of Product and Data which means I will interact regularly with virtually everyone in Meltano. I aim to keep this page up to date as I continuously learn about myself and what works for me.
 
 Note: This page is modeled in large part after Sid’s CEO page on the GitLab handbook [here](https://about.gitlab.com/handbook/ceo/#related-pages) and driven by my own desire to be transparent with the company about my preferences, working style, and values.
 
 Links about Taylor:
 
-* [GitLab](https://gitlab.com/tayloramurphy)
-* [LinkedIn](https://www.linkedin.com/in/tayloramurphy/)
-* [Twitter](https://twitter.com/tayloramurphy)
-* [Meltano Bio](https://meltano.com/press/#head-of-product-data-bio)
+- [GitLab](https://gitlab.com/tayloramurphy)
+- [LinkedIn](https://www.linkedin.com/in/tayloramurphy/)
+- [Twitter](https://twitter.com/tayloramurphy)
+- [Meltano Bio](https://meltano.com/press/#head-of-product-data-bio)
 
 ## My Communication Style
 
@@ -24,20 +25,20 @@ From the report, my style is the "Precisionist". This means I'm high in the "S" 
 
 ## Work Bullet Points About Me
 
-* I am to be a [servant leader](https://en.wikipedia.org/wiki/Servant_leadership)
-* I am located in Arlington, TX (Central US Timezone)
-* I prefer 3+ hour blocks of uninterrupted time to really focus
-* It takes me a bit to ramp up my productivity. I find I'm most productive in the afternoon and evening.
-* My values align strongly with the Company's [values](/company/values). Honesty is my most important personal value.
+- I am to be a [servant leader](https://en.wikipedia.org/wiki/Servant_leadership)
+- I am located in Arlington, TX (Central US Timezone)
+- I prefer 3+ hour blocks of uninterrupted time to really focus
+- It takes me a bit to ramp up my productivity. I find I'm most productive in the afternoon and evening.
+- My values align strongly with the Company's [values](/company/values). Honesty is my most important personal value.
 
 ## Non-Work Bullet Points About Me
 
-* I have an amazing wife and two children who I spend most of my time with outside of work
-* I love reading - my [Goodreads](https://www.goodreads.com/user/show/23688001-taylor)
-* I like having written things, I struggle to prioritize personal writing
-* I enjoy watching Formula 1
-* I enjoy exercising, particularly with my Peloton
-* I enjoy playing Rocket League
+- I have an amazing wife and two children who I spend most of my time with outside of work
+- I love reading - my [Goodreads](https://www.goodreads.com/user/show/23688001-taylor)
+- I like having written things, I struggle to prioritize personal writing
+- I enjoy watching Formula 1
+- I enjoy exercising, particularly with my Peloton
+- I enjoy playing Rocket League
 
 ### Precisionist Description
 
@@ -54,4 +55,3 @@ Taylor prefers a rational and moderate approach when first entering new situatio
 A loyal friend, Taylor is patient and caring when attending to the needs of others. This is usually an even-paced individual who thrives in a peaceful, harmonious environment. Taylor tends to be quite predictable, sticking with proven, reliable methods of dealing with situations rather than taking chances with a new, unproven approach.
 
 Systematic and detailed, Taylor focuses on processes. Others see this individual as practical and logical. Taylor tends to be sensitive to criticism, but prefers to internalize emotions rather than expose them. Taylor likes to clarify expectations before undertaking new projects because of the hard work they will do to meet those standards.
-

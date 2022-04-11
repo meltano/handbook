@@ -12,7 +12,7 @@ We are always releasing, and we aim to have an _evergreen_ release process, hand
 
 ## The Release Checklist
 
-All release steps are documented in the Gitlab issue template, and a new `Release` checklist issue should be created each time one is closed. 
+All release steps are documented in the Gitlab issue template, and a new `Release` checklist issue should be created each time one is closed.
 
 In either the SDK or Meltano project on Gitlab, begin a new issue and select the `Release` template from the dropdown options.
 
