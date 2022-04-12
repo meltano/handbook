@@ -5,6 +5,7 @@ weight: 2
 ---
 
 The following are the metrics and definitions that we currently track for understanding progress towards business goals.
+These are materialized by the logic in the [squared project](https://gitlab.com/meltano/squared/) using dbt which can be explored in more detail using the hosted [dbt docs](https://meltano.gitlab.io/squared/#!/overview).
 
 ## Metrics - Product Usage
 
