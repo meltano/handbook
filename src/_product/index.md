@@ -121,6 +121,7 @@ This [article from BVP](https://www.bvp.com/atlas/roadmap-data-infrastructure/) 
 - [Soda SQL](https://github.com/sodadata/soda-sql) - Data Testing and Monitoring
 - [Feast](https://github.com/feast-dev/feast) - ML Feature Store
 - [fal](https://github.com/fal-ai/fal) - run python scripts from dbt
+- [MetricFlow](https://github.com/transform-data/metricflow) - Metrics layer
 
 Additionally, there are many "git for data" tools tracked in [this spreadsheet](https://docs.google.com/spreadsheets/d/1jGQY_wjj7dYVne6toyzmU7Ni0tfm-fUEmdh7Nw_ZH0k/edit#gid=0).
 [Project Nessie](https://projectnessie.org/) is another option not listed in the sheet.
