@@ -30,3 +30,7 @@ The data team is responsible for the following code bases:
   - [target-yaml](https://github.com/MeltanoLabs/target-yaml)
   - [tap-slack](https://github.com/MeltanoLabs/tap-slack)
   - [tap-athena](https://github.com/MeltanoLabs/tap-athena)
+
+## Documentation and Links
+
+- [Squared dbt docs](https://meltano.gitlab.io/squared/#!/overview)
