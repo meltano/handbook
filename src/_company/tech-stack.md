@@ -300,7 +300,9 @@ Every team member has access through their [Google Workspace](#google-workspace)
 
 ## [Zapier](https://zapier.com/)
 
-Custom integrations between GitLab, Slack, and others.
+New user notifications (`#new-members-notice`) and Google Alerts (`#mentions`) in slack.
+
+Note: Repo notifications (new issues, MR merge notifications, etc.) were previously managed by Zapier but are now managed by Gitlab Slack Notification (under `Settings` > `Integrations`).
 
 Account details are in the `Engineering` 1Password vault.
 
