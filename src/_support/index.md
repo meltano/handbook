@@ -28,7 +28,7 @@ In general, we will provide support for issues that are within the Meltano conte
 
 #### Version Support
  
-We support the current major version and previous two major versions only.
+We support the current major version and one prior major version. The prior major version is supported for a period of 6 months after release of the newer major version.
 
 #### Out of Scope
 
