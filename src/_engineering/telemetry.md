@@ -12,8 +12,9 @@ The goal of telemetry is three-fold:
 
 1. **Inform our team.**
    - We gather data which can be used to improve the Meltano product. This includes gathering insights on which Meltano features are used and how pervasively, which work well, and which are not working well.
-2. **Guide our users.**
+2. **Inform our community.**
    - We gather data which can help guide other Meltano users. For instance, when one specific plugin is being used successfully by thousands of distinct users every day, we want to reflect that success in plugin metadata on the Hub so others can be encouraged to try out the same plugin, with confidence that thousands of others have deployed it successfully.
+   - Conversely, if a plugin breaks, or for any reason stops working for 99% of our users, we can put a warning that guides the community _away_ from using the broken version of the plugin. We can also channel our resources, both internally and from the broader community, to help plugin maintainers resolve those issues when they arise.
 3. **Find and fix problems faster.**
    - Our Meltano culture highly values automated tests and automated validation. Nevertheless, bugs and regressions do happen. Telemetry helps us identify bugs in our code _(and also in 3rd party plugins!)_ so that we can respond effectively and in a timely fashion to any issues affecting our community of users.
 
@@ -51,6 +52,7 @@ These items will never be collected or reported back to meltano:
 - your settings values
 - your secrets or credentials
 - the contents of your `meltano.yml` file
+- your IP address
 
 ## Dev standards
 
@@ -85,3 +87,11 @@ A one-way hash is a way of obfuscating sensitive data such that:
 **A:**
 
 Meltano hashes any fields at all which could be used by a hacker to compromise a project or user. We will never know what freeform text arguments you passed in via the command line, and we won't even know your
+
+### Should I enable or disable anonymous reporting?
+
+**A:**
+
+We hope you will choose to enable reporting, because this really does help us - and it helps the Meltano community in a very real way.
+
+If you still have any concerns about keeping anonymous reporting enabled, we hope you'll share those with us. You can do so by emailing `hello@meltano.com` or by logging an issue in our [Meltano Issue Tracker](https://gitlab.com/meltano/meltano/-/issues).
