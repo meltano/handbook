@@ -94,4 +94,4 @@ Meltano hashes any fields at all which could be used by a hacker to compromise a
 
 We hope you will choose to enable reporting, because this really does help us - and it helps the Meltano community in a very real way.
 
-If you still have any concerns about keeping anonymous reporting enabled, we hope you'll share those with us. You can do so by emailing `hello@meltano.com` or by logging an issue in our [Meltano Issue Tracker](https://gitlab.com/meltano/meltano/-/issues).
+If you still have any concerns about keeping anonymous reporting enabled, we hope you'll share those concerns with us. You can do so by emailing `hello@meltano.com` or by logging an issue in our [Meltano Issue Tracker](https://gitlab.com/meltano/meltano/-/issues).
