@@ -29,22 +29,22 @@ As a company principal, Meltano will make every reasonable attempt to _not_ reco
 
 ## Anonymization Standards
 
-Unless otherwise approved, any user-entered data is anonymized client-side before being submitted to Meltano. This includes but is not necessarily limited to:
+Unless otherwise approved, any user-entered data is anonymized client-side before being submitted to Meltano. This section describes which data is sent in clear text and which data is obfuscated via one-way hashing.
 
 We capture these in clear text:
 
-- project ID
-- plugin name
-- variant name
-- command name
+- plugin names
+- plugin variant names
+- command names
 - execution context, such as:
   - OS version
   - Python version
-  - etc.
+  - project ID
 
 We anonymize these with one-way hashing before reporting:
 
 - CLI args
+- plugin config
 
 These items will never be collected or reported back to meltano:
 
@@ -54,6 +54,8 @@ These items will never be collected or reported back to meltano:
 
 ## Dev standards
 
+This section should be used by developers to guide in telemetry development.
+
 ### Logging both start and completion for long-running events
 
 Long-running processes should have both a `started` and `completed` event log. This is to ensure we detect failures when the running Meltano process (or container) may be killed before getting a chance to send a "failed" or "aborted" message at completion time.
@@ -62,13 +64,13 @@ The `completed` version of an event log should be identical to its corresponding
 
 Unless otherwise approved or required, we do not emit "heartbeat" events. A starting event and completion event is sufficient to achieve our goals.
 
-### One-way hashing
+## One-way hashing
 
 Anonymization is performed via one-way hash algorithms. We default to MD5 because it generates shorter digests. We may also use SHA256 for any aspects we believe should receive a more robust hashing treatment, or for any aspects which have higher likelihood of hash collision when using MD5.
 
-### Hashing Q&A
+## Hashing Q&A
 
-#### Q: What is a one way hash and how is it helpful?
+### Q: What is a one way hash and how is it helpful?
 
 **A:**
 
@@ -78,7 +80,7 @@ A one-way hash is a way of obfuscating sensitive data such that:
 2. The results are mathematically and statistically _extremely difficult_ (read: near impossible) to reverse engineer back to the source value.
 3. Hash results are extremely helpful in safely and anonymously detecting changes to a file or configuration. Without passing the entire configuration, and without providing a hacker any means of decoding/decrypting the data back to its source, we can see that a file (such as `meltano.yml`) has not changed since its last hash was generated.
 
-#### Q: Why does Meltano use hashing?
+### Q: Why does Meltano use hashing?
 
 **A:**
 
