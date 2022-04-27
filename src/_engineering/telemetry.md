@@ -86,7 +86,7 @@ A one-way hash is a way of obfuscating sensitive data such that:
 
 **A:**
 
-Meltano hashes any fields at all which could be used by a hacker to compromise a project or user. We will never know what freeform text arguments you passed in via the command line, and we won't even know your
+Meltano hashes any fields at all which could be used by a hacker to compromise a project or user. We will never know what freeform text arguments you passed in via the command line, we won't have any data at all which could be used to compromise your environment, and whatever data we collect, we'll never sell, share, or trade your data with any third parties.
 
 ### Should I enable or disable anonymous reporting?
 
