@@ -35,7 +35,7 @@ We indicate our working hours and availability using Google Calendar and Slack s
 
 ### Slack guidelines
 
-1. **Please avoid using @here or @channel unless something is urgent and important.**
+1. **Please avoid using @here or @channel unless something is urgent and important.** `@channel` should only be used for important announcements such as new releases or time-sensitive issues. Use caution when using `@channel` in community channels and try to limit its use to once per week.
 1. Use `FYI @username` when you want someone to be aware of what's being discussed, but they're not required to take action.
 1. Use `@username` when you want someone to take a specific action, such as contributing to the discussion or answering a question.
 1. If decisions are made on Slack, please either paste a screenshot of the conversation in the relevant issue/MR or provide a summary of what was discussed.

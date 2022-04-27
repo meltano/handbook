@@ -87,10 +87,9 @@ Domain names are typically registered with [Amazon Web Services](/company/tech-s
 [NameCheap](/company/tech-stack/#namecheap) can be used if a TLD is not available there.
 For legacy reasons, one domain name is still registered with [Gandi](/company/tech-stack/#gandi).
 
-DNS is typically managed at [SiteGround](/company/tech-stack/#siteground).
-DNS for `*.meltanodata.com` is managed at [DigitalOcean](/company/tech-stack/#digitalocean).
+DNS is managed through Route 53 in [AWS](/company/tech-stack/#amazon-web-services).
 DNS for `singerhub.io` is managed at [NameCheap](/company/tech-stack/#namecheap).
 
-<https://meltano.com> is hosted at [SiteGround](/company/tech-stack/#siteground).
+<https://meltano.com> is hosted on [WPEngine](/company/tech-stack/#wpengine).
 <https://hub.meltano.com> is hosted using [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) for <https://gitlab.com/meltano/hub>.
 <https://sdk.meltano.com> is hosted at [Read the Docs](/company/tech-stack/#read-the-docs).
