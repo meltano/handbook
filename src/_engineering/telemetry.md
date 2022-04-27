@@ -15,7 +15,7 @@ The goal of telemetry is three-fold:
 2. **Guide our users.**
    - We gather data which can help guide other Meltano users. For instance, when one specific plugin is being used successfully by thousands of distinct users every day, we want to reflect that success in plugin metadata on the Hub so others can be encouraged to try out the same plugin, with confidence that thousands of others have deployed it successfully.
 3. **Find and fix problems faster.**
-   - We have a culture with values automated tests and automated validation of expected behaviors. But bugs and regressions do happen. Telemetry helps us identify bugs in our code (and also in 3rd party plugins!) to we can respond effectively and in a timely fashion to any issues affecting our community of users.
+   - Our Meltano culture highly values automated tests and automated validation. Nevertheless, bugs and regressions do happen. Telemetry helps us identify bugs in our code _(and also in 3rd party plugins!)_ so that we can respond effectively and in a timely fashion to any issues affecting our community of users.
 
 ## Telemetry is for product improvement, not monetization
 
