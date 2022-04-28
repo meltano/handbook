@@ -34,3 +34,7 @@ The data team is responsible for the following code bases:
 ## Documentation and Links
 
 - [Squared dbt docs](https://meltano.gitlab.io/squared/#!/overview)
+
+## Data Office Hours
+
+Every Wednesday following community office hours the data team will host data office hours for the Meltano team to ask question, discuss, and troubleshoot anything related to the [Squared data platform](https://gitlab.com/meltano/squared) or company metrics/KPIs in general.
