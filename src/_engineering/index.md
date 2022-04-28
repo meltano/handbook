@@ -17,6 +17,15 @@ community member to present on your behalf. Alternatively, you may also post a r
 of length between 2 and 10 minutes, to the `#contributing` channel on slack, posting a link also on your MR. You
 may use Slack's built-in video message feature, the free tool [Loom](https://loom.com), or another similar tool.
 
+## Priorities
+
+Engineers should consider their work priorities in the following order:
+
+* Issues assigned to you in the current iteration
+* Issues assigned to you in the next iteration
+* Unassigned issues in the next iteration
+* Unassigned issues in the current dated milestone (monthly or quarterly) OR any issues in the Internal WIP milestone
+
 ## Research Spikes
 
 Some issues may be large in scope and need further refinement.
