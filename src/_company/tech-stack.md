@@ -21,7 +21,7 @@ Account details are in the `Engineering` 1Password vault.
 
 ## [Amazon Web Services](https://aws.amazon.com/)
 
-Domain name registration of `meltano.com`, `meltano.io`, `meltano.net`, and `meltano.org`.
+Domain name registration of `meltano.com`, `meltano.io`, `meltano.net`, and `meltano.org`. DNS for these domains is hosted under Route 53.
 
 Account details are in the `Engineering` 1Password vault.
 
@@ -41,7 +41,7 @@ Team members who desire the features of the paid version may request a paid acco
 
 ## [DigitalOcean](https://www.digitalocean.com/)
 
-Hosting and DNS management for `*.meltanodata.com`.
+Formerly used for hosting and DNS management for `*.meltanodata.com`. This domain is not currently in use but old images and DNS zones can be found here in case they're needed in the future.
 
 Account details are in the `Engineering` 1Password vault.
 
@@ -151,7 +151,7 @@ Payroll and benefits platform for US-based team members.
 
 ## [HubSpot](https://www.hubspot.com/)
 
-Customer relationship management (CRM) and marketing automation platform (MAP). 
+Customer relationship management (CRM) and marketing automation platform (MAP).
 
 HubSpot Insights can only enrich company data if the company name is pulled in: https://knowledge.hubspot.com/companies/hubspot-insights-on-company-records
 
@@ -245,8 +245,7 @@ Account details are in the `Engineering` 1Password vault.
 
 ## [SiteGround](https://ua.siteground.com/)
 
-Hosting for <https://meltano.com>.
-DNS management for `meltano.com`, `meltano.org`, `meltano.io`, `meltano.net`, `meltano.app`, and `meltano.dev`.
+Formerly used for hosting <https://meltano.com> and DNS management for `meltano.com`, `meltano.org`, `meltano.io`, `meltano.net`, `meltano.app`, and `meltano.dev`. This account will be sunset in the near future. An old version of our website is hosted here at <https://old.meltano.com>.
 
 Account details are in the `Engineering` 1Password vault.
 
@@ -258,7 +257,7 @@ Every team member has their own account.
 
 ## [Snowflake](https://www.snowflake.com/)
 
-Cloud data warehouse. 
+Cloud data warehouse.
 Meltano's instance runs in us-west-2 and can be accessed via [this url](https://epa06486.snowflakecomputing.com).
 
 ## [Sprout Social](https://sproutsocial.com/)
@@ -285,11 +284,18 @@ Account details are in the `Social` 1Password vault.
 
 Account details are in the `Social` 1Password vault.
 
+## [WPEngine](https://wpengine.com/)
+
+Hosting for <https://meltano.com>.
+
+Select team members have their own account. Please ask `Marketing` if you need access.
+
 ## [WordPress](https://meltano.com/wp-admin/)
 
-Blog at <https://meltano.com/blog/>.
+Used for our website and our blog at <https://meltano.com/blog/>.
 
-Every team member has their own account.
+Select team members have admin accounts while most others have `author` or `contributor` accounts that allow them to manage blog posts.
+
 Main account details are in the `Marketing` 1Password vault.
 
 ## [YouTube](https://www.youtube.com/meltano)
@@ -300,7 +306,9 @@ Every team member has access through their [Google Workspace](#google-workspace)
 
 ## [Zapier](https://zapier.com/)
 
-Custom integrations between GitLab, Slack, and others.
+New user notifications (`#new-members-notice`) and Google Alerts (`#mentions`) in slack.
+
+Note: Repo notifications (new issues, MR merge notifications, etc.) were previously managed by Zapier but are now managed by Gitlab Slack Notification (under `Settings` > `Integrations`).
 
 Account details are in the `Engineering` 1Password vault.
 

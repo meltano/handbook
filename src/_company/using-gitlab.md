@@ -8,7 +8,7 @@ At Meltano, we use GitLab to track everything that needs to (one day) be done or
 
 ## Issue Trackers
 
-In line with our [Transparency](/company/values#transparency) value, most of these trackers and the issues they hold are public so that our entire community can participate.
+In line with our [Together we thrive](/company/values#together-we-thrive) value, most of these trackers and the issues they hold are public so that our entire community can participate.
 If an issue fits best in a public tracker but should be private anyway, use a [confidential issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html).
 
 - [Meta (`meltano/meta`)](https://gitlab.com/meltano/meta/-/issues): Public issue tracker for **meta-level topics** around the team, company, or community that don't concern a specific [product](#product-specific) and don't fit in any other project. Use confidential issues as needed.
@@ -19,7 +19,6 @@ If an issue fits best in a public tracker but should be private anyway, use a [c
 - [Administration (`meltano/administration`)](https://gitlab.com/meltano/administration/-/issues): Private issue tracker for **administrative tasks** related to running the business. Used primarily by CEO and Operations Analyst.
 - [Hiring (`meltano/hiring`)](https://gitlab.com/meltano/hiring/-/issues): Private issue tracker for **hiring topics**: hiring plans, job openings, and interview processes. Repository contains processes, questions, and exercises.
 - [Marketing (`meltano/marketing/marketing-general`)](https://gitlab.com/meltano/marketing/marketing-general/-/issues): Public issue tracker for **all things marketing**. Use confidential issues as needed.
-
 
 ### Product-specific
 
@@ -38,7 +37,7 @@ If an issue fits best in a public tracker but should be private anyway, use a [c
 - [Urgency](https://gitlab.com/groups/meltano/-/boards/2917749) - useful for understanding the overall priority of issues in a milestone.
 - [Milestone](https://gitlab.com/groups/meltano/-/boards/1933232) - used to move issues easily between milestones.
 - [Office Hours](https://gitlab.com/groups/meltano/-/boards/2923184) - used to tee up issues for community discussion and review, generally directly
-before and/or after implementing an important user-facing feature.
+  before and/or after implementing an important user-facing feature.
 - [Demo Day](https://gitlab.com/groups/meltano/-/boards/3650469) - used to better plan what will be presented from the Meltano team and community
 
 ## Epics
@@ -104,18 +103,18 @@ These are meant to be mutually exclusive and collectively exhaustive, meaning an
 There is a fifth label available for filtering purposes: `kind::Non-Product` which is used for administrative and business-related issues.
 
 | Kind Item      | Delivers                                  | Description                                                           | Example Artifacts                                    |
-|----------------|-------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------|
+| -------------- | ----------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------- |
 | Features       | New business value                        | New value added to drive a business result; visible to the customer   | Epic, user story, requirement                        |
 | Bugs (Defects) | Quality                                   | Fixes for quality problems that affect customer experience            | Bug, problem, incident, change                       |
 | Risks          | Security, governance, compliance          | Work to address security, privacy, and compliance exposures           | Vulnerability, regulatory requirement                |
 | Tech Debts     | Removal of impediments to future delivery | Improvement of the software architecture and operational architecture | API addition, refactoring, infrastructure automation |
 
-*This table is sourced from "Project to Product" by Mik Kersten.*
+_This table is sourced from "Project to Product" by Mik Kersten._
 
 FAQ:
 
-* Q: Where would documentation issues fit?
-  * A: Documentation issues will most likely be considered a Bug if they are not delivered as part of a Feature.
+- Q: Where would documentation issues fit?
+  - A: Documentation issues will most likely be considered a Bug if they are not delivered as part of a Feature.
 
 It is the responsibility of the Product team to add this label, but Engineers are welcome to add it as well.
 
@@ -136,10 +135,10 @@ These value streams are inspired by the [Flow Framework](https://flowframework.o
 
 It is the responsibility of the Product team to add this label, but Engineers are welcome to add it as well.
 
-
 ### Meltano Area Labels
 
 If appropriate, an issue should have a stage label (one of the letters in "meltano"):
+
 - `Model`
 - `Extract`
 - `Load`
@@ -180,20 +179,20 @@ New labels can be created as appropriate at the Group Level and should be docume
 
 ## Milestones
 
-Milestones have a few different goals. 
-Product manages all date-defined milestones (May 2022, 2022-Q2, etc.). 
-Dated milestones are defined _only_ at the [group level](https://gitlab.com/groups/meltano/-/milestones). 
+Milestones have a few different goals.
+Product manages all date-defined milestones (May 2022, 2022-Q2, etc.).
+Dated milestones are defined _only_ at the [group level](https://gitlab.com/groups/meltano/-/milestones).
 Anyone else can create a non-dated milestone for their own purposes at the group or project level.
 
 ### Best Practices
 
-At the end of every dated milestone, the Product team will roll all issues to the next dated milestone. 
-Issues in a monthly milestone will go to the next month, and the same for quarterly dated milestones. 
+At the end of every dated milestone, the Product team will roll all issues to the next dated milestone.
+Issues in a monthly milestone will go to the next month, and the same for quarterly dated milestones.
 The milestone will then be closed.
 
 Every open issue should have a [milestone](https://gitlab.com/groups/meltano/-/milestones).
 If something we want to happen eventually is not a priority yet, use `Backlog`.
-If there is an issue we want to start prioritizing, there is a `Staging` milestone which can be used to alert the Product Lead that this is something we'd like to move into an upcoming milestone or iteration. 
+If there is an issue we want to start prioritizing, there is a `Staging` milestone which can be used to alert the Product Lead that this is something we'd like to move into an upcoming milestone or iteration.
 If we don't want it to happen, close the issue.
 
 Issues that are in a dated milestone indicate the "rough delivery window" of when we aim to deliver the issue.
@@ -208,10 +207,10 @@ Check out the GitLab documentation on [Iterations](https://docs.gitlab.com/ee/us
 
 ### Best Practices
 
-The Product team manages all iterations. 
+The Product team manages all iterations.
 They can only be made at the group level, they always have a start and end date, and the date ranges cannot overlap.
 
-Anyone can add an issue to an iteration, but at the end of the issue, all incomplete issues will be rolled to the next iteration by Product. 
+Anyone can add an issue to an iteration, but at the end of the issue, all incomplete issues will be rolled to the next iteration by Product.
 
 ## Issue Sizing
 
@@ -247,8 +246,8 @@ It's important to document the _why_ behind sizing:
 
 ### Initial Sizing Estimate
 
-Anyone reviewing or submitting an issue can add a `weight` estimate to a new issue. 
-Engineering team management otherwise has the responsibility of filling out missing `weight` values prior to each week's kickoff. 
+Anyone reviewing or submitting an issue can add a `weight` estimate to a new issue.
+Engineering team management otherwise has the responsibility of filling out missing `weight` values prior to each week's kickoff.
 When `weight` is not clear, we will ping an individual on the team to ask for second opinion.
 
 ### Sizing Estimate Adjustments

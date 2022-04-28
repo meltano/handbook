@@ -12,8 +12,6 @@ To do this effectively we laid out the characteristics that you can expect from 
 
 The delivery stages applies to both the data platform itself (Meltano and infra) and the features developed on top of it (i.e. dbt models and dashboards)
 
-
-
 ![Delivery Characteristics Table](/images/data-delivery-characteristics.png)
 
 Refer to the table [source](https://docs.google.com/spreadsheets/d/1YosRkkzwSOWAV2Wz5Dyq7QMsgep_ZXzVWQm4KiEWjsg/edit?usp=sharing) for changes.

@@ -13,8 +13,8 @@ Trivial updates, such as docs updates, do not require a logged issue.
 
 ## MR Review Process
 
-All team members are encouraged to review community contributions. However, 
-each MR should have a single accountable reviewer, who is also approved as a CODEOWNER. That 
+All team members are encouraged to review community contributions. However,
+each MR should have a single accountable reviewer, who is also approved as a CODEOWNER. That
 reviewer can ask others in the team for feedback but they are solely accountable for the merge/approval
 decision.
 
@@ -111,20 +111,20 @@ git remote rm $ORG_NAME
 
 ## Code owners and approvers
 
-For our core repos we use a pattern of Primary/Fallback ownership, where each area of the codebase has a designated primary and secondary owners. Approval is required for both Community-Contributed MRs and Team-Authored MRs from one of these individuals. 
+For our core repos we use a pattern of Primary/Fallback ownership, where each area of the codebase has a designated primary and secondary owners. Approval is required for both Community-Contributed MRs and Team-Authored MRs from one of these individuals.
 This can be requested either when the MR foundation is in place or as a "final check". The final approval from the Primary code owner should generally be requested _after_ the MR is otherwise "clean" - and after known action items and questions are called out in the text of the MR.
 In the scenario where the primary code owner is also an author they must obtain approval from the "fallback" owner.
 
 Currently, we have the following owners (listed in order eg. primary, fallback):
 
 SDK - [CODEOWNERS](https://gitlab.com/meltano/sdk/-/blob/main/.gitlab/CODEOWNERS):
+
 - `/docs/` owners: @edgarrmondragon @afolson
 - `*` (everything else) owners: @edgarrmondragon @aaronsteers
 
+Meltano - [CODEOWNERS](https://gitlab.com/meltano/meltano/-/blob/master/.gitlab/CODEOWNERS):
 
-Meltano - [CODEOWNERS](https://gitlab.com/meltano/meltano/-/blob/main/.gitlab/CODEOWNERS):
-
-- `/src/meltano/core/bundle/discovery.yml` owners:  @aaronsteers @pnadolny13
+- `/src/meltano/core/bundle/discovery.yml` owners: @aaronsteers @pnadolny13
 - `/docs/` owners: @tayloramurphy @afolson
 - `/src/webapp/` owners: @alex1126 @pandemicsyn
 - `/src/meltano/api/` owners: @pandemicsyn @alex1126
@@ -137,8 +137,8 @@ As we grow and the complexity of the various code base increases, we will appoin
 
 Terraform and IAC are an increasingly important codebase for our team's success. For any terraform and IAC resources which don't already have a `CODEOWNERS` ruleset, the following approval model should apply:
 
-- Primary Approver: @edgarrmondragon 
-- Secondary Approvers: @aaronsteers, @kgpayne (both required as 'additional' approvers **)
+- Primary Approver: @edgarrmondragon
+- Secondary Approvers: @aaronsteers, @kgpayne (both required as 'additional' approvers \*\*)
 
 Note:
 
@@ -156,15 +156,13 @@ There are three types of EM/PM approval requests:
 2. **Final approval.** In this case, you are requesting final approval before merging a completed feature into the main branch. This generally is most appropriate _after_ the default/primary approver has completed providing their own feedback.
 3. **ADR Approval.** If your MR contains an ADR, it should _always_ be approved by both EM and PM, with cc mention to @DouweM.
 
-
-
 ## Responsibility to Merge
 
 - Core team members may merge their own MRs once necessary approval(s) are provided.
 - When nearing completion, an MR author may also invite the reviewer
-to "merge if approved", in order to reduce cycles spent in back-and-forth.
+  to "merge if approved", in order to reduce cycles spent in back-and-forth.
 - Except in exceptional circumstances, a reviewer should not merge
-the MR on behalf of the other team member unless invited to do so.
+  the MR on behalf of the other team member unless invited to do so.
 
 ## Continually improving Contribution Guidelines
 
