@@ -48,7 +48,7 @@ We believe that more voices lead to better results, and that the best tools are 
 We have an open-door policy where anyone can learn about anything and weigh in or question everything.
 We prefer async text-based communication, document meetings and decisions diligently, and have a single-source-of-truth for everything so that we can hold ourselves accountable and leave no one in the dark.
 
-We aim to be transparent to eachother and our community, and consider everything we do "public by default".
+We aim to be transparent to each other and our community, and consider everything we do "public by default".
 We see our community as an extension of our team and strive to provide them with the same level of access so that they can contribute their perspectives and help us improve better and faster.
 
 We believe in open source software as a force for good, and are on a mission to enable *everyone* to realize the full potential of their data -- paying customer or not.
