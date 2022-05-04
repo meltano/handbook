@@ -3,6 +3,12 @@
 # Default
 * @afolson
 
+# Company
+/src/_company/ @DouweM
+
+# Data
+/src/_data-team/ @tayloramurphy
+
 # Engineering
 /src/_engineering/ @aaronsteers
 
@@ -20,9 +26,6 @@
 
 # Support
 /src/_support/ @afolson
-
-# Tech Stack
-/src/_tech-stack/ @meltano/core-team
 
 # Meltano Timeline
 timeline.html @meltano/core-team
