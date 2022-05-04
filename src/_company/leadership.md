@@ -13,4 +13,5 @@ The Meltano Leadership team is:
 - REB - Richard E. Baum, Head of Operations
 
 The leadership team meets 2-4 times per month to have cross-functional discussions about how to best move the business forward.
-Prior to each meeting, each member of the leadership team will share their top priorities for current and upcoming weeks in the Leadership Call agenda.
+
+Any changes (new processes, handbook updates) that impact all departments need to be discussed in at least one leadership call to make sure everyone is on board before getting merged.
