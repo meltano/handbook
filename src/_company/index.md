@@ -12,7 +12,7 @@ To explore the full contents of this handbook, refer to the sidebar.
 ## Values
 
 Our values define how we work together and make decisions.
-They are empathy, community, sustainability, transparency, iteration, ambition, and accountability.
+They are Belief in better, Progress over perfection, Together we thrive, and Kindness is key.
 
 You can learn more about these values on the [Values](values) page.
 
@@ -43,6 +43,8 @@ To learn more about this vision, check out this [detailed blog post](https://mel
 ## Strategy
 
 In a follow-up post to Douwe's introduction of Meltano's [mission and vision](https://meltano.com/blog/meltano-the-strategic-foundation-of-the-ideal-data-stack/), our Head of Product & Data Taylor Murphy lays out the [company and product strategy](https://meltano.com/blog/our-strategy-to-achieving-meltanos-ambitious-mission-and-vision/) that will get us there.
+
+You can learn more about our strategy on the [Strategic Goals](strategy) page.
 
 ## History
 
