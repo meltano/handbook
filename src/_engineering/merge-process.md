@@ -104,9 +104,11 @@ poetry lock
 git push $FORK_ORG_NAME "$FORK_ORG_NAME-$FORK_BRANCH_NAME:$FORK_BRANCH_NAME"
 ```
 
-Remove the local remote ref:
+Remove the local remote ref and branch:
 
 ```bash
+git checkout $TARGET_BRANCH_NAME
+git branch -D "$FORK_ORG_NAME-$FORK_BRANCH_NAME"
 git remote rm $FORK_ORG_NAME
 ```
 
