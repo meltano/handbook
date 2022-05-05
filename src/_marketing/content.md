@@ -4,15 +4,32 @@ title: "Content Marketing"
 weight: 2
 ---
 
-## Tools
+## Documentation
 
-We use Sprout Social for most social posting and planning. PLease try to do as many posts as possible from this tool for tracking and management purposes.
+[Meltano Docs](https://docs.meltano.com/) are a cross-functional responsibility. Efforts are shared jointly between the marketing and the engineering team. 
+
+### How the responsibilities are broken out:
+#### Engineering: "Code"
+ - "Code-related" changes/anything that requires a ton of code to be
+   written, will be prioritized through the normal Engineering/Product
+   prioritization flow. 
+  - Coding a widget or changing layouts in a significant way 
+  - Owned aspects of docs: Resource docs creation, maintenance, and quality.
+
+#### Marketing: "Content"
+ - DRI of Docs
+ - long-term content journey and UX strategy 
+ - Production of and docs content beyond Resources. Resources are the foundational core of what everything else stems from.
+
+#### Product: "Prioritization Support"
+
+## Social 
+
+We use Sprout Social for most social posting and planning. Please try to do as many posts as possible from this tool for tracking and management purposes.
 
 ### Social listening
 
 coming soon
-
-## Social
 
 ## Social Channels
 
