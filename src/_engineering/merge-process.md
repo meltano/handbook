@@ -61,26 +61,27 @@ Occasionally we need to help a contributor get their MR completed by contributin
 #### Step 1: Set some env vars
 
 ```bash
-export ORG_NAME=name-of-user
-export REPO_NAME=meltano
-export BRANCH_NAME=name-of-branch
+export FORK_ORG_NAME=name-of-user
+export FORK_REPO_NAME=meltano
+export FORK_BRANCH_NAME=name-of-branch
+export TARGET_BRANCH_NAME=master # or main, etc.
 ```
 
 #### Step 2: Add the remote and checkout locally
 
 ```bash
 # Add the remote
-git remote add $ORG_NAME "git@gitlab.com:$ORG_NAME/$REPO_NAME.git"
+git remote add $FORK_ORG_NAME "git@gitlab.com:$FORK_ORG_NAME/$FORK_REPO_NAME.git"
 # Fetch the branch refs
-git fetch $ORG_NAME
+git fetch $FORK_ORG_NAME
 # Checkout the branch
-git checkout -b "$ORG_NAME-$BRANCH_NAME" --track "$ORG_NAME/$BRANCH_NAME"
+git checkout -b "$FORK_ORG_NAME-$FORK_BRANCH_NAME" --track "$FORK_ORG_NAME/$FORK_BRANCH_NAME"
 ```
 
 If you need to pull new commits later on (before deleting the remote):
 
 ```bash
-git pull $ORG_NAME $BRANCH_NAME
+git pull $FORK_ORG_NAME $FORK_BRANCH_NAME
 ```
 
 ### Step 3: Make changes in your local copy of the branch as usual
@@ -88,7 +89,7 @@ git pull $ORG_NAME $BRANCH_NAME
 Optionally, merge in the latest from master and resolve conflicts:
 
 ```bash
-git merge origin/master
+git merge "origin/$TARGET_BRANCH_NAME"
 ```
 
 Then make any other changes needed. For example, commonly we need to re-lock the python library refs:
@@ -100,13 +101,15 @@ poetry lock
 ### Step 4: Push the changes back to the fork and remove the remote
 
 ```bash
-git push $ORG_NAME "$ORG_NAME-$BRANCH_NAME:$BRANCH_NAME"
+git push $FORK_ORG_NAME "$FORK_ORG_NAME-$FORK_BRANCH_NAME:$FORK_BRANCH_NAME"
 ```
 
-Remove the local remote ref:
+Remove the local remote ref and branch:
 
 ```bash
-git remote rm $ORG_NAME
+git checkout $TARGET_BRANCH_NAME
+git branch -D "$FORK_ORG_NAME-$FORK_BRANCH_NAME"
+git remote rm $FORK_ORG_NAME
 ```
 
 ## Code owners and approvers
