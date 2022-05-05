@@ -180,6 +180,10 @@ Bank account and credit cards.
 Select team members have their own account.
 Main account and credit card details are in the `Finance` 1Password vault.
 
+## [Miro](https://miro.com/)
+
+A collaborative whiteboard platform.
+
 ## [NameCheap](https://www.namecheap.com/)
 
 Domain name registration for `meltanodata.com` and `meltano.dev`.
