@@ -193,6 +193,10 @@ Feature branch previews for <https://gitlab.com/meltano/meltano> docs.
 
 Account details are in the `Engineering` 1Password vault.
 
+## [Otter.ai](https://otter.ai)
+
+Real time transcription service for documenting meetings.
+
 ## [PagerDuty](https://www.pagerduty.com/)
 
 Added to help manage the Release Manager rotation schedule. May be used in future for paging/on-call/escalations for running services.
