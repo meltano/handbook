@@ -63,15 +63,37 @@ Our goal with Meltano is not to create yet another orchestrator.
 We aim to simplify common cross-plugin workflows in a way that makes it easy to integrate with dedicated orchestrators.
 With our OS framing in mind we will rework how jobs and tasks are defined and how those DAGs are sent to orchestrators for execution.
 
-### 2022-H2
+### 2022-Q3
 
-#### Improve choice within categories
+#### Improve deployment options for self-managed users
+
+As we make progress towards offering a managed Meltano service, we will invest in relevant deployment options for ourselves and our community.
+We want to work with the community on this - if you're interested in becoming a design partner for the managed service, please reach out via Slack.
+
+#### Begin building managed service
+
+#### Improve plugin choice
 
 With MeltanoHub as a the source of truth for plugins, the community will be able to add any arbitrary plugins as long as they meet the minimum level of quality.
 Meltano will invest in increasing the level of support for specific plugins within different categories including Dagster for Orchestration, Soda for Data Quality, Clickhouse and DuckDB for data warehouse, Lightdash and mProve for Analysis, and more. 
 These choices will be driven by user feedback and data. 
 
-#### Improve deployment options with a focus on our managed service
+#### Meltano SDK for Plugins
 
-As we make progress towards offering a managed Meltano service, we will invest in relevant deployment options for ourselves and our community.
-We want to work with the community on this - if you're interested in becoming a design partner for the managed service, please reach out via Slack.
+
+#### Native git integration within Meltano
+
+It should be easy to use Meltano and git together. 
+
+
+#### Full Meltano Projects on the Hub
+
+#### Improve Secrets Handling
+
+### 2022-Q4
+
+#### Improve the UI to the point where you don't have to use the CLI to get started
+
+#### Enhance migration ca
+
+
