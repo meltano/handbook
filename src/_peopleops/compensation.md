@@ -60,7 +60,7 @@ Options vest monthly over 4 years, with a 1-year cliff. Early exercise is allowe
   - The name of team member
   - The specifics of why you are nominating them.
 - The manager will bring the nomination to the leadership team.
-- Once apprioved, the manager will let the team member know in their 1:1 and announce in Slack (`internal-chatter`).
+- Once approved, the manager will let the team member know in their 1:1 and announce in Slack (`internal-chatter`).
 - The manager must also add the detail to the [Bonus Sheet](https://docs.google.com/spreadsheets/d/1uuiJj5tySFO6XtjnkiGV0mOuysU3N4xECp1aF8xLpEg/edit#gid=0) so the bonus can be given.
 - The team member will expense the bonus and operations will handle reimbursement via the expense reporting system.
 
