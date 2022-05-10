@@ -63,14 +63,12 @@ Our goal with Meltano is not to create yet another orchestrator.
 We aim to simplify common cross-plugin workflows in a way that makes it easy to integrate with dedicated orchestrators.
 With our OS framing in mind we will rework how jobs and tasks are defined and how those DAGs are sent to orchestrators for execution.
 
-### 2022-Q3
-
 #### Improve deployment options for self-managed users
 
 As we make progress towards offering a managed Meltano service, we will invest in relevant deployment options for ourselves and our community.
 We want to work with the community on this - if you're interested in becoming a design partner for the managed service, please reach out via Slack.
 
-#### Begin building managed service
+### 2022-Q3
 
 #### Improve plugin choice
 
@@ -80,20 +78,22 @@ These choices will be driven by user feedback and data.
 
 #### Meltano SDK for Plugins
 
+With the Meltano SDK for Plugins, contributors will have a much easier time developing the necessary integrations to make any plugin work with Meltano and be listed on the Hub.
 
 #### Native git integration within Meltano
 
 It should be easy to use Meltano and git together. 
 
-
 #### Full Meltano Projects on the Hub
 
-#### Improve Secrets Handling
+Pre-configured data platforms defined in shareable meltano.yml files will be 
 
 ### 2022-Q4
 
+#### Begin building managed service
+
 #### Improve the UI to the point where you don't have to use the CLI to get started
 
-#### Enhance migration ca
+#### Enhance migration capabilities for existing data platforms
 
 
