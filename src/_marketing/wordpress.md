@@ -29,6 +29,9 @@ The team section is currently hosted on the [About](https://meltano.com/about/) 
 1. Ignore the "Bio" section for now. It's not displayed anywhere.
 1. If you have social links you can add them at the bottom. These are nice to have byt not required
 1. Click "Publish" on the right-side menu.
+1. Navigate to the [About Page](https://meltano.com/wp-admin/post.php?post=1519&action=edit) and click the "Teams Content" section. You'll see two colums with everyone on the team.
+1. Move the teammate from the left colum to the right. Drag and drop to sort in alphabetical order.
+1. Click "Update" in the top right corner to publish the changes.
 
 ### Remove Someone from Team Section
 
@@ -39,7 +42,7 @@ The team section is currently hosted on the [About](https://meltano.com/about/) 
 
 ### Add New Partners
 
-Before adding a partner, you'll need to collect the company name, a short blurb about the company, a URL to the company website, and a logo file (SVG or transparent PNG preferred) from the partner.
+Before adding a partner, have the Partner fill out the [Meltano Partner Submission form](https://docs.google.com/forms/d/e/1FAIpQLSfJUj7IHLKTV5vFxn8Xf5mSWtWpk7WU35LE0Ex3zfsyP8XO7Q/viewform?usp=sf_link) to collect necessary information. If you need access to form submissions please request access through Google Forms or let `@afolson` know.
 
 1. Navigate to the [Partners](https://meltano.com/wp-admin/edit.php?post_type=partners) page.
 1. Click "Add Partner" at the top of the page.
