@@ -37,7 +37,7 @@ You can add `.md` and `.html` files to this project to be rendered. Most handboo
 
 #### Front Matter
 
-All pages require [fromt matter](https://jekyllrb.com/docs/front-matter/) to render properly. At a minimum you will need to specify:
+All pages require [front matter](https://jekyllrb.com/docs/front-matter/) to render properly. At a minimum you will need to specify:
 
 - `layout:` The template file to use when rendering the content. For handbook pages use `page`. Custom templates can be created and placed in `_layouts`.
 - `title:` The title of the page.
@@ -82,7 +82,7 @@ toc: true
 
 The TOC is managed through the `jekyll-toc` gem. You can read about its configuration [here](https://github.com/toshimaru/jekyll-toc#customization).
 
-This is added to all pages by default. It can be turned off by setting `toc: false` in the [fromt matter](https://jekyllrb.com/docs/front-matter/) of the document.
+This is added to all pages by default. It can be turned off by setting `toc: false` in the [front matter](https://jekyllrb.com/docs/front-matter/) of the document.
 
 ## Check for Broken Links
 
