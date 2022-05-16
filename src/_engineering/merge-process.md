@@ -109,7 +109,7 @@ Remove the local remote ref and branch:
 ```bash
 git checkout $TARGET_BRANCH_NAME
 git branch -D "$FORK_ORG_NAME-$FORK_BRANCH_NAME"
-git remote rm $FORK_ORG_NAME
+git remote remove $FORK_ORG_NAME
 ```
 
 ## Code owners and approvers
