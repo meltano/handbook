@@ -38,3 +38,7 @@ The data team is responsible for the following code bases:
 ## Data Office Hours
 
 Every Wednesday following community office hours the data team will host data office hours for the Meltano team to ask question, discuss, and troubleshoot anything related to the [Squared data platform](https://gitlab.com/meltano/squared) or company metrics/KPIs in general.
+
+## Data VPN Enrollment
+
+To gain access to the Meltano data VPN used for [Meltano Squared](https://gitlab.com/meltano/squared), contact `@Pat Nadolny` or `@Ken Payne` (or `@meltano-engineering` if they are unavailable) on [the Meltano Slack](https://meltano.slack.com) to request access. They will follow the steps outlined [in the Meltano Squared VPN readme](https://gitlab.com/meltano/squared/-/blob/master/deploy/vpn/README.md) to create an OpenVPN configuration file for you. Because this file will contain your private keys for the VPN, the file will be encrypted before it is sent to you.
