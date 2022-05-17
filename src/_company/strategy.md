@@ -56,7 +56,7 @@ Every company defines and tracks OKRs differently. The common ground for any OKR
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?label_name%5B%5D=OKR%3A+Improve+Ease+of+Deployment)
   - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR%3A%20Improve%20Ease%20of%20Deployment&milestone_title=Any%20Milestone)
 - Key Results:
-  - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/232).
+  - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/249).
 
 ### OKR: Managed service beta
 
