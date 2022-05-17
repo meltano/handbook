@@ -19,7 +19,7 @@ test:
     --log-level :debug 
     --assume_extension 
     --http_status_ignore 503 
-    --url-ignore "/www.linkedin.com/,/www.dell.com/,/www.optionimpact.com/,/gusto.com/,/gitlab.com\/meltano\/meta\//,/old.meltano.com/,/tiktok.com/" 
+    --url-ignore "/www.linkedin.com/,/www.dell.com/,/www.optionimpact.com/,/gusto.com/,/gitlab.com\/meltano\/meta\//,/old.meltano.com/,/tiktok.com/,/goodreads.com/" 
     --file_ignore "/\/resources\//"
   artifacts:
     paths:
