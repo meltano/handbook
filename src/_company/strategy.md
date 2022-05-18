@@ -46,17 +46,17 @@ Every company defines and tracks OKRs differently. The common ground for any OKR
 - Key Results:
   - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/232).
 
-### OKR: Build the team (Hiring)
+### OKR: Improve Ease of Deployment
 
 - Scope: Company-Wide
-- Objective: **Through a increased focus on hiring, we will build the team we need to deliver on our vision.**
-- Timeframe: Ongoing (dates tied to individual KRs).
-- GitLab Label: `OKR: Build the Team (Hiring)`
+- Objective: **We will address the education, tooling, and documentation gap between getting Meltano from a local, Proof of Concept environment to a production deployment.**
+- GitLab Label: `OKR: Improve Ease of Deployment`
+- Timeframe: By 2022-07-31
 - Initiatives:
-  - [Issues List in GitLab](<https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Build+the+Team+(Hiring)>)
-  - [Filtered Milestone Board](<https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Build+the+Team+(Hiring)>)
+  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?label_name%5B%5D=OKR%3A+Improve+Ease+of+Deployment)
+  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR%3A%20Improve%20Ease%20of%20Deployment&milestone_title=Any%20Milestone)
 - Key Results:
-  - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/230).
+  - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/249).
 
 ### OKR: Managed service beta
 
