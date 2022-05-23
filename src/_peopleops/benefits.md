@@ -59,7 +59,7 @@ Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company
 ##### Upcoming Family and Friends Days
 
 - 2022-04-15
-- 2022-05-27
+- 2022-06-10
 - 2022-06-24
 
 These dates are tracked in the [Team Meetings Calendar](calendars).
