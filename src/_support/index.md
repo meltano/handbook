@@ -19,3 +19,7 @@ As documented in our [Responsible Disclosure Policy](https://meltano.com/docs/re
 ### Intercom Live Chat
 
 The [Meltano.com website](https://www.meltano.com) is set up with live chat powered by Intercom.
+
+### Internal Support
+
+We want to make sure that all user inquiries are replied to. The [#support](https://meltano.slack.com/archives/C029CUM7ATD) private Slack channel is where Meltano team members can request support from the wider team. If you see a support request that needs assist, please share the relevant Slack thread in this channel.
