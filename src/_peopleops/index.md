@@ -154,7 +154,7 @@ View the [complete list](/company/tech-stack) of our tech stack.
 
 ### Laptop configurations
 
-Meltano approves the use of Apple and Linux operating systems, Windows is prohibited. The prohibition on Microsoft Windows is for the following reasons:
+Meltano approves the use of macOS and Linux. Meltano prohibits the use of Microsoft Windows for the following reasons:
 
 - While there have been security issues with all operating systems, due to the popularity of the Windows operating system it is the main platform targeted by attackers with spyware, viruses, and ransomware.
 - macOS is pre-loaded onto Apple hardware.
@@ -163,41 +163,13 @@ Meltano approves the use of Apple and Linux operating systems, Windows is prohib
   As many purchases of laptops have occurred with employees making the purchases and then being reimbursed by Meltano, a remote employee would typically be making a purchase of a laptop pre-loaded with Windows Home Edition.
 - Windows Home Edition is notoriously [hard to secure](https://www.markloveless.net/blog/2019/1/15/dealing-with-windows-10).
 
-Apple hardware is the common choice for most Meltano team members, but if you are comfortable using and self-supporting yourself with Linux (Ubuntu usually) you may also choose from the Dell builds below.
+To standardize the hardware provisioned for Meltano team members, the following Apple hardware option is highly recommended:
 
-#### Apple Hardware
+[MacBook Pro - 16” / 512gig SSD / 32gigs RAM / Apple M1 Pro with 10-core CPU, 16-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch)
 
-We recommend either:
+Note that the above link is to the Apple store website for the United States. If you are located in a different country, you will likely have to place your order from your regional Apple store website.
 
-1. (MacBook Pro) - [14” / 512gig SSD / 32gig RAM / Apple M1 Pro with 10-core CPU, 14-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch)
-
-1. (MacBook Pro) - [16” / 512gig SSD / 32gigs RAM / Apple M1 Pro with 10-core CPU, 16-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch)
-
-#### Linux hardware
-
-Please only request a Linux laptop if you have experience with this operating system and its requirements, all others, select a MacBook.
-
-We strongly encourage Macs, but we do allow Linux if you are capable of self-support and updates.
-
-- For Engineers, Support Engineers, Data Analysts, Technical Marketing Managers, Product Designers, UX Managers, Product Managers, Technical Writers, Digital Production (Dell/Linux) - [16” / 512gig SSD / 32gig RAM / i9 or i7 CPU ](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/precision-5540-mobile-workstation/spd/precision-15-5540-laptop/xctop554015us4?configurationid=01b3d81d-57ff-4f71-a79f-f6b81ab2a521)
-
-- Everyone Else (Dell/Linux) - [13” / 256gig SSD / 16gigs RAM / Quad-Core i5 CPU](https://www.dell.com/ng/business/p/latitude-13-7300-laptop/pd)
-
-\*\*NOTE: Max price: **the price of the equivalent [16” MacBook pro laptop](#apple-hardware)**. Please make sure you order this model minimum 14 days, based on your locality, prior to your desired date to receive.
-
-For Linux laptops, our **standard laptop provider is Dell** which generally comes pre-loaded with Ubuntu Linux,(to save money by not purchasing a Windows license). Dell in Australia and New Zealand are unable to currrently pre load with Ubuntu Linux, so staff will need to install Linux onto the devices once they've been received.
-
-The reasons for using Dell for a Linux laptop are as follows:
-
-- There are several manufacturers of laptop systems that offer Linux, but Dell is the only major manufacturer that has done so for years, and it has already worked out shipping issues for all of the countries where Meltano employees live.
-
-- Ubuntu 18.04 LTS is the preferred platform due to both stability and an extremely fast patch cycle - important for security patches.
-
-- There are opportunities for corporate discounts in the future if we can concentrate purchases from a single vendor.
-
-- Dell is a [certified Ubuntu vendor](https://certification.ubuntu.com/desktop/models?query=&category=Desktop&category=Laptop&level=&release=18.04+LTS&vendors=Dell) with plenty of laptop choices available. They even have their own Ubuntu OEM release of Ubuntu they maintain, and as a result of their effort, the standard Ubuntu 18.04 LTS image natively supports Dell hardware and even firmware updates.
-
-- To date, all of Dell's security issues have involved their use of Windows, not their hardware.
+If alternate hardware is required, please request it during the onboarding process. It can be provisioned on a case-by-case basis.
 
 ### Calendars
 
