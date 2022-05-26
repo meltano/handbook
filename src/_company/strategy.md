@@ -159,7 +159,7 @@ Note:
 
 ### Transparency Guidelines for OKRs, KRs, and KPIs
 
-- OKR definitions are **public** in the `handbook` repo ([below](#current-okrs)).
+- OKR definitions are **public** in the `handbook` repo ([above](#current-okrs)).
 - Metric calculation logics are **public** in the [`squared`](https://gitlab.com/meltano/squared) repo and on the Data Team [KPIs](/data-team/kpis) handbook page.
 - KR details, such as current metric values, goal targets, and metric history are kept **internal** by default, according to the guidelines on the [KPIs](/data-team/kpis#why-kpis-are-internal-by-default) page.
 - If tracking a Key Result's status in GitLab issues, this tracking likewise occurs in **internal** GitLab issues.
