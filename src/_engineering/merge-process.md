@@ -58,20 +58,31 @@ The first team member to review should assign themselves to the review and check
 
 Occasionally we need to help a contributor get their MR completed by contributing back to their fork. The GitLab-provided instructions are incorrect for this process. Please use the following:
 
-#### Step 1: Set some env vars
+#### Step 1: Author must allow edits from maintainers
+
+According to the [docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork
+):
+
+> Only pull request authors can give upstream repository maintainers, or those with push access to the upstream repository, permission to make commits to their pull request's compare branch in a user-owned fork.
+
+![Allow Maintainers to Make Edits](https://docs.github.com/assets/cb-44583/images/help/pull_requests/allow-maintainers-to-make-edits-sidebar-checkbox.png)
+
+Note that this only works for pull requests that are authored by a user-owned fork but not if it's an organization-owned fork.
+
+#### Step 2: Set some env vars
 
 ```bash
 export FORK_ORG_NAME=name-of-user
 export FORK_REPO_NAME=meltano
 export FORK_BRANCH_NAME=name-of-branch
-export TARGET_BRANCH_NAME=master # or main, etc.
+export TARGET_BRANCH_NAME=main
 ```
 
-#### Step 2: Add the remote and checkout locally
+#### Step 3: Add the remote and checkout locally
 
 ```bash
 # Add the remote
-git remote add $FORK_ORG_NAME "git@gitlab.com:$FORK_ORG_NAME/$FORK_REPO_NAME.git"
+git remote add $FORK_ORG_NAME "https://github.com/$FORK_ORG_NAME/$FORK_REPO_NAME.git"
 # Fetch the branch refs
 git fetch $FORK_ORG_NAME
 # Checkout the branch
@@ -84,7 +95,7 @@ If you need to pull new commits later on (before deleting the remote):
 git pull $FORK_ORG_NAME $FORK_BRANCH_NAME
 ```
 
-### Step 3: Make changes in your local copy of the branch as usual
+### Step 4: Make changes in your local copy of the branch as usual
 
 Optionally, merge in the latest from master and resolve conflicts:
 
@@ -98,7 +109,7 @@ Then make any other changes needed. For example, commonly we need to re-lock the
 poetry lock
 ```
 
-### Step 4: Push the changes back to the fork and remove the remote
+### Step 5: Push the changes back to the fork and remove the remote
 
 ```bash
 git push $FORK_ORG_NAME "$FORK_ORG_NAME-$FORK_BRANCH_NAME:$FORK_BRANCH_NAME"
