@@ -210,6 +210,9 @@ Meltano v1.3.0 is publicly released, adding the ability to distill rocket fuel a
 - improvement #1 (link)
 - improvement #2 (link)
 
+## Podcasts
+* use the podcast template in the internal marketing repo when a podcast opportunity arises. 
+
 1:55​ Meltano team - who we are...
 3:15​ Discussion of bug fix #1
 ```
