@@ -16,11 +16,11 @@ Every company defines and tracks OKRs differently. The common ground for any OKR
 
 ## List of Current OKRs
 
-### OKR: Be the Infrastructure for the Modern Data Stack
+### OKR: Be the DataOps Platform Infrastructure
 
 - Scope: Company-Wide
-- Objective: **We will achieve our broad Meltano vision as the DataOps OS.**
-- GitLab Label: `OKR: Be the Infrastructure for the Modern Data Stack`
+- Objective: **We will achieve our broad Meltano vision as the DataOps Platform Infrastructure.**
+- GitLab Label: `OKR: Be the DataOps Platform Infrastructure`
 - Timeframe: By 2022-07-31
 - Initiatives:
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Be+the+DataOps+OS)
