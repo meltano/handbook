@@ -119,6 +119,10 @@ To change your benefits outside Meltano's open enrollment period, you are requir
 
 Qualified events will allow you to add dependents, waive coverage, or choose different health plans.
 
+For more information on qualifying life events see the [Gusto article here](https://support.gusto.com/article/100895878100000/Change-your-benefits-with-a-qualifying-life-event).
+
+Changes should be [made in Gusto](https://app.gusto.com/employee/enrollment/qualifying_life_event). 
+
 #### Team members outside the US
 
 We handle coverage outside the US country by country based on regional best practices. We partner with [Remote.com](/company/all-remote#where-we-hire) and the individual(s in that region) to find an equitable offering for employee coverage. We evaluate what to offer in new countries on a case by case basis and as soon as we have set a policy for a region we document that as the coverage policy going forward.
