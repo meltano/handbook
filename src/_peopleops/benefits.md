@@ -118,11 +118,6 @@ Meltano contributes separately to employees' and dependents' premiums:
 
 - [TX Beam VSP Choice Plan 2](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/beam_dental/plans/2017/beam_dental_tx_beam_vsp_choice_plan_2.pdf)
 
-Meltano contributes separately to employees' and dependents' premiums:
-
-- Employee: Meltano covers 99% of the premium.
-- Dependents: Meltano covers 50% of the premium.
-
 #### Team members outside the US
 
 We handle coverage outside the US country by country based on regional best practices. We partner with [Remote.com](/company/all-remote#where-we-hire) and the individual(s in that region) to find an equitable offering for employee coverage. We evaluate what to offer in new countries on a case by case basis and as soon as we have set a policy for a region we document that as the coverage policy going forward.
