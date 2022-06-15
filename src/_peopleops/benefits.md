@@ -109,14 +109,19 @@ Meltano contributes separately to employees' and dependents' premiums:
 
 - [Principal Dental Plan 4](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/principal/plans/2016/principal_tx_principal_dental_plan_4.pdf)
 
-Meltano contributes separately to employees' and dependents' premiums:
-
-- Employee: Meltano covers 99% of the premium.
-- Dependents: Meltano covers 50% of the premium.
-
 ##### Vision
 
 - [TX Beam VSP Choice Plan 2](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/beam_dental/plans/2017/beam_dental_tx_beam_vsp_choice_plan_2.pdf)
+
+##### Qualifying Life Events
+
+To change your benefits outside Meltano's open enrollment period, you are required to have a qualifying reason or event such as a change in marital status, adding a dependent, loss of coverage, etc. Otherwise, you’ll have to wait until Meltano's open enrollment to make changes.
+
+Qualified events will allow you to add dependents, waive coverage, or choose different health plans.
+
+For more information on qualifying life events see the [Gusto article here](https://support.gusto.com/article/100895878100000/Change-your-benefits-with-a-qualifying-life-event).
+
+Changes should be [made in Gusto](https://app.gusto.com/employee/enrollment/qualifying_life_event). 
 
 #### Team members outside the US
 
