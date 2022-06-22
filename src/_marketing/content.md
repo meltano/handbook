@@ -40,6 +40,7 @@ coming soon
 | [Meltano Facebook](https://www.facebook.com/meltano)          |
 | [Meltano Instagram](https://www.instagram.com/meltanodata/)   |
 | [Meltano YouTube](https://www.youtube.com/meltano)            |
+| [Meltano TikTok](https://www.tiktok.com/@meltanodata)         |
 
 ### Channel Use
 
