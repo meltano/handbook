@@ -43,8 +43,13 @@ We offer a 1 month paid sabbatical every 2 years of your employment. All full ti
 
 Taking more than 3 weeks consecutively requires explicit approval outside of the 2-yearly sabbatical. In other words, anything up to 3 business weeks can be taken off without approval.
 
-To log time off, team members should use [PTO by Roots](/company/tech-stack/#pto-by-roots) in Slack (under Apps).
+To log time off, team members should use [PTO by Roots](/company/tech-stack/#pto-by-roots) in Slack (under Apps).  Please try to do so **at least 2 weeks** prior to the date(s) you intend to take off.
+
 Follow the instructions in [Tracking Time Off](/peopleops/calendars#tracking-time-off) to indicate your PTO.
+
+#### Holidays
+
+Holidays vary by country and are not generally celebrated by all of Meltano at once.  The only all-Meltano days off are Family & Friends days.  Please follow the instructions in Follow the instructions in [Tracking Time Off](/peopleops/calendars#tracking-time-off) to log your holidays.
 
 #### Caregiver leave
 
