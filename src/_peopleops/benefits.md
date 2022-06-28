@@ -54,11 +54,43 @@ Make sure to take off the holidays that are legally required in your country.
 The only all-Meltano days off are Family & Friends days.
 Please follow the instructions in [Tracking Time Off](/peopleops/calendars#tracking-time-off) to log your holidays.
 
-#### Caregiver leave
+#### Caregiver Leave
 
-Caregiver/Parental leave is intended for team members to be able to take time with their families when major life events occur (births, adoptions, hospitalizations). Questions on what qualifies? Please contact your manager. Employees should also discuss leave schedules with their managers and be sure to update their time out in PTO by Roots in Slack.
+Caregiver/Parental leave is intended for team members to be able to take time with their families when major life events occur. We want to support our employees who need to take time off work to bond with a new child or care for a family member that is seriously ill or injured.  Accordingly, we offer up to 16 weeks of paid leave for this purpose, as described below.  Please contact Human Resources with any questions. Employees should also discuss leave schedules with their managers and be sure to update their time out in PTO by Roots in Slack.
 
-More details to come on our policy but it starts out at 16 weeks paid leave. We will also coordinate to account for the state and country benefits of the requestor. Leave is to be taken within the course of a year and can be broken up over that period. Caregiver leave is applicable to salaried employees who have been with us for 90 days or more.
+##### Caregiver Leave Use
+
+The Company provides up to 16 weeks of paid leave to regular, full-time employees to bond with a minor child within one year of birth, adoption, or foster placement, or to care for a family member with a serious health condition or illness (“Caregiver Leave”).  Under this policy, a “family member” includes the employee’s spouse or registered domestic partner, child, parent, parents-in-law, sibling, grandparent, or grandchild and those of the employee’s spouse or registered domestic partner.  Temporary employees, part-time employees, and interns are not eligible for Caregiver Leave, but will be provided any applicable leaves required by law.
+
+###### Pay During Leave 
+
+Employees who are eligible for wage substitution benefits, regardless of their location, are required to file for and receive such benefits in order to receive their full salary during Caregiver Leave.  For example, for California employees, the Company’s pay benefit during Caregiver Leave will be coordinated with California’s Paid Family Leave benefit (as described below), in addition to any other wage substitution benefits for which the employee is eligible.  During leave, the Company will pay the difference between the employee’s base pay and any wage substitution benefits the employee receives, such that the employee receives 100% of their base pay via regular payroll.
+
+###### Eligibility
+
+Employees must complete 12 months of continuous service before becoming eligible for Caregiver Leave under this policy.  Caregiver Leave under this policy shall not exceed 16 weeks during a 12-month period, as measured backwards, on a rolling basis, based on the date the Caregiver Leave commences.  Caregiver Leave is intended for employees who need extended time off to bond with a new child or care for a family member; employees who need a short-term leave to care for a family member that requires an employee’s absence from work for 10 or fewer business days may alternatively elect to take paid time off under the Company’s Paid Time Off policy.  However, if after taking short-term leave, the employee needs additional time off to care for the same or a different family member, the two weeks of time off will count towards the Company’s offering under this policy.  
+
+Caregiver Leave is intended to run concurrently with any federal, state, or local family care leave laws, including, but not limited to, leave under the California Family Rights Act, and similar state statutes, to the extent permitted under applicable law.
+
+Employees on Caregiver Leave will continue to be eligible to participate in Company-sponsored benefits, including health insurance, to the fullest extent permitted by the governing plans and agreements, and as required by applicable law.  The Company will continue to pay its portion of the monthly health insurance premiums, if any, for employees and their dependents (as applicable) while employees are on Caregiver Leave.  Accordingly, while employees are on Caregiver Leave, the Company will continue to deduct the applicable premium amounts from employees’ regular pay.  
+
+Leave under this policy may be taken intermittently in increments of no shorter than two weeks, except that, if the Caregiver Leave is running concurrently with any other federal, state, or local family care leave that provides for shorter leave increments, the Company will allow such employee to take Caregiver Leave in the shorter applicable leave increments.  
+
+###### Notice
+
+Requests for Caregiver Leave must be submitted to Human Resources, in writing, at least 30 days prior to the commencement of the leave.  If the need for leave is unforeseeable, notice should be given as soon as possible.  The Company may request documentation supporting requests for Caregiver Leave.  Also, the Company may require periodic reports concerning the employee’s return to work date.  Upon termination of the employee’s employment with the Company, the employee will not be paid for any unused Caregiver Leave pay for which they were previously eligible.
+
+###### California Paid Family Leave Benefit
+
+	A California employee who is absent from work to care for a family member with a “serious health condition,” or to bond with a minor child within one year of birth, adoption, or foster placement, may be eligible for wage substitution benefits through the California Employment Development Department (“EDD”) for up to eight weeks in any 12-month period under the Paid Family Leave Law (“PFL”).  Employees are solely responsible for applying for any PFL benefits to which they may be entitled, and for complying with all requirements established by the EDD for qualification for PFL benefits.  For additional information, please contact Human Resources or visit the EDD’s [website](https://edd.ca.gov/disability/paid-family-leave/)
+  
+##### Employees Outside of California
+
+For remote employees who work outside of California, the applicable state and local leave laws of the employee’s state of residence apply.  To the extent any provision in this policy conflicts with applicable state or local leave laws, such applicable laws will apply.  However, if such laws provide for less generous leave and benefits than those provided for under this policy, employees will still be eligible for the leave and benefits outlined above, which will run concurrently with any applicable state or local leave or benefits entitlements.
+
+##### Employees Outside the United States
+
+For remote employees who work outside of the United States, country or local leave laws will apply. Leave administration will be done through Remote. 
 
 #### Family and Friends Day
 
