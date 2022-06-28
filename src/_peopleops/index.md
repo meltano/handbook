@@ -165,9 +165,10 @@ Meltano approves the use of macOS and Linux. Meltano prohibits the use of Micros
 
 To standardize the hardware provisioned for Meltano team members, the following Apple hardware option is highly recommended:
 
-[MacBook Pro - 16” / 512gig SSD / 32gigs RAM / Apple M1 Pro with 10-core CPU, 16-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch)
+- [14” / 512gig SSD / 32gig RAM / Apple M1 Pro with 10-core CPU, 14-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch)
+- [MacBook Pro - 16” / 512gig SSD / 32gigs RAM / Apple M1 Pro with 10-core CPU, 16-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch)
 
-Note that the above link is to the Apple store website for the United States. If you are located in a different country, you will likely have to place your order from your regional Apple store website.
+Note that the above links are to the Apple store website for the United States. If you are located in a different country, you will likely have to place your order from your regional Apple store website.
 
 If alternate hardware is required, please request it during the onboarding process. It can be provisioned on a case-by-case basis.
 
