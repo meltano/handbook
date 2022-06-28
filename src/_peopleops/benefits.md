@@ -82,7 +82,7 @@ Requests for Caregiver Leave must be submitted to Human Resources, in writing, a
 
 ###### California Paid Family Leave Benefit
 
-A California employee who is absent from work to care for a family member with a “serious health condition,” or to bond with a minor child within one year of birth, adoption, or foster placement, may be eligible for wage substitution benefits through the California Employment Development Department (“EDD”) for up to eight weeks in any 12-month period under the Paid Family Leave Law (“PFL”).  Employees are solely responsible for applying for any PFL benefits to which they may be entitled, and for complying with all requirements established by the EDD for qualification for PFL benefits.  For additional information, please contact Human Resources or visit the EDD’s [website](https://edd.ca.gov/disability/paid-family-leave/)
+A California employee who is absent from work to care for a family member with a “serious health condition,” or to bond with a minor child within one year of birth, adoption, or foster placement, may be eligible for wage substitution benefits through the California Employment Development Department (“EDD”) for up to eight weeks in any 12-month period under the Paid Family Leave Law (“PFL”).  Employees are solely responsible for applying for any PFL benefits to which they may be entitled, and for complying with all requirements established by the EDD for qualification for PFL benefits.  For additional information, please contact Human Resources or visit the [EDD’s website](https://edd.ca.gov/disability/paid-family-leave/).
   
 ##### Employees Outside of California
 
