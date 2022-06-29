@@ -14,12 +14,15 @@ Every company defines and tracks OKRs differently. The common ground for any OKR
 2. **Key Results (KRs)** - The quantifiable measurements of success towards the stated objectives, tied to a specific timeframe of measurement.
 3. **Initiatives** - Specific actions we can take which improve our KPI metrics and, in turn, help us reach our objectives.
 
-## List of Current OKRs
+## Current OKRs
+
+These are our current OKRs, in order of importance. 
+We aim to keep this list limited to 3 company-wide goals, and promote [future OKRs](#future-okrs) to current ones once an OKR as completed and a place opens up.
 
 ### OKR: Be the DataOps Platform Infrastructure
 
 - Scope: Company-Wide
-- Objective: **We will achieve our broad Meltano vision as the DataOps Platform Infrastructure.**
+- Objective: **Go beyond EL(T) and realize our end-to-end vision in product capabilities, perception, and usage**: new users can, know they can, and will let Meltano manage more of their data platform than only Singer.
 - GitLab Label: `OKR: Be the DataOps Platform Infrastructure`
 - Timeframe: By 2022-07-31
 - Initiatives:
@@ -37,7 +40,7 @@ Every company defines and tracks OKRs differently. The common ground for any OKR
 ### OKR: Improve New User Experience
 
 - Scope: Company-Wide
-- Objective: **We will address feedback regarding the Meltano learning curve and begin actively monitoring attrition and retention metrics.**
+- Objective: **Get more people from "I've decided I want to try out Meltano" to "I have a Proof of Concept up and running in my (local) development environment" faster**, by addressing feedback regarding the Meltano learning curve and actively monitoring attrition and retention metrics.
 - GitLab Label: `OKR: Improve New User Experience`
 - Timeframe: By 2022-07-31
 - Initiatives:
@@ -49,7 +52,7 @@ Every company defines and tracks OKRs differently. The common ground for any OKR
 ### OKR: Improve Ease of Deployment
 
 - Scope: Company-Wide
-- Objective: **We will address the education, tooling, and documentation gap between getting Meltano from a local, Proof of Concept environment to a production deployment.**
+- Objective: **Get more people from "I have a Proof of Concept up and running in my (local) development environment" to "I have Meltano running in production and am getting lasting value out of it" faster**, by addressing the education, tooling, and documentation gap.
 - GitLab Label: `OKR: Improve Ease of Deployment`
 - Timeframe: By 2022-07-31
 - Initiatives:
@@ -58,17 +61,70 @@ Every company defines and tracks OKRs differently. The common ground for any OKR
 - Key Results:
   - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/249).
 
-### OKR: Managed service beta
+## Future OKRs
+
+These OKRs will become a priority once a [current OKR](#current-okrs) is completed and a place opens up.
+Note that a small group of people (usually among the leadership team) may start doing preliminary work on these before they become a company-wide priority.
+
+### OKR: Managed Meltano Alpha
 
 - Scope: Company-Wide
-- Objective: **We will build the managed service and onboard our first private beta users.**
-- Timeframe: By 2023-01-30.
-- GitLab Label: `OKR: Managed service beta`
+- Objective: **Build minimal managed hosting, manually onboard ourselves (Squared) and hand-selected alpha users, and convert first paying customers.**
+- Timeframe: By 2022-11-31
+- GitLab Label: `OKR: Managed Meltano Alpha`
 - Initiatives:
-  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Managed+Service+Beta)
-  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Managed+Service+Beta)
+  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Managed Meltano Alpha)
+  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Managed Meltano Alpha)
+- Key Results:
+  - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/253).
+
+### OKR: Managed Meltano Beta
+
+- Scope: Company-Wide
+- Objective: **Build self-serve maintenance and monitoring interfaces, start automating onboarding, and semi-automatically onboard additional paying customers from waiting list.**
+- Timeframe: By 2023-02-28
+- GitLab Label: `OKR: Managed Meltano Beta`
+- Initiatives:
+  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Managed Meltano Beta)
+  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Managed Meltano Beta)
 - Key Results:
   - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/231).
+
+### OKR: Managed Meltano GA
+
+- Scope: Company-Wide
+- Objective: **Build self-serve onboarding flow, and officially launch Managed Meltano to relieve self-management burden and broaden addressable market to less technical users and teams that are comfortable with CLIs and Git, but not Terraform and Kubernetes.**
+- Timeframe: By 2023-03-31
+- GitLab Label: `OKR: Managed Meltano GA`
+- Initiatives:
+  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Managed Meltano GA)
+  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Managed Meltano GA)
+- Key Results:
+  - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/254).
+
+### OKR: Managed Meltano Commercial Tier
+
+- Scope: Company-Wide
+- Objective: **Build and launch first Managed tier with functionality that is compelling to larger and more advanced teams that are comfortable self-managing, but difficult to actually realize in a self-managed setup.**
+- Timeframe: By 2023-05-31.
+- GitLab Label: `OKR: Managed Meltano Commercial Tier`
+- Initiatives:
+  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Managed Meltano Commercial Tier)
+  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Managed Meltano Commercial Tier)
+- Key Results:
+  - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/255).
+
+### OKR: Managed Meltano Enterprise Tier
+
+- Scope: Company-Wide
+- Objective: **Build and launch Managed tier with capabilities and certifications requiered by larger enterprises.**
+- Timeframe: By 2023-08-31
+- GitLab Label: `OKR: Managed Meltano Enterprise Tier`
+- Initiatives:
+  - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Managed Meltano Enterprise Tier)
+  - [Filtered Milestone Board](https://gitlab.com/groups/meltano/-/boards/1933232?label_name[]=OKR:+Managed Meltano Enterprise Tier)
+- Key Results:
+  - Coming soon, discussion [tracked here](https://gitlab.com/meltano/meta/-/issues/256).
 
 ## Meltano's OKR Process
 
@@ -103,7 +159,7 @@ Note:
 
 ### Transparency Guidelines for OKRs, KRs, and KPIs
 
-- OKR definitions are **public** in the `handbook` repo ([below](#list-of-current-okrs)).
+- OKR definitions are **public** in the `handbook` repo ([above](#current-okrs)).
 - Metric calculation logics are **public** in the [`squared`](https://gitlab.com/meltano/squared) repo and on the Data Team [KPIs](/data-team/kpis) handbook page.
 - KR details, such as current metric values, goal targets, and metric history are kept **internal** by default, according to the guidelines on the [KPIs](/data-team/kpis#why-kpis-are-internal-by-default) page.
 - If tracking a Key Result's status in GitLab issues, this tracking likewise occurs in **internal** GitLab issues.
