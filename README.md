@@ -5,7 +5,7 @@
 # Meltano Handbook
 
 Welcome! This is the source for our public [company handbook](https://handbook.meltano.com/).
-The [issue tracker](https://gitlab.com/meltano/handbook/-/issues) is used for process and policy proposals that will be documented there, as well as improvements to the handbook site itself.
+The [issue tracker](https://github.com/meltano/handbook/issues) is used for process and policy proposals that will be documented there, as well as improvements to the handbook site itself.
 
 ---
 
@@ -15,7 +15,7 @@ The [issue tracker](https://gitlab.com/meltano/handbook/-/issues) is used for pr
 
 Follow the steps below to work locally with this project.
 
-1. Make sure you have a Ruby environment set up locally. You'll need the Ruby version specified in the [`.gitlab-ci.yml` file](https://gitlab.com/meltano/handbook/-/blob/master/.gitlab-ci.yml#L1).
+1. Make sure you have a Ruby environment set up locally. You'll need the Ruby version specified in the [Dockerfile](https://github.com/meltano/handbook/blob/main/Dockerfile).
 1. Fork, clone or download this project.
 1. Install ruby dependencies: `bundle install`
 1. Install node dependencies: `npm install`
