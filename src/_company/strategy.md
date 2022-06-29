@@ -19,11 +19,11 @@ Every company defines and tracks OKRs differently. The common ground for any OKR
 These are our current OKRs, in order of importance. 
 We aim to keep this list limited to 3 company-wide goals, and promote [future OKRs](#future-okrs) to current ones once an OKR as completed and a place opens up.
 
-### OKR: Be the DataOps OS
+### OKR: Be the DataOps Platform Infrastructure
 
 - Scope: Company-Wide
-- Objective: **Achieve our broad Meltano vision as the DataOps OS.**
-- GitLab Label: `OKR: Be the DataOps OS`
+- Objective: **Go beyond EL(T) and realize our end-to-end vision in product capabilities, perception, and usage**: new users can, know they can, and will let Meltano manage more of their data platform than only Singer.
+- GitLab Label: `OKR: Be the DataOps Platform Infrastructure`
 - Timeframe: By 2022-07-31
 - Initiatives:
   - [Issues List in GitLab](https://gitlab.com/groups/meltano/-/issues?sort=created_date&state=all&label_name[]=OKR:+Be+the+DataOps+OS)
@@ -145,13 +145,13 @@ KRs are tracked in GitLab issues:
 
 KPI Goal tracking occurs in GitLab issues, with links to related Objectives and Initiatives via linked issues and/or via GitLab labels. The list of KRs is public and listed below under each OKR definition, including links to the GitLab issues with additional information.
 
-### Tracking OKRs in Gitlab
+### Tracking OKRs in GitHub
 
-We track OKRs in GitLab as labels, using the format `OKR: Short Description`.
+We track OKRs in GitHub as labels, using the format `OKR: Short Description`.
 
 ### Tracking related Initiatives in Gitlab
 
-Initiatives impacting the OKR are tracked in GitLab and should be tagged with a label which associates the issue with the OKR it is targeted to help us achieve.
+Initiatives impacting the OKR are tracked in GitHub and should be tagged with a label which associates the issue with the OKR it is targeted to help us achieve.
 
 Note:
 

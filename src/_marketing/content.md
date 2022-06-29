@@ -40,6 +40,7 @@ coming soon
 | [Meltano Facebook](https://www.facebook.com/meltano)          |
 | [Meltano Instagram](https://www.instagram.com/meltanodata/)   |
 | [Meltano YouTube](https://www.youtube.com/meltano)            |
+| [Meltano TikTok](https://www.tiktok.com/@meltanodata)         |
 
 ### Channel Use
 
@@ -209,6 +210,9 @@ Meltano v1.3.0 is publicly released, adding the ability to distill rocket fuel a
 - bug fix #1 (link)
 - improvement #1 (link)
 - improvement #2 (link)
+
+## Podcasts
+* use the podcast template in the internal marketing repo when a podcast opportunity arises. 
 
 1:55​ Meltano team - who we are...
 3:15​ Discussion of bug fix #1
