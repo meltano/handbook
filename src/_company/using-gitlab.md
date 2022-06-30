@@ -36,9 +36,8 @@ If an issue fits best in a public tracker but should be private anyway, use a [c
 - [Value Stream](https://gitlab.com/groups/meltano/-/boards/2917637) - useful for understanding the distribution of work across the different product areas of Meltano
 - [Urgency](https://gitlab.com/groups/meltano/-/boards/2917749) - useful for understanding the overall priority of issues in a milestone.
 - [Milestone](https://gitlab.com/groups/meltano/-/boards/1933232) - used to move issues easily between milestones.
-- [Office Hours](https://gitlab.com/groups/meltano/-/boards/2923184) - used to tee up issues for community discussion and review, generally directly
+- [Office Hours](https://github.com/orgs/meltano/projects/9/views/1) - used to tee up issues for community discussion and review, generally directly
   before and/or after implementing an important user-facing feature.
-- [Demo Day](https://gitlab.com/groups/meltano/-/boards/3650469) - used to better plan what will be presented from the Meltano team and community
 
 ## Epics
 
