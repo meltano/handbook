@@ -42,7 +42,7 @@ In line with our [Together we thrive](/company/values#together-we-thrive) value,
   before and/or after implementing an important user-facing feature.
 - [Demo Day](https://gitlab.com/groups/meltano/-/boards/3650469) - used to better plan what will be presented from the Meltano team and community
 -->
-- [Engineering Assignment](https://github.com/orgs/meltano/projects/3) - useful for understanding the WIP for engineers in the company.
+- [Engineering Assignment](https://github.com/orgs/meltano/projects/3) - Useful for understanding the WIP for engineers in the company.
 - [Iterations](https://github.com/orgs/meltano/projects/3/views/4) - Engineering assignments by iteration.  Useful for understanding development scheduled on a weekly basis
 
 <!-- DOES NOT EXIST IN GITHUB?
