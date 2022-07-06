@@ -185,11 +185,14 @@ New labels can be created as appropriate at the Group Level and should be docume
 
 ## Milestones
 
-Milestones have a few different goals.
-Product manages all date-defined milestones (May 2022, 2022-Q2, etc.).
-Dated milestones are defined _only_ at the [group level](https://gitlab.com/groups/meltano/-/milestones).
-Anyone else can create a non-dated milestone for their own purposes at the group or project level.
+[Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones) are used to track progress on groups of issues or pull requests within a repository.  They are defined at the repository level.
 
+### Useful milestones
+
+- [Meltano repository](https://github.com/meltano/meltano/milestones)
+- [Hub repository](https://github.com/meltano/hub/milestones)
+
+<!-- NOT SURE HOW TO BEST UPDATE THIS:
 ### Best Practices
 
 At the end of every dated milestone, the Product team will roll all issues to the next dated milestone.
@@ -201,7 +204,7 @@ If something we want to happen eventually is not a priority yet, use `Backlog`.
 If there is an issue we want to start prioritizing, there is a `Staging` milestone which can be used to alert the Product Lead that this is something we'd like to move into an upcoming milestone or iteration.
 If we don't want it to happen, close the issue.
 
-Issues that are in a dated milestone indicate the "rough delivery window" of when we aim to deliver the issue.
+Issues that are in a dated milestone indicate the "rough delivery window" of when we aim to deliver the issue. -->
 
 ## Iterations
 
