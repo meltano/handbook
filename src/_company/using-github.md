@@ -1,34 +1,35 @@
 ---
 layout: page
-title: Using GitLab to Track Work
+title: Using GitHub to Track Work
 weight: 2
 ---
 
-At Meltano, we use GitLab to track everything that needs to (one day) be done or discussed.
+At Meltano, we use GitHub to track everything that needs to (one day) be done or discussed.
 
 ## Issue Trackers
 
 In line with our [Together we thrive](/company/values#together-we-thrive) value, most of these trackers and the issues they hold are public so that our entire community can participate.
-If an issue fits best in a public tracker but should be private anyway, use a [confidential issue](https://docs.gitlab.com/ee/user/project/issues/confidential_issues.html).
 
-- [Meta (`meltano/meta`)](https://gitlab.com/meltano/meta/-/issues): Public issue tracker for **meta-level topics** around the team, company, or community that don't concern a specific [product](#product-specific) and don't fit in any other project. Use confidential issues as needed.
-- [Handbook (`meltano/handbook`)](https://gitlab.com/meltano/handbook/-/issues): Public issue tracker for **process and policy proposals** that will be documented in the public [company handbook](https://handbook.meltano.com/). Use confidential issues as needed.
+<!-- THIS DOES NOT EXIST WITHIN GITHUB
+- [Meta (`meltano/meta`)](https://gitlab.com/meltano/meta/-/issues): Public issue tracker for **meta-level topics** around the team, company, or community that don't concern a specific [product](#product-specific) and don't fit in any other project. Use confidential issues as needed. -->
+- [Handbook (`meltano/handbook`)](https://github.com/meltano/handbook/issues): Public issue tracker for **process and policy proposals** that will be documented in the public [company handbook](https://handbook.meltano.com/). <!-- Use confidential issues as needed. DO WE WISH TO DOCUMENT WHERE CONFIDENTIAL ITEMS ARE TRACKED? -->
 
 ### Subject-specific
 
-- [Administration (`meltano/administration`)](https://gitlab.com/meltano/administration/-/issues): Private issue tracker for **administrative tasks** related to running the business. Used primarily by CEO and Operations Analyst.
-- [Hiring (`meltano/hiring`)](https://gitlab.com/meltano/hiring/-/issues): Private issue tracker for **hiring topics**: hiring plans, job openings, and interview processes. Repository contains processes, questions, and exercises.
-- [Marketing (`meltano/marketing/marketing-general`)](https://gitlab.com/meltano/marketing/marketing-general/-/issues): Public issue tracker for **all things marketing**. Use confidential issues as needed.
+- [Administration (`meltano/administration`)](https://github.com/meltano/administration/issues): Private issue tracker for **administrative tasks** related to running the business. Used primarily by CEO and Operations Analyst.
+- [Hiring (`meltano/hiring-process`)]([https://github.com/meltano/hiring/issues](https://github.com/meltano/hiring-process/issues)): Private issue tracker for **hiring topics**: hiring plans, job openings, and interview processes. Repository contains processes, questions, and exercises.
+- [Marketing (`meltano/internal-marketing/`)](https://github.com/meltano/internal-marketing/issues/): Private issue tracker for **all things marketing**.
 
 ### Product-specific
 
-- [Meltano (`meltano/meltano`)](https://gitlab.com/meltano/meltano/-/issues)
-- [Meltano SDK (`meltano/sdk`)](https://gitlab.com/meltano/sdk/-/issues)
-- [MeltanoHub (`meltano/hub`)](https://gitlab.com/meltano/hub/-/issues)
-- [Meltano Squared (`meltano/squared`)](https://gitlab.com/meltano/squared/-/issues)
+- [Meltano (`meltano/meltano`)](https://github.com/meltano/meltano/issues)
+- [Meltano SDK (`meltano/sdk`)](https://github.com/meltano/sdk/issues)
+- [MeltanoHub (`meltano/hub`)](https://github.com/meltano/hub/issues)
+- [Meltano Squared (`meltano/squared`)](https://github.com/meltano/squared/issues)
 
-## Useful Issue Boards
+## Useful Project Boards
 
+<!--  THESE ARE WHAT WE HAD WHEN THIS SECTION LISTED GITLAB ISSUE BOARDS - PRESERVED HERE SO WE CAN REPLICATE WHERE POSSIBLE:
 - [Development Flow](https://gitlab.com/groups/meltano/-/boards/536761), with a column for each `flow::` label. Don't forget to filter by milestone, and/or assignee!
 - [Engineering Assignments](https://gitlab.com/groups/meltano/-/boards/3546394?not[label_name][]=valuestream::Business+Operation&not[label_name][]=kind::Non-Product&iteration_id=Current) - useful for understanding the WIP for engineers in the company.
 - [Iterations](https://gitlab.com/groups/meltano/-/boards/3831997?not[label_name][]=valuestream::Business+Operation&not[label_name][]=kind::Non-Product) - useful for understanding development scheduled on a weekly basis
@@ -39,13 +40,18 @@ If an issue fits best in a public tracker but should be private anyway, use a [c
 - [Office Hours](https://gitlab.com/groups/meltano/-/boards/2923184) - used to tee up issues for community discussion and review, generally directly
   before and/or after implementing an important user-facing feature.
 - [Demo Day](https://gitlab.com/groups/meltano/-/boards/3650469) - used to better plan what will be presented from the Meltano team and community
+-->
+- [Engineering Assignment](https://github.com/orgs/meltano/projects/3) - useful for understanding the WIP for engineers in the company.
+- [Iterations](https://github.com/orgs/meltano/projects/3/views/4) - Engineering assignments by iteration.  Useful for understanding development scheduled on a weekly basis
+
+<!-- DOES NOT EXIST IN GITHUB?
 
 ## Epics
 
 When appropriate, house an issue under an existing epic: <https://gitlab.com/groups/meltano/-/epics>
 
 New epics can be created for topics or efforts that will take multiple issues over multiple sprints.
-
+--> 
 ## Labels
 
 ### Flow Labels
@@ -199,22 +205,22 @@ Issues that are in a dated milestone indicate the "rough delivery window" of whe
 
 ## Iterations
 
-Once an issue becomes a priority, a sprint [iteration](https://gitlab.com/groups/meltano/-/iterations) is set (identified by the Friday of the week in question), even if it's still weeks away and may end up being moved.
+Once an issue becomes a priority, a sprint [iteration](https://github.com/orgs/meltano/projects/3/views/4) is set (identified by the Friday of the week in question), even if it's still weeks away and may end up being moved.
 
 New iterations are created about 6 weeks in advance as part of preparation for the weekly kickoff meeting.
 
-Check out the GitLab documentation on [Iterations](https://docs.gitlab.com/ee/user/group/iterations/#iterations) to better understand the differences between iterations and milestones.
+Check out the GitHub documentation on [Iterations](https://docs.github.com/en/enterprise-cloud@latest/issues/trying-out-the-new-projects-experience/managing-iterations) to better understand the differences between iterations and milestones.
 
 ### Best Practices
 
 The Product team manages all iterations.
-They can only be made at the group level, they always have a start and end date, and the date ranges cannot overlap.
+They can only be made at the project level, they always have a start and end date, and the date ranges cannot overlap.
 
 Anyone can add an issue to an iteration, but at the end of the issue, all incomplete issues will be rolled to the next iteration by Product.
 
 ## Issue Sizing
 
-The team uses Gitlab's `weight` feature to align on rough estimates of relative size. We bias towards
+The team uses Github's `weight` feature to align on rough estimates of relative size. We bias towards
 a system where most increments are double of the prior increment, to avoid debates of "is this a 2 or a 3?"
 and to acknowledge these are only low-precision estimates. The used values are: `1`, `2`, `4`, `8`, `12`,
 `20`, and `40`.
@@ -232,7 +238,7 @@ Sizing should always take into account these three factors:
  8 - Roughly 2-4 days work
 12 - Likely >=1 week and <=2 weeks
 20 - Should be broken to smaller deliverables if possible
-40 - Probably an epic, to be planned out in smaller deliverables
+40 - Probably needs to be planned out in smaller deliverables
 ```
 
 ### Why do we size issues?
