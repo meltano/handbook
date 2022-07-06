@@ -196,15 +196,15 @@ We are happy to cover the cost of internet in your working place. This can be yo
 
 ### Team offsites
 
-Every nine months, we get the whole team together somewhere on the planet for Meltano Assemble.
+Approximately every nine months, we get the whole team together somewhere on the planet for Meltano Assemble.
 
-Assemble 2021 took place in beautiful Mexico City. The next event will be held in Lisbon, Portugal in 2022.
-
-The name Assemble is a reference to Meltano being used to assemble a data stack/pipeline. At Assemble the entire all-remote team gathers to bond and meet face-to-face. We pick a new location every year and invite the entire team to join in for 5 days. There is nothing like meeting someone in person whom you have only ever seen virtually.
+The name Assemble is a reference to Meltano being used to assemble a data stack/pipeline. At Assemble the entire all-remote team gathers to bond and meet face-to-face. We pick a new location for each event and invite the entire team to join in for 5 days. There is nothing like meeting someone in person whom you have only ever seen and worked with virtually.
 
 Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole.
 
-Read more about our last [Assemble in Mexico City](https://www.google.com/url?q=https://meltano.com/blog/assemble-2021-mexico-city-roundup/&sa=D&source=docs&ust=1639515528558000&usg=AOvVaw0LZpL5Jgj_b6bKnswXwKgE).
+Assemble 2021 took place in beautiful Mexico City. Assemble 2022 took place in Lisbon, Portugal, in March 2022.
+
+Read about [Assemble in Mexico City here](https://www.google.com/url?q=https://meltano.com/blog/assemble-2021-mexico-city-roundup/&sa=D&source=docs&ust=1639515528558000&usg=AOvVaw0LZpL5Jgj_b6bKnswXwKgE).  Read about [Assemble in Lisbon, Portugal, here](https://meltano.com/blog/assemble-recap-company-on-site-in-lisbon/).
 
 #### Carbon Offsets
 
