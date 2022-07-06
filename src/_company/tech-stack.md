@@ -68,15 +68,14 @@ Domain name registration of `meltano.app`.
 
 Account details are in the `Engineering` 1Password vault.
 
-## [GitHub](https://github.com/)
+## [GitHub](https://github.com/meltano/)
 
-Software development and version control provider.
-
-## [GitLab](https://gitlab.com/meltano/)
-
-DevOps platform.
-
+DevOps platform - Software development and version control provider. 
 Every team member has their own account.
+
+<!--## [GitLab](https://gitlab.com/meltano/)
+
+Meltano's former DevOps platform.  All repos have been migrated to GitHub. -->
 
 ## [Google Ads](https://ads.google.com/)
 
@@ -193,7 +192,7 @@ Account details are in the `Engineering` 1Password vault.
 
 ## [Netlify](https://www.netlify.com/)
 
-Feature branch previews for <https://gitlab.com/meltano/meltano> docs.
+Feature branch previews for <https://github.com/meltano/meltano> docs.
 
 Account details are in the `Engineering` 1Password vault.
 
@@ -234,7 +233,7 @@ Account details are in the `Finance` 1Password vault.
 
 ## [Read the Docs](https://readthedocs.org/)
 
-Docs hosting for <https://gitlab.com/meltano/sdk>: <https://sdk.meltano.com>.
+Docs hosting for <https://github.com/meltano/sdk>: <https://sdk.meltano.com>.
 
 Account details are in the `Engineering` 1Password vault.
 
