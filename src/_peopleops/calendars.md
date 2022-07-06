@@ -16,7 +16,7 @@ weight: 2
 
 ## Tracking Time Off
 
-Use [PTO by Roots](/company/tech-stack/#pto-by-roots) to add time off to the calendar, preferably **at least 2 weeks** before the day off.  Holidays, Family and Friend Days, and Paid Time Off (PTO) are all tracked via this tool.  It is important for everyone to add time off to the calendar in advance so the team knows who will be out when and can plan accordingly.  This does not mean that all PTO requires two weeks of advanced notice.  If you are sick or are scheduling a medical appointment, for example, get yourself help ASAP but do make sure to log your time off.
+Use [PTO by Roots](/company/tech-stack/#pto-by-roots) to add time off to the calendar, preferably **at least 2 weeks** before the day off.  Holidays, Family and Friend days, and Paid Time Off (PTO) are all tracked via this tool.  It is important for everyone to add time off to the calendar in advance when possible so the team knows who will be out when and can plan accordingly.  This does not mean that all PTO requires two weeks of advanced notice.  If you are sick or are scheduling a medical appointment, for example, get yourself help ASAP but do make sure to log your time off.
 
 ### Short-term Leave
 
