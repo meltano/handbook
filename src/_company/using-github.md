@@ -8,16 +8,17 @@ At Meltano, we use GitHub to track everything that needs to (one day) be done or
 
 ## Issue Trackers
 
-In line with our [Together we thrive](/company/values#together-we-thrive) value, most of these trackers and the issues they hold are public so that our entire community can participate.
+In line with our [Together we thrive](/company/values#together-we-thrive) value, most of our trackers and the issues they hold are public so that our entire community can participate. The most commonly used non-product trackers are the following:
+- [Meltano (`meltano/handbook`)](https://github.com/meltano/handbook/issues): Public issue tracker for **process and policy proposals** that will be documented in the public [company handbook](https://handbook.meltano.com/).
+- [Meltano (`meltano/internal-general`)](https://github.com/meltano/internal-general/issues): Internal issue tracker for topics around the team & company
 
 <!-- THIS DOES NOT EXIST WITHIN GITHUB
 - [Meta (`meltano/meta`)](https://gitlab.com/meltano/meta/-/issues): Public issue tracker for **meta-level topics** around the team, company, or community that don't concern a specific [product](#product-specific) and don't fit in any other project. Use confidential issues as needed. -->
-- [Handbook (`meltano/handbook`)](https://github.com/meltano/handbook/issues): Public issue tracker for **process and policy proposals** that will be documented in the public [company handbook](https://handbook.meltano.com/). <!-- Use confidential issues as needed. DO WE WISH TO DOCUMENT WHERE CONFIDENTIAL ITEMS ARE TRACKED? -->
 
 ### Subject-specific
 
-- [Administration (`meltano/administration`)](https://github.com/meltano/administration/issues): Private issue tracker for **administrative tasks** related to running the business. Used primarily by CEO and Operations Analyst.
-- [Hiring (`meltano/hiring-process`)]([https://github.com/meltano/hiring/issues](https://github.com/meltano/hiring-process/issues)): Private issue tracker for **hiring topics**: hiring plans, job openings, and interview processes. Repository contains processes, questions, and exercises.
+- [Administration (`meltano/administration`)](https://github.com/meltano/administration/issues): Private issue tracker for **administrative tasks** related to running the business. Used primarily by CEO and Head of Operations.
+- [Hiring (`meltano/hiring-process`)](https://github.com/meltano/hiring-process/issues): Private issue tracker for **hiring topics**: hiring plans, job openings, and interview processes. Repository contains processes, questions, and exercises.
 - [Marketing (`meltano/internal-marketing/`)](https://github.com/meltano/internal-marketing/issues/): Private issue tracker for **all things marketing**.
 
 ### Product-specific
