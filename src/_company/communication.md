@@ -142,14 +142,13 @@ If Zoom is down one can use Slack for calls between team members. To use Slack c
 
 ## Custom Emoji
 
-We use emoji to help convey emotions and ideas quickly. You should feel empowered to add any emoji you like, just consider the entire community and keep them appropriate and generally unoffensive.
+We use emoji to help convey emotions and ideas quickly. You should feel empowered to add any emoji you like, just consider the entire community and keep them appropriate and unoffensive.
 
+### Slack Custom Emoji
 Within Slack, it is possible to add emojis via the [customize interface](https://meltano.slack.com/customize/emoji).
-Within GitHub it is possible to add emojis [as described here](https://github.com/ikatyang/emoji-cheat-sheet#emoji-cheat-sheet).
 
 ### GitHub Custom Emoji
-
-GitHub supports custom emoji [tthrough scripts such as this linked example](https://github.com/StylishThemes/GitHub-Custom-Emojis).
+GitHub supports custom emoji [through scripts such as this linked example](https://github.com/StylishThemes/GitHub-Custom-Emojis).
 
 ## Giving and Receiving Feedback
 
