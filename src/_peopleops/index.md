@@ -11,7 +11,7 @@ We're currently using [Greenhouse](https://www.greenhouse.io/) to manage the hir
 
 ### Adding New Roles
 
-- Open an issue on the [administration](https://gitlab.com/meltano/administration/) using the `new-job-creation.md` template.
+- Open an issue in the [administration](https://github.com/meltano/administration/issues) repository using the `new-job-creation.md` template.
 - Fill out necessary details. All sections are required unless they're marked optional. Having all of this information helps us get the job online and ensures all candidates are evaluated based on the same interview process. This is just an initial version of the hiring process -- it can always be iterated on.
 - A Site Admin will add the role to Greenhouse once the issue has been filled out and approved.
 - Site Admin will add the hiring manager as a job admin to this role.

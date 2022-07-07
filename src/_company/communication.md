@@ -142,53 +142,13 @@ If Zoom is down one can use Slack for calls between team members. To use Slack c
 
 ## Custom Emoji
 
-We use emoji to help convey emotions and ideas quickly. You should feel empowered to add any emoji you like, just consider the entire community and keep them appropriate and generally unoffensive.
+We use emoji to help convey emotions and ideas quickly. You should feel empowered to add any emoji you like, just consider the entire community and keep them appropriate and unoffensive.
 
+### Slack Custom Emoji
 Within Slack, it is possible to add emojis via the [customize interface](https://meltano.slack.com/customize/emoji).
 
-### GitLab Custom Emoji
-
-GitLab also supports [custom emoji](https://docs.gitlab.com/ee/api/graphql/custom_emoji.html), though it is harder to add new ones.
-
-First navigate to [`GraphiQL`](https://gitlab.com/-/graphql-explorer) where you are able to execute GraphQL commands.
-
-The command to add a new emoji is:
-
-```graphql
-mutation {
-  createCustomEmoji(
-    input: { groupPath: "meltano", name: "<emoji-name>", url: "<emoji-url>" }
-  ) {
-    customEmoji {
-      name
-    }
-    errors
-  }
-}
-```
-
-to get a list of all emojis available, use this query:
-
-```graphql
-query GetCustomEmoji {
-  group(fullPath: "meltano") {
-    id
-    customEmoji {
-      nodes {
-        name
-        url
-      }
-    }
-  }
-}
-```
-
-Currently available GitLab custom emojis are:
-
-- `melty-flame`
-- `tanuki`
-
-Use them in comments or descriptions by typing `:emoji-name:`. Unfortunately, autocomplete and reactions (award emojis) are not currently supported for Custom Emojis.
+### GitHub Custom Emoji
+GitHub supports custom emoji [through scripts such as this linked example](https://github.com/StylishThemes/GitHub-Custom-Emojis).
 
 ## Giving and Receiving Feedback
 
@@ -204,7 +164,7 @@ Positive feedback is critical for learning. People are often quick to notice wha
 
 **Best Venue:** Public channels, directly to their manger or them.
 
-**Examples:** Melty I have observed you taking charge of this project and i am so impressed with how proactive you have been involving stakeholders early and how you communicate with them. Keep it up.
+**Examples:** Melty, I have observed you taking charge of this project and I am so impressed with how proactive you have been involving stakeholders early and how you communicate with them. Keep it up!
 
 #### Constructive
 
@@ -216,7 +176,7 @@ Make sure you leave time when giving feedback to allow the person to ask clarify
 
 **Best Venue**: 1:1
 
-**Examples:** Melty we are super happy with the results of this project but in the process of getting it over the finish line you seemed ot alienate some of your peers by excluding them in the decision making. We want to see you build yourself as a leader and often that involves bringing people up with you and being a mentor which we kow you ar capable of. Let’s talk about how we can try to involve other more going forward.
+**Examples:** Melty, we are super happy with the results of this project but in the process of getting it over the finish line you seemed ot alienate some of your peers by excluding them in the decision making. We want to see you build yourself as a leader.  Often that involves bringing people up with you and being a mentor which we kow you ar capable of. Let’s talk about how we can try to involve others more going forward.
 
 #### Checking in / Reminders
 
@@ -224,7 +184,7 @@ Technically this is not feedback, but it can be construed as such if not given i
 
 Managers should be sensitive to the power dynamics potentially at play in any potential feedback engagement. They should consciously compensate for that dynamic in their communication. This can often come into play when sending reminders. Things can come across as a reprimand vs a reminder if one does not that this into account.
 
-**Example approach:** Hey I was looking for the latest info on project xyz and didn’t see anything new in the issue is it possible to find out the latest.
+**Example approach:** Hey I was looking for the latest info on project _xyz_ and didn’t see anything new in the issue. Is it possible to find out the latest?
 
 - This is good because you have already done your homework to see if the info is out there, you are not accusing them of anything and you are just trying to gather info. Even better add a timeline to your request if you have one so people can know how o prioritize the request appropriately.
 
