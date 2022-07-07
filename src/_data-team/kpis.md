@@ -22,6 +22,7 @@ The intention is to reduce the noise created by first time users exploring so th
 A 14 day window was used because we want to monitor on a shorter timeline, ideally 1 week, to understand how our actions are contributing to the metric but
 7 days ends up being too short potentially due to projects that run pipelines less frequently.
 Only execution events are considered for this metric meaning invoke/elt/run/test (ui doesnt execute a plugin so it gets naturally excluded even though its an execution event).
+If the execution project ID source is "random" then its not considered because we can't confidently differentiate that project from another we've already counted so we risk over counting.
 PPS is used to monitor both an increase in overall projects using Meltano as well as the variety of plugins that those projects use.
 
 For example, 10 projects using only Singer or 2 using Singer/dbt/GE/Airflow/Superset would both count as 10 "points" toward the PPS.
