@@ -51,7 +51,7 @@ The [opportunity assessment was created by Marty Cagan at Silicon Valley Product
 
 ## Roadmap Planning
 
-Each item on the [roadmap](roadmap) will be linked to an Epic.
+Each item on the [roadmap](roadmap) will be linked to an OKR.
 
 On the first and third monday of the month, the Head of Product and Head of Engineering will meet to validate the current state of the roadmap.
 This will be a high-level discussion around progress on current items and negotiation on inclusion of items for current and upcoming months.
@@ -63,6 +63,21 @@ Key questions to ask are:
 - Of the upcoming items on the roadmap, are they spec'ed out enough?
 
 Issues that are related to Roadmap items should have the `Roadmap` label.
+
+## Crossfunctional Feature Prioritization
+
+When any work needs to be prioritized that is not specifically a roadmap featue, use the following process.
+
+### Marketing:
+- Marketing work that needs to be prioritized by Product or Engineering must have an issue associated with it. Add the relevant labels below so triage can be streamlined. 
+The issue should get added to the [Product Roadmap board](https://github.com/orgs/meltano/projects/4/) by the requestor.
+- Once added to the board, it will be considered a priority for marketing and enter  **The Process**  to get worked on by an engineer.
+-   Once it's ready to be worked on by an Engineer, it will then get added to the Engineering Assignments board and assigned to an iteration and an engineer for working on.
+
+#### Marketing Traige Labels:
+-   `content review`
+-   `needs-engineering`
+-   `Marketing Priority`
 
 ## MR First
 
