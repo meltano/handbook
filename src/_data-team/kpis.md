@@ -12,10 +12,10 @@ A Key Performance Indicator (KPI) is a way to measure and understand progress to
 
 Certain KPIs are considered Health Metrics, which means we actively monitor them and alarm on them and take action when and if they fall out of expected range. Otherwise we may or may not have goals or initiatives associated with their outputs.
 
-## Projects x Plugins Score (PPS)
+## Projects x Plugins Score (PXP)
 
-Meltano's primary strategic goal is to achieve our vision towards product-market fit for Meltano as the DataOps platform infrastructure.
-Our primary metric for measuring progress towards this goal is the number of projects times the amount of plugins categories that they use.
+Meltano's primary strategic goal is to achieve product-market fit for Meltano as the DataOps Platform Infrastructure.
+Our primary metric for measuring progress towards this goal is the number of projects times the amount of plugins categories used in each project.
 
 The metric is aggregated daily over a 14 day rolling window excluding executions that are within 7 days of their first event.
 The intention is to reduce the noise created by first time users exploring so the metric more closely tracks long term users.
@@ -25,7 +25,7 @@ Only execution events are considered for this metric meaning invoke/elt/run/test
 If the execution project ID source is "random" then its not considered because we can't confidently differentiate that project from another we've already counted so we risk over counting.
 PPS is used to monitor both an increase in overall projects using Meltano as well as the variety of plugins that those projects use.
 
-For example, 10 projects using only Singer or 2 using Singer/dbt/GE/Airflow/Superset would both count as 10 "points" toward the PPS.
+For example, 10 projects using only Singer (1 plugin category) or 2 projects using Singer + dbt + GE + Airflow + Superset (5 categories) would both count as 10 "points" toward the PXP.
 
 This metric is used to monitor both the active user base in general as well as the variety of plugins that those projects use.
 This metric encourages us to both grow the existing user base while also encouraging users to increase the variety of plugins they use.
