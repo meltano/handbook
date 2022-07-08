@@ -17,19 +17,20 @@ Certain KPIs are considered Health Metrics, which means we actively monitor them
 Meltano's primary strategic goal is to achieve product-market fit for Meltano as the DataOps Platform Infrastructure.
 Our primary metric for measuring progress towards this goal is the number of projects times the amount of plugins categories used in each project.
 
+For example, 10 projects using only Singer (1 plugin category) or 2 projects using Singer + dbt + GE + Airflow + Superset (5 categories) would both count as 10 "points" toward the PXP.
+
+This metric is used to monitor both the active user base in general as well as the variety of plugins that those projects use.
+This metric encourages us to both grow the existing user base while also encouraging users to increase the variety of plugins they use.
+This means the existing projects implemented pre-2.0 only using EL still positively contribute to this metric.
+
+#### Implementation Details
+
 The metric is aggregated daily over a 14 day rolling window excluding executions that are within 7 days of their first event.
 The intention is to reduce the noise created by first time users exploring so the metric more closely tracks long term users.
 A 14 day window was used because we want to monitor on a shorter timeline, ideally 1 week, to understand how our actions are contributing to the metric but
 7 days ends up being too short potentially due to projects that run pipelines less frequently.
 Only execution events are considered for this metric meaning invoke/elt/run/test (ui doesnt execute a plugin so it gets naturally excluded even though its an execution event).
 If the execution project ID source is "random" then its not considered because we can't confidently differentiate that project from another we've already counted so we risk over counting.
-PPS is used to monitor both an increase in overall projects using Meltano as well as the variety of plugins that those projects use.
-
-For example, 10 projects using only Singer (1 plugin category) or 2 projects using Singer + dbt + GE + Airflow + Superset (5 categories) would both count as 10 "points" toward the PXP.
-
-This metric is used to monitor both the active user base in general as well as the variety of plugins that those projects use.
-This metric encourages us to both grow the existing user base while also encouraging users to increase the variety of plugins they use.
-This means the existing projects implemented pre-2.0 only using EL still positively contribute to this metric.
 
 ## APP - Average Plugin Types per Project
 
@@ -40,7 +41,7 @@ We want to increase APP but it's as much a tool to aid in prioritization as it i
 This metric is intending to understand the variety and depth of plugins used by Meltano projects, although it has the side affect of being skewed by spikes in new projects that
 haven't been around long enough to onboard a variety of plugins yet or by the cohort of projects using Meltano only for EL.
 
-Similar to PPS this metric is aggregated daily over a 14 day rolling window, excluding executions that are within 7 days of their first event, and only considered execution events.
+Similar to PXP this metric is aggregated daily over a 14 day rolling window, excluding executions that are within 7 days of their first event, and only considered execution events.
 This metric is intending to understand the variety and depth of plugins used by Meltano projects, although it has the side affect of being skewed by spikes in new projects that
 haven't been around long enough to onboard a variety of plugins.
 
