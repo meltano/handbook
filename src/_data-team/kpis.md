@@ -25,10 +25,10 @@ This means the existing projects implemented pre-2.0 only using EL still positiv
 
 #### Implementation Details
 
-The metric is aggregated daily over a 14 day rolling window excluding executions that are within 7 days of their first event.
+The metric is aggregated daily over a 28 day rolling window excluding executions that are within 7 days of their first event.
+This means that projects that are abandoned within 7 days are never accounted for in this metric.
 The intention is to reduce the noise created by first time users exploring so the metric more closely tracks long term users.
-A 14 day window was used because we want to monitor on a shorter timeline, ideally 1 week, to understand how our actions are contributing to the metric but
-7 days ends up being too short potentially due to projects that run pipelines less frequently.
+One reason we chose a 28 day window was because we want to make sure we account for plugins that are less frequently executed like Airflow or Superset.
 Only execution events are considered for this metric meaning invoke/elt/run/test (ui doesnt execute a plugin so it gets naturally excluded even though its an execution event).
 If the execution project ID source is "random" then its not considered because we can't confidently differentiate that project from another we've already counted so we risk over counting.
 
