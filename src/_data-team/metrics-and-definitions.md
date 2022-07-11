@@ -105,3 +105,11 @@ The list includes invoke/elt/run/test/ui.
 Some plugins have many implementations (different from variants) but represent the same underlying plugin category so we want to group them for reporting purposes.
 For example the `singer` plugin category is used to represented the entire catalog of taps and targets and `dbt` has adapter specific plugins (i.e. `dbt-snowflake`, `dbt-postgres`, etc).
 These all get rolled up into their respective plugin category.
+
+#### Pipeline
+
+A pipeline is an execution by a project of 1 or more plugins using either the `meltano run` or `meltano elt` command.
+Pipelines are also distinct to environment, meaning the same set of plugins run in cicd vs prod vs no environment are considered distinct pipelines.
+The unique combination of plugins also considers the use of [plugin commands](https://docs.meltano.com/concepts/project#plugin-commands) due to the fact that many pipeline specific arguments are set using custom commands.
+For example using `meltano --environment=prod run tap-csv target-postgres dbt-snowflake:stage` is distinct from `meltano --environment=prod run tap-csv target-postgres dbt-snowflake:all` due to the `stage` vs `all` dbt command doing potentially very different things.
+The decision to not consider `invoke` commands as pipelines was because `invoke` is primarily used for adhoc executions whereas pipelines are usually scheduled and recurring.
