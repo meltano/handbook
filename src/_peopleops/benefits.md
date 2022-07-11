@@ -180,7 +180,7 @@ We want you to be comfortable and productive wherever you choose to work. With t
 
 We are first and foremost all-remote, in that we do not have any offices, but we understand that some people prefer or need an out of home office option. We allow team members to expense up to $500/month no questions asked. Anything beyond that requires manager approval (and evidence that the choice of coworking space is reasonable and within market rate).
 
-### Self Care of Yourself Stipend
+### Self Care Stipend
 
 $50 a month to do something to nourish yourself. This can be a gym class, a meditation app or a lunch delivered.
 
