@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Meltano Style Guide"
+weight: 2
+---
+
 # Meltano Style Guide
 This style guide is designed to address common writing issues and questions, and to provide tips to help us standardize and improve our messaging documents. It also provides specific guidance regarding Meltano’s brand, tone, and voice. For a general overview of the company’s brand personality (including Melty the Dragon), tone of voice, brand resources, and logos and artwork, [consult the Meltano Brand Kit](https://handbook.meltano.com/marketing/brand).
 
@@ -34,8 +40,8 @@ As Meltano’s voice and tone further develops over time, here are some helpful 
 |Passive voice|Active voice  |
 |--------|--|
 | The solution was installed by the vendor       |The vendor installed the solution.  |
-|  The following benefits were realized by the company.      |The company realized the following benefits.  |
-|  The latest announcements were posted to Slack by Pat.      |Pat posted the latest announcements to Slack.  |
+| The following benefits were realized by the company.      |The company realized the following benefits.  |
+| The latest announcements were posted to Slack by Pat.      |Pat posted the latest announcements to Slack.  |
 
 ### Things to avoid and other guidance:    
 
@@ -58,7 +64,7 @@ As Meltano’s voice and tone further develops over time, here are some helpful 
   
 8. **Sentences and paragraphs:** As a general guideline, try to keep sentences to 25-to-30 words and paragraphs to three-to-four sentences. Use bullets to break up long blocks of text.
 
-Use gender and power-neutral language.
+9. Use gender and power-neutral language.
 |Gender noun/pronoun| Alternative |
 |--------|--|
 |  Man   | Person, individual |
@@ -69,7 +75,7 @@ Use gender and power-neutral language.
 |  Manpower   | Labor |
 |  Common man    | Common person |
 
-9. Follow individual guidance for personal pronouns:
+10. Follow individual guidance for personal pronouns:
     
 	1.  She/her
 	    
@@ -77,15 +83,15 @@ Use gender and power-neutral language.
 	    
 	3.  They/them  
 
-10. Don’t use words that express archaic power dynamics:
+11. Don’t use words that express archaic power dynamics:
     
 |Correct| Incorrect |
 |--------|--|
 |  The master spreadsheet| The main spreadsheet |
 
-11. **Cut or revise run-on sentences:** Vary your sentence lengths, but in general, aim for sentences that are 25-to-30 words or less. As workarounds for a long sentence, you can divide it into two sentences or insert a semicolon between its two clauses.
+12. **Cut or revise run-on sentences:** Vary your sentence lengths, but in general, aim for sentences that are 25-to-30 words or less. As workarounds for a long sentence, you can divide it into two sentences or insert a semicolon between its two clauses.
  
-12. Avoid wordiness.
+13. Avoid wordiness.
 
 |     Word or phrase                                                                         | Substitute                                    |
 | ------------------------------------------------------------------------------------------ | --------------------------------------------- |
