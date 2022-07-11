@@ -27,8 +27,8 @@ We aim to keep this list limited to 3 company-wide goals, and promote [future OK
 - Timeframe: By 2022-07-31
 - Initiatives: pending a [new GitHub process to track initiatives](https://github.com/meltano/handbook/issues/277)
 - Key Results:
-  - [KR: Increase APP](https://github.com/meltano/internal-general/issues/217)
-    - [APP Metric Definition](/data-team/kpis#app---average-plugin-types-per-project)
+  - [KR: Increase PXP](https://github.com/meltano/internal-general/issues/426)
+    - [PXP Metric Definition](/data-team/kpis#projects-x-plugins-score-pxp)
   - [KR: Increase usage of `orchestrator` plugins](https://github.com/meltano/internal-general/issues/220)
   - [KR: Increase usage of `transformer` plugins](https://github.com/meltano/internal-general/issues/219)
   - [KR: Increase usage of `utility` plugins linked to `BI` or `analyze` functions](https://github.com/meltano/internal-general/issues/218)
