@@ -6,6 +6,10 @@ weight: 2
 
 This page highlights Meltano's most important strategic objectives, as a means for everyone in the company to align their efforts with important company-wide priorities. This gives teams a framework to contextualize and measure their contributions towards our stated objectives, and to determine the relative priority between different tasks to ensure that limited time is spent in the most impactful way.
 
+## Strategy
+
+In a follow-up post to Douwe's introduction of Meltano's [mission and vision](https://meltano.com/blog/meltano-the-strategic-foundation-of-the-ideal-data-stack/), our Head of Product & Data Taylor Murphy lays out the [company and product strategy](https://meltano.com/blog/our-strategy-to-achieving-meltanos-ambitious-mission-and-vision/) that will get us there.
+
 ## What is an OKR?
 
 Every company defines and tracks OKRs differently. The common ground for any OKR framework is a focus on three core components:

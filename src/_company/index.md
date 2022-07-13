@@ -34,17 +34,26 @@ To learn more about this mission, check out this [detailed blog post](https://me
 
 ## Vision
 
-Our vision is for Meltano to become **the foundation of every team's ideal data stack**.
+Our vision is for Meltano to become **the foundation of every team's ideal data platform**.
 
-More concretely, we are building an **open source DataOps OS** that will bring the benefits of software development best practices such as DevOps and open source to the entire data lifecycle.
+More concretely, we are building **open source DataOps Platform Infrastructure** that will bring the benefits of software development best practices such as DevOps and open source to the entire data lifecycle.
 
 To learn more about this vision, check out this [detailed blog post](https://meltano.com/blog/meltano-the-strategic-foundation-of-the-ideal-data-stack/#vision) by our CEO Douwe Maan.
 
-## Strategy
+## Persona and Problem
 
-In a follow-up post to Douwe's introduction of Meltano's [mission and vision](https://meltano.com/blog/meltano-the-strategic-foundation-of-the-ideal-data-stack/), our Head of Product & Data Taylor Murphy lays out the [company and product strategy](https://meltano.com/blog/our-strategy-to-achieving-meltanos-ambitious-mission-and-vision/) that will get us there.
+Our mission and vision are broad. To be able to achieve them, we must find product-market fit with a targeted profile of users so that we can build a sustainable business and continue to grow. 
 
-You can learn more about our strategy on the [Strategic Goals](strategy) page.
+Our target persona are mid- to senior-level Data Engineers who work for companies with 30-200 people and are likely the only data professional in their company.
+
+The problem we are solving for them is that they are in the process of setting up a new data platform that will enable their organization to generate valuable insights, but they are dissatisfied with their previous experience and want a solution that addresses many of the problems they encountered as their previous platform attempted to change and grow. Their previous experience likely include:
+
+* an inability to try new tools and difficulty in integrating them into their platform
+* a lack of confidence when making any changes to the platform, particularly in GUI-based tools
+* difficulties in deploying, managing, and integrating multiple disparate tools 
+* a lack of control and insight into how their data platform truly works
+
+This focus on a specific person and problem will enable us to have a clear [company strategy](/strategy) and [product roadmap](/product/roadmap).
 
 ## History
 
