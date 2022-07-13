@@ -46,7 +46,7 @@ Our mission and vision are broad. To be able to achieve them, we must find produ
 
 Our target persona are mid- to senior-level Data Engineers who work for companies with 30-200 people and are likely the only data professional in their company.
 
-The problem we are solving for them is that they are in the process of setting up a new data platform that will enable their organization to generate valuable insights, but they are dissatisfied with their previous experience and want a solution that addresses many of the problems they encountered as their previous platform attempted to change and grow. Their previous experience likely include:
+The problem we are solving for them is that they are in the process of putting together a new data stack that will enable their organization to generate valuable insights, but they are dissatisfied with their previous experience and want a solution that addresses many of the problems they encountered as their previous platform attempted to change and grow. Their previous experience likely include:
 
 * an inability to try new tools and difficulty in integrating them into their platform
 * a lack of confidence when making any changes to the platform, particularly in GUI-based tools
