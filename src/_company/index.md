@@ -34,7 +34,7 @@ To learn more about this mission, check out this [detailed blog post](https://me
 
 ## Vision
 
-Our vision is for Meltano to become **the foundation of every team's ideal data platform**.
+Our vision is for Meltano to be **the foundation of every team's ideal data platform**.
 
 More concretely, we are building **open source DataOps Platform Infrastructure** that will bring the benefits of software development best practices such as DevOps and open source to the entire data lifecycle.
 
