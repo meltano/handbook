@@ -137,6 +137,10 @@ This [article from BVP](https://www.bvp.com/atlas/roadmap-data-infrastructure/) 
 - [Feast](https://github.com/feast-dev/feast) - ML Feature Store
 - [fal](https://github.com/fal-ai/fal) - run python scripts from dbt
 - [MetricFlow](https://github.com/transform-data/metricflow) - Metrics layer
+- [MindsDB](https://mindsdb.com) - In-Database Machine Learning
+- [Orchest](https://www.orchest.io) - Visual data pipeline editor and orchestrator
+- [data-diff](https://github.com/datafold/data-diff) - A command-line tool and Python library to efficiently diff rows across two different databases
+- [PostgresML](https://github.com/postgresml/postgresml) - Enables you to train models and make online predictions using only SQL, without your data ever leaving your favorite database
 
 Additionally, there are many "git for data" tools tracked in [this spreadsheet](https://docs.google.com/spreadsheets/d/1jGQY_wjj7dYVne6toyzmU7Ni0tfm-fUEmdh7Nw_ZH0k/edit#gid=0).
 [Project Nessie](https://projectnessie.org/) is another option not listed in the sheet.
