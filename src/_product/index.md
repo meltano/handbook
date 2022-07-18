@@ -68,20 +68,22 @@ Issues that are related to Roadmap items should have the `Roadmap` label.
 
 When any work needs to be prioritized that is not specifically a roadmap featue, use the following process.
 
-### Marketing:
+### Marketing
+
 - Marketing work that needs to be prioritized by Product or Engineering must have an issue associated with it. Add the relevant labels below so triage can be streamlined. 
 The issue should get added to the [Product Roadmap board](https://github.com/orgs/meltano/projects/4/) by the requestor.
 - Once added to the board, it will be considered a priority for marketing and enter  **The Process**  to get worked on by an engineer.
--   Once it's ready to be worked on by an Engineer, it will then get added to the Engineering Assignments board and assigned to an iteration and an engineer for working on.
+- Once it's ready to be worked on by an Engineer, it will then get added to the Engineering Assignments board and assigned to an iteration and an engineer for working on.
 
-#### Marketing Traige Labels:
--   `content review`
--   `needs-engineering`
--   `Marketing Priority`
+#### Marketing Triage Labels
 
-## MR First
+- `content review`
+- `needs-engineering`
+- `Marketing Priority`
 
-If you want to make an improvement to Meltano you don't have to wait for Product approval, kick-off some long convoluted dicsussion, or worry about stepping on anyone's toes. Submit a Merge Request (MR) with your proposed changes and we can iterate from there.
+## PR First
+
+If you want to make an improvement to Meltano you don't have to wait for Product approval, kick-off some long convoluted dicsussion, or worry about stepping on anyone's toes. Submit a Pull Request (PR) with your proposed changes and we can iterate from there.
 
 ## "AND not OR" Mentality
 

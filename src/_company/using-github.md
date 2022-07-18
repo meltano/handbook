@@ -30,42 +30,19 @@ In line with our [Together we thrive](/company/values#together-we-thrive) value,
 
 ## Useful Project Boards
 
-<!--  THESE ARE WHAT WE HAD WHEN THIS SECTION LISTED GITLAB ISSUE BOARDS - PRESERVED HERE SO WE CAN REPLICATE WHERE POSSIBLE:
-- [Development Flow](https://gitlab.com/groups/meltano/-/boards/536761), with a column for each `flow::` label. Don't forget to filter by milestone, and/or assignee!
-- [Engineering Assignments](https://gitlab.com/groups/meltano/-/boards/3546394?not[label_name][]=valuestream::Business+Operation&not[label_name][]=kind::Non-Product&iteration_id=Current) - useful for understanding the WIP for engineers in the company.
-- [Iterations](https://gitlab.com/groups/meltano/-/boards/3831997?not[label_name][]=valuestream::Business+Operation&not[label_name][]=kind::Non-Product) - useful for understanding development scheduled on a weekly basis
-- [Kind](https://gitlab.com/groups/meltano/-/boards/2917606) - useful for understanding the distribution of work across the different flow types (Bug, Feature, etc.)
-- [Value Stream](https://gitlab.com/groups/meltano/-/boards/2917637) - useful for understanding the distribution of work across the different product areas of Meltano
-- [Urgency](https://gitlab.com/groups/meltano/-/boards/2917749) - useful for understanding the overall priority of issues in a milestone.
-- [Milestone](https://gitlab.com/groups/meltano/-/boards/1933232) - used to move issues easily between milestones.
-- [Office Hours](https://gitlab.com/groups/meltano/-/boards/2923184) - used to tee up issues for community discussion and review, generally directly
-  before and/or after implementing an important user-facing feature.
-- [Demo Day](https://gitlab.com/groups/meltano/-/boards/3650469) - used to better plan what will be presented from the Meltano team and community
--->
+- [Product Roadmap](https://github.com/orgs/meltano/projects/4/) - Used to understand the high level priorities for Product
 - [Engineering Assignment](https://github.com/orgs/meltano/projects/3) - Useful for understanding the WIP for engineers in the company.
 - [Iterations](https://github.com/orgs/meltano/projects/3/views/4) - Engineering assignments by iteration.  Useful for understanding development scheduled on a weekly basis
+- [Office Hours](https://github.com/orgs/meltano/projects/9) - used to tee up issues for community discussion and review, generally directly
 
-<!-- DOES NOT EXIST IN GITHUB?
-
-## Epics
-
-When appropriate, house an issue under an existing epic: <https://gitlab.com/groups/meltano/-/epics>
-
-New epics can be created for topics or efforts that will take multiple issues over multiple sprints.
---> 
 ## Labels
 
-### Flow Labels
+Labels are managed via the [Meltano Labelsync](https://github.com/meltano/meltano-labelsync/) repository.
+Each label is defined in the [labelsync.yml file](https://github.com/meltano/meltano-labelsync/blob/main/labelsync.yml). 
 
-Every open issue _with a sprint milestone_ should have a `flow` label:
-
-- `flow::Triage` : We are considering removing this label.
-- `flow::To Do`: The issue is refined, assigned, and ready to be worked on
-- `flow::Doing`: Currently being worked on
-- `flow::Blocked`: Blocked by some other issue
-- `flow::Review`: Currently in review
-
-These labels do not indicate urgency and should only be used to indicate the work status.
+New labels should not be made via the GitHub UI, instead a PR should be opened to the YAML file and go through the review process.
+Instructions for how to structure the YAML file are in the [README of the repository](https://github.com/meltano/meltano-labelsync/).
+Once merged, LabelSync will handle creation, renaming, and deletion of labels.
 
 ### Refinement Labels
 
@@ -78,32 +55,32 @@ We have 2 labels to indicate that something is prioritized but needs more refine
 
 We have 5 urgency labels:
 
-- `urgency::low`
-- `urgency::default`
-- `urgency::high`
-- `urgency::higher`
-- `urgency::highest`
+- `urgency/Low`
+- `urgency/Default`
+- `urgency/High`
+- `urgency/Higher`
+- `urgency/Highest`
 
-The majority of issues should have the `urgency::default` label, which is a sign that we are accomplishing [the important as well as the urgent](https://www.mindtools.com/pages/article/newHTE_91.htm).
-The `urgency::low` tag can optionally be used to indicate issues that should be the first to be deprioritized.
+The majority of issues should have the `urgency/Default` label, which is a sign that we are accomplishing [the important as well as the urgent](https://www.mindtools.com/pages/article/newHTE_91.htm).
+The `urgency/Low` tag can optionally be used to indicate issues that should be the first to be deprioritized.
 
-Issues with the `urgency::default` label, or no urgency label at all, in a milestone have a ~80% chance of being completed within a milestone.
-Issues with the `urgency::low` label have a ~50% chance of being completed within a milestone.
-We aim to close 100% of issues with `urgency::high` or above within the milestone.
+Issues with the `urgency/Default` label, or no urgency label at all, in a milestone have a ~80% chance of being completed within a milestone.
+Issues with the `urgency/Low` label have a ~50% chance of being completed within a milestone.
+We aim to close 100% of issues with `urgency/High` or above within the milestone.
 
-The `urgency::highest` should be resolved for urgent user-facing issues such as the website going down - and should be resolved within 24 hours or less.
+The `urgency/Highest` should be resolved for urgent user-facing issues such as the website going down - and should be resolved within 24 hours or less.
 If an issue of this type is moved to another milestone because it was not completed, the urgency should most likely be increased.
 
-If there is an issue of particular interest, add the `urgency::high` label to it and leave a comment tagging Taylor with a note explaining why you believe it's a high urgency.
+If there is an issue of particular interest, add the `urgency/High` label to it and leave a comment tagging Taylor with a note explaining why you believe it's a high urgency.
 
 ### Kind Labels
 
 All issues should have a label indicating its kind:
 
-- `kind::Bug`
-- `kind::Feature`
-- `kind::Tech Debt`
-- `kind::Risk`
+- `kind/Bug`
+- `kind/Feature`
+- `kind/Tech Debt`
+- `kind/Risk`
 
 These kinds map onto the [Flow Framework](https://flowframework.org/) items of Feature, Defect, Debt, and Risk.
 These are meant to be mutually exclusive and collectively exhaustive, meaning an issue will have 1 and only 1 of these labels.
@@ -129,14 +106,14 @@ It is the responsibility of the Product team to add this label, but Engineers ar
 
 All issues should have a label indicating its value stream:
 
-- `valuestream::Meltano`
-- `valuestream::Hub`
-- `valuestream::SDK`
-- `valuestream::Academy`
-- `valuestream::Ecosystem` - This is a bit of a catchall for general "community" type work that benefits the Meltano and Singer communities but does not neatly fit into another value stream.
+- `valuestream/Meltano`
+- `valuestream/Hub`
+- `valuestream/SDK`
+- `valuestream/Academy`
+- `valuestream/Ecosystem` - This is a bit of a catchall for general "community" type work that benefits the Meltano and Singer communities but does not neatly fit into another value stream.
 
 These map to our "product lines" and are used to understand allocation of work across the value streams.
-There is an additional label for filtering purposes: `valuestream::BusinessOperation` which is used for administrative and business-related issues.
+There is an additional label for filtering purposes: `valuestream/BusinessOperation` which is used for administrative and business-related issues.
 
 These value streams are inspired by the [Flow Framework](https://flowframework.org/) and are useful for understanding every bit of work that goes into the products that deliver value for users and, eventually, customers.
 
@@ -159,13 +136,10 @@ We want a way to indicate the part of Meltano specifically that the work applies
 
 ### Community Engagement and Marketing Labels
 
-- `Accepting Merge Requests` for issues that are ready to be picked up by a community contributor
+- `Accepting Pull Requests` for issues that are ready to be picked up by a community contributor
 - `Marketing::Blog Feature` for issues which we think may deserve a blog post feature, and/or other promotion on social channels
-- `Community-Contributed MRs` for issues which have attached MRs from the community (used in prioritization and monitoring)
-- `Awaiting Action::Author` for community-contributed issues and MRs which are pending an action from the original author
-- `Office Hours::Up Next` for Office Hours to indicate what's coming next
-- `Office Hours::To Discuss` for Office Hours to indicate what's planned for the closest meeting
-- `Office Hours::Discussed` for Office Hours to indicate what has previously been discussed
+- `Community-Contributed PRs` for issues which have attached MRs from the community (used in prioritization and monitoring)
+- `Awaiting Action/Author` for community-contributed issues and MRs which are pending an action from the original author
 - `Demo Day::Up Next` for Demo Day to indiciate things people would like to Demo
 - `Demo Day::To Share` for Demo Day to indicate was is planned to be shared at the next meeting
 - `Demo Day::Shared` for Demo Day to indicate what has been previously shared
@@ -186,26 +160,13 @@ New labels can be created as appropriate at the Group Level and should be docume
 
 ## Milestones
 
-[Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones) are used to track progress on groups of issues or pull requests within a repository.  They are defined at the repository level.
+[Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones) are used to track progress on groups of issues or pull requests within a repository.  
+They are defined at the repository level.
 
 ### Useful milestones
 
 - [Meltano repository](https://github.com/meltano/meltano/milestones)
 - [Hub repository](https://github.com/meltano/hub/milestones)
-
-<!-- NOT SURE HOW TO BEST UPDATE THIS:
-### Best Practices
-
-At the end of every dated milestone, the Product team will roll all issues to the next dated milestone.
-Issues in a monthly milestone will go to the next month, and the same for quarterly dated milestones.
-The milestone will then be closed.
-
-Every open issue should have a [milestone](https://gitlab.com/groups/meltano/-/milestones).
-If something we want to happen eventually is not a priority yet, use `Backlog`.
-If there is an issue we want to start prioritizing, there is a `Staging` milestone which can be used to alert the Product Lead that this is something we'd like to move into an upcoming milestone or iteration.
-If we don't want it to happen, close the issue.
-
-Issues that are in a dated milestone indicate the "rough delivery window" of when we aim to deliver the issue. -->
 
 ## Iterations
 
@@ -215,7 +176,7 @@ New iterations are created about 6 weeks in advance as part of preparation for t
 
 Check out the GitHub documentation on [Iterations](https://docs.github.com/en/enterprise-cloud@latest/issues/trying-out-the-new-projects-experience/managing-iterations) to better understand the differences between iterations and milestones.
 
-### Best Practices
+### Iteration Best Practices
 
 The Product team manages all iterations.
 They can only be made at the project level, they always have a start and end date, and the date ranges cannot overlap.
@@ -275,11 +236,11 @@ Again, this may inform prioritization.
 
 By the end of day Friday, or the last day of their work week, everyone is expected to:
 
-1. Update the flow label to reflect an accurate status.
+1. Update the Status of their issues in the [Engineering Assignments project](https://github.com/orgs/meltano/projects/3/views/21) to reflect an accurate status.
 2. Close any completed items.
-3. Add a progress comment to issues which have the `flow:Doing` label.
-4. Issues with the `flow:Review` label will be expected to be closed out once review completes.
+3. Add a progress comment to issues which have the `In Progress` status.
+4. Issues with the `In Review` status will be expected to be closed out once review completes.
    - No need to add a progress comment since action items should be self-documenting.
-   - If review is not progressing due to other factors, a `flow:Blocked` label may be appropriate.
+   - If review is not progressing due to other factors, a `Needs Assist` status may be appropriate.
 
 This is in preparation for the Product milestone review and [Weekly Kickoff](/product/#weekly-kickoff) on Monday.
