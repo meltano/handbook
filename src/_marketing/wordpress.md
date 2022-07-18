@@ -71,3 +71,5 @@ Before adding a partner, have the Partner fill out the [Meltano Partner Submissi
 1. A right-hand menu should pop up with properties for the card slider box. Select "Cards Content" from the accordion list.
 1. Edit the values as needed. You can add images or select images from our media library to use.
 1. Click `Update` to make your changes live.
+
+## Blog
