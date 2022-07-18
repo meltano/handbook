@@ -42,7 +42,7 @@ Each label is defined in the [labelsync.yml file](https://github.com/meltano/mel
 
 New labels should not be made via the GitHub UI, instead a PR should be opened to the YAML file and go through the review process.
 Instructions for how to structure the YAML file are in the [README of the repository](https://github.com/meltano/meltano-labelsync/).
-Once merged, LabelSync will handle creation, renaming 
+Once merged, LabelSync will handle creation, renaming, and deletion of labels.
 
 ### Refinement Labels
 
