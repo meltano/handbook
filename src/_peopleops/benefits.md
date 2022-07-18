@@ -145,9 +145,27 @@ Meltano contributes separately to employees' and dependents' premiums:
 - Employee: Meltano covers up to 100% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
 - Dependents: Meltano covers up to 50% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
 
+##### As of September 1, 2022 medical benefits will change to:
+
+- Base Plan: 
+  - [Blue Choice Gold PPO 117](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/bcbs/plans/2022/bcbs_blue_choice_gold_ppo_117.pdf)
+- Alternatives:
+  - [Blue Choice Silver PPO 201](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/bcbs/plans/2022/bcbs_blue_choice_silver_ppo_201.pdf)
+  - [Blue Choice Platinum PPO 810](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/bcbs/plans/2022/bcbs_blue_choice_platinum_ppo_810.pdf)
+  - [Blue Choice Silver PPO 120 (HDHP)](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/bcbs/plans/2022/bcbs_blue_choice_silver_ppo_120_hdhp.pdf)
+
+##### FSA and HSA
+
+- Flexible Spending Account (FSA) is offered and can be used with PPO Plans 117, 201 and 810
+- Health Savings Account is offered and can only be used with the PPO 120 (HDHP) option
+  - Both plans are subject to the most current IRS limits set forth for both employees and their dependents  
+
 ##### Dental
 
 - [Principal Dental Plan 4](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/principal/plans/2016/principal_tx_principal_dental_plan_4.pdf)
+
+As of September 1, 2022 our dental plan will change to:
+- [Guardian EM Dental 13](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/guardian/plans/2022/guardian_guardian_em_dental_13_tx.pdf)
 
 ##### Vision
 
