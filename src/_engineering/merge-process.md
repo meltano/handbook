@@ -11,6 +11,8 @@ A merge request that touches code is never trivial, but one that fixes a typo in
 
 Trivial updates, such as docs updates, do not require a logged issue.
 
+Outside of very trivial issues like typo's, if a PR is opened *without* an associated issue, the PR description should then briefly explain why the PR is needed or what led to its creation.
+
 ## PR Review Process
 
 All team members are encouraged to review community contributions. However,
