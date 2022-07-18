@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Head of Product & Data (Taylor)
-weight: 2
+weight: 10
 ---
 
 ## What is this page?

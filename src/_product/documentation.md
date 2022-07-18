@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Product Documentation"
-weight: 2
+title: "Documentation"
+weight: 3
 ---
 
 ## Documentation
