@@ -76,6 +76,6 @@ Before adding a partner, have the Partner fill out the [Meltano Partner Submissi
 1. Navigate to the [Insights] (https://meltano.com/wp-admin/edit.php) page.
 2. Enter the name of the blog post you want to hide in the upper-right-hand search bar. 
 3. Click on the post to open it.
-4. Under the 'Status and visibility" heading, click on 'Public' and change it to 'Private' '(Only visible to site admins and editors).' 
-5. Click on 'Update"' to save your changes. 
+4. Under the 'Status and visibility' heading, click on 'Public' and change it to 'Private'. '(Only visible to site admins and editors)' 
+5. Click on 'Update' to save your changes. 
 
