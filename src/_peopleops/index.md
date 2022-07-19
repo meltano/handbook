@@ -66,9 +66,11 @@ We expect Meltano team members to take responsibility to determine what they nee
 1. You don't have to [ask permission](https://m.signalvnoise.com/if-you-ask-for-my-permission-you-wont-have-my-permission-9d8bb4f9c940) before making purchases **in the interest of the company**. When in doubt, do **inform** your manager prior to the purchase, or as soon as possible after the purchase.
 1. It is generally easiest and fastest for you to make any purchases for office supplies yourself and expense them. If you are unable to pay for any supplies yourself, please reach out to your manager or the Operations Analyst to ask that they make the purchase on your behalf.
 1. You may privately use Meltano property (e.g. MacBook), to check your private e-mails, or watch a movie as long as it does not violate the law, harm Meltano, or interfere with Intellectual Property.
-1. If you make a purchase that will cost Meltano $1000 USD per item (or over), this is classed as company property, you will be required to return the item(s) if you leave the company.
-1. Any non-company expenses should not be paid with a company credit card.
-1. If team members submit expenses for reimbursement for personal purchases that are not covered in the expense policy, this is a violation of our Code of Business Conduct & Ethics.
+1. Any purchase that will cost Meltano $1000 USD per item (or over) is classed as company property.  Any such items will need to be tracked by Operations.
+   1. After an approved purchase, the item description and serial number will need to be provided to the Head of Operations.  One good way to do this is via the notes section in an expense report.
+   2. You will be required to return these item(s) if you leave the company. 
+3. Any non-company expenses should not be paid for with a company credit card.
+4. If team members submit expenses for reimbursement for personal purchases that are not covered in the expense policy, this is a violation of our Code of Business Conduct & Ethics.
 
 ### Reimbursement policy
 
