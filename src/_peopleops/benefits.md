@@ -212,7 +212,7 @@ We are happy to cover the cost of internet in your working place. This can be yo
 
 ## Travel Opportunities
 
-### Team offsites
+### Team offsites/Meltano Assemble
 
 Approximately every nine months, we get the whole team together somewhere on the planet for Meltano Assemble.
 Assemble 2021 took place in beautiful Mexico City. Assemble 2022 was held in Lisbon, Portugal in March, 2022.
