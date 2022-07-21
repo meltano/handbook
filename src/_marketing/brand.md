@@ -57,7 +57,7 @@ Lastly, all of this only matters if we are consistent in our approach. Consisten
 
 #### Quick guide of dos and don'ts
 
-- DO
+- **DO**
 
   - Use "you" pronouns to keep language casual (e.g. "You might find it useful to..." vs "One might find it useful to...")
   - Pair text with images or videos to ensure accessibility and clarity
@@ -65,7 +65,7 @@ Lastly, all of this only matters if we are consistent in our approach. Consisten
   - Use examples whenever possible
   - Highlight community wins and individuals
 
-- Avoid
+- **Avoid**
   - Slang
   - Swearing
   - Highly technical jargon or acronyms
