@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Embracing Singer
-weight: 2
+weight: 4
 ---
 
 To make open source data integration built on DataOps principles a reality, we have embraced [Singer](https://www.singer.io/)
