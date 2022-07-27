@@ -180,7 +180,7 @@ Please see the [Calendars](calendars) page for a list of company calendars.
 
 ## GitHub workflow best practices
 
-We use [GitHub](/company/tech-stack/#gitlab) for project management across the organization. Whether you work in engineering or marketing, GitLab will be the central tool for collaboration and delivery. To ensure end-to-end visibility and asynchronous communication, we use epics, issues, and merge requests to organize our work.
+We use [GitHub](/company/tech-stack/#github) for project management across the organization. Whether you work in engineering or marketing, GitLab will be the central tool for collaboration and delivery. To ensure end-to-end visibility and asynchronous communication, we use epics, issues, and merge requests to organize our work.
 
 As you work within GitHub, please be sure to follow these best practices:
 
