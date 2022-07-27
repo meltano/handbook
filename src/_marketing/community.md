@@ -6,26 +6,6 @@ weight: 2
 
 ## Regular Community Events & Livestreams
 
-### Office Hours
-
-Recurring office hours are available for Meltano community members to discuss our roadmap, debug issues, and ask questions. For schedules and meeting links, please check our [#office-hours](https://meltano.slack.com/archives/C01QS0RV78D) channel in <SlackChannelLink>Slack</SlackChannelLink>.
-
-#### Office Hours Workflow
-
-- Create an issue on the Marketing General project using the Office Hours issue template. The template will walk you through the steps to host office hours and provides a timeline for making announcements across various channels such as Slack and Twitter.
-
-#### Sourcing Contributors
-
-- Within the week or two leading up to the office hours, look out for at least one or two community members and corresponding topics which can benefit from synchronous communication.
-- Prep a list of contributor names so we can call them out during the session as time allows. (Use a dedicated slide with their names or aliases if warranted.)
-- Timebox rotating topics and set expectations ahead of time in the slides: e.g. 15 minutes for dedicated topic, 45 minutes for questions, debugging, AMA, etc.
-
-#### Best Practices
-
-- When discussions are in progress, drop the screenshare in order to give participants more face time.
-- Be aware that the owner's view layout (gallery or otherwise) also changes the view for others.
-- Share any relevant links in the zoom chat.
-
 ### Demo Day
 
 For each demo day, we need to ensure that the following process is followed:
