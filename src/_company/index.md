@@ -54,7 +54,7 @@ Instead, we need to start by meeting people where they are and solving the narro
 
 As such, the target persona and problem we are focused on will change over time, as the industry changes and effectively solving one set of problems earns us the right to work on the next.
 
-#### Persona
+### Persona
 
 Our current target persona is the **mid- to senior-level Data Engineer at a mid-market organization** of around 200-1000 people who works in a small data team less than five and is in the process of putting together a new data stack for their organization (its first, a rebuild, or an additional one for a different department or use case).
 While their title may not be "data engineer" exactly, they are tasked with building data pipelines and choosing and setting up the tools to do so.
