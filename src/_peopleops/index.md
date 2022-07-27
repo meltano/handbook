@@ -178,13 +178,13 @@ If alternate hardware is required, please request it during the onboarding proce
 
 Please see the [Calendars](calendars) page for a list of company calendars.
 
-## GitLab workflow best practices
+## GitHub workflow best practices
 
-We use [GitLab](/company/tech-stack/#gitlab) for project management across the organization. Whether you work in engineering or marketing, GitLab will be the central tool for collaboration and delivery. To ensure end-to-end visibility and asynchronous communication, we use epics, issues, and merge requests to organize our work.
+We use [GitHub](/company/tech-stack/#github) for project management across the organization. Whether you work in engineering or marketing, GitLab will be the central tool for collaboration and delivery. To ensure end-to-end visibility and asynchronous communication, we use epics, issues, and merge requests to organize our work.
 
-As you work within GitLab, please be sure to follow these best practices:
+As you work within GitHub, please be sure to follow these best practices:
 
-1. Directly mention (`@username`) the people you want to involve in a comment, especially the person you're replying to. Some people only work through GitLab todos (rather than email notifications), and therefore, they will only see responses to comments/threads if they're explicitly mentioned.
+1. Directly mention (`@username`) the people you want to involve in a comment, especially the person you're replying to. Some people only work through GitHub todos (rather than email notifications), and therefore, they will only see responses to comments/threads if they're explicitly mentioned.
 1. If an issue is blocked or waiting for someone's action, the issue should be assigned to those individuals.
 1. Include all relevant information, including labels, milestones, due dates, and details.
 1. Provide updates in a comment to document progress.
