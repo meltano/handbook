@@ -30,25 +30,17 @@ Each item (linked below) has a corresponding guide to promoting that activity. E
 
 --
 
-Meltano is ELT for the DataOps era: open source, self-hosted, CLI-first, debuggable, and extensible.
+Meltano is the infrastructure for the modern data stack that enables you to install, configure, manage, and deploy the tools of your choice, such as Singer, dbt, Airflow, Great Expectations, with Lightdash and Superset. Meltano also natively offers software engineering best practices to the stack by version controlling everything, enabling cross-pluging runs and testing, and isolated environments for dev and prod.
 
-Pipelines are code, ready to be version controlled, containerized, and deployed continuously. Develop and test locally, then deploy in production along with the built-in Airflow integration, or inside your orchestrator of choice.
-
-Meltano embraces the Singer standard and its community-maintained library of open source extractors and loaders, and leverages dbt for transformation.
-
-GET STARTED WITH MELTANO
-Project Home: https://meltano.com
-GitLab: https://gitlab.com/meltano/meltano
-Install Meltano: https://meltano.com/docs/installation.html
-Tutorials: https://meltano.com/tutorials/
-
-SUBSCRIBE for more videos: http://www.youtube.com/subscription_center?add_user=meltano
-
-Join Us On Slack: https://meltano.com/slack
-Blog: https://meltano.com/blog/
-GitLab: https://gitlab.com/meltano/meltano
-Twitter: https://twitter.com/meltanodata
-Newsletter: https://meltano.substack.com/
+### GET STARTED WITH MELTANO
+ - **Project Home**: https://meltano.com 
+ - **GitHub**: https://gitlab.com/meltano/meltano 
+ - **Install Meltano**: https://github.com/meltano/meltano 
+ - **Tutorials**: https://meltano.com/tutorials/
+ - **Join Us On Slack**: https://meltano.com/slack
+ - **Blog**: https://meltano.com/blog/
+ - **Twitter**: https://twitter.com/meltanodata
+ - **SUBSCRIBE for more videos**: http://www.youtube.com/subscription_center?add_user=meltano
 
 ```
 

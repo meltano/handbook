@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Merge Request (MR) Process
+title: Merge Request (PR) Process
 weight: 2
 ---
 
@@ -11,10 +11,12 @@ A merge request that touches code is never trivial, but one that fixes a typo in
 
 Trivial updates, such as docs updates, do not require a logged issue.
 
-## MR Review Process
+Outside of very trivial issues like typo's, if a PR is opened *without* an associated issue, the PR description should then briefly explain why the PR is needed or what led to its creation.
+
+## PR Review Process
 
 All team members are encouraged to review community contributions. However,
-each MR should have a single accountable reviewer, who is also approved as a CODEOWNER. That
+each PR should have a single accountable reviewer, who is also approved as a CODEOWNER. That
 reviewer can ask others in the team for feedback but they are solely accountable for the merge/approval
 decision.
 
@@ -24,20 +26,20 @@ or (b) ask another team member to take the role of primary reviewer.
 
 ## Approval Stickiness
 
-MR approvals are set (on a per-repo basis) to _not_ use the option to `Remove all approvals when commits are added to source branch`. This means approvals are "sticky" and can be requested any time during the review cycle. This also means it is the Merger's responsibility to check commit history and raise an alarm on any regressions or other concerns introduced _after_ another team member granted their approval.
+PR approvals are set (on a per-repo basis) to _not_ use the option to `Remove all approvals when commits are added to source branch`. This means approvals are "sticky" and can be requested any time during the review cycle. This also means it is the Merger's responsibility to check commit history and raise an alarm on any regressions or other concerns introduced _after_ another team member granted their approval.
 
-**Security Note:** In most cases, the closing "post-approval" tasks should be cosmetic - such as docs, linting, and changelog updates - but team members should nevertheless be on the lookout for any regressions or malicious-looking code that may have been added _after_ approvals are given and _before_ the Merge is applied. (If in doubt, please request a repeat-review from other approvers on the MR.)
+**Security Note:** In most cases, the closing "post-approval" tasks should be cosmetic - such as docs, linting, and changelog updates - but team members should nevertheless be on the lookout for any regressions or malicious-looking code that may have been added _after_ approvals are given and _before_ the Merge is applied. (If in doubt, please request a repeat-review from other approvers on the PR.)
 
-## Team-Authored MRs
+## Team-Authored PRs
 
-Team authored MRs may be reviewed by any other team member, but should also be approved by a code owner, as described below.
+Team authored PRs may be reviewed by any other team member, but should also be approved by a code owner, as described below.
 
-## Community-Contributed MRs
+## Community-Contributed PRs
 
 For community contributions, the community contributor should indicate readiness to merge and
-the core team member (primary reviewer) will approve the MR and also perform the merge.
+the core team member (primary reviewer) will approve the PR and also perform the merge.
 
-All Community-Contributed MRs should have their corresponding Issue marked with the `Community-Contributed MR` label in Gitlab. This helps in prioritization of code contributions. We aim to be responsive in all Community-Contributed MRs, as a sign of respect for the community members' contributed time and effort.
+All Community-Contributed PRs should have their corresponding Issue marked with the `Community-Contributed PR` label in Gitlab. This helps in prioritization of code contributions. We aim to be responsive in all Community-Contributed PRs, as a sign of respect for the community members' contributed time and effort.
 
 The first team member to review should assign themselves to the review and check the following are present:
 
@@ -56,7 +58,7 @@ The first team member to review should assign themselves to the review and check
 
 ### Contributing to branches on a community-member's fork
 
-Occasionally we need to help a contributor get their MR completed by contributing back to their fork. The GitLab-provided instructions are incorrect for this process. Please use the following:
+Occasionally we need to help a contributor get their PR completed by contributing back to their fork. The GitLab-provided instructions are incorrect for this process. Please use the following:
 
 #### Step 1: Author must allow edits from maintainers
 
@@ -125,8 +127,8 @@ git remote remove $FORK_ORG_NAME
 
 ## Code owners and approvers
 
-For our core repos we use a pattern of Primary/Fallback ownership, where each area of the codebase has a designated primary and secondary owners. Approval is required for both Community-Contributed MRs and Team-Authored MRs from one of these individuals.
-This can be requested either when the MR foundation is in place or as a "final check". The final approval from the Primary code owner should generally be requested _after_ the MR is otherwise "clean" - and after known action items and questions are called out in the text of the MR.
+For our core repos we use a pattern of Primary/Fallback ownership, where each area of the codebase has a designated primary and secondary owners. Approval is required for both Community-Contributed PRs and Team-Authored PRs from one of these individuals.
+This can be requested either when the PR foundation is in place or as a "final check". The final approval from the Primary code owner should generally be requested _after_ the PR is otherwise "clean" - and after known action items and questions are called out in the text of the PR.
 In the scenario where the primary code owner is also an author they must obtain approval from the "fallback" owner.
 
 Currently, we have the following owners (listed in order eg. primary, fallback):
@@ -168,19 +170,19 @@ There are three types of EM/PM approval requests:
 
 1. **Pre-approval.** In this case, approval is being requested early in the dev cycle regarding a critical design choice or spec change. Generally a tagged comment is sufficient, and "approval" may just be in the form of a comment reply.
 2. **Final approval.** In this case, you are requesting final approval before merging a completed feature into the main branch. This generally is most appropriate _after_ the default/primary approver has completed providing their own feedback.
-3. **ADR Approval.** If your MR contains an ADR, it should _always_ be approved by both EM and PM, with cc mention to @DouweM.
+3. **ADR Approval.** If your PR contains an ADR, it should _always_ be approved by both EM and PM, with cc mention to @DouweM.
 
 ## Responsibility to Merge
 
-- Core team members may merge their own MRs once necessary approval(s) are provided.
-- When nearing completion, an MR author may also invite the reviewer
+- Core team members may merge their own PRs once necessary approval(s) are provided.
+- When nearing completion, an PR author may also invite the reviewer
   to "merge if approved", in order to reduce cycles spent in back-and-forth.
 - Except in exceptional circumstances, a reviewer should not merge
-  the MR on behalf of the other team member unless invited to do so.
+  the PR on behalf of the other team member unless invited to do so.
 
 ## Continually improving Contribution Guidelines
 
-As experts catch issues in MRs that the original reviewers did not,
+As experts catch issues in PRs that the original reviewers did not,
 we will update this section and the [Contributor Guide](https://meltano.com/docs/contributor-guide.html#reviews),
 and reviewers will learn new things to look out for until they catch (almost) everything the expert would,
 at which points they will be experts themselves.
@@ -204,7 +206,7 @@ Per project or repo, these settings are found at `Settings` > `General` > `Merge
 - These options should be set as follows:
   - `Enable "Delete source branch" option by default`: `Enabled`
   - `Squash commits when merging`: `Encourage`
-  - `Merge checks: Pipelines must succeed`: `Enabled` if a CI Pipeline exists, otherwise `Disabled` to avoid infinite loop/freeze of MRs.
+  - `Merge checks: Pipelines must succeed`: `Enabled` if a CI Pipeline exists, otherwise `Disabled` to avoid infinite loop/freeze of PRs.
   - `Merge checks: All discussions must be resolved`: `Enabled`
 
 _Important: The Gitlab UI requires you to hit "Save" after making changes in this section._

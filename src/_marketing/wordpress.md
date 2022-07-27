@@ -71,3 +71,11 @@ Before adding a partner, have the Partner fill out the [Meltano Partner Submissi
 1. A right-hand menu should pop up with properties for the card slider box. Select "Cards Content" from the accordion list.
 1. Edit the values as needed. You can add images or select images from our media library to use.
 1. Click `Update` to make your changes live.
+
+**### How to hide blog posts in WordPress**
+1. Navigate to the [Insights] (https://meltano.com/wp-admin/edit.php) page.
+2. Enter the name of the blog post you want to hide in the upper-right-hand search bar. 
+3. Click on the post to open it.
+4. Under the 'Status and visibility' heading, click on 'Public' and change it to 'Private'. '(Only visible to site admins and editors)' 
+5. Click on 'Update' to save your changes. 
+

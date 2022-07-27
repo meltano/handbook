@@ -126,3 +126,7 @@ We're trialing [Dots](https://app.dots.community/) as another community CRM tool
 ## Champions
 
 There are several champions within the community that have been recognized for their contributions and support. These folks are tagged in Orbit with "champion" for now.
+
+**## Something to keep in mind when chatting with Meltano users**
+
+When we speak with Meltano users, if they share an observation about Meltano’s performance and benefits, write down what they say (verbatim) and ask them for permission to use the quote, whether fully attributed or “blinded.” Then, if you hear about any good use case stories, follow up with them and ask if we might be able to interview them and share their story.  

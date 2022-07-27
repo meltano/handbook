@@ -11,7 +11,7 @@ We're currently using [Greenhouse](https://www.greenhouse.io/) to manage the hir
 
 ### Adding New Roles
 
-- Open an issue on the [administration](https://gitlab.com/meltano/administration/) using the `new-job-creation.md` template.
+- Open an issue in the [administration](https://github.com/meltano/administration/issues) repository using the `new-job-creation.md` template.
 - Fill out necessary details. All sections are required unless they're marked optional. Having all of this information helps us get the job online and ensures all candidates are evaluated based on the same interview process. This is just an initial version of the hiring process -- it can always be iterated on.
 - A Site Admin will add the role to Greenhouse once the issue has been filled out and approved.
 - Site Admin will add the hiring manager as a job admin to this role.
@@ -66,9 +66,11 @@ We expect Meltano team members to take responsibility to determine what they nee
 1. You don't have to [ask permission](https://m.signalvnoise.com/if-you-ask-for-my-permission-you-wont-have-my-permission-9d8bb4f9c940) before making purchases **in the interest of the company**. When in doubt, do **inform** your manager prior to the purchase, or as soon as possible after the purchase.
 1. It is generally easiest and fastest for you to make any purchases for office supplies yourself and expense them. If you are unable to pay for any supplies yourself, please reach out to your manager or the Operations Analyst to ask that they make the purchase on your behalf.
 1. You may privately use Meltano property (e.g. MacBook), to check your private e-mails, or watch a movie as long as it does not violate the law, harm Meltano, or interfere with Intellectual Property.
-1. If you make a purchase that will cost Meltano $1000 USD per item (or over), this is classed as company property, you will be required to return the item(s) if you leave the company.
-1. Any non-company expenses should not be paid with a company credit card.
-1. If team members submit expenses for reimbursement for personal purchases that are not covered in the expense policy, this is a violation of our Code of Business Conduct & Ethics.
+1. Any purchase that will cost Meltano $1000 USD per item (or over) is classed as company property.  Any such items will need to be tracked by Operations.
+   1. After an approved purchase, the item description and serial number will need to be provided to the Head of Operations.  One good way to do this is via the notes section in an expense report.
+   2. You will be required to return these item(s) if you leave the company. 
+3. Any non-company expenses should not be paid for with a company credit card.
+4. If team members submit expenses for reimbursement for personal purchases that are not covered in the expense policy, this is a violation of our Code of Business Conduct & Ethics.
 
 ### Reimbursement policy
 
@@ -176,13 +178,13 @@ If alternate hardware is required, please request it during the onboarding proce
 
 Please see the [Calendars](calendars) page for a list of company calendars.
 
-## GitLab workflow best practices
+## GitHub workflow best practices
 
-We use [GitLab](/company/tech-stack/#gitlab) for project management across the organization. Whether you work in engineering or marketing, GitLab will be the central tool for collaboration and delivery. To ensure end-to-end visibility and asynchronous communication, we use epics, issues, and merge requests to organize our work.
+We use [GitHub](/company/tech-stack/#github) for project management across the organization. Whether you work in engineering or marketing, GitLab will be the central tool for collaboration and delivery. To ensure end-to-end visibility and asynchronous communication, we use epics, issues, and merge requests to organize our work.
 
-As you work within GitLab, please be sure to follow these best practices:
+As you work within GitHub, please be sure to follow these best practices:
 
-1. Directly mention (`@username`) the people you want to involve in a comment, especially the person you're replying to. Some people only work through GitLab todos (rather than email notifications), and therefore, they will only see responses to comments/threads if they're explicitly mentioned.
+1. Directly mention (`@username`) the people you want to involve in a comment, especially the person you're replying to. Some people only work through GitHub todos (rather than email notifications), and therefore, they will only see responses to comments/threads if they're explicitly mentioned.
 1. If an issue is blocked or waiting for someone's action, the issue should be assigned to those individuals.
 1. Include all relevant information, including labels, milestones, due dates, and details.
 1. Provide updates in a comment to document progress.

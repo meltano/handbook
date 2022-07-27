@@ -43,7 +43,7 @@ We offer a 1 month paid sabbatical every 2 years of your employment. All full ti
 
 Taking more than 3 weeks consecutively requires explicit approval outside of the 2-yearly sabbatical. In other words, anything up to 3 business weeks can be taken off without approval.
 
-To log time off, team members should use [PTO by Roots](/company/tech-stack/#pto-by-roots) in Slack (under Apps).  Please try to do so **at least 2 weeks** prior to the date(s) you intend to take off.
+To log time off, team members should use [PTO by Roots](/company/tech-stack/#pto-by-roots) in Slack (under Apps).  In general, please try to do so **at least 2 weeks** prior to the date(s) you intend to take off so we can plan for your absence.  Should you require time off for medical reasons, please log your absence when you know you will be out.
 
 Follow the instructions in [Tracking Time Off](/peopleops/calendars#tracking-time-off) to indicate your PTO.
 
@@ -98,9 +98,9 @@ Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company
 
 ##### Upcoming Family and Friends Days
 
-- 2022-04-15
-- 2022-06-10
-- 2022-06-24
+- 2022-07-22
+- 2022-08-19
+- 2022-09-02
 
 These dates are tracked in the [Team Meetings Calendar](calendars).
 Meltano team members should mark these days off using [PTO by Roots](/company/tech-stack/#pto-by-roots).
@@ -145,9 +145,27 @@ Meltano contributes separately to employees' and dependents' premiums:
 - Employee: Meltano covers up to 100% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
 - Dependents: Meltano covers up to 50% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
 
+##### As of September 1, 2022 medical benefits will change to:
+
+- Base Plan: 
+  - [Blue Choice Gold PPO 117](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/bcbs/plans/2022/bcbs_blue_choice_gold_ppo_117.pdf)
+- Alternatives:
+  - [Blue Choice Silver PPO 201](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/bcbs/plans/2022/bcbs_blue_choice_silver_ppo_201.pdf)
+  - [Blue Choice Platinum PPO 810](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/bcbs/plans/2022/bcbs_blue_choice_platinum_ppo_810.pdf)
+  - [Blue Choice Silver PPO 120 (HDHP)](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/bcbs/plans/2022/bcbs_blue_choice_silver_ppo_120_hdhp.pdf)
+
+##### FSA and HSA
+
+- Flexible Spending Account (FSA) is offered and can be used with PPO Plans 117, 201 and 810
+- Health Savings Account is offered and can only be used with the PPO 120 (HDHP) option
+  - Both plans are subject to the most current IRS limits set forth for both employees and their dependents  
+
 ##### Dental
 
 - [Principal Dental Plan 4](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/principal/plans/2016/principal_tx_principal_dental_plan_4.pdf)
+
+As of September 1, 2022 our dental plan will change to:
+- [Guardian EM Dental 13](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/guardian/plans/2022/guardian_guardian_em_dental_13_tx.pdf)
 
 ##### Vision
 
@@ -180,7 +198,7 @@ We want you to be comfortable and productive wherever you choose to work. With t
 
 We are first and foremost all-remote, in that we do not have any offices, but we understand that some people prefer or need an out of home office option. We allow team members to expense up to $500/month no questions asked. Anything beyond that requires manager approval (and evidence that the choice of coworking space is reasonable and within market rate).
 
-### Self Care of Yourself Stipend
+### Self Care Stipend
 
 $50 a month to do something to nourish yourself. This can be a gym class, a meditation app or a lunch delivered.
 
@@ -196,15 +214,14 @@ We are happy to cover the cost of internet in your working place. This can be yo
 
 ### Team offsites
 
-Every nine months, we get the whole team together somewhere on the planet for Meltano Assemble.
-
-Assemble 2021 took place in beautiful Mexico City. The next event will be held in Lisbon, Portugal in 2022.
-
-The name Assemble is a reference to Meltano being used to assemble a data stack/pipeline. At Assemble the entire all-remote team gathers to bond and meet face-to-face. We pick a new location every year and invite the entire team to join in for 5 days. There is nothing like meeting someone in person whom you have only ever seen virtually.
+Approximately every nine months, we get the whole team together somewhere on the planet for Meltano Assemble.
+Assemble 2021 took place in beautiful Mexico City. Assemble 2022 was held in Lisbon, Portugal in March, 2022.
 
 Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole.
 
-Read more about our last [Assemble in Mexico City](https://www.google.com/url?q=https://meltano.com/blog/assemble-2021-mexico-city-roundup/&sa=D&source=docs&ust=1639515528558000&usg=AOvVaw0LZpL5Jgj_b6bKnswXwKgE).
+Assemble 2021 took place in beautiful Mexico City. Assemble 2022 took place in Lisbon, Portugal, in March 2022.
+
+Read about [Assemble in Mexico City here](https://www.google.com/url?q=https://meltano.com/blog/assemble-2021-mexico-city-roundup/&sa=D&source=docs&ust=1639515528558000&usg=AOvVaw0LZpL5Jgj_b6bKnswXwKgE).  Read about [Assemble in Lisbon, Portugal, here](https://meltano.com/blog/assemble-recap-company-on-site-in-lisbon/).
 
 #### Carbon Offsets
 

@@ -51,7 +51,7 @@ The [opportunity assessment was created by Marty Cagan at Silicon Valley Product
 
 ## Roadmap Planning
 
-Each item on the [roadmap](roadmap) will be linked to an Epic.
+Each item on the [roadmap](roadmap) will be linked to an OKR.
 
 On the first and third monday of the month, the Head of Product and Head of Engineering will meet to validate the current state of the roadmap.
 This will be a high-level discussion around progress on current items and negotiation on inclusion of items for current and upcoming months.
@@ -64,9 +64,26 @@ Key questions to ask are:
 
 Issues that are related to Roadmap items should have the `Roadmap` label.
 
-## MR First
+## Crossfunctional Feature Prioritization
 
-If you want to make an improvement to Meltano you don't have to wait for Product approval, kick-off some long convoluted dicsussion, or worry about stepping on anyone's toes. Submit a Merge Request (MR) with your proposed changes and we can iterate from there.
+When any work needs to be prioritized that is not specifically a roadmap featue, use the following process.
+
+### Marketing
+
+- Marketing work that needs to be prioritized by Product or Engineering must have an issue associated with it. Add the relevant labels below so triage can be streamlined. 
+The issue should get added to the [Product Roadmap board](https://github.com/orgs/meltano/projects/4/) by the requestor.
+- Once added to the board, it will be considered a priority for marketing and enter  **The Process**  to get worked on by an engineer.
+- Once it's ready to be worked on by an Engineer, it will then get added to the Engineering Assignments board and assigned to an iteration and an engineer for working on.
+
+#### Marketing Triage Labels
+
+- `content review`
+- `needs-engineering`
+- `Marketing Priority`
+
+## PR First
+
+If you want to make an improvement to Meltano you don't have to wait for Product approval, kick-off some long convoluted dicsussion, or worry about stepping on anyone's toes. Submit a Pull Request (PR) with your proposed changes and we can iterate from there.
 
 ## "AND not OR" Mentality
 
@@ -122,6 +139,10 @@ This [article from BVP](https://www.bvp.com/atlas/roadmap-data-infrastructure/) 
 - [Feast](https://github.com/feast-dev/feast) - ML Feature Store
 - [fal](https://github.com/fal-ai/fal) - run python scripts from dbt
 - [MetricFlow](https://github.com/transform-data/metricflow) - Metrics layer
+- [MindsDB](https://mindsdb.com) - In-Database Machine Learning
+- [Orchest](https://www.orchest.io) - Visual data pipeline editor and orchestrator
+- [data-diff](https://github.com/datafold/data-diff) - A command-line tool and Python library to efficiently diff rows across two different databases
+- [PostgresML](https://github.com/postgresml/postgresml) - Enables you to train models and make online predictions using only SQL, without your data ever leaving your favorite database
 
 Additionally, there are many "git for data" tools tracked in [this spreadsheet](https://docs.google.com/spreadsheets/d/1jGQY_wjj7dYVne6toyzmU7Ni0tfm-fUEmdh7Nw_ZH0k/edit#gid=0).
 [Project Nessie](https://projectnessie.org/) is another option not listed in the sheet.
