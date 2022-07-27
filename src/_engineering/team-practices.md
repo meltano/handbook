@@ -10,10 +10,10 @@ This page defines recurring practices which help the Engineering team to functio
 
 ### Weekly Iterations
 
-We adhere to a [weekly iteration](https://gitlab.com/groups/meltano/-/iterations) delivery cycle. 
+We adhere to a [weekly iteration](https://github.com/orgs/meltano/projects/3/views/4) delivery cycle.
 We do not adhere to formal sprints. 
 Instead, leadership from Engineering and Product meet each Thursday to discuss the upcoming priorities for the next two weeks and to add or update the following week's tasks. 
-An "iteration" is simply a bucket of issues in Gitlab which are assigned for work over a given week.
+An "iteration" is simply a bucket of issues in GitHub which are assigned for work over a given week.
 
 We generally work with more of a kanban style.
 We do this as it works better with our committment to asynchronous work.
@@ -61,9 +61,9 @@ Every Wednesday, the Meltano team meets with our users and community members. Th
 
 During the weekly Thursday sync between Engineering and Product leadership (`@aj` and `@taylor`), Product and Engineering leadership will perform the following maintenance:
 
-1. Move those topics on the Office Hours board in Gitlab into the "Discussed" column, effectively resetting the "Up Next" list for the upcoming week.
+1. Move those topics on the [Office Hours board](https://github.com/orgs/meltano/projects/9) in GitHub into the "Discussed" column, effectively resetting the "Up Next" list for the upcoming week.
 2. For any upcoming, in-progress, or recently released features that need discussion or refinement:
-   1. Move into `Up Next` on the Office Hours board in GitHub.
+   1. Move into `Up Next` on the [Office Hours board](https://github.com/orgs/meltano/projects/9) in GitHub.
    2. Tag an engineer or another team member on the issue, requesting grooming of the description - or any other needed prep, per the engineer's discretion.
 
 If fewer than 3 topics are selected as candidates for discussion in the upcoming week, and/or if one or more topics require community member attendance, then Engineering or Product leadership will raise these concerns as new threads in the `#office-hours-planning` channel.
