@@ -59,14 +59,14 @@ As such, the target persona and problem we are focused on will change over time,
 Our current target persona is the **mid- to senior-level Data Engineer at a mid-market organization** of around 200-1000 people who works in a small data team less than five and is in the process of putting together a new data stack for their organization (its first, a rebuild, or an additional one for a different department or use case).
 While their title may not be "data engineer" exactly, they are tasked with building data pipelines and choosing and setting up the tools to do so.
 
-#### Problems
+### Problems
 
 Their urgent problems are as follows, in the order they'd experience them and therefore our priority:
 1. **it's hard to get open source data tools/technologies up and running in production** (in other words: installation, configuration, deployment, and self-management are hard)
 2. broken changes are not caught until they go live in production and start affecting users (in other words: changes cannot be tested before they go into production)
 3. when production breaks, the broken changes have to be fixed live under pressure (in other words: changes cannot be rolled back)
 
-#### Building into the vision
+### Building into the vision
 
 While our broad vision aims to solve these problems for the data stack/platform as a whole, the persona will initially experience them and start looking for a solution in the context of a specific data tool, like Singer, dbt, or Airflow.
 This means that we are focused on solving the above problems (by simplifying installation, configuration, deployment, and management, and enabling version control, isolated environments, and testing in CI/CD), not "for all your data tools" (implying you need multiple to get value), but "for any data tool" (implying just one is enough), and really for _specific_ data tools the user has already decided to use.
@@ -78,7 +78,7 @@ This means that in prioritizing our product work, we have to balance depth (to m
 The initial focus will be on becoming for dbt and Airflow what we already are for Singer: the obvious companion to these tools in any new data stack.
 Other open source data tools come into scope based on their popularity, both in general and within our existing user base, and the degree of problems new users face.
 
-#### Looking to the future
+### Looking to the future
 
 Once Meltano is the best way to manage Singer, dbt, and Airflow for data movement, transformation, and orchestration, something new emerges that is better than the sum of these parts.
 
