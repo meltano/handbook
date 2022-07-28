@@ -72,10 +72,24 @@ Before adding a partner, have the Partner fill out the [Meltano Partner Submissi
 1. Edit the values as needed. You can add images or select images from our media library to use.
 1. Click `Update` to make your changes live.
 
-**### How to hide blog posts in WordPress**
+### How to hide blog posts in WordPress
 1. Navigate to the [Insights] (https://meltano.com/wp-admin/edit.php) page.
 2. Enter the name of the blog post you want to hide in the upper-right-hand search bar. 
 3. Click on the post to open it.
 4. Under the 'Status and visibility' heading, click on 'Public' and change it to 'Private'. '(Only visible to site admins and editors)' 
 5. Click on 'Update' to save your changes. 
 
+## Images
+### Optimization
+When uploading images to the website it is important to ensure that they are optimized for this medium in order to ensure quick navigation for everyone who visits our site and just as a best practice in general. This means compressing the original size of your image to make it load faster (preferably to less than 1MB). If you are unable to perform this action before uploading, or would just like to optimize existing images, you can use the [Robin Image Optimizer](https://robinoptimizer.com) WordPress plugin.
+### Using Robin Image Optimizer
+With our current license, we can optimize up to 5,000 images per month. To compress or optimize bulk images:
+1. Login to WordPress.
+2. Go to Settings > Robin image optimizer.
+3. Select the correct optimization server, which is "Premium - no limits".
+4. Click on "Optimize" and keep this page open until a bulk optimization is successfully performed.
+
+**Alternatively, if you'd like to compress single images, you can:**
+1. Login to WordPress.
+2. Go to Media > Library.
+3. Click on the "Optimize" button next to the image you'd like to compress.
