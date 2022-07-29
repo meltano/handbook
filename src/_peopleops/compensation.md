@@ -32,6 +32,10 @@ Important Notes:
 - For non-US team members, changes in international exchange rates are also considered when recalculating each team member's target salary range.
 - As a general rule, we will only increase and not decrease any compensation as a result of this periodic compensation refresh.
 
+### Moving
+
+Meltano wants to afford its employees the ability to live wherever they wish.  Generally moving within the same country is not a problem.  But, there are legal implications to an employee moving.  This includes Meltano having to register as an employer in whatever jurisdiction its employees live.  Because of this, employees must ask for and receive permission in order to move between countries or between US states.
+
 ## Equity
 
 As an early-stage company, we expect every team member to have a huge impact on our success. We want to make sure that everyone has a financial stake in the success and that contributions are rewarded.
