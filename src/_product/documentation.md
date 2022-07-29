@@ -7,7 +7,7 @@ weight: 3
 ## Documentation
 
 [Meltano Docs](https://docs.meltano.com/) are a cross-functional responsibility.
-Efforts are shared jointly between the marketing and the engineering team.
+Efforts are shared jointly between the product, marketing, and engineering teams.
 
 ### Responsibilities
 
