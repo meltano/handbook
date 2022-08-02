@@ -15,6 +15,7 @@ url: "https://handbook.meltano.com" # the base hostname & protocol for your site
 twitter_username: meltanodata
 github_username:  meltano
 gitlab_username:  meltano
+github_repository: https://github.com/meltano/handbook
 
 # Outputting
 permalink: /:categories/:year/:month/:day/:title
@@ -92,3 +93,10 @@ algolia:
   application_id: 'N55Y9CP0EI'
   index_name: handbook_search
   search_only_api_key: '7d4f3fb94b8a6e1e0f262d626a9ff51f'
+
+# Set display to true/false to toggle announcements on/off
+announcement:
+  display: false
+  text: Meltano v2.0 is almost here!
+  cta: See what's on the roadmap.
+  cta-link: https://handbook.meltano.com/product/roadmap#2022-q2

@@ -1,3 +1,9 @@
+{% if site.announcement.display == true %}
+  <div class="announcement">
+    <p>{{ site.announcement.text }} <a href="{{ site.announcement.cta-link }}" target="_blank">{{ site.announcement.cta }} </a></p> 
+  </div>
+{% endif %}
+
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
       <a class="navbar-item" href="https://meltano.com">
@@ -19,9 +25,10 @@
               <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link" href="/{{ collection.label }}"> {{ collection.name }} </a>
                 <div class="navbar-dropdown">
-                  {% for page in collection.docs %}
-                      <a class="navbar-item" href="/{{ page.url }}"> {{ page.title }} </a>
-                  {% endfor %}
+                  {% assign items = site[collection.label] | sort: "weight" %}
+                      {% for item in items %}
+                      <a class="navbar-item" href="{{ item.url }}"> {{ item.title }} </a>
+                      {% endfor %}
                 </div>
               </div>
             {% endif %}
