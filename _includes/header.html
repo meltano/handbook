@@ -16,23 +16,18 @@
         {% if site.collections %}
           {% for collection in site.collections %}
             {% if collection.label != "posts" %}
-              <a class="navbar-item" href="/{{ collection.label }}"> {{ collection.name }} </a>
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" href="/{{ collection.label }}"> {{ collection.name }} </a>
+                <div class="navbar-dropdown">
+                  {% for page in collection.docs %}
+                      <a class="navbar-item" href="/{{ page.url }}"> {{ page.title }} </a>
+                  {% endfor %}
+                </div>
+              </div>
             {% endif %}
           {% endfor %}
         {% endif %}
 
-<!--         <div class="navbar-item has-dropdown is-hoverable is-hidden-tablet">
-            <a class="navbar-link"> Handbook </a>
-            <div class="navbar-dropdown">
-                {% if site.collections %}
-                  {% for collection in site.collections %}
-                    {% if collection.label != "posts" %}
-                      <a class="navbar-item" href="/{{ collection.label }}"> {{ collection.label | capitalize }} </a>
-                    {% endif %}
-                  {% endfor %}
-                {% endif %}
-            </div>
-        </div> -->
       </div>
       <div class="navbar-end">
           <a href="/search" class="navbar-item"><i class="fas fa-search"></i></a>
