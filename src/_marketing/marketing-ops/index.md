@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Marketing Ops"
-weight: 2
+weight: 1
 ---
 
 Please see a full list of all our [tooling here](/company/tech-stack/).
