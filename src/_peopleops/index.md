@@ -207,11 +207,11 @@ Meltano's phone number can be found in the Shared 1Password vault item called `M
 
 ### Verification of Employment
 
-All verifications of employment (VOE’s) should go through the Human Resource department. These include but are not limited to requests from government agencies, mortgage lenders, prospective employers and others. 
+All verifications of employment (VOE’s) should go through the Human Resource department and should be done via email. These include but are not limited to requests from government agencies, mortgage lenders, prospective employers and others.  
 
 Meltano will comply with all government requests for verification of employment. 
 
-Meltano will respond to requests from mortgage lenders, landlords and the like, if the request is accompanied by a release form from the employee. Additionally, employees should notify Human Resources that a request may be forthcoming. 
+Meltano will respond to requests from mortgage lenders, landlords and the like, if the request is accompanied by a release form from the employee. Additionally, employees should notify Human Resources through email that a request may be forthcoming. 
 
 Prospective employers and those with collection agencies and others will be evaluated on a case by case basis. Meltano will under no circumstances provide wage information to a non government agency without consent and a release from the employee. Prospective employers will only receive verification of dates of employment and title.  
 
