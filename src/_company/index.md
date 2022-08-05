@@ -42,9 +42,7 @@ To learn more about this vision, check out this [detailed blog post](https://mel
 
 ## Strategy
 
-In a follow-up post to Douwe's introduction of Meltano's [mission and vision](https://meltano.com/blog/meltano-the-strategic-foundation-of-the-ideal-data-stack/), our Head of Product & Data Taylor Murphy lays out the [company and product strategy](https://meltano.com/blog/our-strategy-to-achieving-meltanos-ambitious-mission-and-vision/) that will get us there.
-
-You can learn more about our strategy on the [Strategic Goals](strategy) page.
+Our strategy to realize this vision can be found in [this internal Strategy document](https://github.com/meltano/internal-general/blob/tree/strategy/).
 
 ## History
 
