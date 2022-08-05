@@ -42,7 +42,7 @@ To learn more about this vision, check out this [detailed blog post](https://mel
 
 ## Strategy
 
-Our strategy to realize this vision can be found in [this internal Strategy document](https://github.com/meltano/internal-general/blob/tree/strategy/).
+Our strategy to realize this vision can be found in [this internal Strategy document](https://github.com/meltano/internal-general/tree/main/strategy/).
 
 ## History
 
