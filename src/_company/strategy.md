@@ -4,4 +4,4 @@ title: Strategic Goals
 weight: 2
 ---
 
-Moved to [internal document](https://github.com/meltano/internal-general/blob/add-strategy/strategy/okrs.md).
+Moved to [internal OKRs document](https://github.com/meltano/internal-general/blob/main/strategy/okrs.md).
