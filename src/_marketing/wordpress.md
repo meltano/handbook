@@ -42,7 +42,7 @@ The team section is currently hosted on the [About](https://meltano.com/about/) 
 
 ### Add New Partners
 
-Before adding a partner, have the Partner fill out the [Meltano Partner Submission form](https://docs.google.com/forms/d/e/1FAIpQLSfJUj7IHLKTV5vFxn8Xf5mSWtWpk7WU35LE0Ex3zfsyP8XO7Q/viewform?usp=sf_link) to collect necessary information. If you need access to form submissions please request access through Google Forms or let `@afolson` know.
+Once a new partner is approved:
 
 1. Navigate to the [Partners](https://meltano.com/wp-admin/edit.php?post_type=partners) page.
 1. Click "Add Partner" at the top of the page.
@@ -74,10 +74,10 @@ Before adding a partner, have the Partner fill out the [Meltano Partner Submissi
 
 ### How to hide blog posts in WordPress
 1. Navigate to the [Insights] (https://meltano.com/wp-admin/edit.php) page.
-2. Enter the name of the blog post you want to hide in the upper-right-hand search bar. 
+2. Enter the name of the blog post you want to hide in the upper-right-hand search bar.
 3. Click on the post to open it.
-4. Under the 'Status and visibility' heading, click on 'Public' and change it to 'Private'. '(Only visible to site admins and editors)' 
-5. Click on 'Update' to save your changes. 
+4. Under the 'Status and visibility' heading, click on 'Public' and change it to 'Private'. '(Only visible to site admins and editors)'
+5. Click on 'Update' to save your changes.
 
 ## Images
 ### Optimization
