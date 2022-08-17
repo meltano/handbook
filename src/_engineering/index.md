@@ -74,7 +74,7 @@ If this information changes the issue weight or threatens the feasibility of the
 
 ## Outages & escalation
 
-The following web properties or critical URL's are currently monitored by Pingdom and trigger alerts in #meltano-alerts slack via the Pingdom slack app:
+The following web properties or critical URL's are currently monitored by Pingdom and trigger alerts in the `#meltano-alerts` slack channel via the Pingdom slack app:
 
 1. https://docs.meltano.com
 1. http://handbook.meltano.com
@@ -100,9 +100,9 @@ DNS for `singerhub.io` is managed at [NameCheap](/company/tech-stack/#namecheap)
 
 Engineering managed static web properties are hosted on [netlify](/compan/tech-stack/#netlify). This includes:
 
-1. <https://hub.meltano.com> - Configured via `neltify.toml` in the root of the [hub repo](https://github.com/meltano/hub).
-1. <https://docs.meltano.com> - Configured via `netlify.toml` in the root the [meltano repo](https://github.com/meltano/meltano).
-1. <https://handbook.meltano.com> - Configured via the Netlify web app.
+1. <https://hub.meltano.com> - Configured via [netlify.toml](https://github.com/meltano/hub/blob/main/netlify.toml) in the root of the [hub repo](https://github.com/meltano/hub).
+1. <https://docs.meltano.com> - Configured via [netlify.toml](https://github.com/meltano/meltano/blob/main/netlify.toml) in the root the [meltano repo](https://github.com/meltano/meltano).
+1. <https://handbook.meltano.com> - Configured via the Netlify [web app](https://app.netlify.com/sites/meltano-handbook/overview).
 1. <https://discovery.meltano.com> - Legacy discovery.yml hosting, which is actually just an domain alias for docs.meltano.com.
 
 The following properties are hosted by other providers:
