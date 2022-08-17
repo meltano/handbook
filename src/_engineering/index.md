@@ -74,12 +74,15 @@ If this information changes the issue weight or threatens the feasibility of the
 
 ## Outages & escalation
 
-<https://www.meltano.com> is automatically monitored using Pingdom, with notifications of downtime posted to:
+The following web properties or critical URL's are currently monitored by Pingdom and trigger alerts in #meltano-alerts slack via the Pingdom slack app:
 
-- Zendesk, through our `hello@` email address, and
-- Douwe, by email and SMS.
-
-When any instance managed by us is reported to be down, through Pingdom or any other means, resolving this becomes the team's top priority.
+1. https://www.meltano.com
+1. https://docs.meltano.com
+1. http://handbook.meltano.com
+1. https://hub.meltano.com
+1. https://sdk.meltano.com
+1. https://discovery.meltano.com/discovery.yml
+1. https://meltano.com/slack
 
 ## Meetings
 
