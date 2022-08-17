@@ -26,3 +26,7 @@ If there's a website outage here are the steps you can take to triage it (in no 
 ### Contacting WPEngine
 
 To contact WPEngine for support you will sometimes need to provide a "Support Pin." This is located at the bottom left corner of the control panel.
+
+## Backups
+
+Backups are taken every night and can be manually created and restored [here](https://my.wpengine.com/installs/meltano/backup_points#production).
