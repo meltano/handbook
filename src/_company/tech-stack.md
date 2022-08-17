@@ -190,13 +190,13 @@ Account details are in the `Engineering` 1Password vault.
 
 ## [Netlify](https://www.netlify.com/)
 
-Currently, docs.meltano.com, handbook.meltano.com, and hub.meltano.com are hosted by Netlify.
-Note that this includes feature branch previews for <https://github.com/meltano/meltano> docs,
-as well as a legacy `https://discovery.meltano.com/discovery.yml` used by older Meltano versions
-(which is itself just an alias for `docs.meltano.com`).
+Static hosting provider for Meltano web properties. Notably used for
+docs.meltano.com, handbook.meltano.com, and hub.meltano.com. See
+[Domain names, DNS, and hosting](/engineering/#domain-names-dns-and-hosting)
+for a complete list.
 
-Docs and Hub are configured via `netlify.toml` files in the top level of their respective repos
-while the handbook is currently managed via the Netlify web app.  
+Note that feature branch previews for <https://github.com/meltano/meltano> docs
+is delivered via Netlify's Github integration.
 
 Account details are in the `Engineering` 1Password vault.
 

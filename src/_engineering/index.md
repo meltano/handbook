@@ -76,12 +76,12 @@ If this information changes the issue weight or threatens the feasibility of the
 
 The following web properties or critical URL's are currently monitored by Pingdom and trigger alerts in #meltano-alerts slack via the Pingdom slack app:
 
-1. https://www.meltano.com
 1. https://docs.meltano.com
 1. http://handbook.meltano.com
 1. https://hub.meltano.com
-1. https://sdk.meltano.com
 1. https://discovery.meltano.com/discovery.yml
+1. https://sdk.meltano.com
+1. https://www.meltano.com
 1. https://meltano.com/slack
 
 ## Meetings
@@ -98,6 +98,14 @@ For legacy reasons, one domain name is still registered with [Gandi](/company/te
 DNS is managed through Route 53 in [AWS](/company/tech-stack/#amazon-web-services).
 DNS for `singerhub.io` is managed at [NameCheap](/company/tech-stack/#namecheap).
 
-<https://meltano.com> is hosted on [WPEngine](/company/tech-stack/#wpengine).
-<https://hub.meltano.com> is hosted using [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/) for <https://gitlab.com/meltano/hub>.
-<https://sdk.meltano.com> is hosted at [Read the Docs](/company/tech-stack/#read-the-docs).
+Engineering managed static web properties are hosted on [netlify](/compan/tech-stack/#netlify). This includes:
+
+1. <https://hub.meltano.com> - Configured via `neltify.toml` in the root of the [hub repo](https://github.com/meltano/hub).
+1. <https://docs.meltano.com> - Configured via `netlify.toml` in the root the [meltano repo](https://github.com/meltano/meltano).
+1. <https://handbook.meltano.com> - Configured via the Netlify web app.
+1. <https://discovery.meltano.com> - Legacy discovery.yml hosting, which is actually just an domain alias for docs.meltano.com.
+
+The following properties are hosted by other providers:
+
+1. <https://meltano.com> is hosted on [WPEngine](/company/tech-stack/#wpengine).
+1. <https://sdk.meltano.com> is hosted at [Read the Docs](/company/tech-stack/#read-the-docs).
