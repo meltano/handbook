@@ -15,7 +15,7 @@ Partners typically get a private Slack channel named `partner-<name>`.
 
 ## Adding New Partners
 
-Partner can submit the necessary information on [Meltano Partner Submission form](https://docs.google.com/forms/d/e/1FAIpQLSfJUj7IHLKTV5vFxn8Xf5mSWtWpk7WU35LE0Ex3zfsyP8XO7Q/viewform?usp=sf_link).
+Partners can sign up via the [Meltano Partner Submission form](https://docs.google.com/forms/d/e/1FAIpQLSfJUj7IHLKTV5vFxn8Xf5mSWtWpk7WU35LE0Ex3zfsyP8XO7Q/viewform?usp=sf_link).
 
 When a new partner signs up, Douwe follows these steps:
 - Add new partner to the website by following [these instructions](/marketing/wordpress#partners).
