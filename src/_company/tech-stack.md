@@ -190,7 +190,13 @@ Account details are in the `Engineering` 1Password vault.
 
 ## [Netlify](https://www.netlify.com/)
 
-Feature branch previews for <https://github.com/meltano/meltano> docs.
+Static hosting provider for Meltano web properties. Notably used for
+docs.meltano.com, handbook.meltano.com, and hub.meltano.com. See
+[Domain names, DNS, and hosting](/engineering/#domain-names-dns-and-hosting)
+for a complete list.
+
+Note that feature branch previews for <https://github.com/meltano/meltano> docs
+is delivered via Netlify's Github integration.
 
 Account details are in the `Engineering` 1Password vault.
 
@@ -200,7 +206,7 @@ Real time transcription service for documenting meetings.
 
 ## [PagerDuty](https://www.pagerduty.com/)
 
-Added to help manage the Release Manager rotation schedule. May be used in future for paging/on-call/escalations for running services.
+Was previously used to aid in managing the release rotation. Its currently unused.
 
 Account details are in the `Engineering` 1Password vault.
 
