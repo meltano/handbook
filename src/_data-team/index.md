@@ -15,7 +15,7 @@ The data team is responsible for the following code bases:
 
 - [squared](https://github.com/meltano/squared) - An internal Meltano project that is used for dogfooding the product while also serving as the primary data platform for the team.
 - [snowplow-infra](https://github.com/meltano/snowplow-infra) - The infrastructure-as-code for the data team's [Snowplow](https://github.com/snowplow/snowplow) instance, used for collecting telemetry data.
-- [MeltanoLabs](https://github.com/MeltanoLabs) - The GitHub project that houses code under the [shared ownership model](https://meltano.com/blog/launching-meltanolabs-your-home-for-singer-connectors-dbt-packages-and-all-meltano-plugins/). Currently this includes Singer Connectors, dbt packages, and Meltano Plugins. Pat Nadolny is the point of contact for MeltanoLabs. The following is a list of repos in the MeltanoLabs project that we are either primary maintainers on or we use and contribute to them:
+- [MeltanoLabs](https://github.com/MeltanoLabs) - The GitHub project that houses code under the [shared ownership model](https://meltano.com/blog/launching-meltanolabs-your-home-for-singer-connectors-dbt-packages-and-all-meltano-plugins/). Currently this includes Singer Connectors, dbt packages, and Meltano Plugins. `@Pat Nadolny` is the point of contact for MeltanoLabs. The following is a list of repos in the MeltanoLabs project that we are either primary maintainers on or we use and contribute to them:
 
   Primary Maintainers:
 
