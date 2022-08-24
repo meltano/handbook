@@ -29,7 +29,7 @@ Examples of critical bugs include:
 - Significant security vulnerabilities discovered in the latest-published Meltano version.
 - Any bug that would cause a significant number of user pipelines to fail in the new release which were otherwise running in a prior release (excepting announced deprecations).
 
-Bugs labeled `priority::highest` should be alerted ASAP, and should be resolved within 24 hours or sooner. By approval from a Staff Engineer or higher, the problem version may be optionally yanked from PyPi.
+Bugs labeled `priority::highest` should be alerted ASAP, and should be resolved within 24 hours or sooner. By approval from a Staff Engineer or higher, the problem version may be optionally yanked from PyPI.
 
 Always tag AJ, Taylor, and Florian when a critical bug is identified.
 
