@@ -36,6 +36,13 @@ You can update the permalinks for a post through the post's settings or through 
 
 It's not clear why this happens, but clearing the cache resolves it. Follow SiteGround's instructions to [clear the cache](https://www.siteground.com/kb/clear-site-cache/). See [this issue](https://gitlab.com/meltano/meltano/-/issues/2886) for more information.
 
+#### Web health checks
+Performing regular web health checks is a good digital practice. When doing so, if you find 404 error pages, you can simply create a redirect so users get redirected to the correct page. The process might defer from one subdomain to another, but in this case we will cover the steps to create redirects for Meltano Hub:
+1. First, go to the ['redirects' file](https://github.com/meltano/hub/blob/main/_redirects) in the Hub repository
+2. How it works: Everything on the left is the old URL, and the one on the right is the new URL. All of them assume that `https://hub.meltano.com` is the prefix
+3. For cases when you find an URL that doesn't have an updated equivalent, you can simply type "/" to redirect to the Hub main page
+4. Create a pull request with your changes and push to main when approval/all checks have passed.
+
 ## Intercom
 
 Intercom is used as a support channel. Only select team members have access to this but please ask Amanda if need access or reports.
