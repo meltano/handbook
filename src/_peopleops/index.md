@@ -172,7 +172,7 @@ To standardize the hardware provisioned for Meltano team members, the following 
 
 Note that the above links are to the Apple store website for the United States. If you are located in a different country, you will likely have to place your order from your regional Apple store website.
 
-If alternate hardware is required, please request it during the onboarding process. It can be provisioned on a case-by-case basis.
+If alternate hardware is required, please request it during the onboarding process.  It can be provisioned on a case-by-case basis.  With that in mind, the MacBook Air has been found to be insufficient for our needs.  Requests for this model will not be approved.
 
 ### Calendars
 
