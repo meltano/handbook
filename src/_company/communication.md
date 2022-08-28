@@ -33,6 +33,10 @@ While asynchronous communication is strongly preferred, there are scenarios in w
 
 We indicate our working hours and availability using Google Calendar and Slack so that our teammates know when they are able to reach us. Within Google Calendar you can set your working hours by going to "Settings" and then "Working Hours and Location". If your working hours change, be sure to update Google Calendar to reflect those changes. During short periods of unavailability during normal work hours, for instance going to a dentist appointment, stepping away from your desk for lunch, or taking a walk around the block, update your Slack status to indicate that you are unavailable. You can also have your Slack status and availability updated automatically by [connecting Slack to your Google Calendar](https://slack.com/help/articles/206329808-Google-Calendar-for-Slack) or by using a third-party tool such as [reclaim.ai](https://reclaim.ai)
 
+### When in doubt, document it with an issue!
+
+Due to the asynchronous nature of our work, transparency and iteration are paramount.  Moving personal notes into public issues is a good thing.  An issue with a title and a description is better than no issue at all.  It represents a starting point for a conversation and enables early feedback.  A rough sketch of an idea could inspire other team or community members.  An example of this probably belongs here, but as you can see this is a work in prograss. There should be no shame about unfinished work.
+
 ### Slack guidelines
 
 1. **Please avoid using @here or @channel unless something is urgent and important.** `@channel` should only be used for important announcements such as new releases or time-sensitive issues. Use caution when using `@channel` in community channels and try to limit its use to once per week.
