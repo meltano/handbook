@@ -146,14 +146,13 @@ Meltano posts numerous videos to YouTube each week, covering everything from pro
 Videos uploaded to YouTube should have names that try and follow the same format wherever possible.
 
 - They always start with “Meltano"
-- They then describe the type of recording (Weekly Kickoff, Meeting, Speedrun, Release, Discussion, etc)
+- They then describe the type of recording (Meeting, Speedrun, Release, Discussion, etc)
 - If there’s a specific version of Meltano being referenced, (in a speedrun or release), reference it with a lower-case v followed by the release number (`v1.3.0`)
 - Finish with the date in YYYY-MM-DD (`2019-11-01`)
 - Separate all names with dashes
 
 Examples of great YouTube video names include:
 
-- Meltano Weekly Kickoff - 2019-10-31
 - Meltano Release - v1.3.0 - 2019-10-31
 - Meltano Meeting - Marketing Planning - 2019-10-31
 - Meltano Discussion - Singer Tap Brainstorming - 2019-10-31
