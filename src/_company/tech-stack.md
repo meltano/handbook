@@ -164,6 +164,10 @@ Chat button on bottom right of <https://meltano.com/> and Meltano UI.
 
 Select team members have their own account.
 
+## [LabelSync](https://label-sync.com/)
+
+Manages GitHub labels across our repositories.
+
 ## [LinkedIn](https://www.linkedin.com/company/meltano/)
 
 Meltano company page.
