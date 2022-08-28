@@ -109,3 +109,7 @@ The following properties are hosted by other providers:
 
 1. <https://meltano.com> is hosted on [WPEngine](/company/tech-stack/#wpengine).
 1. <https://sdk.meltano.com> is hosted at [Read the Docs](/company/tech-stack/#read-the-docs).
+
+## Adding new tools
+
+The [tech stack](/company/tech-stack) used by Meltano is rather comprehensive.  Occasionally a new paid service or tool is required.  In that case, team members should work with the [Head of Operations](https://handbook.meltano.com/company/leadership) or create an issue for [New Vendor On-boarding](https://github.com/meltano/administration/issues/new?assignees=&labels=&template=vendor-onboarding.md&title=) with all of the relevant details and assign it to @therebbie.
