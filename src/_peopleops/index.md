@@ -23,6 +23,10 @@ We're currently using [Greenhouse](https://www.greenhouse.io/) to manage the hir
 - Click the green "Add a Referral" button
 - Fill out the candidate details and attach a copy of their resume and cover letter if you have them.
 
+### Candidates from GitLab
+
+We can not and will not recruit candidates who work at GitLab.  Should someone from GitLab approach us regarding an open position, they will be treated the same as any other candidate.
+
 ### Discussing candidates in Slack
 
 It is okay to reference first names and job titles for candidates in the private `hiring` Slack channel. However, please do not post feedback.
