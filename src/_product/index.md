@@ -100,7 +100,7 @@ Every Monday we will highlight for the team what the priorities are for the week
 In addition, the following should also be done:
 - Review and roll community issues to the next milestone
 - Roll merge requests
-- Everyone on the team should roll their own issues to the next milestone. Take the time to review the current status of issues and align priorities with the kickoff issue.
+- Everyone on the team should roll their own issues to the next milestone. Take the time to review the current status of issues and align priorities within the team.
 - Close the previous milestone
 
 ## Open Source Projects We're Keeping an Eye On
