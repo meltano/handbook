@@ -26,6 +26,12 @@ Also, if you need to take a break during the day, have a doctor’s appointment,
 
 Please note that there may be times when you’ll need to adjust your schedule (e.g. a necessary synchronous meeting).
 
+#### Limited Availability
+
+Taking a week -- or even multiple days -- off can feel daunting because of the large number of things to catch up on when back, and because of the potential to block others.  Because of this, sometimes people do not end up taking time off at all.  In order to provide options between 100% availability (regular work week) and 0% availability (vacation) team members can let others know of their limited availability.
+
+As with taking any time off, communication and setting of expectations is key.  Team members can note their availability on the calendar and via Slack with a custom status like, "During this week I will check in every day (work between 30min and 3hr) to make sure I'm not blocking anyone, but will not start any new work".   Be sure to add this time off via PTO by Roots in Slack.
+
 #### Taking breaks during the day
 
 Whether you go for a walk, take a nap, or watch your favorite show, you’re encouraged to take breaks during the day. [Research](https://www.bbc.com/worklife/article/20190312-the-tiny-breaks-that-ease-your-body-and-reboot-your-brain) has found that taking breaks - even for a few minutes - improves productivity, creativity, and concentration. Don’t ever feel guilty when you need time away from your computer.
