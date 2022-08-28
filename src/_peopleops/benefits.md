@@ -239,7 +239,7 @@ The visiting grant is inspired by Douwe’s trip around the world during his tim
 
 ### Significant life event grant
 
-Recognizing that team members may wish to share significant events in each other’s lives, such as weddings or civil partnerships, Meltano will assist with travel expenses to attend these events. This grant works the same way as the, except the reimbursement limit is $300 per team member you visit at an event.
+Recognizing that team members may wish to share significant events in each other’s lives, such as weddings or civil partnerships, Meltano will assist with travel expenses to attend these events. This grant works the same way as the visiting grant, except the reimbursement limit is $300 per team member you visit at an event.
 
 ## Professional Development
 
