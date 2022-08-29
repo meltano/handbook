@@ -137,7 +137,7 @@ Note: we aim to post blogs Tues- Thurs if possible and during peak US ET busines
 
 The marketing team will schedule content to go out on our social channels to promote the blog post. It will be up to the blog author to promote the blog in the appropriate slack channel on the same day as the main promotion is occurring. Promotion is generally best received from the author vs marketing.
 
-**### Guest Blog Procedure**
+### Guest Blog Procedure
 
 Upon receipt of a request to write a guest blog:
 - Start an issue to brainstorm content ideas, tagging all relevant internal stakeholders, including social media focal and any internal reviewers who haven't already been tagged.
