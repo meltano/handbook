@@ -137,6 +137,44 @@ Note: we aim to post blogs Tues- Thurs if possible and during peak US ET busines
 
 The marketing team will schedule content to go out on our social channels to promote the blog post. It will be up to the blog author to promote the blog in the appropriate slack channel on the same day as the main promotion is occurring. Promotion is generally best received from the author vs marketing.
 
+**### Guest Blog Procedure**
+
+Upon receipt of a request to write a guest blog:
+- Start an issue to brainstorm content ideas, tagging all relevant internal stakeholders, including social media focal and any internal reviewers who haven't already been tagged.
+- Include the potential guest's name, title, company, and contact information.
+- Come to an agreement with the guest about whether we will host a guest post or offer some assistance with drafts going to to other outlets, such as Medium.
+
+Once the subject matter and format are agreed upon, send an email to the guest asking them to confirm their agreement. In the email, provide:
+- A short review of the subject matter’s details and delivery vehicle (video, blog, etc.). 
+- The desired word-count range (or length, if video). 
+- Confirmation that the guest’s blog or video will include their name, company, and role.  
+- The format for delivering the draft (Google docs if possible).
+- A proposed due date for the first draft of the blog. (Though timing will vary, a general guideline is two weeks, or 10 working days.)
+- Instructions on who to send the draft to when it’s ready, with a copy to that person. 
+- If the guest will be doing a live (or Meltano-recorded) presentation, give them all relevant details (date, time, any sign-in info, etc.) and any other instructions they might need. 
+
+Upon receipt of the author’s agreement, update the issue with the draft due date. Add the WordPress focal to the issue if you haven’t already done so.
+
+When the guest sends the first draft, send them a quick note acknowledging receipt of the draft, then:
+- Update the issue (with a link to the document).
+- If the draft is in a Word document, the internal copy editor will copy/paste it into a Google doc and be responsible for tracking changes to both the Word document and Google drafts.
+
+The WordPress focal will email the guest and request permission to display their name, company, and title (and a photo, if applicable), and input that information into WordPress. 
+
+Internal reviewers (for both copy and content) have five business days to make comments for the guest’s consideration. (Internal copy editor will make changes based on [Meltano Style Guidelines](https://handbook.meltano.com/marketing/style-guide). All reviewers will update the issue after they’ve completed their reviews. 
+
+Return the draft to the guest and request they review and return it within five business days. 
+
+Upon receipt of the final draft:
+- Update the issue, asking all internal stakeholders to take a final look within two business days. 
+- Notify the guest of the anticipated publishing date. 
+
+Upon final approval from all internal stakeholders, the WordPress focal will publish the blog.
+
+Email the guest that the blog has been published (or that the video is live) and provide a link to it.
+
+Send a follow-up thank-you note to the guest. 
+
 ## YouTube
 
 Meltano posts numerous videos to YouTube each week, covering everything from product releases to engineering discussions. Meltano videos posted to YouTube should follow a standard template when naming a video and adding a video description. Common naming conventions make it simple to find the latest version of our weekly videos, and an expanded description with information about Meltano and how to contact the team make it easy for individuals who discover a video to get up to speed quickly.
