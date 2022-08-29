@@ -104,9 +104,13 @@ Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company
 
 ##### Upcoming Family and Friends Days
 
-- 2022-07-22
-- 2022-08-19
+_The customer support & escalation policy during these days is TBD._
+
 - 2022-09-02
+- 2022-10-21
+- 2022-11-25
+- 2022-12-26 &#8212; 2022-12-30
+- 2023-02-17
 
 These dates are tracked in the [Team Meetings Calendar](calendars).
 Meltano team members should mark these days off using [PTO by Roots](/company/tech-stack/#pto-by-roots).
@@ -221,7 +225,7 @@ We are happy to cover the cost of internet in your working place. This can be yo
 ### Meltano Assemble
 
 Approximately every nine months, we get the whole team together somewhere on the planet for Meltano Assemble.
-Assemble 2021 took place in beautiful Mexico City. Assemble 2022 was held in Lisbon, Portugal in March, 2022.
+Assemble 2021 took place in beautiful Mexico City. Assemble 2022 was held in Lisbon, Portugal in March, 2022.  Our next Assemble event is expected to take place in early 2023.
 
 Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole.
 
