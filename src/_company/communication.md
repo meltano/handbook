@@ -6,13 +6,13 @@ weight: 2
 
 We're an all-remote company that allows people to work from almost anywhere in the world, so it's important for us to practice clear communication in ways that help us stay connected and work more efficiently. We communicate respectfully and professionally at all times.
 
-To accomplish this, we use asynchronous communication as a starting point and stay as open and transparent as we can by communicating through public issues, merge requests, and Slack channels.
+To accomplish this, we use asynchronous communication as a starting point and stay as open and transparent as we can by communicating through public issues, pull requests, and Slack channels.
 
 ## Asynchronous communication
 
 Asynchronous communication is the practice of communicating and moving projects forward without requiring stakeholders to be available at the same time.
 
-Asynchronous communication demonstrates consideration for team members across time zones and enables us to travel outside of our usual time zone or structure our day around commitments at home or in our community. We practice asynchronous communication by recording meetings, using GitLab Issues and Merge Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. We also place an emphasis on ensuring that conclusions of conversations outside of the issue tracker (i.e. Slack and impromptu Zoom calls) are written down: If it's not in the issue, it didn't happen. All of these actions ensure that team members are not pressured to be online outside of their working hours. Embracing asynchronous communication and learning to use it effectively requires a mental shift. This can feel unusual or even uncomfortable for those who come from a co-located environment, where in-person meetings and communiques are the norm.
+Asynchronous communication demonstrates consideration for team members across time zones and enables us to travel outside of our usual time zone or structure our day around commitments at home or in our community. We practice asynchronous communication by recording meetings, using GitHub Issues and Pull Requests rather than texts, calls, or Slack messages, and being sensitive to local holidays and vacation statuses. We also place an emphasis on ensuring that conclusions of conversations outside of the issue tracker (i.e. Slack and impromptu Zoom calls) are written down: If it's not in the issue, it didn't happen. All of these actions ensure that team members are not pressured to be online outside of their working hours. Embracing asynchronous communication and learning to use it effectively requires a mental shift. This can feel unusual or even uncomfortable for those who come from a co-located environment, where in-person meetings and communiques are the norm.
 
 While asynchronous communication is strongly preferred, there are scenarios in which synchronous communication via Zoom meetings can be more productive. Such scenarios include:
 
@@ -45,12 +45,12 @@ Due to the asynchronous nature of our work, transparency and iteration are param
 1. If decisions are made on Slack, please either paste a screenshot of the conversation in the relevant issue/MR or provide a summary of what was discussed.
 1. Use the private #internal-thanks channel when you want to thank a team member for something. If it's less sensitive, consider sharing in the public #thanks channel so the wider Meltano community can see it.
 
-### Issue and merge request guidelines
+### Issue and pull request guidelines
 
 1. Use `FYI @username` when you want someone to be aware of what's being discussed, but they're not required to take action.
 1. Use `@username` when you want someone to take a specific action, such as contributing to the discussion or answering a question.
-1. Directly mention (`@username`) the people you want to involve in a comment, especially the person you're replying to. Some people only work through GitLab TODOs (rather than email notifications) and will only see responses to comments and threads if they're explicitly mentioned.
-1. Be mindful that most issues and MRs are public by default (unless the project is private or the issue confidential), and our communication in them can be viewed by our community. Please always consider how we present ourselves to the public.
+1. Directly mention (`@username`) the people you want to involve in a comment, especially the person you're replying to. Some people only work through GitHub notifications (rather than email notifications) and will only see responses to comments and threads if they're explicitly mentioned.
+1. Be mindful that most issues and PRs are public by default (unless the project is private or the issue confidential), and our communication in them can be viewed by our community. Please always consider how we present ourselves to the public.
 
 ### Email guidelines
 
@@ -78,7 +78,7 @@ Due to the asynchronous nature of our work, transparency and iteration are param
 1. When specifying measurements, please include both Metric and Imperial equivalents.
 1. We're an internationally diverse company. Please do not refer to team members outside the US as international, instead use non-US. Please also avoid the use of offshore/overseas to refer to non-American continents.
 1. If you have multiple points in a comment or email, please number them. Numbered lists are easier to reference during a discussion over bulleted lists.
-1. When you reference an issue, merge request, comment, commit, page, doc, etc. and you have the URL available please paste that in.
+1. When you reference an issue, pull request, comment, commit, page, doc, etc. and you have the URL available please paste that in.
 1. In making URLs, always prefer hyphens to underscores, and always use lowercase.
 1. Use [inclusive and gender-neutral language](https://techwhirl.com/gender-neutral-technical-writing/) in all writing.
 1. Refer to environments that are installed and run by the end-user as "self-managed."
@@ -90,7 +90,7 @@ Due to the asynchronous nature of our work, transparency and iteration are param
 1. If you use headers, properly format them (`##` in Markdown, "Heading 2" in Google Docs); start at the second header level because header level 1 is for titles. Do not end headers with a colon. Do not use emoji in headers as these cause links to have strange characters.
 1. Always use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma) (a.k.a. an "Oxford comma") before the coordinating conjunction in a list of three, four, or more items.
 1. Always use a single space between sentences rather than two.
-1. Do not use acronyms when you can avoid them. Acronyms have the effect of excluding people from the conversation if they are not familiar with a particular term. Example: instead of `MR`, write `merge request`.
+1. Do not use acronyms when you can avoid them. Acronyms have the effect of excluding people from the conversation if they are not familiar with a particular term. Example: instead of `PR`, write `pull request`.
    1. If acronyms are used, expand them at least once in the conversation or document and define them in the document using [Kramdown abbreviation syntax](https://kramdown.gettalong.org/syntax.html#abbreviations). Alternatively, link to the definition.
    1. If you don't know the meaning of an acronym, ask. It's always ok to speak up.
 

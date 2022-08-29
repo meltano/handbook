@@ -18,13 +18,13 @@ _This is not intended to be a full list of onboarding steps. Please see your onb
 
 #### Onboarding Issue Checklist
 
-New Meltano employees will have an onboarding issue created for them in Gitlab, with a list of actions to be performed upon joining. (Onboarding action items may differ slightly across teams.)
+New Meltano employees will have an onboarding issue created for them in Github, with a list of actions to be performed upon joining. (Onboarding action items may differ slightly across teams.)
 
 #### Your Onboarding Buddy
 
 When you join Meltano, your hiring manager will assign an onboarding buddy for you. Your buddy may be a team member in a similar job function (esp. engineer roles) or it could be a person in a completely different team and job title. Your onboarding buddy will be your primary point of contact whenever you have questions that are not easily answerable in the Handbook or your other onboarding materials. You should immediately book time with your buddy in your first week, and feel free to ping them directly or call on them if you are stuck. Your hiring manager will also have 1:1s with you, but you can feel free to book extra time with your buddy as needed.
 
-For visibility, we encourage you to start and/or recap these conversations into the `#onboarding` channel, and create a Handbook MR (Merge Request) where applicable to share back what you have learned. (See below.)
+For visibility, we encourage you to start and/or recap these conversations into the `#onboarding` channel, and create a Handbook pull request where applicable to share back what you have learned. (See below.)
 
 _Note: The role of onboarding buddy may require up to 4-6 hours per week over the first two weeks. Managers and buddies should consider this time investment and adjust expectations on their weekly deliverables as appropriate._
 
