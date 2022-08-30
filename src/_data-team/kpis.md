@@ -12,77 +12,18 @@ A Key Performance Indicator (KPI) is a way to measure and understand progress to
 
 Certain KPIs are considered Health Metrics, which means we actively monitor them and alarm on them and take action when and if they fall out of expected range. Otherwise we may or may not have goals or initiatives associated with their outputs.
 
-## Projects x Plugins Score (PXP)
+## Pipeline Runs
 
-Meltano's primary strategic goal is to achieve product-market fit for Meltano as the DataOps Platform Infrastructure.
-Our primary metric for measuring progress towards this goal is the number of projects times the amount of plugins categories used in each project.
+Meltano's primary strategic goal is to achieve product-market fit for Meltano as the DataOps Platform Infrastructure, with a particular focus on ELT workloads. Our primary metric for measuring progress towards this goal is the number of pipelines run.
 
-For example, 10 projects using only Singer (1 plugin category) or 2 projects using Singer + dbt + GE + Airflow + Superset (5 categories) would both count as 10 "points" toward the PXP.
-
-This metric is used to monitor both the active user base in general as well as the variety of plugins that those projects use.
-This metric encourages us to both grow the existing user base while also encouraging users to increase the variety of plugins they use.
-This means the existing projects implemented pre-2.0 only using EL still positively contribute to this metric.
-
-#### Implementation Details
-
-The metric is aggregated daily over a 28 day rolling window excluding executions that are within 7 days of their first event.
-This means that projects that are abandoned within 7 days are never accounted for in this metric.
-The intention is to reduce the noise created by first time users exploring so the metric more closely tracks long term users.
-One reason we chose a 28 day window was because we want to make sure we account for plugins that are less frequently executed like Airflow or Superset.
-Only execution events are considered for this metric meaning invoke/elt/run/test (ui doesnt execute a plugin so it gets naturally excluded even though its an execution event).
-If the execution project ID source is "random" then its not considered because we can't confidently differentiate that project from another we've already counted so we risk over counting.
-
-## APP - Average Plugin Types per Project
-
-A secondary metric for measuring progress towards being the DataOps platform infrastructure is the average number of plugin types per project (APP).
-
-We want to increase APP but it's as much a tool to aid in prioritization as it is a metric we care about.
-
-This metric is intending to understand the variety and depth of plugins used by Meltano projects, although it has the side affect of being skewed by spikes in new projects that
-haven't been around long enough to onboard a variety of plugins yet or by the cohort of projects using Meltano only for EL.
-
-Similar to PXP this metric is aggregated daily over a 14 day rolling window, excluding executions that are within 7 days of their first event, and only considered execution events.
-This metric is intending to understand the variety and depth of plugins used by Meltano projects, although it has the side affect of being skewed by spikes in new projects that
-haven't been around long enough to onboard a variety of plugins.
-
-APP is a lagging indicator that should be interpreted in context of other KPIs and health metrics.
-Short-term fluctuations are expected and our goal is an increase of the KPI over the long term.
-
-APP is calculated using CLI invocations for elt, run, test, and invoke and by categorizing
-each plugin into its appropriate type (i.e. Singer, dbt, Airflow, etc.).
-
-For example, if a project executes the following commands:
-
-```bash
-meltano elt tap-github target-snowflake
-
-meltano run tap-gitlab some-map target-snowflake dbt
-
-meltano invoke airflow
-
-meltano test tap-gitlab some-map target-snowflake
-```
-
-APP for this project is 3 because only Singer, dbt, and Airflow plugins are used.
-
-This definition of type is different from how we discuss plugin types in the [Meltano documentation](https://docs.meltano.com/concepts/plugins#types).
-In the above example, tap-gitlab, some-map, and target-snowflake are 3 different plugin types (Extractor, Mapper, and Loader, respecitvely), but for this metric they are all Singer-based plugins.
+This metric encourages us to have users implement Meltano for useful data workloads across all plugin types and is typically a sign of a successful implementation of a Meltano project. 
+This metric encourages us to grow the usage of existing Meltano users as well as activate new users to a successful pipeline run. 
+We also view this metric as a possible proxy for revenue once our [Managed offering](https://meltano.com/managed/) is launched.
 
 To learn more about North Star Metrics checkout these articles from [Mixpanel](https://mixpanel.com/blog/north-star-metric/) and [Amplitude](https://amplitude.com/blog/product-north-star-metric).
 
-## Product Penetration Ratios - The Components of APP
+#### Implementation Details
 
-Since we have 5 tracked plugin types for the purposes of APP tracking, and since there are two ways of tracking each metric, there are 10 (5x2) component product penetration KPIs:
-
-- `#` and `%` monthly projects with "Orchestrator" plugins usage.
-- `#` and `%` monthly projects with "Transformer" plugins usage.
-- `#` and `%` monthly projects with "Utility" plugins usage for BI/Analytics.
-- `#` and `%` monthly projects with "Utility" plugins usage (Other).
-- `#` and `%` monthly projects with "Singer" plugins usage.
-
-## Diagnosing APP Metric Volatility
-
-As with any ratio-based KPI, the total % or average product count can go down whenever we add to the denominator disproportionately. Since our denominator is number of total users, any large influx of new users may _reduce_ the overall percentages and APP averages. Changes in the denominator should always be considered therefor when investigating or analyzing changes over time in these metrics.
 
 ## Transparency Guidelines for KPIs and Metrics
 
