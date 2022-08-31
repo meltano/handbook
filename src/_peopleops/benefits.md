@@ -143,26 +143,17 @@ We cover 100% of health insurance coverage cost for employees and 50% of depende
 
 ##### Medical
 
-- Base Plan:
-  - [UHC Premier - $2,000 - CEFK](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_gold_choice_plus_2000_cefk.pdf)
-- Alternatives:
-  - [UHC Premier - $1,000 - CEFJ](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_platinum_choice_plus_1000_cefj.pdf)
-  - [UHC Premier - $4,000 - CFX9](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_4000_cfx9.pdf)
-  - [UHC HSA w/Motion - HSA - $5,000 - CECY (HDHP)](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/united_healthcare/plans/2021/united_healthcare_uhc_tx_silver_choice_plus_5000_cecy_hdhp.pdf)
-
-Meltano contributes separately to employees' and dependents' premiums:
-
-- Employee: Meltano covers up to 100% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
-- Dependents: Meltano covers up to 50% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
-
-##### As of September 1, 2022 medical benefits will change to:
-
 - Base Plan: 
   - [Blue Choice Gold PPO 117](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/bcbs/plans/2022/bcbs_blue_choice_gold_ppo_117.pdf)
 - Alternatives:
   - [Blue Choice Silver PPO 201](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/bcbs/plans/2022/bcbs_blue_choice_silver_ppo_201.pdf)
   - [Blue Choice Platinum PPO 810](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/bcbs/plans/2022/bcbs_blue_choice_platinum_ppo_810.pdf)
   - [Blue Choice Silver PPO 120 (HDHP)](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/bcbs/plans/2022/bcbs_blue_choice_silver_ppo_120_hdhp.pdf)
+
+Meltano contributes separately to employees' and dependents' premiums:
+
+- Employee: Meltano covers up to 100% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
+- Dependents: Meltano covers up to 50% of the premium of the base plan. Employee pays the difference in premium if they select a more expensive plan.
 
 ##### FSA and HSA
 
@@ -172,9 +163,6 @@ Meltano contributes separately to employees' and dependents' premiums:
 
 ##### Dental
 
-- [Principal Dental Plan 4](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/principal/plans/2016/principal_tx_principal_dental_plan_4.pdf)
-
-As of September 1, 2022 our dental plan will change to:
 - [Guardian EM Dental 13](https://s3.amazonaws.com/hawaiian-ice/production/public/carriers/ca/guardian/plans/2022/guardian_guardian_em_dental_13_tx.pdf)
 
 ##### Vision
