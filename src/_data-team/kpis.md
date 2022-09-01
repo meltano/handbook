@@ -24,6 +24,7 @@ To learn more about North Star Metrics checkout these articles from [Mixpanel](h
 
 #### Implementation Details
 
+See the [metrics and definitions page](/data-team/metrics-and-definitions#pipeline) for details on how we measuere pipelines.
 
 ## Transparency Guidelines for KPIs and Metrics
 
