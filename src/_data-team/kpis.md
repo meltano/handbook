@@ -14,7 +14,7 @@ Certain KPIs are considered Health Metrics, which means we actively monitor them
 
 ## Pipeline Runs
 
-Meltano's primary strategic goal is to achieve product-market fit for Meltano as the DataOps Platform Infrastructure, with a particular focus on ELT workloads. Our primary metric for measuring progress towards this goal is the number of pipelines run.
+Meltano's primary strategic goal is to achieve product-market fit for Meltano as a data movement (EL+T) solution with 10X developer experience over alternatives. Our primary metric for measuring progress towards this goal is the number of pipelines run.
 
 This metric encourages us to have users implement Meltano for useful data workloads across all plugin types and is typically a sign of a successful implementation of a Meltano project. 
 This metric encourages us to grow the usage of existing Meltano users as well as activate new users to a successful pipeline run. 
