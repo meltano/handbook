@@ -103,14 +103,14 @@ As of 2021 we have 3 main "product lines." Each of these should be referenced in
 
 ### Product/Project
 
-**Recommended**
+#### Recommended
 
     * Meltano
     * The Meltano Open Source Project
 
      Example usage: Last week, a new version for Meltano was released
 
-**Incorrect**
+#### Incorrect
 
     * The Meltano
 
@@ -120,7 +120,7 @@ As of 2021 we have 3 main "product lines." Each of these should be referenced in
 
 Note that Targets can be substituted for Taps in each of these examples
 
-**Recommended**
+#### Recommended
 
     * The Meltano SDK
     * The Meltano Tap SDK
@@ -129,7 +129,7 @@ Note that Targets can be substituted for Taps in each of these examples
 
     Example usage: Today, we're releasing a new update for the Meltano Tap SDK that...
 
-**OK**
+#### OK
 
     * The SDK
     * The Tap SDK
@@ -141,7 +141,7 @@ Note that Targets can be substituted for Taps in each of these examples
     These are OK when the proper, Meltano-specific name has already been referenced.
     Example usage: Today, we're releasing a new update for the SDK for Taps that...
 
-**Incorrect**
+#### Incorrect
 
     * Singer SDK
     * Singer SDK for Taps
@@ -154,7 +154,7 @@ Note that Targets can be substituted for Taps in each of these examples
 
 ## MeltanoHub
 
-**Recommended**
+#### Recommended
 
     * MeltanoHub
     * MeltanoHub for Singer
@@ -162,7 +162,7 @@ Note that Targets can be substituted for Taps in each of these examples
 
     Example usage: Today, we're releasing an update for MeltanoHub for Singer to...
 
-**Incorrect**
+#### Incorrect
 
     * The MeltanoHub
     * The SingerHub
@@ -172,14 +172,14 @@ Note that Targets can be substituted for Taps in each of these examples
 
 ### Team
 
-**Recommended**
+#### Recommended
 
     * the Meltano Team
     * the Meltano Core Team
 
     Example usage: The Meltano Team announces...
 
-**Incorrect**
+#### Incorrect
 
     * The Meltano
 
