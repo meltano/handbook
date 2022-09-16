@@ -213,11 +213,11 @@ We are happy to cover the cost of internet in your working place. This can be yo
 ### Meltano Assemble
 
 Approximately every nine months, we get the whole team together somewhere on the planet for Meltano Assemble.
-Assemble 2021 took place in beautiful Mexico City. Assemble 2022 was held in Lisbon, Portugal in March, 2022.  Our next Assemble event is expected to take place in early 2023.
+Assemble 2021 took place in beautiful Mexico City. Assemble 2022 was held in Lisbon, Portugal in March, 2022.  Our next Assemble event will take place in Santiago, Chile, January 9-13, 2023.
 
 Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole.
 
-Assemble 2021 took place in beautiful Mexico City. Assemble 2022 took place in Lisbon, Portugal, in March 2022. Assemble 2023 will take place in Santiago, Chile, January 9-13, 2023.
+Assemble 2021 took place in beautiful Mexico City. Assemble 2022 took place in Lisbon, Portugal, in March 2022. 
 
 Read about [Assemble in Mexico City here](https://www.google.com/url?q=https://meltano.com/blog/assemble-2021-mexico-city-roundup/&sa=D&source=docs&ust=1639515528558000&usg=AOvVaw0LZpL5Jgj_b6bKnswXwKgE).  Read about [Assemble in Lisbon, Portugal, here](https://meltano.com/blog/assemble-recap-company-on-site-in-lisbon/).
 
