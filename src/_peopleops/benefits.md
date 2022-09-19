@@ -57,7 +57,7 @@ Follow the instructions in [Tracking Time Off](/peopleops/calendars#tracking-tim
 
 Holidays vary by country and are not generally celebrated by all of Meltano at once.
 Make sure to take off the holidays that are legally required in your country.
-The only all-Meltano days off are Family & Friends days.
+The only all-Meltano days off are [Family & Friends days](https://handbook.meltano.com/peopleops/benefits#upcoming-family-and-friends-days).
 Please follow the instructions in [Tracking Time Off](/peopleops/calendars#tracking-time-off) to log your holidays.
 
 #### Caregiver Leave
