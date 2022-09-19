@@ -13,7 +13,6 @@ The Meltano convenes regularly to generate content for community and learning pu
 
 These items include:
 
-- **Weekly Kickoff**: Livestream each Monday covering what will be worked on during the week
 - **Office Hours**: Community meeting for discussion about upcoming features and general Q&A
 - **Demo Day**: Community meeting every other Thursday showing off what has shipped, demonstrated by each authoring participant as available
 - **Meltano / SDK Release**: the actual software release, which generates a changelog, version number, and all of the previous content for the week
@@ -22,7 +21,7 @@ Each item (linked below) has a corresponding guide to promoting that activity. E
 
 | Day       | Content                                                   |
 | --------- | --------------------------------------------------------- |
-| Monday    | Kickoff blog & promotion, Monday release blog & promotion |
+| Monday    | Release blog & promotion |
 | Tuesday   | Social promotion of weekly activity                       |
 | Wednesday | Social promotion of weekly activity                       |
 | Thursday  | Thursday release blog & promotion, weekly newsletter      |
