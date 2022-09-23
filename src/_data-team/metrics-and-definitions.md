@@ -18,18 +18,10 @@ The number of projects times the amount of plugins categories used in each proje
 
 For example, 10 projects using only Singer (1 plugin category) or 2 projects using Singer + dbt + GE + Airflow + Superset (5 categories) would both count as 10 "points" toward the PXP.
 
-This metric is used to monitor both the active user base in general as well as the variety of plugins that those projects use.
+This metric is used to monitor both the [active](/data-team/metrics-and-definitions#active-project) user base in general as well as the variety of plugins that those projects use.
 This metric encourages us to both grow the existing user base while also encouraging users to increase the variety of plugins they use.
 This means the existing projects implemented pre-2.0 only using EL still positively contribute to this metric.
 
-##### Implementation Details
-
-The metric is aggregated daily over a 28 day rolling window excluding executions that are within 7 days of their first event.
-This means that projects that are abandoned within 7 days are never accounted for in this metric.
-The intention is to reduce the noise created by first time users exploring so the metric more closely tracks long term users.
-One reason we chose a 28 day window was because we want to make sure we account for plugins that are less frequently executed like Airflow or Superset.
-Only execution events are considered for this metric meaning invoke/elt/run/test (ui doesnt execute a plugin so it gets naturally excluded even though its an execution event).
-If the execution project ID source is "random" then its not considered because we can't confidently differentiate that project from another we've already counted so we risk over counting.
 
 #### APP - Average Plugin Types per Project
 
@@ -39,10 +31,6 @@ We want to increase APP but it's as much a tool to aid in prioritization as it i
 
 This metric is intending to understand the variety and depth of plugins used by Meltano projects, although it has the side affect of being skewed by spikes in new projects that
 haven't been around long enough to onboard a variety of plugins yet or by the cohort of projects using Meltano only for EL.
-
-Similar to PXP this metric is aggregated daily over a 14 day rolling window, excluding executions that are within 7 days of their first event, and only considered execution events.
-This metric is intending to understand the variety and depth of plugins used by Meltano projects, although it has the side affect of being skewed by spikes in new projects that
-haven't been around long enough to onboard a variety of plugins.
 
 APP is a lagging indicator that should be interpreted in context of other KPIs and health metrics.
 Short-term fluctuations are expected and our goal is an increase of the KPI over the long term.
@@ -96,19 +84,6 @@ Current Features:
 The sum of all monthly events by command category.
 Command categories are defined in the Meltano [tracking](https://github.com/meltano/meltano/tree/main/src/meltano/core/tracking) module.
 
-#### Active Projects 28d >1 Execution
-
-The distinct count of [project_ids](https://docs.meltano.com/reference/settings#project_id) using a trailing 28 day sliding window.
-A project is considered active if it had >1 execution event (invoke, elt, run, test, ui) in the 28 day window.
-These are not unique executions, for example if a single elt job was run multiple times then the project is considered active.
-
-#### Active Projects 28d >1 Unique Pipeline
-
-The distinct count of [project_ids](https://docs.meltano.com/reference/settings#project_id) using a trailing 28 day sliding window.
-A project is considered active if it had >1 unique pipeline execution (elt, invoke, run) in the 28 day window.
-The pipeline uniqueness is based on the command which also accounts for different environments.
-The same pipeline using multiple environments are counted individually.
-
 #### Percentage Cohort Usage vs Original
 
 A cohort's total events in a given month compared to it's total events in it's acquired month.
@@ -152,10 +127,39 @@ The date the domain was acquired is based on the first user to join with that do
 
 ## Common Definitions
 
+#### Active Project
+
+An active project is defined as a project that is >=7 days old, ran an [execution event](/data-team/metrics-and-definitions#execution-event), and the project ID source is not "random".
+This attribute uses a daily aggregated 28 day rolling window.
+
+- &gt;=7 Day Lifespan Filter
+
+    This means that projects that are abandoned within 7 days are never counted as active.
+    The intention is to reduce the noise created by first time users exploring so our metrics more closely track long term users.
+
+- Execution Event Filter
+
+    Although a user may be executing project configuration commands like install/config/discover/etc., we don't consider them active until they run an [execution command](/data-team/metrics-and-definitions#execution-event).
+
+- Project Source Filter
+
+    The project ID source attribute is sent with every execution and will almost always be random for a `meltano init`, so the project's ID source is based on the first
+    project ID source received excluding the init command.
+
+- 28 day Rolling Window
+
+    A 28 day rolling window is used, meaning once a project stops running their last execution they're still considered active for 28 more days.
+    One reason we chose a 28 day window was because we want to make sure we account for service plugins that are less frequently executed like Airflow or Superset and for users who run larger less frequent pipelines (i.e. weekly, bi-weekly).
+    This is something to be aware of and to consider when interpreting results because a metric like monthly churn rate could be more reflective of projects churning the prior month.
+
+- Re-activation Example
+
+    Projects can fluctuate between active and inactive states over their lifetime, for example: a new user looking to bring Meltano into their organization might conduct a POC where they initialize a project and use it actively for a couple weeks, then go dormant for 28+ days making them inactive while they get buy-in from leadership, then later pick the project back up and execute a plugin at which point they're immediately considered active again following plugin execution.
+
 #### Execution Event
 
 An execution event when a user executes something via Meltano.
-The intent is to exclude any native or configuration related CLI executions to differentiate between running a pipeline vs configuring a project or managing the Meltano instance (e.g. `meltano state`).
+The intent is to exclude any native or configuration related CLI executions to differentiate between running a plugin/pipeline vs configuring a project or managing the Meltano instance (e.g. `meltano state`).
 For example `meltano config` is not an execution event but `meltano run` is.
 The list includes invoke/elt/run/test/ui.
 
