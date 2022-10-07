@@ -4,8 +4,26 @@ title: "HubSpot"
 weight: 2
 ---
 
+## About
 
 Customer relationship management (CRM) and marketing automation platform (MAP).
+
+## Access
+
+Access is provided upon request. Please ask a Super Admin for access. 
+
+## Integrations
+
+Below are the apps connected to Meltano's HubSpot instance:
+
+1. [HubSpot for WordPress](https://knowledge.hubspot.com/integrations/install-the-hubspot-wordpress-plugin?_ga=2.189290473.351036668.1664898612-358124087.1660659699)
+2. [Typeform](https://www.typeform.com/help/a/integrate-your-typeform-with-hub-spot-360029578071/)
+3. [Seamless.ai](https://help.seamless.ai/s/)
+
+[Private apps](https://app.hubspot.com/private-apps/20712484):
+
+1. Orbit API Integration
+2. Meltano Data Warehouse
 
 ## API Usage
 
