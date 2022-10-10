@@ -148,6 +148,10 @@ Every team member has their own account.
 
 Payroll and benefits platform for US-based team members.
 
+## [HotJar](https://www.hotjar.com/)
+
+Website heatmaps
+
 ## [HubSpot](https://www.hubspot.com/)
 
 Customer relationship management (CRM) and marketing automation platform (MAP). [Visit marketing ops to learn more](https://handbook.meltano.com/marketing/marketing-ops/hubspot).
@@ -258,6 +262,10 @@ Currently unused.
 
 Account details are in the `Engineering` 1Password vault.
 
+## [Semrush](https://www.semrush.com/)
+
+SEO insights
+
 ## [SiteGround](https://ua.siteground.com/)
 
 Formerly used for hosting <https://meltano.com> and DNS management for `meltano.com`, `meltano.org`, `meltano.io`, `meltano.net`, `meltano.app`, and `meltano.dev`. This account will be sunset in the near future. An old version of our website is hosted here at <https://old.meltano.com>.
@@ -298,6 +306,10 @@ Account details are in the `Social` 1Password vault.
 [`@MeltanoData`](https://twitter.com/meltanodata) Twitter account.
 
 Account details are in the `Social` 1Password vault.
+
+## [Typeform](https://www.typeform.com/)
+
+Surveys
 
 ## [WPEngine](https://wpengine.com/)
 
