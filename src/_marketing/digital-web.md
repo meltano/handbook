@@ -46,3 +46,18 @@ The process is as follows:
 
 ### GDPR and privacy
 Coming soon
+
+## Product Messaging Statements
+On updates of the product messaging the following places will need to be updated:
+
+- [Youtube](https://www.youtube.com/c/Meltano/about)
+- [Linkedin](https://www.linkedin.com/company/meltano/mycompany/)
+- [Twitter](https://twitter.com/meltanodata)
+- [TikTok](https://www.tiktok.com/@meltanodata)
+- [instagram](https://www.instagram.com/meltanodata/)
+- [linktr.ee](https://linktr.ee/meltano)
+- The README on Github meltano/hub
+- The README on GitHub meltano/meltano
+- The README on Github meltano/sdk
+- For all GitHub repositories: The description! (righthand side, currently only the meltano repo has the tag line in it)
+- The GitHub Meltano organization (also carries a description with the tagline)
