@@ -118,7 +118,7 @@ As of 2021 we have 3 main "product lines." Each of these should be referenced in
 
 ## SDK
 
-Note that Targets can be substituted for Taps in each of these examples. The Meltano Singer SDK is to be differentiated from the Meltano EDK and the Meltano (managed) SDK (not yet developed). So it is important to keep the language precise. 
+Note that Targets can be substituted for Taps in each of these examples. The [Meltano Singer SDK](https://github.com/meltano/sdk/) is to be differentiated from the [Meltano Extension Developer Kit (EDK)](https://github.com/meltano/edk/) and any Meltano Managed Development Kit (not yet developed). So it is important to keep the language precise. 
 
 #### Recommended
 
