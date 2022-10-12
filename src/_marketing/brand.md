@@ -118,28 +118,15 @@ As of 2021 we have 3 main "product lines." Each of these should be referenced in
 
 ## SDK
 
-Note that Targets can be substituted for Taps in each of these examples
+Note that Targets can be substituted for Taps in each of these examples. The Meltano Singer SDK is to be differentiated from the Meltano EDK and the Meltano (managed) SDK (not yet developed). So it is important to keep the language precise. 
 
 #### Recommended
 
-    * The Meltano SDK
-    * The Meltano Tap SDK
-    * The Meltano SDK for Taps
-    * The Meltano SDK for Singer Taps
+    * The Meltano Singer SDK
+    * The Meltano Singer Tap SDK
+    * The Meltano Singer SDK for Taps
 
-    Example usage: Today, we're releasing a new update for the Meltano Tap SDK that...
-
-#### OK
-
-    * The SDK
-    * The Tap SDK
-    * The SDK for Taps
-    * The SDK for Singer Taps
-    * Meltano's Tap SDK
-    * The Tap SDK by Meltano
-
-    These are OK when the proper, Meltano-specific name has already been referenced.
-    Example usage: Today, we're releasing a new update for the SDK for Taps that...
+    Example usage: Today, we're releasing a new update for the Meltano Singer Tap SDK that...
 
 #### Incorrect
 
@@ -149,6 +136,8 @@ Note that Targets can be substituted for Taps in each of these examples
     * Singer's SDK
     * Meltano's Singer SDK
     * Singer SDK by Meltano
+    * The SDK
+    * The Singer SDK
 
     Incorrect example usage: Today, we're releasing a new update for the Singer SDK for Taps that...
 
