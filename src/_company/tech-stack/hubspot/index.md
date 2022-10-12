@@ -4,10 +4,24 @@ title: "HubSpot"
 weight: 2
 ---
 
+## About
 
 Customer relationship management (CRM) and marketing automation platform (MAP).
 
-## API Usage
+## Access
+
+For access, please contact a `Super Admin`. 
+
+## Integrations
+
+### Slack/Zapier
+
+We use Zapier to send new Slack community members to HubSpot. 
+
+Trigger: New Slack user
+Action: Find contact in HubSpot by email. If it does not already exsit, create a new contact in HubSpot (first name, last name, email, lead source). 
+
+### API Usage
 
 500k calls/day. API call counts reset at midnight. 
 
