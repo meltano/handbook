@@ -162,12 +162,6 @@ Customer relationship management (CRM) and marketing automation platform (MAP). 
 
 Account details are in the `Social` 1Password vault.
 
-## [Intercom](https://www.intercom.com/)
-
-Chat button on bottom right of <https://meltano.com/> and Meltano UI.
-
-Select team members have their own account.
-
 ## [LabelSync](https://label-sync.com/)
 
 Manages GitHub labels across our repositories.
