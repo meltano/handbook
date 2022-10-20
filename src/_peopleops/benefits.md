@@ -129,7 +129,7 @@ See our [compensation handbook page](/peopleops/compensation) for more details.
 
 ### 401k
 
-We are pleased to be able to offer a 401k plan to US employees beginning in 2022. In other countries, we defer to the [Remote.com](https://remote.com/) and localized standards.
+We are pleased to offer a 401k plan to US employees. In other countries, we defer to the [Remote.com](https://remote.com/) and localized standards.
 
 ## Health and Wellness
 
