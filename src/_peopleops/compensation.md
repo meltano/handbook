@@ -44,7 +44,7 @@ The equity (stock options) for a given role and level is determined using the sa
 
 Specifically, we divide the 75th percentile Gross Equity Value by the latest valuation of the company to determine the appropriate ownership percentage, which is then multiplied by the total number of shares to determine the number of options to be granted.
 
-Options vest monthly over 4 years, with a 1-year cliff. Early exercise is allowed in countries where this has potential tax benefits, like the US.
+Options vest monthly over 4 years, with a 1-year cliff. Early exercise is allowed in countries where this has potential tax benefits and is permitted by local regulations.  Currently, early exercise is available to Meltano employees in the US and UK.  Employees living in other countries who wish to early exercise can ask and Meltano will investigate whether this can be made available.
 
 ## Bonuses
 
