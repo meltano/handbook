@@ -250,6 +250,12 @@ International payroll, PEO, and contractors.
 Non-US team members have their own account.
 Main account details are in the `HR` 1Password vault.
 
+## [Seamless.ai](/company/tech-stack/seamlessai/)
+
+Sales intelligence and lead management solution that streamlines contact search, market research, lead conversion, data importing, etc.
+
+Shared login 
+
 ## [SendGrid](https://app.sendgrid.com/)
 
 Currently unused.
