@@ -176,7 +176,7 @@ To standardize the hardware provisioned for Meltano team members, the following 
 
 Note that the above links are to the Apple store website for the United States. These particular configurations are not available in Apple Stores, so will need to be ordered online. If you are located in a different country, you will likely have to place your order from your regional Apple store website.
 
-Additionally, there is no need to purchase Apple Care.
+Additionally, do not purchase Apple Care.
 
 If alternate hardware is required, please request it during the onboarding process.  It can be provisioned on a case-by-case basis.  With that in mind, the MacBook Air has been found to be insufficient for our needs.  Requests for this model will not be approved.
 
