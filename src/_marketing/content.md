@@ -181,7 +181,7 @@ Meltano posts numerous videos to YouTube each week, covering everything from pro
 
 ### Creating content for YouTube
 #### If you choose to show your face / use your voice
-- **Lightning**: You can get good natural lightning by recording during the day (preferably) and standing in front of a window in hours where the sun will not hit your face directly (as soft light is prefered over a hard light).
+- **Lighting**: You can get good natural lighting by recording during the day (preferably) and standing in front of a window in hours where the sun will not hit your face directly (as soft light is preferred over a hard light).
 - **Sound**: Find a quiet place where you can record, making sure your microphone works properly and there’s not too much background noise.
 - **Background**: Use a clean light background instead of a wall with too much visual noise. If you want, you can add some elements on purpose like a Melty or a professional award!
 
