@@ -179,6 +179,32 @@ Send a follow-up thank-you note to the guest.
 
 Meltano posts numerous videos to YouTube each week, covering everything from product releases to engineering discussions. Meltano videos posted to YouTube should follow a standard template when naming a video and adding a video description. Common naming conventions make it simple to find the latest version of our weekly videos, and an expanded description with information about Meltano and how to contact the team make it easy for individuals who discover a video to get up to speed quickly.
 
+### Creating content for YouTube
+#### If you choose to show your face / use your voice
+- **Lighting**: You can get good natural lighting by recording during the day (preferably) and standing in front of a window in hours where the sun will not hit your face directly (as soft light is preferred over a hard light).
+- **Sound**: Find a quiet place where you can record, making sure your microphone works properly and there’s not too much background noise.
+- **Background**: Use a clean light background instead of a wall with too much visual noise. If you want, you can add some elements on purpose like a Melty or a professional award!
+
+[Recommended reading](https://wave.video/blog/12-simple-tips-for-making-your-videos-look-more-professional/)
+
+#### For the actual content you’ll be showing
+
+**Thumbnail**
+-   We have several [thumbnail templates](https://drive.google.com/drive/folders/1OcOhZVu740XpQh68OKG1ST4QgyQdTT-5?usp=share_link) in the Marketing drive (Meltano team > Marketing > YouTube). Choose one to copy and edit according to the category of your video.
+
+**How to start**
+-   A) You can start your video with an opening slide, which can be the same as your Thumbnail design, with you briefly explaining what you’ll be doing.
+-   B) Or if your camera quality is good enough and you’re not feeling too shy, you’re more than welcome to start the video with your face explaining the matter yourself! (from the chest up, front angle).
+ 
+**Screen recording**
+-   Use a new desktop to avoid showing a messy one or stuff you don’t want seen
+-   Turn your notifications off to avoid any pop-ups
+
+**Sensitive information**
+-   Avoid showing sensitive content at all costs, such as: client emails, transactions details, etc.
+
+[Recommended video for more tips](https://www.youtube.com/watch?v=ow-EsJBeFgQ)
+
 ### Naming a YouTube Video
 
 Videos uploaded to YouTube should have names that try and follow the same format wherever possible.
