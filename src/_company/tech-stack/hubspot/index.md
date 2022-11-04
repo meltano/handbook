@@ -34,3 +34,8 @@ Action: Find contact in HubSpot by email. If it does not already exsit, create a
 ## HubSpot Insights
 
 HubSpot Insights can only enrich company data if the company name is pulled in: https://knowledge.hubspot.com/companies/hubspot-insights-on-company-records
+
+## Import Contacts
+
+- [How to setup your import file](https://knowledge.hubspot.com/crm-setup/set-up-your-import-file)
+- How to use the [template](https://docs.google.com/spreadsheets/d/1IocXCt_ltEnBr5k51vmYehkiX9eenEDkE9DKKFs8hX0/edit#gid=0): make a copy of the document, fill in all the contact details for your contacts (1 contact per row), then provide to [marketing ops](https://handbook.meltano.com/marketing/marketing-ops/) to QA before importing to HubSpot.
