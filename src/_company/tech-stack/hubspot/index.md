@@ -14,6 +14,12 @@ For access, please contact a `Super Admin`.
 
 ## Integrations
 
+### WordPress Plugin
+
+>Built-in analytics: analyze website performance and HubSpot forms to see which channels are driving the most leads by clicking the Dashboard link in the plugin menu. Track the performance of your team with sales dashboard reports.
+
+The HubSpot tracking code is added to meltano.com via a [WordPress plugin](https://knowledge.hubspot.com/integrations/install-the-hubspot-wordpress-plugin). When a visitor fills out a form (ex: newsletter), they become `known` in HubSpot and page views can then be tracked on the contact record.
+
 ### Slack/Zapier
 
 We use Zapier to send new Slack community members to HubSpot. 
