@@ -39,6 +39,12 @@ Calendar scheduling tool.
 Every team member has their own account.
 Team members who desire the features of the paid version may request a paid account.
 
+## [DataDog](https://www.datadoghq.com/)
+
+Infrastructure and application monitoring service.
+
+Select team members have their own account. 
+
 ## [DigitalOcean](https://www.digitalocean.com/)
 
 Formerly used for hosting and DNS management for `*.meltanodata.com`. This domain is not currently in use but old images and DNS zones can be found here in case they're needed in the future.
