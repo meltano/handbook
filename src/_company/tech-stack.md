@@ -43,7 +43,7 @@ Team members who desire the features of the paid version may request a paid acco
 
 Infrastructure and application monitoring service.
 
-Every team member has their own account. 
+Select team members have their own account. 
 
 ## [DigitalOcean](https://www.digitalocean.com/)
 
