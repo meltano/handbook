@@ -4,6 +4,12 @@ title: "Marketing Ops"
 weight: 1
 ---
 
+## Campaigns
+
+To request a marketing campaign, please use the `campaign-request.md` template in the [internal-marketing repo](https://github.com/meltano/internal-marketing/blob/main/.github/ISSUE_TEMPLATE/campaign-request.md). 
+
+## Tech stack
+
 Please see a full list of all our [tooling here](/company/tech-stack/).
 
 ## Domains
@@ -42,10 +48,6 @@ Performing regular web health checks is a good digital practice. When doing so, 
 2. How it works: Everything on the left is the old URL, and the one on the right is the new URL. All of them assume that `https://hub.meltano.com` is the prefix
 3. For cases when you find an URL that doesn't have an updated equivalent, you can simply type "/" to redirect to the Hub main page
 4. Create a pull request with your changes and push to main when approval/all checks have passed.
-
-## Intercom
-
-Intercom is used as a support channel. Only select team members have access to this but please ask Amanda if need access or reports.
 
 ## Social
 
