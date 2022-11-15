@@ -12,13 +12,15 @@ A Key Performance Indicator (KPI) is a way to measure and understand progress to
 
 Certain KPIs are considered Health Metrics, which means we actively monitor them and alarm on them and take action when and if they fall out of expected range. Otherwise we may or may not have goals or initiatives associated with their outputs.
 
-## Pipeline Runs
+## Active Projects
 
-Meltano's primary strategic goal is to achieve product-market fit for Meltano as a data movement (EL+T) solution with 10X developer experience over alternatives. Our primary metric for measuring progress towards this goal is the number of pipelines run.
+Meltano's primary strategic goal is to achieve product-market fit for Meltano as a data movement (EL+T) solution with 10X developer experience over alternatives. Our primary metric for measuring progress towards this goal is the number of [active projects](/data-team/metrics-and-definitions#active-project).
 
-This metric encourages us to have users implement Meltano for useful data workloads across all plugin types and is typically a sign of a successful implementation of a Meltano project. 
-This metric encourages us to grow the usage of existing Meltano users as well as activate new users to a successful pipeline run. 
-We also view this metric as a possible proxy for revenue once our [Managed offering](https://meltano.com/managed/) is launched.
+Active projects is a metric we can influence directly and new active projects will inevitably lead to more Unique Pipelines and Pipeline Runs.
+This metric encourages us to retain existing Meltano users as well as activate new users. 
+
+We previously targeted Pipeline Runs as our primary metric, but because it, along with unique pipelines, are harder to directly influence, we have re-focused on active projects. 
+However, we believe that a key part of increasing active projects is ensuring successful pipeline runs, so we will still monitor Pipelines Runs closely. 
 
 To learn more about North Star Metrics checkout these articles from [Mixpanel](https://mixpanel.com/blog/north-star-metric/) and [Amplitude](https://amplitude.com/blog/product-north-star-metric).
 
