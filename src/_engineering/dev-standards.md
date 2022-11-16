@@ -129,3 +129,7 @@ As a general guide, please refer to [Gruntwork's Terraform Style Guide](https://
 ## Helm Standards
 
 COMING SOON
+
+## AWS Accounts
+
+AWS account IDs should be treated as private. Account IDs should not be included in public facing repositories. 

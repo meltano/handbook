@@ -149,16 +149,12 @@ Meltano - [CODEOWNERS](https://gitlab.com/meltano/meltano/-/blob/master/.gitlab/
 
 As we grow and the complexity of the various code base increases, we will appoint additional code owners to specific subject areas as needed.
 
-### Terraform and IAC Resources
+### Pulumi and IAC Resources
 
-Terraform and IAC are an increasingly important codebase for our team's success. For any terraform and IAC resources which don't already have a `CODEOWNERS` ruleset, the following approval model should apply:
+For any Pulumi and IAC resources which don't already have a `CODEOWNERS` ruleset, the following approval model should apply:
 
-- Primary Approver: @edgarrmondragon
-- Secondary Approvers: @aaronsteers, @kgpayne (both required as 'additional' approvers \*\*)
-
-Note:
-
-- More eyes are needed _temporarily_ on infra-related resources, but we'll scale this down to the standard primary/secondary approval model once a set of best practices and standard coding guidelines have been established. (Tracked in [handbook#68](https://gitlab.com/meltano/handbook/-/issues/68))
+- Primary Approver: @magreenbaum
+- Secondary Approvers: @WillDaSilva
 
 ### EM and PM Approval
 
