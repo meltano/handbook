@@ -17,7 +17,7 @@ Emails to `support@meltano.com` forward to HubSpot so they can be triaged, assig
 
 ### Responsible Disclosure of Security Vulnerabilities
 
-Emails to `security@meltano.com` also forward to Zendesk, and are automatically assigned to the Security group, which includes all current team members.
+Emails to `security@meltano.com` also forward to HubSpot, and are automatically assigned the Security Issue category.
 As documented in our [Responsible Disclosure Policy](https://meltano.com/docs/responsible-disclosure.html), we will acknowledge receipt of a vulnerability report the next business day and strive to send the reporter regular updates about our progress.
 
 ## HubSpot Live Chat
