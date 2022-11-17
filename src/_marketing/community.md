@@ -40,9 +40,15 @@ We're trialing [Orbit](https://app.orbit.love/signup) as a community CRM and act
 
 We're trialing [Dots](https://app.dots.community/) as another community CRM tool. Currently only Amanda Folson has access to this.
 
-## Champions
+## Community Champions Program
 
-There are several champions within the community that have been recognized for their contributions and support. These folks are tagged in Orbit with "champion" for now.
+There are several champions within the community that have been recognized for their contributions and support. These folks are tagged in Orbit with "champion" for now but will be migrated to HubSpot.
+
+More information on the future of this program can be found in [this issue](https://github.com/meltano/internal-marketing/issues/266).
+
+### Swag for Champions
+
+We love to send swag to our regular contributors. If you'd like to send swag to a someone please reach out to `@Amanda Folson`.
 
 ## User Interviews
 
