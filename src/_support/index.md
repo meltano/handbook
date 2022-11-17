@@ -23,3 +23,7 @@ As documented in our [Responsible Disclosure Policy](https://meltano.com/docs/re
 ## HubSpot Live Chat
 
 The [Meltano.com website](https://www.meltano.com) is set up with live chat powered by HubSpot. Live chats are piped into #support on Slack and can be replied to within a thread. These are currently routed to `@Amanda Folson`. Pre-sales questions or RFPs are sent to `@Douwe Maan`.
+
+## GitHub Issues/PRs
+
+We try to respond to issues and PRs created by the community within 24 hours. New PRs and issues across Meltano projects and the Singer ecosystem are posted to #singer-ecosystem-activity on Slack.
