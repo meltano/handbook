@@ -39,6 +39,12 @@ Calendar scheduling tool.
 Every team member has their own account.
 Team members who desire the features of the paid version may request a paid account.
 
+## [Clearbit](https://clearbit.com/)
+
+Reveals anonymous website visitors so we can learn who are interested in us.
+
+Account details are in the `Marketing` 1Password vault.
+
 ## [DataDog](https://www.datadoghq.com/)
 
 Infrastructure and application monitoring service.
@@ -171,6 +177,12 @@ Account details are in the `Social` 1Password vault.
 ## [LabelSync](https://label-sync.com/)
 
 Manages GitHub labels across our repositories.
+
+## [LeadMagic](https://leadmagic.io/)
+
+Reveals anonymous website visitors so we can learn who are interested in us.
+
+Account details are in the `Marketing` 1Password vault.
 
 ## [LinkedIn](https://www.linkedin.com/company/meltano/)
 
