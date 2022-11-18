@@ -178,6 +178,10 @@ Account details are in the `Social` 1Password vault.
 
 Manages GitHub labels across our repositories.
 
+## [Lattice](https://lattice.com/)
+
+A tool for setting goals and obtaining feedback.  Each team member has their own account.
+
 ## [LeadMagic](https://leadmagic.io/)
 
 Reveals anonymous website visitors so we can learn who are interested in us.
