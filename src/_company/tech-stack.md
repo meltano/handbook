@@ -63,6 +63,10 @@ Hosting of [`meltano/meltano`](https://hub.docker.com/r/meltano/meltano) Docker 
 
 Account details are in the `Engineering` 1Password vault.
 
+## [Drata](https://drata.com/)
+
+SOC2 compliance automation tool.  Each team member has their own account and access.
+
 ## [Expensify](https://www.expensify.com/)
 
 Expense tracking.
