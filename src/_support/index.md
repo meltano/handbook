@@ -7,7 +7,7 @@ permalink: /support/
 
 ## Slack Support
 
-Support on Slack is primarily provided by the community, but we strive to answer all questions within 24 hours. The [#support](https://meltano.slack.com/archives/C029CUM7ATD) Slack channel is where Meltano team members can request support from the wider team. If you see a support request that needs an assist, please share the relevant Slack thread in this channel.
+Support on Slack is primarily provided by the community, but we strive to answer all questions within 1 business day. The [#support](https://meltano.slack.com/archives/C029CUM7ATD) Slack channel is where Meltano team members can request support from the wider team. If you see a support request that needs an assist, please share the relevant Slack thread in this channel.
 
 ### Process
 
@@ -27,7 +27,7 @@ As documented in our [Responsible Disclosure Policy](https://meltano.com/docs/re
 
 ## HubSpot Live Chat
 
-The [Meltano.com website](https://www.meltano.com) is set up with live chat powered by HubSpot. Live chats are piped into `#support` on Slack and can be replied to within a thread. These are currently routed to `@Amanda Folson`. Pre-sales questions or RFPs are sent to `@Douwe Maan`.
+The [Meltano.com website](https://www.meltano.com) is set up with live chat powered by HubSpot. Live chats are piped into `#support` on Slack and can be replied to within a thread. These are currently routed to `@Amanda Folson`. Pre-sales questions or RFPs are sent to `@Douwe Maan`. We try to respond to these within 1 business day.
 
 ## GitHub Issues/PRs
 
