@@ -70,7 +70,7 @@ Requests for exemption to the New Hire Background Check process must be approved
 
 ### Background checks for existing employees
 
-As of Dec 15, 2022, all existing employees are strongly recommended to agree to a background checked performed by our approved vendor.
+As of Dec 15, 2022, all existing employees are requested to consent to a background checked performed by our approved vendor.
 
 While we strongly encourage all employees to participate, this is _not_ a hard requirement and is explicitly _not_ a condition of employment for any employees who joined Meltano prior to Jan 15, 2022. (See below.)
 
