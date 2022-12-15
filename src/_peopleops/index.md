@@ -56,6 +56,36 @@ To configure these:
 Please note: These settings are per job board. If there are multiple job boards you'll need to update this setting for
 each one.
 
+## Employee background checks
+
+Background checks of Meltano personnel are an important factor in establishing trust in Meltano and to provide our customers and auditors a high confidence in Meltano's integrity. They are primarily and most importantly a way of certifying to customers and shareholders that no employees of Meltano are compromised in a way that could put customers or customer assets at risk.
+
+More information on this SOC-2 compliance and best practices is available [here](TK) and [here](TK).
+
+### Background check exceptions for new hires
+
+Requests for exemption to the New Hire Background Check process must be approved by Douwe Maan (CEO) and the hiring manager.
+
+### New hire background checks
+
+As of Dec 15, 2022, all new hires to Meltano must agree to a background check performed by our approved vendor (`TK`). A passing background check is a condition of hire.
+
+### Background checks for existing employees
+
+As of Dec 15, 2022, all existing employees are strongly recommended to agree to a background checked performed by our approved vendor.
+
+While we strongly encourage all employees to participate, this is _not_ a hard requirement and is explicitly _not_ a condition of employment for any employees who joined Meltano prior to Jan 15, 2022. (See below.)
+
+### Operational considerations
+
+While all current employees may chose to opt out of the background check process, an opt out may necessarily reduce access to certain sensitive production systems.
+
+For example, current Meltano employees who elect to opt out of a background check might be restricted from accessing customer accounts or might have reduced access to internal credential stores. These decisions will be made on a case-by-case basis according to the roles and responsibilies required of the employee's position.
+
+### Questions and concerns
+
+If you have any questions or concerns about Meltano's background check policy, we encourage you to reach out directly to your manager, to your HR support, or to any member of the leadership team. We are here to support you.
+
 ## Financial operations
 
 Financial operations includes spending company money, guidelines, and the reimbursement policy.
