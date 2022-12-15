@@ -62,13 +62,11 @@ Background checks of Meltano personnel are an important factor in establishing t
 
 More information on this SOC-2 compliance and best practices is available [here](TK) and [here](TK).
 
-### Background check exceptions for new hires
-
-Requests for exemption to the New Hire Background Check process must be approved by Douwe Maan (CEO) and the hiring manager.
-
 ### New hire background checks
 
 As of Dec 15, 2022, all new hires to Meltano must agree to a background check performed by our approved vendor (`TK`). A passing background check is a condition of hire.
+
+Requests for exemption to the New Hire Background Check process must be approved by Douwe Maan (CEO) and the hiring manager.
 
 ### Background checks for existing employees
 
