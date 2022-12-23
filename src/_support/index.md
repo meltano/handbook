@@ -38,7 +38,3 @@ The DevRel team tries to respond to issues and PRs created by the community with
 - The DevRel team checks `#meltano-repo-activity`, `#hub-repo-activity`, and `#sdk-repo-activity` in the morning to see if there are new issues or PRs without a response.
 - Thank the user for their contribution and let them know that someone on the team will review it shortly.
 - Drop a link to the issue or PR in `#engineering-chatter` for triage and review.
-
-## GitHub Issues/PRs
-
-The DevRel team tries to respond to issues and PRs created by the community within 24 hours. New PRs and issues across Meltano projects are posted to `#meltano-repo-activity` and `#hub-repo-activity`, while Singer ecosystem are posted to `#singer-ecosystem-activity` on Slack. There is no SLA on Singer ecosystem issues and PRs, but we try to respond when there's something we think we can assist with.
