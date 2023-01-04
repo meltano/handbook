@@ -18,6 +18,10 @@ Employees are required to enable MFA on their `@meltano.com` user account.
 
 All Meltano employeess and contractors will receive an invite to the Meltano Team in GitHub. As long as the employee or contractor is employed by Meltano, the following must be configured for the users' GitHub accounts:
 
+### Password Manager
+
+Meltano uses 1Password for account management, including as our recommended one-time-password (OTP MFA) provider. We require all employees to install and use the provided password manager.
+
 #### GitHub User Account Requirements
 
 1. MFA must be enabled. (We recommend 1Password as the OTP application.)
@@ -29,7 +33,6 @@ All Meltano employees are issued a laptop upon joining Meltano. Below are proced
 
 The below requirements apply to all Meltano workstations.
 
-- 1Password Password manager installed.
 - Automatic security updates enabled on laptop.
 - Anti-virus installed on laptop.
 - Screensaver lock meets policy for max time between start of screensaver and locking of laptop.
