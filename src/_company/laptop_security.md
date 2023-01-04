@@ -39,6 +39,8 @@ The below requirements apply to all Meltano workstations.
 
 Once per audit period (at minimum), Meltano employees should be prepared to log in to [app.drata.com](https://app.drata.com) with their `@meltano.com` SSO account and upload screenshots of the above using the provided instructions.
 
+Assuming laptop has already been subscribed to the above security policies, employees should expect approximately 10-15 minutes effort to upload the associated screenshots as evidence of compliance.
+
 ## Compliance Vendor: Drata
 
 We use [Drata](https://app.drata.com) as our chosen vendor to monitor and alert on compliance. In many cases, Drata will create an alert if above policies are not met. For more information on specific tests performed by Drata, please see the [tracking issue](https://github.com/meltano/soc2/issues/2) (internal link).
