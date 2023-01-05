@@ -36,7 +36,7 @@ The below requirements apply to all Meltano workstations.
 1. Automatic security updates enabled on laptop.
 1. Screensaver lock meets policy for max time between start of screensaver and locking of laptop.
 1. Hard drive encryption is enabled.
-1. Anti-virus installed on laptop. (Requirement [waived](https://help.drata.com/en/articles/5282257-mac-os-and-antivirus-software) for MacOS users on a sufficiently recent OS version.)
+1. An [approved](https://help.drata.com/en/articles/4675835-installing-and-using-anti-virus-software-on-your-computer) anti-virus provider installed on laptop. (Requirement [waived](https://help.drata.com/en/articles/5282257-mac-os-and-antivirus-software) for MacOS users on a sufficiently recent OS version.)
 
 ### Uploading Evidence of Laptop Compliance
 
