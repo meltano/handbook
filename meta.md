@@ -104,17 +104,3 @@ Builds will fail to deploy if links are broken. You can check for broken links l
 ```
 bundle exec jekyll build && bundle exec htmlproofer --log-level :debug ./_site --assume_extension --http_status_ignore 503 --url-ignore "/www.linkedin.com/,/www.dell.com/,/www.optionimpact.com/"
 ```
-
-## Deploy
-
-This project is deployed via GitLab Pages using the steps defined in [`.gitlab-ci.yml`](.gitlab-ci.yml).
-
-### Updating Docker
-
-```
-docker build -t registry.gitlab.com/meltano/handbook .
-```
-
-```
-docker push registry.gitlab.com/meltano/handbook
-```

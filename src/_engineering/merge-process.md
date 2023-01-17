@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Merge Request (PR) Process
+title: Pull Request (PR) Process
 weight: 2
 ---
 
 ## Trivial Updates
 
-All non-trivial merge requests should be reviewed and merged by someone other than the author.
-A merge request that touches code is never trivial, but one that fixes a typo in the documentation probably is.
+All non-trivial pull requests should be reviewed and merged by someone other than the author.
+A pull request that touches code is never trivial, but one that fixes a typo in the documentation probably is.
 
 Trivial updates, such as docs updates, do not require a logged issue.
 
@@ -36,10 +36,9 @@ Team authored PRs may be reviewed by any other team member, but should also be a
 
 ## Community-Contributed PRs
 
-For community contributions, the community contributor should indicate readiness to merge and
-the core team member (primary reviewer) will approve the PR and also perform the merge.
+For community contributions, the community contributor should indicate readiness to merge and the core team member (primary reviewer) will approve the PR and also perform the merge.
 
-All Community-Contributed PRs should have their corresponding Issue marked with the `Community-Contributed PR` label in Gitlab. This helps in prioritization of code contributions. We aim to be responsive in all Community-Contributed PRs, as a sign of respect for the community members' contributed time and effort.
+We aim to be responsive in all community contributed PRs, as a sign of respect for the community members' contributed time and effort.
 
 The first team member to review should assign themselves to the review and check the following are present:
 
