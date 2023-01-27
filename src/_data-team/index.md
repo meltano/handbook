@@ -21,15 +21,14 @@ The data team is responsible for the following code bases:
 
   - [Meta](https://github.com/MeltanoLabs/Meta)
   - [tap-google-analytics](https://github.com/MeltanoLabs/tap-google-analytics)
+  - [tap-cloudwatch](https://github.com/MeltanoLabs/tap-cloudwatch)
 
   Contribute to and use:
 
   - [tap-github](https://github.com/MeltanoLabs/tap-github)
-  - [target-athena](https://github.com/MeltanoLabs/target-athena)
   - [tap-gitlab](https://github.com/MeltanoLabs/tap-gitlab)
   - [target-yaml](https://github.com/MeltanoLabs/target-yaml)
   - [tap-slack](https://github.com/MeltanoLabs/tap-slack)
-  - [tap-athena](https://github.com/MeltanoLabs/tap-athena)
 
 ## Documentation and Links
 
