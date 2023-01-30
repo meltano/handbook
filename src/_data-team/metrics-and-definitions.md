@@ -14,29 +14,30 @@ These metrics are all sourced from the Meltano core CLI [anonymous usage data](h
 #### Monthly Active Projects
 
 The amount of projects that had an [active execution](/data-team/metrics-and-definitions#active-execution) in the month and also ended the month with active status.
+
 Projects are assigned [active status](/data-team/metrics-and-definitions#active-status) at the day grain using a 28d rolling window so theres a lag between when a project stops executing pipelines and when they've officially inactive.
 Due to this we chose to only count projects that had active executions because although the project might still have active status in a particular month, it may be in its grace period on it's way to being churned by the end of the month.
-For example if a project is active for a few months then runs it's final pipeline on Jan 30th 2023, then no pipelines in February, they would be active until February 27th then they'd switch to inactive, since they didn't have any active executions in February they would rightfully not be counted towards this Monthly Active Projects metric.
+For example if a project is active for a few months then runs it's final pipeline on Jan 31th 2023, then no pipelines in Feb, they would be active until Feb 28th then they'd switch to inactive, since they didn't have any active executions in Feb they would rightfully not be counted towards this Monthly Active Projects metric.
 Similarly if they ran their final pipelines on Jan 1st then they would be inactive by Jan 29th and would not count towards this metric because they didn't end the month in active status.
 
-#### Pipeline Runs
+#### Monthly Pipeline Runs
 
-TODO
+The amount of pipelines that were executed in a month.
+This metric does not require that the pipeline was executed successfully.
 
-#### New Projects
+#### Monthly New Projects
 
 The amount of new projects created.
-This excludes:
-- projects with random project ID sources
-- CI only projects
-- opted outs
-- project lifespan is < 5 mins
-- projects where first event is > '2022-06-01' and meltano version is prior to the 2.0 launch Snowplow telemetry release
+This excludes projects:
+- with random project ID sources
+- that are only executed in CI pipelines
+- that opted outs
+- with a project lifespan < 5 mins
+- where it's first event is > '2022-06-01' and meltano version is prior to the 2.0 launch Snowplow telemetry release. The intention is to exclude projects that were created by users who already had a previous version of Meltano installed, meaning this isn't a new user.
 
-#### Unique Pipelines
+#### Monthly Unique Pipelines
 
-TODO
-
+The count of unique pipelines that we're executed in a month, see the [pipeline definition section](/data-team/metrics-and-definitions#pipeline) for more details on what makes a unique pipeline.
 
 ## Metrics - Community
 
@@ -105,9 +106,15 @@ This attribute uses a daily aggregated 28 day rolling window.
 
     Projects can fluctuate between active and inactive states over their lifetime, for example: a new user looking to bring Meltano into their organization might conduct a POC where they initialize a project and use it actively for a couple weeks, then go dormant for 28+ days making them inactive while they get buy-in from leadership, then later pick the project back up and execute a plugin at which point they're immediately considered active again following plugin execution.
 
-#### Fish Segments
+#### Project Fish Segments
 
-TODO
+Projects are assigned one of the following fish segments on a monthly basis according to the amount of pipelines they ran in that month:
+
+- Whale: > 2000 pipelines
+- Marlin: 50-2000 pipelines
+- Guppy: < 50 pipelines
+
+This allows us to understand the influence of particular segments on the overall pipeline counts.
 
 #### Execution Event
 
@@ -118,9 +125,7 @@ The list includes invoke/elt/run/test/ui.
 
 #### Active Execution
 
-TODO
-
-An execution event that occurred while a project was considered active.
+An execution event that occurred while a project had [active status](/data-team/metrics-and-definitions#active-status).
 
 #### Plugin Categories
 
