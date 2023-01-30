@@ -154,16 +154,18 @@ The technology price guidelines are based on acquiring products in the United St
 
 #### Travel reimbursement
 
-Meltano will reimburse you for legitimate business travel expeses when travel to represent the company.  All trips need to be approved of in advance by your manager.  Employees seeking reimbursement should incur the lowest reasonable travel expenses.  Meltano will only pay for coach class travel.
+Meltano will reimburse you for legitimate business travel expeses when you need to travel to represent the company.  All trips need to be approved of in advance by your manager.  Employees seeking reimbursement should incur the lowest reasonable travel expenses.  Meltano will only pay for coach class travel.
 
 Items that will not be reimbursed include the following:
-- Airline club memberships.
+- Airline club memberships or enhanced airport services such as TSApre, CLEAR, Global Entry, NEXUS.
 - Airline or train ticket upgrades from coach class.
-- Child care, babysitting, house-sitting, or pet-sitting/kennel charges.
+- Annual fees for credit cards.
+- Child care, babysitting, house-sitting, pet-walking or pet-sitting/kennel charges.
 - Costs incurred by traveler's failure to cancel travel or hotel reservations in a timely fashion.
 - Evening or formal wear expenses.
 - Haircuts and personal grooming.
 - Laundry and dry cleaning.
+- Luggage / clothing / toiletries.
 - Passports, vaccinations and visas when not required as a specific and necessary condition of the travel assignment.
 - Personal entertainment expenses, including in-flight movies, headsets, health club facilities, hotel pay-per-view movies, in-theater movies, social activities and related incidental costs.
 - Travel accident insurance premiums or purchase of additional travel insurance.
