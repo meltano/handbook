@@ -24,11 +24,11 @@ as the top-of-the-market talent pool at these levels is relatively small and as 
 
 ### Periodic Compensation Refresh and Realignment
 
-Meltano believes in paying every team member fairly, and we aim to keep our salaries competitive even beyond each individual's hire date. At specific company milestones and at minimum once every 12 months, Meltano performs a company-wide compensation refresh. Each indididual's compensation will be checked against the above-mentioned market data in order to recalculate the updated target salary range. As a part of the periodic realignment, each team member's annual salary will be raised as appropriate, in order to reflect the latest target salary ranges.
+Meltano believes in paying every team member fairly, and we aim to keep our salaries competitive even beyond each individual's hire date. At specific company milestones and at minimum once every 12 months, Meltano performs a company-wide compensation refresh. Each individual's compensation will be checked against the above-mentioned market data in order to recalculate the updated target salary range. As a part of the periodic realignment, each team member's annual salary will be raised as appropriate, in order to reflect the latest target salary ranges.
 
 Important Notes:
 
-- Market rate calculations do take into account Meltano's maturity level as a startup, which means target salaries may sometimes increase as a result of important funding milestons and/or factors such as age and size of the company.
+- Market rate calculations do take into account Meltano's maturity level as a startup, which means target salaries may sometimes increase as a result of important funding milestones and/or factors such as age and size of the company.
 - For non-US team members, changes in international exchange rates are also considered when recalculating each team member's target salary range.
 - As a general rule, we will only increase and not decrease any compensation as a result of this periodic compensation refresh.
 
