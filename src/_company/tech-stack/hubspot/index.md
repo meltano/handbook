@@ -10,7 +10,7 @@ Customer relationship management (CRM) and marketing automation platform (MAP).
 
 ## Access
 
-For access, please contact a `Super Admin`. 
+For access, please contact a `Super Admin`.
 
 ## Integrations
 
@@ -22,14 +22,14 @@ The HubSpot tracking code is added to meltano.com via a [WordPress plugin](https
 
 ### Slack/Zapier
 
-We use Zapier to send new Slack community members to HubSpot. 
+We use Zapier to send new Slack community members to HubSpot.
 
 Trigger: New Slack user
-Action: Find contact in HubSpot by email. If it does not already exsit, create a new contact in HubSpot (first name, last name, email, lead source). 
+Action: Find contact in HubSpot by email. If it does not already exsit, create a new contact in HubSpot (first name, last name, email, lead source).
 
 ### API Usage
 
-500k calls/day. API call counts reset at midnight. 
+500k calls/day. API call counts reset at midnight.
 
 [API Usage Details](https://developers.hubspot.com/docs/api/usage-details)
 

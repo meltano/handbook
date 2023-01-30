@@ -39,17 +39,11 @@ Calendar scheduling tool.
 Every team member has their own account.
 Team members who desire the features of the paid version may request a paid account.
 
-## [Clearbit](https://clearbit.com/)
-
-Reveals anonymous website visitors so we can learn who are interested in us.
-
-Account details are in the `Marketing` 1Password vault.
-
 ## [DataDog](https://www.datadoghq.com/)
 
 Infrastructure and application monitoring service.
 
-Select team members have their own account. 
+Select team members have their own account.
 
 ## [DigitalOcean](https://www.digitalocean.com/)
 
@@ -86,7 +80,7 @@ Account details are in the `Engineering` 1Password vault.
 
 ## [GitHub](https://github.com/meltano/)
 
-DevOps platform - Software development and version control provider. 
+DevOps platform - Software development and version control provider.
 Every team member has their own account.
 
 <!--## [GitLab](https://gitlab.com/meltano/)
@@ -188,7 +182,7 @@ A tool for setting goals and obtaining feedback.  Each team member has their own
 
 ## [LeadMagic](https://leadmagic.io/)
 
-Reveals anonymous website visitors so we can learn who are interested in us.
+Helps us determine who visits our website.
 
 Account details are in the `Marketing` 1Password vault.
 
@@ -280,7 +274,7 @@ Main account details are in the `HR` 1Password vault.
 
 Sales intelligence and lead management solution that streamlines contact search, market research, lead conversion, data importing, etc.
 
-Shared login 
+Shared login
 
 ## [SendGrid](https://app.sendgrid.com/)
 

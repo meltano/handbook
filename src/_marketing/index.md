@@ -32,9 +32,9 @@ Each item (linked below) has a corresponding guide to promoting that activity. E
 Meltano is the infrastructure for the modern data stack that enables you to install, configure, manage, and deploy the tools of your choice, such as Singer, dbt, Airflow, Great Expectations, with Lightdash and Superset. Meltano also natively offers software engineering best practices to the stack by version controlling everything, enabling cross-pluging runs and testing, and isolated environments for dev and prod.
 
 ### GET STARTED WITH MELTANO
- - **Project Home**: https://meltano.com 
- - **GitHub**: https://gitlab.com/meltano/meltano 
- - **Install Meltano**: https://github.com/meltano/meltano 
+ - **Project Home**: https://meltano.com
+ - **GitHub**: https://gitlab.com/meltano/meltano
+ - **Install Meltano**: https://github.com/meltano/meltano
  - **Tutorials**: https://meltano.com/tutorials/
  - **Join Us On Slack**: https://meltano.com/slack
  - **Blog**: https://meltano.com/blog/
