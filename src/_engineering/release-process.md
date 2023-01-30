@@ -107,7 +107,7 @@ If the release is published before the version bump PR has landed, you will need
 
 #### Meltano - Docker Publish
 
-When releasing Meltano, there's one additional step. You'll need to build/publish images to the Docker hub. 
+When releasing Meltano, there's one additional step. You'll need to build/publish images to the Docker hub.
 
 After publishing the Meltano draft, and after you've verified that the packages are live on PyPI, you will need to trigger the Docker publish action: https://github.com/meltano/meltano/actions/workflows/docker_publish.yml
 

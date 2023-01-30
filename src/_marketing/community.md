@@ -32,4 +32,4 @@ We love to send swag to our regular contributors. If you'd like to send swag to 
 
 Occasionally we'll do user interviews to gather product/docs feedback. These interviews are added to HubSpot.
 
-If users share an observation about Meltano’s performance and benefits, write down what they say (verbatim) and ask them for permission to use the quote, whether fully attributed or “blinded.” If you hear use case stories, ask if we might be able to interview them and share their story.  
+If users share an observation about Meltano’s performance and benefits, write down what they say (verbatim) and ask them for permission to use the quote, whether fully attributed or “blinded.” If you hear use case stories, ask if we might be able to interview them and share their story.

@@ -72,7 +72,7 @@ We expect Meltano team members to take responsibility to determine what they nee
 1. You may privately use Meltano property (e.g. MacBook), to check your private e-mails, or watch a movie as long as it does not violate the law, harm Meltano, or interfere with Intellectual Property.
 1. Any purchase that will cost Meltano $1000 USD per item (or over) is classed as company property.  Any such items will need to be tracked by Operations.
    1. After an approved purchase, the item description and serial number will need to be provided to the Head of Operations.  One good way to do this is via the notes section in an expense report.
-   2. You will be required to return these item(s) if you leave the company. 
+   2. You will be required to return these item(s) if you leave the company.
 3. Any non-company expenses should not be paid for with a company credit card.
 4. If team members submit expenses for reimbursement for personal purchases that are not covered in the expense policy, this is a violation of our Code of Business Conduct & Ethics.
 
@@ -213,11 +213,10 @@ Meltano's phone number can be found in the Shared 1Password vault item called `M
 
 ### Verification of Employment
 
-All verifications of employment (VOE’s) should go through the Human Resource department and should be done via email. These include but are not limited to requests from government agencies, mortgage lenders, prospective employers and others.  
+All verifications of employment (VOE’s) should go through the Human Resource department and should be done via email. These include but are not limited to requests from government agencies, mortgage lenders, prospective employers and others.
 
-Meltano will comply with all government requests for verification of employment. 
+Meltano will comply with all government requests for verification of employment.
 
-Meltano will respond to requests from mortgage lenders, landlords and the like, if the request is accompanied by a release form from the employee. Additionally, employees should notify Human Resources through email that a request may be forthcoming. 
+Meltano will respond to requests from mortgage lenders, landlords and the like, if the request is accompanied by a release form from the employee. Additionally, employees should notify Human Resources through email that a request may be forthcoming.
 
-Prospective employers and those with collection agencies and others will be evaluated on a case by case basis. Meltano will under no circumstances provide wage information to a non government agency without consent and a release from the employee. Prospective employers will only receive verification of dates of employment and title.  
-
+Prospective employers and those with collection agencies and others will be evaluated on a case by case basis. Meltano will under no circumstances provide wage information to a non government agency without consent and a release from the employee. Prospective employers will only receive verification of dates of employment and title.

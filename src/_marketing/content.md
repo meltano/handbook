@@ -4,7 +4,7 @@ title: "Content Marketing"
 weight: 2
 ---
 
-## Social 
+## Social
 
 We use Sprout Social for most social posting and planning. Please try to do as many posts as possible from this tool for tracking and management purposes.
 
@@ -145,13 +145,13 @@ Upon receipt of a request to write a guest blog:
 - Come to an agreement with the guest about whether we will host a guest post or offer some assistance with drafts going to to other outlets, such as Medium.
 
 Once the subject matter and format are agreed upon, send an email to the guest asking them to confirm their agreement. In the email, provide:
-- A short review of the subject matter’s details and delivery vehicle (video, blog, etc.). 
-- The desired word-count range (or length, if video). 
-- Confirmation that the guest’s blog or video will include their name, company, and role.  
+- A short review of the subject matter’s details and delivery vehicle (video, blog, etc.).
+- The desired word-count range (or length, if video).
+- Confirmation that the guest’s blog or video will include their name, company, and role.
 - The format for delivering the draft (Google docs if possible).
 - A proposed due date for the first draft of the blog. (Though timing will vary, a general guideline is two weeks, or 10 working days.)
-- Instructions on who to send the draft to when it’s ready, with a copy to that person. 
-- If the guest will be doing a live (or Meltano-recorded) presentation, give them all relevant details (date, time, any sign-in info, etc.) and any other instructions they might need. 
+- Instructions on who to send the draft to when it’s ready, with a copy to that person.
+- If the guest will be doing a live (or Meltano-recorded) presentation, give them all relevant details (date, time, any sign-in info, etc.) and any other instructions they might need.
 
 Upon receipt of the author’s agreement, update the issue with the draft due date. Add the WordPress focal to the issue if you haven’t already done so.
 
@@ -159,21 +159,21 @@ When the guest sends the first draft, send them a quick note acknowledging recei
 - Update the issue (with a link to the document).
 - If the draft is in a Word document, the internal copy editor will copy/paste it into a Google doc and be responsible for tracking changes to both the Word document and Google drafts.
 
-The WordPress focal will email the guest and request permission to display their name, company, and title (and a photo, if applicable), and input that information into WordPress. 
+The WordPress focal will email the guest and request permission to display their name, company, and title (and a photo, if applicable), and input that information into WordPress.
 
-Internal reviewers (for both copy and content) have five business days to make comments for the guest’s consideration. (Internal copy editor will make changes based on [Meltano Style Guidelines](https://handbook.meltano.com/marketing/style-guide). All reviewers will update the issue after they’ve completed their reviews. 
+Internal reviewers (for both copy and content) have five business days to make comments for the guest’s consideration. (Internal copy editor will make changes based on [Meltano Style Guidelines](https://handbook.meltano.com/marketing/style-guide). All reviewers will update the issue after they’ve completed their reviews.
 
-Return the draft to the guest and request they review and return it within five business days. 
+Return the draft to the guest and request they review and return it within five business days.
 
 Upon receipt of the final draft:
-- Update the issue, asking all internal stakeholders to take a final look within two business days. 
-- Notify the guest of the anticipated publishing date. 
+- Update the issue, asking all internal stakeholders to take a final look within two business days.
+- Notify the guest of the anticipated publishing date.
 
 Upon final approval from all internal stakeholders, the WordPress focal will publish the blog.
 
 Email the guest that the blog has been published (or that the video is live) and provide a link to it.
 
-Send a follow-up thank-you note to the guest. 
+Send a follow-up thank-you note to the guest.
 
 ## YouTube
 
@@ -195,7 +195,7 @@ Meltano posts numerous videos to YouTube each week, covering everything from pro
 **How to start**
 -   A) You can start your video with an opening slide, which can be the same as your Thumbnail design, with you briefly explaining what you’ll be doing.
 -   B) Or if your camera quality is good enough and you’re not feeling too shy, you’re more than welcome to start the video with your face explaining the matter yourself! (from the chest up, front angle).
- 
+
 **Screen recording**
 -   Use a new desktop to avoid showing a messy one or stuff you don’t want seen
 -   Turn your notifications off to avoid any pop-ups
@@ -256,7 +256,7 @@ Meltano v1.3.0 is publicly released, adding the ability to distill rocket fuel a
 - improvement #2 (link)
 
 ## Podcasts
-* use the podcast template in the internal marketing repo when a podcast opportunity arises. 
+* use the podcast template in the internal marketing repo when a podcast opportunity arises.
 
 1:55​ Meltano team - who we are...
 3:15​ Discussion of bug fix #1

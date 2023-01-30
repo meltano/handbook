@@ -10,7 +10,7 @@ Customer relationship management (CRM) and marketing automation platform (MAP).
 
 ## Access
 
-Access is provided upon request. Please ask a Super Admin for access. 
+Access is provided upon request. Please ask a Super Admin for access.
 
 ## Integrations
 
@@ -27,7 +27,7 @@ Below are the apps connected to Meltano's HubSpot instance:
 
 ## API Usage
 
-500k calls/day. API call counts reset at midnight. 
+500k calls/day. API call counts reset at midnight.
 
 [API Usage Details](https://developers.hubspot.com/docs/api/usage-details)
 

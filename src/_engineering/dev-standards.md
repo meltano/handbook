@@ -132,4 +132,4 @@ COMING SOON
 
 ## AWS Accounts
 
-AWS account IDs should be treated as private. Account IDs should not be included in public facing repositories. 
+AWS account IDs should be treated as private. Account IDs should not be included in public facing repositories.
