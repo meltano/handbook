@@ -120,7 +120,7 @@ Meltano does not reimburse individual software subscriptions (e.g. Apple Music, 
 
 ###### Subscription exceptions
 
-Certain types of individual subscriptions are reimbursable, such as VPN service. If you are uncertain whether a particular service is reimbursable, please contact the Operations Analyst.
+Certain types of individual subscriptions are reimbursable, such as VPN service. If you are uncertain whether a particular service is reimbursable, please contact the Operations.
 
 #### Hardware
 
@@ -151,6 +151,26 @@ It is uncommon for you to need all of the items listed below. Please use your be
 If you wish to go over the recommended reimbursement, this is an exception and should first be raised with your manager and if supported, should be raised with the Operations Analyst who will review and respond to the request.
 
 The technology price guidelines are based on acquiring products in the United States. Meltano understands prices may vary based on location. If the product cost is higher in your location, confirm that an equivalent product in the United States would be within the above price guidance.
+
+#### Travel reimbursement
+
+Meltano will reimburse you for legitimate business travel expeses when you need to travel to represent the company.  Meltano will only pay for coach class travel. All trips need to be approved of in advance by your manager.  Employees seeking reimbursement should incur the lowest reasonable travel expenses.
+
+Items that will not be reimbursed include the following:
+- Airline club memberships.
+- Airline or train ticket upgrades from coach class.
+- Child care, babysitting, house-sitting, or pet-sitting/kennel charges.
+- Commuting between home and the primary work location.
+- Costs incurred by traveler's failure to cancel travel or hotel reservations in a timely fashion.
+- Evening or formal wear expenses.
+- Haircuts and personal grooming.
+- Laundry and dry cleaning.
+- Passports, vaccinations and visas when not required as a specific and necessary condition of the travel assignment.
+- Personal entertainment expenses, including in-flight movies, headsets, health club facilities, hotel pay-per-view movies, in-theater movies, social activities and related incidental costs.
+- Travel accident insurance premiums or purchase of additional travel insurance.
+- Other expenses not directly related to the business travel.
+
+Should you have any question about whether an expense is reimbursable, please ask Operations or your manager prior to incurring the expense.
 
 ## Tools and technology
 
