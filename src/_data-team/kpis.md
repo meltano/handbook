@@ -17,10 +17,10 @@ Certain KPIs are considered Health Metrics, which means we actively monitor them
 Meltano's primary strategic goal is to achieve product-market fit for Meltano as a data movement (EL+T) solution with 10X developer experience over alternatives. Our primary metric for measuring progress towards this goal is the number of [active projects](/data-team/metrics-and-definitions#active-project).
 
 Active projects is a metric we can influence directly and new active projects will inevitably lead to more Unique Pipelines and Pipeline Runs.
-This metric encourages us to retain existing Meltano users as well as activate new users. 
+This metric encourages us to retain existing Meltano users as well as activate new users.
 
-We previously targeted Pipeline Runs as our primary metric, but because it, along with unique pipelines, are harder to directly influence, we have re-focused on active projects. 
-However, we believe that a key part of increasing active projects is ensuring successful pipeline runs, so we will still monitor Pipelines Runs closely. 
+We previously targeted Pipeline Runs as our primary metric, but because it, along with unique pipelines, are harder to directly influence, we have re-focused on active projects.
+However, we believe that a key part of increasing active projects is ensuring successful pipeline runs, so we will still monitor Pipelines Runs closely.
 
 To learn more about North Star Metrics checkout these articles from [Mixpanel](https://mixpanel.com/blog/north-star-metric/) and [Amplitude](https://amplitude.com/blog/product-north-star-metric).
 

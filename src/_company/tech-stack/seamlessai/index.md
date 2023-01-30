@@ -11,11 +11,11 @@ Sales intelligence and lead management solution that streamlines contact search,
 
 ## Access
 
-A shared login is stored in the `Marketing-contractors` 1Pass vault. 
+A shared login is stored in the `Marketing-contractors` 1Pass vault.
 
 ## Account
 
-Meltano currently uses the free plan. 
+Meltano currently uses the free plan.
 
 - 50 credits/month
 - Email Addresses
@@ -51,7 +51,7 @@ Show Gong alerts `ON`
 
 [Download the Chrome extension](https://chrome.google.com/webstore/detail/seamlessai/dbepenphjfofmnjmlacfcdehikakmaap?hl=en)
 
-Use the Seamless.ai Chrome extension while navigating B2B websites and search for prospects that match your ideal customer profile. Send their contact information directly to HubSpot. 
+Use the Seamless.ai Chrome extension while navigating B2B websites and search for prospects that match your ideal customer profile. Send their contact information directly to HubSpot.
 
 ## Integrations
 
@@ -64,7 +64,7 @@ _Set and lock org-wide._
 - Owner: Douwe Maan email
 - Default HubSpot contact list: [Seamless.AI ICP contact import list](https://app.hubspot.com/contacts/20712484/lists/37)
 - Total AI Threshold/Limit on Contact Imports: 50
-- Seamless.ai will automatically create accounts for contacts if they don't already exist in HubSpot. 
+- Seamless.ai will automatically create accounts for contacts if they don't already exist in HubSpot.
 - Auto-import `NO`
 - Import without a valid email address `NO`
 - Use Hubspot auto-generated companies for contacts `YES`
@@ -101,7 +101,7 @@ Contact Object
 
 Seamless.ai automatically recommends contacts and companies based on the [ideal contact preferences in settings](https://login.seamless.ai/settings/preferences).
 
-Use the search filters to further segment your search by senoirity, department, technologies, location, etc. You can search for contacts or companies. You can also save a search to review later. 
+Use the search filters to further segment your search by senoirity, department, technologies, location, etc. You can search for contacts or companies. You can also save a search to review later.
 
 - [Using Negative Search Criteria](https://help.seamless.ai/s/article/Using-Negative-Search-Criteria)
 - [Searching for Contacts or Leads](https://help.seamless.ai/s/article/Searching-for-Contacts-or-Leads)

@@ -43,7 +43,7 @@ Team members who desire the features of the paid version may request a paid acco
 
 Infrastructure and application monitoring service.
 
-Select team members have their own account. 
+Select team members have their own account.
 
 ## [DigitalOcean](https://www.digitalocean.com/)
 
@@ -80,7 +80,7 @@ Account details are in the `Engineering` 1Password vault.
 
 ## [GitHub](https://github.com/meltano/)
 
-DevOps platform - Software development and version control provider. 
+DevOps platform - Software development and version control provider.
 Every team member has their own account.
 
 <!--## [GitLab](https://gitlab.com/meltano/)
@@ -274,7 +274,7 @@ Main account details are in the `HR` 1Password vault.
 
 Sales intelligence and lead management solution that streamlines contact search, market research, lead conversion, data importing, etc.
 
-Shared login 
+Shared login
 
 ## [SendGrid](https://app.sendgrid.com/)
 

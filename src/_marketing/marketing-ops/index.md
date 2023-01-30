@@ -6,7 +6,7 @@ weight: 1
 
 ## Campaigns
 
-To request a marketing campaign, please use the `campaign-request.md` template in the [internal-marketing repo](https://github.com/meltano/internal-marketing/blob/main/.github/ISSUE_TEMPLATE/campaign-request.md). 
+To request a marketing campaign, please use the `campaign-request.md` template in the [internal-marketing repo](https://github.com/meltano/internal-marketing/blob/main/.github/ISSUE_TEMPLATE/campaign-request.md).
 
 ## Tech stack
 
