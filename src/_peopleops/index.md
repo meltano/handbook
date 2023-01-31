@@ -120,7 +120,7 @@ Meltano does not reimburse individual software subscriptions (e.g. Apple Music, 
 
 ###### Subscription exceptions
 
-Certain types of individual subscriptions are reimbursable, such as VPN service. If you are uncertain whether a particular service is reimbursable, please contact the Operations Analyst.
+Certain types of individual subscriptions are reimbursable, such as VPN service. If you are uncertain whether a particular service is reimbursable, please contact the Operations.
 
 #### Hardware
 
@@ -151,6 +151,28 @@ It is uncommon for you to need all of the items listed below. Please use your be
 If you wish to go over the recommended reimbursement, this is an exception and should first be raised with your manager and if supported, should be raised with the Operations Analyst who will review and respond to the request.
 
 The technology price guidelines are based on acquiring products in the United States. Meltano understands prices may vary based on location. If the product cost is higher in your location, confirm that an equivalent product in the United States would be within the above price guidance.
+
+#### Travel reimbursement
+
+Meltano will reimburse you for business travel expenses when you need to travel to represent the company.
+All trips need to be approved of in advance by your manager.
+Employees seeking reimbursement should incur the lowest reasonable travel expenses.
+
+Meltano will only pay for economy class travel, so upgrades are on you, with one exception: if you are taller than 180cm/6ft, you can upgrade to get extra leg room.
+
+If you plan to work while at the airport, we will reimburse lounge access up to $50 for airport stays of at least 2 hours.
+If you plan to work during the flight, we will reimburse in-flight WiFi up to $50 for flights of at least 2 hours.
+
+Items that will not be reimbursed include the following:
+- Airline club or lounge memberships or enhanced airport services such as TSApre, CLEAR, Global Entry, NEXUS.
+- Airline or train ticket upgrades from economy class. If you are taller than 180cm/6ft, you can upgrade to get extra leg room.
+- Child care, babysitting, house-sitting, pet-walking or pet-sitting/kennel charges.
+- Costs incurred by traveler's failure to cancel travel or hotel reservations in a timely fashion.
+- Passports, vaccinations and visas when not required as a specific and necessary condition of the travel assignment.
+- Personal entertainment expenses, including in-flight movies, headsets, health club facilities, hotel pay-per-view movies, in-theater movies, social activities and related incidental costs.
+- Travel accident insurance premiums or purchase of additional travel insurance.
+
+Should you have any question about whether an expense is reimbursable, please ask Operations or your manager prior to incurring the expense.
 
 ## Tools and technology
 
