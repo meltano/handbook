@@ -16,10 +16,6 @@ Given our limited resources we take an objective first approach to all our digit
 ### Other Resources
 - [UTM Generator Sheet](https://docs.google.com/spreadsheets/d/1NM1VnLSmISnOd3HRjy7k06_xCmDo1AtT1SHrU5P1Qos/edit#gid=0)
 
-### Screaming Frog Crawler
-
-We currently use Screaming Frog to crawl `meltano.com` and `docs.meltano.com` for issues that may impact our search rankings. This tool checks for broken links, inconsistent h1/h2s, security issues, large images, meta text issues, and redirects. Reports are generated on the 1st of the month and added to `@Amanda Folson`'s Google Drive. These can't be added to a shared drive via the tool just yet so please request access via an issue in [internal-marketing](https://github.com/meltano/internal-marketing) or via a DM on Slack.
-
 ## Web
 
 The Meltano marketing website and blog are run through WordPress. All meltano.com entities are managed by the Meltano marketing team.
@@ -28,7 +24,7 @@ A copy accuracy audit is performed on the site quarterly to ensure we share the 
 
 ### Suggesting Changes to the Marketing Site
 * Open an issue (in internal-marketing) outlining desired change and reason for the change.
-* Assign to Emily for triage
+* Assign to Douwe for triage
 * We may submit follow up questions for scoping purposes
 Note that not all changes will be able to be made due to testing or SEO purposes, but we are open to suggestions.
 

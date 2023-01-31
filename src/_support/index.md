@@ -18,7 +18,7 @@ Support on Slack is primarily provided by the community, but we strive to answer
 
 ## Email
 
-Emails to `support@meltano.com` forward to HubSpot so they can be triaged, assigned, and managed. These are currently routed to `@Amanda Folson` and `@Douwe Maan`.
+Emails to `support@meltano.com` forward to HubSpot so they can be triaged, assigned, and managed. These are currently routed to `@Douwe Maan`.
 
 ### Responsible Disclosure of Security Vulnerabilities
 
@@ -27,7 +27,7 @@ As documented in our [Responsible Disclosure Policy](https://meltano.com/docs/re
 
 ## HubSpot Live Chat
 
-The [Meltano.com website](https://www.meltano.com) is set up with live chat powered by HubSpot. Live chats are piped into `#support` on Slack and can be replied to within a thread. These are currently routed to `@Amanda Folson`. We try to respond to these within 1 business day.
+The [Meltano.com website](https://www.meltano.com) is set up with live chat powered by HubSpot. Live chats are piped into `#support` on Slack and can be replied to within a thread. These are currently routed to `@Douwe Maan`. We try to respond to these within 1 business day.
 
 ## GitHub Issues/PRs
 

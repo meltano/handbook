@@ -49,10 +49,6 @@ Performing regular web health checks is a good digital practice. When doing so, 
 3. For cases when you find an URL that doesn't have an updated equivalent, you can simply type "/" to redirect to the Hub main page
 4. Create a pull request with your changes and push to main when approval/all checks have passed.
 
-## Social
-
-We use [SproutSocial](https://sproutsocial.com/) to manage our social media accounts. Please ask Emily for access if you need it.
-
 ## Design
 
 ## Newsletter

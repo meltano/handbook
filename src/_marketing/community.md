@@ -16,7 +16,7 @@ HubSpot is currently embeded on [meltano.com](https://meltano.com). Users can me
 
 ### HubSpot Tickets
 
-Tickets are currently routed to `@Amanda Folson`.
+Tickets are currently routed to `@Douwe Maan`.
 
 ## User Interviews
 

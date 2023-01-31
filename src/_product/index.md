@@ -20,7 +20,7 @@ For each Meltano property, we have a primary point of contact:
 - Meltano SDK - AJ
 - MeltanoHub - Taylor
 - MeltanoLabs - Pat
-- Handbook / Website - Amanda
+- Handbook / Website - Douwe
 
 You should feel comfortable reaching out to each of us either in issues or on Slack if you have questions or concerns about any of these.
 

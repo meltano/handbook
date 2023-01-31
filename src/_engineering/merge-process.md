@@ -134,16 +134,16 @@ Currently, we have the following owners (listed in order eg. primary, fallback):
 
 SDK - [CODEOWNERS](https://gitlab.com/meltano/sdk/-/blob/main/.gitlab/CODEOWNERS):
 
-- `/docs/` owners: @edgarrmondragon @afolson
+- `/docs/` owners: @edgarrmondragon
 - `*` (everything else) owners: @edgarrmondragon @aaronsteers
 
 Meltano - [CODEOWNERS](https://gitlab.com/meltano/meltano/-/blob/master/.gitlab/CODEOWNERS):
 
 - `/src/meltano/core/bundle/discovery.yml` owners: @aaronsteers @pnadolny13
-- `/docs/` owners: @tayloramurphy @afolson
+- `/docs/` owners: @tayloramurphy
 - `/src/webapp/` owners: @alex1126 @pandemicsyn
 - `/src/meltano/api/` owners: @pandemicsyn @alex1126
-- `/docs/` owners: @tayloramurphy @afolson
+- `/docs/` owners: @tayloramurphy
 - `*` (everything else) owners: @pandemicsyn @edgarrmondragon
 
 As we grow and the complexity of the various code base increases, we will appoint additional code owners to specific subject areas as needed.

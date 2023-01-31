@@ -308,7 +308,7 @@ Avoid spam filters by keeping subject lines to less than 70 characters and not u
 	| Separate introductory clauses                                                           | While you were working to meet your deadline, I went to the deli to pick up lunch for you.  |
 	| Separate words                                                                          | However, my order wasn’t ready on time.                                                     |
 	| Parenthetical information                                                               | I told the deli to add tomatoes, which are part of the nightshade family, to your sandwich. |
-	| Explain a noun                                                                          | Emily, a marketing professional at Meltano, lives in Texas.                                 |
+	| Explain a noun                                                                          | Taylor, a data professional at Meltano, lives in Texas.                                 |
 	| Separate dates, addresses, and geo locations                                            | The last time I went to an art fair was on May 23, 2021, in Atlanta, Georgia.               |
 	| Separate adjectives that modify the same noun (where you could also use the word “and”) | It was a dark, stormy night.                                                                |
 	| Avoid confusion with a concluding conjunction                                           | Correct: I had broccoli, carrots, and black beans and rice for dinner.                      |
@@ -372,7 +372,7 @@ Avoid spam filters by keeping subject lines to less than 70 characters and not u
 
 | Examples                                                                                                                                                                                     |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Possessive nouns reflect ownership: Pat’s computer or Emily’s meeting                                                                                                                                                                                      |
+| Possessive nouns reflect ownership: Pat’s computer or Taylor's meeting                                                                                                                                                                                      |
 | Plural possessive nouns indicate ownership by more than one: I had to take my dogs’ to the vet. (There is more than one dog.) If a plural possessive noun ends in “s,” insert the apostrophe after the “s” to indicate more than one: the dogs’ vet visit. |
 | Contractions remove a word: It’s going to rain today. (You could substitute “It is.”) But remember that possessive pronouns don’t require a contraction: The cat licked its paws.                                                                          |
 | Exception: For ages and decades, don’t use apostrophes: He’s in his 30s. (Or: For some of us, the 1990s were a lost decade.)                                                                                                                               |
@@ -383,7 +383,7 @@ Avoid spam filters by keeping subject lines to less than 70 characters and not u
 | ------------------------------------------------------------ | -------------------------------------------------------------------------- |
 | Correct: USD 1.5 billion                                     | Incorrect: $1.5B                                                           |
 | Correct: fifteen percent                                     | Incorrect: 15%, fifteen percent                                            |
-| Correct: Are you and Amanda meeting today?                   | Incorrect: Are you & Amanda meeting today?                                 |
+| Correct: Are you and Taylor meeting today?                   | Incorrect: Are you & Taylor meeting today?                                 |
 | Correct: Five plus five equals ten. (Or 5 plus 5 equals 10.) | Incorrect: Five + five = ten.                                              |
 | Correct: You are #3 in the queue.                            | Incorrect: You are number three in the queue.                              |
 | Correct: Choose “or” or “and”.                               | Incorrect: I have an idea where you and/or your friends can go for dinner. |
