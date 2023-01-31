@@ -72,7 +72,7 @@ We expect Meltano team members to take responsibility to determine what they nee
 1. You may privately use Meltano property (e.g. MacBook), to check your private e-mails, or watch a movie as long as it does not violate the law, harm Meltano, or interfere with Intellectual Property.
 1. Any purchase that will cost Meltano $1000 USD per item (or over) is classed as company property.  Any such items will need to be tracked by Operations.
    1. After an approved purchase, the item description and serial number will need to be provided to the Head of Operations.  One good way to do this is via the notes section in an expense report.
-   2. You will be required to return these item(s) if you leave the company. 
+   2. You will be required to return these item(s) if you leave the company.
 3. Any non-company expenses should not be paid for with a company credit card.
 4. If team members submit expenses for reimbursement for personal purchases that are not covered in the expense policy, this is a violation of our Code of Business Conduct & Ethics.
 
@@ -154,22 +154,23 @@ The technology price guidelines are based on acquiring products in the United St
 
 #### Travel reimbursement
 
-Meltano will reimburse you for legitimate business travel expeses when you need to travel to represent the company.  All trips need to be approved of in advance by your manager.  Employees seeking reimbursement should incur the lowest reasonable travel expenses.  Meltano will only pay for coach class travel.
+Meltano will reimburse you for business travel expenses when you need to travel to represent the company.
+All trips need to be approved of in advance by your manager.
+Employees seeking reimbursement should incur the lowest reasonable travel expenses.
+
+Meltano will only pay for economy class travel, so upgrades are on you, with one exception: if you are taller than 180cm/6ft, you can upgrade to get extra leg room.
+
+If you plan to work while at the airport, we will reimburse lounge access up to $50 for airport stays of at least 2 hours.
+If you plan to work during the flight, we will reimburse in-flight WiFi up to $50 for flights of at least 2 hours.
 
 Items that will not be reimbursed include the following:
-- Airline club memberships or enhanced airport services such as TSApre, CLEAR, Global Entry, NEXUS.
-- Airline or train ticket upgrades from coach class.
-- Annual fees for credit cards.
+- Airline club or lounge memberships or enhanced airport services such as TSApre, CLEAR, Global Entry, NEXUS.
+- Airline or train ticket upgrades from economy class. If you are taller than 180cm/6ft, you can upgrade to get extra leg room.
 - Child care, babysitting, house-sitting, pet-walking or pet-sitting/kennel charges.
 - Costs incurred by traveler's failure to cancel travel or hotel reservations in a timely fashion.
-- Evening or formal wear expenses.
-- Haircuts and personal grooming.
-- Laundry and dry cleaning.
-- Luggage / clothing / toiletries.
 - Passports, vaccinations and visas when not required as a specific and necessary condition of the travel assignment.
 - Personal entertainment expenses, including in-flight movies, headsets, health club facilities, hotel pay-per-view movies, in-theater movies, social activities and related incidental costs.
 - Travel accident insurance premiums or purchase of additional travel insurance.
-- Other expenses not directly related to the business travel.
 
 Should you have any question about whether an expense is reimbursable, please ask Operations or your manager prior to incurring the expense.
 
@@ -234,11 +235,11 @@ Meltano's phone number can be found in the Shared 1Password vault item called `M
 
 ### Verification of Employment
 
-All verifications of employment (VOE’s) should go through the Human Resource department and should be done via email. These include but are not limited to requests from government agencies, mortgage lenders, prospective employers and others.  
+All verifications of employment (VOE’s) should go through the Human Resource department and should be done via email. These include but are not limited to requests from government agencies, mortgage lenders, prospective employers and others.
 
-Meltano will comply with all government requests for verification of employment. 
+Meltano will comply with all government requests for verification of employment.
 
-Meltano will respond to requests from mortgage lenders, landlords and the like, if the request is accompanied by a release form from the employee. Additionally, employees should notify Human Resources through email that a request may be forthcoming. 
+Meltano will respond to requests from mortgage lenders, landlords and the like, if the request is accompanied by a release form from the employee. Additionally, employees should notify Human Resources through email that a request may be forthcoming.
 
-Prospective employers and those with collection agencies and others will be evaluated on a case by case basis. Meltano will under no circumstances provide wage information to a non government agency without consent and a release from the employee. Prospective employers will only receive verification of dates of employment and title.  
+Prospective employers and those with collection agencies and others will be evaluated on a case by case basis. Meltano will under no circumstances provide wage information to a non government agency without consent and a release from the employee. Prospective employers will only receive verification of dates of employment and title.
 
