@@ -70,7 +70,7 @@ When any work needs to be prioritized that is not specifically a roadmap featue,
 
 ### Marketing
 
-- Marketing work that needs to be prioritized by Product or Engineering must have an issue associated with it. Add the relevant labels below so triage can be streamlined. 
+- Marketing work that needs to be prioritized by Product or Engineering must have an issue associated with it. Add the relevant labels below so triage can be streamlined.
 The issue should get added to the [Product Roadmap board](https://github.com/orgs/meltano/projects/4/) by the requestor.
 - Once added to the board, it will be considered a priority for marketing and enter  **The Process**  to get worked on by an engineer.
 - Once it's ready to be worked on by an Engineer, it will then get added to the Engineering Assignments board and assigned to an iteration and an engineer for working on.

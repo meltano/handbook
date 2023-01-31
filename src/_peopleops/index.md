@@ -242,4 +242,3 @@ Meltano will comply with all government requests for verification of employment.
 Meltano will respond to requests from mortgage lenders, landlords and the like, if the request is accompanied by a release form from the employee. Additionally, employees should notify Human Resources through email that a request may be forthcoming.
 
 Prospective employers and those with collection agencies and others will be evaluated on a case by case basis. Meltano will under no circumstances provide wage information to a non government agency without consent and a release from the employee. Prospective employers will only receive verification of dates of employment and title.
-
