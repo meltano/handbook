@@ -18,16 +18,6 @@ HubSpot is currently embeded on [meltano.com](https://meltano.com). Users can me
 
 Tickets are currently routed to `@Amanda Folson`.
 
-## Community Champions Program
-
-There are several champions within the community that have been recognized for their contributions and support. These folks are tagged in Orbit (being deprecated) with "champion" for now but will be migrated to HubSpot.
-
-More information on the future of this program can be found in [this issue](https://github.com/meltano/internal-marketing/issues/266).
-
-### Swag for Champions
-
-We love to send swag to our regular contributors. If you'd like to send swag to a someone or nominate someone to be a Champion please reach out to `@Amanda Folson`.
-
 ## User Interviews
 
 Occasionally we'll do user interviews to gather product/docs feedback. These interviews are added to HubSpot.
