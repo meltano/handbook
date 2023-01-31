@@ -130,21 +130,11 @@ For our core repos we use a pattern of Primary/Fallback ownership, where each ar
 This can be requested either when the PR foundation is in place or as a "final check". The final approval from the Primary code owner should generally be requested _after_ the PR is otherwise "clean" - and after known action items and questions are called out in the text of the PR.
 In the scenario where the primary code owner is also an author they must obtain approval from the "fallback" owner.
 
-Currently, we have the following owners (listed in order eg. primary, fallback):
+The code owners for Meltano and the SDK are specified in their respective `CODEOWNERS` files:
 
-SDK - [CODEOWNERS](https://gitlab.com/meltano/sdk/-/blob/main/.gitlab/CODEOWNERS):
+SDK - [CODEOWNERS](https://github.com/meltano/sdk/blob/main/.github/CODEOWNERS)
 
-- `/docs/` owners: @edgarrmondragon
-- `*` (everything else) owners: @edgarrmondragon @aaronsteers
-
-Meltano - [CODEOWNERS](https://gitlab.com/meltano/meltano/-/blob/master/.gitlab/CODEOWNERS):
-
-- `/src/meltano/core/bundle/discovery.yml` owners: @aaronsteers @pnadolny13
-- `/docs/` owners: @tayloramurphy
-- `/src/webapp/` owners: @alex1126 @pandemicsyn
-- `/src/meltano/api/` owners: @pandemicsyn @alex1126
-- `/docs/` owners: @tayloramurphy
-- `*` (everything else) owners: @pandemicsyn @edgarrmondragon
+Meltano - [CODEOWNERS](https://github.com/meltano/meltano/blob/main/.github/CODEOWNERS)
 
 As we grow and the complexity of the various code base increases, we will appoint additional code owners to specific subject areas as needed.
 
