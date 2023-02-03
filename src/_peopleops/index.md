@@ -152,17 +152,27 @@ If you wish to go over the recommended reimbursement, this is an exception and s
 
 The technology price guidelines are based on acquiring products in the United States. Meltano understands prices may vary based on location. If the product cost is higher in your location, confirm that an equivalent product in the United States would be within the above price guidance.
 
-#### Travel reimbursement
+#### Travel
 
 Meltano will reimburse you for business travel expenses when you need to travel to represent the company.
 All trips need to be approved of in advance by your manager.
 Employees seeking reimbursement should incur the lowest reasonable travel expenses.
 
-Meltano will only pay for economy class travel, so upgrades are on you, with one exception: if you are taller than 180cm/6ft, you can upgrade to get extra leg room.
+##### Upgrades
+Meltano will only pay for economy class travel.  If you exceed `188cm` or `6'2"` in height you may:
+- Expense the full cost of an upgrade to a seat with more leg room in the standard economy cabin. These seats are often marketed as, "Economy Plus", "Comfort+", or "Main Cabin Extra".
+- Expense up to the first $300 USD for an upgrade to Business Class or Premium Economy on flights longer than 8 hours.
+
+If your height does not meet the above cm/inch requirement, and you feel unsafe to travel, you may:
+- Expense up to the first $100 USD for an upgrade to a seat with more leg room on flights longer than 8 hours.  These seats are often marketed as, "Economy Plus", "Comfort+", or "Main Cabin Extra".
+- Review seating options with your manager (keeping in mind the guidance on "spending company money like it is your own")
+
+##### Working while traveling
 
 If you plan to work while at the airport, we will reimburse lounge access up to $50 for airport stays of at least 2 hours.
-If you plan to work during the flight, we will reimburse in-flight WiFi up to $50 for flights of at least 2 hours.
+If you plan to work during the flight, we will reimburse in-flight WiFi up to $30 for flights of at least 2 hours.
 
+##### Non-reimbursable items
 Items that will not be reimbursed include the following:
 - Airline club or lounge memberships or enhanced airport services such as TSApre, CLEAR, Global Entry, NEXUS.
 - Airline or train ticket upgrades from economy class. If you are taller than 180cm/6ft, you can upgrade to get extra leg room.
