@@ -55,6 +55,29 @@ To configure these:
 
 Please note: These settings are per job board. If there are multiple job boards you'll need to update this setting for
 each one.
+## Employee Promotion Policy
+
+When possible, Meltano seeks to promote from within. Our Employee Promotion Policy sets the general guidelines for these promotions.
+
+### Eligibility for Promotion 
+
+Employees are eligible for a promotion after they have been with the company for at least 90 days and are not currently on a performance improvement plan. 
+
+### Promotion Criteria 
+
+Employees are promoted based on their performance and their workplace conduct. 
+
+   - Performance - Employee has demonstrated heightened performance on a consistent basis over time. 
+   - Value alignment - Employee conducts themselves in a way that is aligned with [company values](https://handbook.meltano.com/company/values) and sets an example for others to follow.
+
+### Promotion Process
+
+   - Identify an opportunity for promotion, either by filing a current opening or determining a new role should be created. 
+   - Discuss the desired promotion with HR, being sure to ask about the new salary range and any new/additional benefits.
+      - New salary range will be determined according to our [compensation policy](https://handbook.meltano.com/peopleops/compensation#salary)
+      - Performance and value alignment should be well documented in Lattice for HR and manager to review. 
+   - Present proposed promotion to CEO to obtain approval.
+   - Meet with employee to discuss the exciting news. 
 
 ## Financial operations
 
