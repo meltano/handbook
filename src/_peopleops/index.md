@@ -81,9 +81,9 @@ Employees are promoted based on their performance and their workplace conduct.
 
 ## Background Checks
 
-#### Purpose 
+#### Purpose
 
-Meltano strives to hire and promote the best-qualified individuals and background checks are an important part of these processes. As of January 3, 2023 all new hires will be subject to a background check. The background check will be performed by our vendor [Checkr](https://checkr.com/). 
+Meltano strives to hire and promote the best-qualified individuals and background checks are an important part of these processes. As of January 3, 2023 all new hires will be subject to a background check. The background check will be performed by our vendor [Checkr](https://checkr.com/).
 
 #### Background checks
 
@@ -97,7 +97,7 @@ The company obtains consumer credit reports only under very limited circumstance
 
 All information obtained from background checks will be used only for purposes of making employment decisions (e.g., hiring, termination or promotion); will be maintained confidentially, in accordance with applicable legal requirements; and may only be reviewed or accessed by authorized individuals with the approval of human resources
 
-#### Questions or Concerns 
+#### Questions or Concerns
 
 For more information regarding this policy, employees should contact human resources.
 
