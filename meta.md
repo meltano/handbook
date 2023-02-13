@@ -78,7 +78,7 @@ This is added to all pages by default. It can be turned off by setting `toc: fal
 
 ### Add/Remove/Edit an Announcement
 
-You can edit the announcement and CTA under the `announcement` section in `_config.yml`. 
+You can edit the announcement and CTA under the `announcement` section in `_config.yml`.
 
 - `display` - Set this to `true` to display an announcement or set it to `false` to hide it.
 - `text` - This is the announcement text. Keep it short and sweet (~140 characters or less) so it's not intrusive on the page.
@@ -103,18 +103,4 @@ Builds will fail to deploy if links are broken. You can check for broken links l
 
 ```
 bundle exec jekyll build && bundle exec htmlproofer --log-level :debug ./_site --assume_extension --http_status_ignore 503 --url-ignore "/www.linkedin.com/,/www.dell.com/,/www.optionimpact.com/"
-```
-
-## Deploy
-
-This project is deployed via GitLab Pages using the steps defined in [`.gitlab-ci.yml`](.gitlab-ci.yml).
-
-### Updating Docker
-
-```
-docker build -t registry.gitlab.com/meltano/handbook .
-```
-
-```
-docker push registry.gitlab.com/meltano/handbook
 ```

@@ -69,7 +69,7 @@ This does not ensure there will be no consequences. However, it will greatly red
 
 ## Reporting a Physical Threat
 
-If a threat is made against you or someone else that makes you or another team member question their safety due to an issue, merge request, email or other work related matters do not hesitate to initiate the following process:
+If a threat is made against you or someone else that makes you or another team member question their safety due to an issue, pull request, email or other work related matters do not hesitate to initiate the following process:
 
 - Contact local law enforcement. Note the proper number to contact in your locality and whether the emergency, or non-emergency number should be called.
 - Notify the Head of Operations or the CEO.

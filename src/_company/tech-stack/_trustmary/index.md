@@ -18,5 +18,4 @@ Shared credentials are stored in 1Password. We are using a free plan. The free p
 
 ## Import to HubSpot
 
-You can export the responses as an .xlsx file with the Export data button on the lower right of the top section. You can then [format the file for import to HubSpot](https://knowledge.hubspot.com/crm-setup/set-up-your-import-file). 
-
+You can export the responses as an .xlsx file with the Export data button on the lower right of the top section. You can then [format the file for import to HubSpot](https://knowledge.hubspot.com/crm-setup/set-up-your-import-file).

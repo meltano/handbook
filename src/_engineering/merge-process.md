@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Merge Request (PR) Process
+title: Pull Request (PR) Process
 weight: 2
 ---
 
 ## Trivial Updates
 
-All non-trivial merge requests should be reviewed and merged by someone other than the author.
-A merge request that touches code is never trivial, but one that fixes a typo in the documentation probably is.
+All non-trivial pull requests should be reviewed and merged by someone other than the author.
+A pull request that touches code is never trivial, but one that fixes a typo in the documentation probably is.
 
 Trivial updates, such as docs updates, do not require a logged issue.
 
@@ -36,10 +36,9 @@ Team authored PRs may be reviewed by any other team member, but should also be a
 
 ## Community-Contributed PRs
 
-For community contributions, the community contributor should indicate readiness to merge and
-the core team member (primary reviewer) will approve the PR and also perform the merge.
+For community contributions, the community contributor should indicate readiness to merge and the core team member (primary reviewer) will approve the PR and also perform the merge.
 
-All Community-Contributed PRs should have their corresponding Issue marked with the `Community-Contributed PR` label in Gitlab. This helps in prioritization of code contributions. We aim to be responsive in all Community-Contributed PRs, as a sign of respect for the community members' contributed time and effort.
+We aim to be responsive in all community contributed PRs, as a sign of respect for the community members' contributed time and effort.
 
 The first team member to review should assign themselves to the review and check the following are present:
 
@@ -131,21 +130,11 @@ For our core repos we use a pattern of Primary/Fallback ownership, where each ar
 This can be requested either when the PR foundation is in place or as a "final check". The final approval from the Primary code owner should generally be requested _after_ the PR is otherwise "clean" - and after known action items and questions are called out in the text of the PR.
 In the scenario where the primary code owner is also an author they must obtain approval from the "fallback" owner.
 
-Currently, we have the following owners (listed in order eg. primary, fallback):
+The code owners for Meltano and the SDK are specified in their respective `CODEOWNERS` files:
 
-SDK - [CODEOWNERS](https://gitlab.com/meltano/sdk/-/blob/main/.gitlab/CODEOWNERS):
+SDK - [CODEOWNERS](https://github.com/meltano/sdk/blob/main/.github/CODEOWNERS)
 
-- `/docs/` owners: @edgarrmondragon @afolson
-- `*` (everything else) owners: @edgarrmondragon @aaronsteers
-
-Meltano - [CODEOWNERS](https://gitlab.com/meltano/meltano/-/blob/master/.gitlab/CODEOWNERS):
-
-- `/src/meltano/core/bundle/discovery.yml` owners: @aaronsteers @pnadolny13
-- `/docs/` owners: @tayloramurphy @afolson
-- `/src/webapp/` owners: @alex1126 @pandemicsyn
-- `/src/meltano/api/` owners: @pandemicsyn @alex1126
-- `/docs/` owners: @tayloramurphy @afolson
-- `*` (everything else) owners: @pandemicsyn @edgarrmondragon
+Meltano - [CODEOWNERS](https://github.com/meltano/meltano/blob/main/.github/CODEOWNERS)
 
 As we grow and the complexity of the various code base increases, we will appoint additional code owners to specific subject areas as needed.
 

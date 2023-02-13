@@ -6,7 +6,7 @@ weight: 1
 
 ## Campaigns
 
-To request a marketing campaign, please use the `campaign-request.md` template in the [internal-marketing repo](https://github.com/meltano/internal-marketing/blob/main/.github/ISSUE_TEMPLATE/campaign-request.md). 
+To request a marketing campaign, please use the `campaign-request.md` template in the [internal-marketing repo](https://github.com/meltano/internal-marketing/blob/main/.github/ISSUE_TEMPLATE/campaign-request.md).
 
 ## Tech stack
 
@@ -48,10 +48,6 @@ Performing regular web health checks is a good digital practice. When doing so, 
 2. How it works: Everything on the left is the old URL, and the one on the right is the new URL. All of them assume that `https://hub.meltano.com` is the prefix
 3. For cases when you find an URL that doesn't have an updated equivalent, you can simply type "/" to redirect to the Hub main page
 4. Create a pull request with your changes and push to main when approval/all checks have passed.
-
-## Social
-
-We use [SproutSocial](https://sproutsocial.com/) to manage our social media accounts. Please ask Emily for access if you need it.
 
 ## Design
 

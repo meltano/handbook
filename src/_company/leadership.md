@@ -7,8 +7,7 @@ weight: 2
 The Meltano Leadership team is:
 
 - Douwe Maan, CEO
-- Emily Kyle, Director of Marketing
-- AJ Steers, Head of Engineering
+- AJ Steers, CTO
 - Taylor Murphy, Head of Product & Data
 - REB - Richard E. Baum, Head of Operations
 

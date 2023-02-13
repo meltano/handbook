@@ -55,6 +55,29 @@ To configure these:
 
 Please note: These settings are per job board. If there are multiple job boards you'll need to update this setting for
 each one.
+## Employee Promotion Policy
+
+When possible, Meltano seeks to promote from within. Our Employee Promotion Policy sets the general guidelines for these promotions.
+
+### Eligibility for Promotion
+
+Employees are eligible for a promotion after they have been with the company for at least 90 days and are not currently on a performance improvement plan.
+
+### Promotion Criteria
+
+Employees are promoted based on their performance and their workplace conduct.
+
+   - Performance - Employee has demonstrated heightened performance on a consistent basis over time.
+   - Value alignment - Employee conducts themselves in a way that is aligned with [company values](https://handbook.meltano.com/company/values) and sets an example for others to follow.
+
+### Promotion Process
+
+   - Manager should identify an opportunity for promotion, either by filing a current opening or determining a new role should be created.
+   - Manager to discuss the desired promotion with HR, being sure to ask about the new salary range and any new/additional benefits.
+      - Performance and value alignment should be well documented in Lattice for HR and manager to review.
+      - New salary range will be determined by HR according to our [compensation policy](https://handbook.meltano.com/peopleops/compensation#salary)
+  - HR will present the proposed promotion to CEO to obtain approval.
+   - Following approval, Manager will meet with employee to discuss the exciting news.
 
 ## Background Checks
 
@@ -94,7 +117,7 @@ We expect Meltano team members to take responsibility to determine what they nee
 1. You may privately use Meltano property (e.g. MacBook), to check your private e-mails, or watch a movie as long as it does not violate the law, harm Meltano, or interfere with Intellectual Property.
 1. Any purchase that will cost Meltano $1000 USD per item (or over) is classed as company property.  Any such items will need to be tracked by Operations.
    1. After an approved purchase, the item description and serial number will need to be provided to the Head of Operations.  One good way to do this is via the notes section in an expense report.
-   2. You will be required to return these item(s) if you leave the company. 
+   2. You will be required to return these item(s) if you leave the company.
 3. Any non-company expenses should not be paid for with a company credit card.
 4. If team members submit expenses for reimbursement for personal purchases that are not covered in the expense policy, this is a violation of our Code of Business Conduct & Ethics.
 
@@ -142,7 +165,7 @@ Meltano does not reimburse individual software subscriptions (e.g. Apple Music, 
 
 ###### Subscription exceptions
 
-Certain types of individual subscriptions are reimbursable, such as VPN service. If you are uncertain whether a particular service is reimbursable, please contact the Operations Analyst.
+Certain types of individual subscriptions are reimbursable, such as VPN service. If you are uncertain whether a particular service is reimbursable, please contact the Operations.
 
 #### Hardware
 
@@ -173,6 +196,38 @@ It is uncommon for you to need all of the items listed below. Please use your be
 If you wish to go over the recommended reimbursement, this is an exception and should first be raised with your manager and if supported, should be raised with the Operations Analyst who will review and respond to the request.
 
 The technology price guidelines are based on acquiring products in the United States. Meltano understands prices may vary based on location. If the product cost is higher in your location, confirm that an equivalent product in the United States would be within the above price guidance.
+
+#### Travel
+
+Meltano will reimburse you for business travel expenses when you need to travel to represent the company.
+All trips need to be approved of in advance by your manager.
+Employees seeking reimbursement should incur the lowest reasonable travel expenses.
+
+##### Upgrades
+Meltano will only pay for economy class travel.  If you exceed `188cm` or `6'2"` in height you may:
+- Expense the full cost of an upgrade to a seat with more leg room in the standard economy cabin. These seats are often marketed as, "Economy Plus", "Comfort+", or "Main Cabin Extra".
+- Expense up to the first $300 USD for an upgrade to Business Class or Premium Economy on flights longer than 8 hours.
+
+If your height does not meet the above cm/inch requirement, and you feel unsafe to travel, you may:
+- Expense up to the first $100 USD for an upgrade to a seat with more leg room on flights longer than 8 hours.  These seats are often marketed as, "Economy Plus", "Comfort+", or "Main Cabin Extra".
+- Review seating options with your manager (keeping in mind the guidance on "spending company money like it is your own")
+
+##### Working while traveling
+
+If you plan to work while at the airport, we will reimburse lounge access up to $50 for airport stays of at least 2 hours.
+If you plan to work during the flight, we will reimburse in-flight WiFi up to $30 for flights of at least 2 hours.
+
+##### Non-reimbursable items
+Items that will not be reimbursed include the following:
+- Airline club or lounge memberships or enhanced airport services such as TSApre, CLEAR, Global Entry, NEXUS.
+- Airline or train ticket upgrades from economy class. If you are taller than 180cm/6ft, you can upgrade to get extra leg room.
+- Child care, babysitting, house-sitting, pet-walking or pet-sitting/kennel charges.
+- Costs incurred by traveler's failure to cancel travel or hotel reservations in a timely fashion.
+- Passports, vaccinations and visas when not required as a specific and necessary condition of the travel assignment.
+- Personal entertainment expenses, including in-flight movies, headsets, health club facilities, hotel pay-per-view movies, in-theater movies, social activities and related incidental costs.
+- Travel accident insurance premiums or purchase of additional travel insurance.
+
+Should you have any question about whether an expense is reimbursable, please ask Operations or your manager prior to incurring the expense.
 
 ## Tools and technology
 
@@ -235,11 +290,10 @@ Meltano's phone number can be found in the Shared 1Password vault item called `M
 
 ### Verification of Employment
 
-All verifications of employment (VOE’s) should go through the Human Resource department and should be done via email. These include but are not limited to requests from government agencies, mortgage lenders, prospective employers and others.  
+All verifications of employment (VOE’s) should go through the Human Resource department and should be done via email. These include but are not limited to requests from government agencies, mortgage lenders, prospective employers and others.
 
-Meltano will comply with all government requests for verification of employment. 
+Meltano will comply with all government requests for verification of employment.
 
-Meltano will respond to requests from mortgage lenders, landlords and the like, if the request is accompanied by a release form from the employee. Additionally, employees should notify Human Resources through email that a request may be forthcoming. 
+Meltano will respond to requests from mortgage lenders, landlords and the like, if the request is accompanied by a release form from the employee. Additionally, employees should notify Human Resources through email that a request may be forthcoming.
 
-Prospective employers and those with collection agencies and others will be evaluated on a case by case basis. Meltano will under no circumstances provide wage information to a non government agency without consent and a release from the employee. Prospective employers will only receive verification of dates of employment and title.  
-
+Prospective employers and those with collection agencies and others will be evaluated on a case by case basis. Meltano will under no circumstances provide wage information to a non government agency without consent and a release from the employee. Prospective employers will only receive verification of dates of employment and title.

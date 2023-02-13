@@ -14,14 +14,14 @@
               {% if site.collections %}
                 {% for collection in site.collections %}
                   {% if collection.label != "posts" %}
-                    <p class="menu-label"> 
+                    <p class="menu-label">
                     {% if collection.icon %}
                       {% assign icon = collection.icon %}
                       <span class="icon"><i class="fas {{ icon }}"></i></span>
                     {% else %}
                       <span class="icon"><i class="fas fa-book-open"></i></span>
                     {% endif %}
-                    
+
                     {{ collection.name | capitalize }}
                     </p>
                     <ul class="menu-list">
@@ -37,7 +37,7 @@
                   {% endif %}
                 {% endfor %}
               {% endif %}
-            </aside> 
+            </aside>
 
 <!--   <aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
     <p class="menu-label is-hidden-touch">Navigation</p>
@@ -81,7 +81,7 @@
                   <h1>{{ page.title }}</h1>
 
                   <div id="markdown-content">{% include anchor_headings.html html=content anchorBody="<i class=\"fa-solid fa-link\"></i>" %}</div>
-                
+
                 </section>
 
                 <hr />
@@ -93,7 +93,7 @@
                     </p>
                   </div>
                 </section>
-                    
+
             </div>
 
 
@@ -101,7 +101,7 @@
             <aside class="toc is-fullheight is-narrow-mobile is-hidden-mobile">
               <h2>Table of Contents</h2>
 
-              <div id="table-of-contents">{% toc %}</div> 
+              <div id="table-of-contents">{% toc %}</div>
 
             </aside>
         </div>
@@ -114,10 +114,7 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VS5QRB"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  
+
 </body>
 
 </html>
-
-
-

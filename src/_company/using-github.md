@@ -38,7 +38,7 @@ In line with our [Together we thrive](/company/values#together-we-thrive) value,
 ## Labels
 
 Labels are managed via the [Meltano Labelsync](https://github.com/meltano/meltano-labelsync/) repository.
-Each label is defined in the [labelsync.yml file](https://github.com/meltano/meltano-labelsync/blob/main/labelsync.yml). 
+Each label is defined in the [labelsync.yml file](https://github.com/meltano/meltano-labelsync/blob/main/labelsync.yml).
 
 New labels should not be made via the GitHub UI, instead a PR should be opened to the YAML file and go through the review process.
 Instructions for how to structure the YAML file are in the [README of the repository](https://github.com/meltano/meltano-labelsync/).
@@ -160,7 +160,7 @@ New labels can be created as appropriate at the Group Level and should be docume
 
 ## Milestones
 
-[Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones) are used to track progress on groups of issues or pull requests within a repository.  
+[Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones) are used to track progress on groups of issues or pull requests within a repository.
 They are defined at the repository level.
 
 ### Useful milestones

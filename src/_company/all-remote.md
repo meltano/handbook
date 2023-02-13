@@ -29,9 +29,9 @@ Some community-facing roles require you to be in a specific time zone or region,
 
 Check out our section on [compensation](/peopleops/compensation) to learn how that is affected by where you live and work from.
 
-## Connecting Remotely 
+## Connecting Remotely
 We think of our remote environment as having lots of mini virtual headquarters vs it needing to be one physical location. We use various tactics to build community and rapport to feel connected as a team. Some of these include...
-  * Bi-weekly Social Calls in Various Times Zones 
+  * Bi-weekly Social Calls in Various Times Zones
   * Use Slack bots for social topics to survey the team and learn more about each other asynchronously. This is how we learned everyone is super fond of chips!
   * Weekly 1:1's with reports and frequent skip levels
   * Social slack channels around hobbies

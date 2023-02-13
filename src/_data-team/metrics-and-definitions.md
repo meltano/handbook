@@ -9,90 +9,35 @@ These are materialized by the logic in the [squared project](https://github.com/
 
 ## Metrics - Product Usage
 
-These metrics are all sourced from the Google Analytics [anonymous usage data](https://docs.meltano.com/reference/settings#send_anonymous_usage_stats) and use the [Meltano project_id](https://docs.meltano.com/reference/settings#project_id) UUID as the definition of a project.
-Events in this context are CLI commands.
+These metrics are all sourced from the Meltano core CLI [anonymous usage data](https://docs.meltano.com/reference/settings#send_anonymous_usage_stats) and use the [Meltano project_id](https://docs.meltano.com/reference/settings#project_id) UUID as the definition of a project.
 
-#### Projects x Plugins Score (PXP)
+#### Monthly Active Projects
 
-The number of projects times the amount of plugins categories used in each project.
+The amount of projects that had an [active execution](/data-team/metrics-and-definitions#active-execution) in the month and also ended the month with active status.
 
-For example, 10 projects using only Singer (1 plugin category) or 2 projects using Singer + dbt + GE + Airflow + Superset (5 categories) would both count as 10 "points" toward the PXP.
+Projects are assigned [active status](/data-team/metrics-and-definitions#active-status) at the day grain using a 28d rolling window so theres a lag between when a project stops executing pipelines and when they've officially inactive.
+Due to this we chose to only count projects that had active executions because although the project might still have active status in a particular month, it may be in its grace period on it's way to being churned by the end of the month.
+For example if a project is active for a few months then runs it's final pipeline on Jan 31th 2023, then no pipelines in Feb, they would be active until Feb 28th then they'd switch to inactive, since they didn't have any active executions in Feb they would rightfully not be counted towards this Monthly Active Projects metric.
+Similarly if they ran their final pipelines on Jan 1st then they would be inactive by Jan 29th and would not count towards this metric because they didn't end the month in active status.
 
-This metric is used to monitor both the [active](/data-team/metrics-and-definitions#active-project) user base in general as well as the variety of plugins that those projects use.
-This metric encourages us to both grow the existing user base while also encouraging users to increase the variety of plugins they use.
-This means the existing projects implemented pre-2.0 only using EL still positively contribute to this metric.
+#### Monthly Pipeline Runs
 
+The amount of pipelines that were executed in a month.
+This metric does not require that the pipeline was executed successfully.
 
-#### APP - Average Plugin Types per Project
+#### Monthly New Projects
 
-A secondary metric for measuring progress towards being the DataOps platform infrastructure is the average number of plugin types per project (APP).
+The amount of new projects created.
+This excludes projects:
+- with random project ID sources
+- that are only executed in CI pipelines
+- that opted outs
+- with a project lifespan < 5 mins
+- where it's first event is > '2022-06-01' and meltano version is prior to the 2.0 launch Snowplow telemetry release. The intention is to exclude projects that were created by users who already had a previous version of Meltano installed, meaning this isn't a new user.
 
-We want to increase APP but it's as much a tool to aid in prioritization as it is a metric we care about.
+#### Monthly Unique Pipelines
 
-This metric is intending to understand the variety and depth of plugins used by Meltano projects, although it has the side affect of being skewed by spikes in new projects that
-haven't been around long enough to onboard a variety of plugins yet or by the cohort of projects using Meltano only for EL.
-
-APP is a lagging indicator that should be interpreted in context of other KPIs and health metrics.
-Short-term fluctuations are expected and our goal is an increase of the KPI over the long term.
-
-APP is calculated using CLI invocations for elt, run, test, and invoke and by categorizing
-each plugin into its appropriate type (i.e. Singer, dbt, Airflow, etc.).
-
-For example, if a project executes the following commands:
-
-```bash
-meltano elt tap-github target-snowflake
-
-meltano run tap-gitlab some-map target-snowflake dbt
-
-meltano invoke airflow
-
-meltano test tap-gitlab some-map target-snowflake
-```
-
-APP for this project is 3 because only Singer, dbt, and Airflow plugins are used.
-
-This definition of type is different from how we discuss plugin types in the [Meltano documentation](https://docs.meltano.com/concepts/plugins#types).
-In the above example, tap-gitlab, some-map, and target-snowflake are 3 different plugin types (Extractor, Mapper, and Loader, respecitvely), but for this metric they are all Singer-based plugins.
-
-##### Diagnosing APP Volatility
-
-As with any ratio-based KPI, the total % or average product count can go down whenever we add to the denominator disproportionately. Since our denominator is number of total users, any large influx of new users may _reduce_ the overall percentages and APP averages. Changes in the denominator should always be considered therefor when investigating or analyzing changes over time in these metrics.
-
-#### Monthly Plugin Usage Percentage
-
-The percentage of monthly projects that have executed one or more CLI commands using the plugin.
-Executed means the plugin was run with elt/invoke/run/test.
-Due to the nature of our Google Analytics implementation we parse the CLI command strings to determine if it uses the plugin, refer to the [squared transformation logic](https://github.com/meltano/squared/tree/main/data/transform/models/marts/telemetry/base/structured_parsing) to understand how each plugin is parsed from the command.
-
-#### Monthly OS Feature Usage Percentage
-
-The percentage of projects that have executed one of more CLI commands using the OS feature.
-This metric includes both Snowplow and GA events.
-Due to the nature of our Google Analytics implementation we parse the CLI command strings to determine if it uses the OS feature, refer to the [squared transformation logic](https://github.com/meltano/squared/tree/main/data/transform/models/marts/telemetry/base/structured_parsing) to understand how each OS feature is parsed from the command.
-
-Current Features:
-
-- [Environments](https://docs.meltano.com/reference/command-line-interface#environment)
-- [Run](https://docs.meltano.com/reference/command-line-interface#run) - `meltano run`
-- [Test](https://docs.meltano.com/reference/command-line-interface#test) - `meltano test`
-- [Mappers](https://docs.meltano.com/concepts/plugins#mappers) - `meltano run tap-x mappers-plugin target-y`
-- etc.
-
-#### Monthly Events By Category
-
-The sum of all monthly events by command category.
-Command categories are defined in the Meltano [tracking](https://github.com/meltano/meltano/tree/main/src/meltano/core/tracking) module.
-
-#### Percentage Cohort Usage vs Original
-
-A cohort's total events in a given month compared to it's total events in it's acquired month.
-The acquired month is the first month that an event was received from that project.
-
-#### Percentage Cohort Projects Active vs Original
-
-A cohort's count of active projects in a given month compared to its count of projects in its acquired month.
-Since this considers only active projects in a month, meaning an event was received, its possible for projects to become inactive then later re-activate.
+The count of unique pipelines that we're executed in a month, see the [pipeline definition section](/data-team/metrics-and-definitions#pipeline) for more details on what makes a unique pipeline.
 
 ## Metrics - Community
 
@@ -103,14 +48,19 @@ These metrics track the health of our open source community.
 The distinct count of slack members.
 This excludes all bots and users who have been deleted.
 
-#### Community Contributions - GitLab Meltano
+#### Community Contributions - GitHub/GitLab Meltano
 
-The count of issues and merge requests opened in the GitLab `meltano` namespace.
+The count of issues and pull requests opened in the GitHub/GitLab `meltano` namespace.
 Contributions by core team members are still counted prior to their start date at Meltano (company).
 
 #### Community Contributions - GitHub MeltanoLabs
 
-The count of issues and merge requests opened in the GitHub `MeltanoLabs` or `meltano` namespace.
+The count of issues and pull requests opened in the GitHub `MeltanoLabs` or `meltano` namespace.
+Contributions by core team members are still counted prior to their start date at Meltano (company).
+
+#### Community Contributions - GitHub MeltanoLabs
+
+The count of issues and pull requests opened in the GitHub `MeltanoLabs` or `meltano` namespace.
 Contributions by core team members are still counted prior to their start date at Meltano (company).
 
 #### Contributors
@@ -127,7 +77,7 @@ The date the domain was acquired is based on the first user to join with that do
 
 ## Common Definitions
 
-#### Active Project
+#### Active Status
 
 An active project is defined as a project that is >=7 days old, ran an [execution event](/data-team/metrics-and-definitions#execution-event), and the project ID source is not "random".
 This attribute uses a daily aggregated 28 day rolling window.
@@ -156,12 +106,26 @@ This attribute uses a daily aggregated 28 day rolling window.
 
     Projects can fluctuate between active and inactive states over their lifetime, for example: a new user looking to bring Meltano into their organization might conduct a POC where they initialize a project and use it actively for a couple weeks, then go dormant for 28+ days making them inactive while they get buy-in from leadership, then later pick the project back up and execute a plugin at which point they're immediately considered active again following plugin execution.
 
+#### Project Fish Segments
+
+Projects are assigned one of the following fish segments on a monthly basis according to the amount of pipelines they ran in that month:
+
+- Whale: > 2000 pipelines
+- Marlin: 50-2000 pipelines
+- Guppy: < 50 pipelines
+
+This allows us to understand the influence of particular segments on the overall pipeline counts.
+
 #### Execution Event
 
 An execution event when a user executes something via Meltano.
 The intent is to exclude any native or configuration related CLI executions to differentiate between running a plugin/pipeline vs configuring a project or managing the Meltano instance (e.g. `meltano state`).
 For example `meltano config` is not an execution event but `meltano run` is.
 The list includes invoke/elt/run/test/ui.
+
+#### Active Execution
+
+An execution event that occurred while a project had [active status](/data-team/metrics-and-definitions#active-status).
 
 #### Plugin Categories
 
