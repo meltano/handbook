@@ -72,8 +72,8 @@ Employees are promoted based on their performance and their workplace conduct.
 
 ### Promotion Process
 
-   - Identify an opportunity for promotion, either by filing a current opening or determining a new role should be created.
-   - Discuss the desired promotion with HR, being sure to ask about the new salary range and any new/additional benefits.
+   - Manager should identify an opportunity for promotion, either by filing a current opening or determining a new role should be created.
+   - Manager to discuss the desired promotion with HR, being sure to ask about the new salary range and any new/additional benefits.
       - New salary range will be determined according to our [compensation policy](https://handbook.meltano.com/peopleops/compensation#salary)
       - Performance and value alignment should be well documented in Lattice for HR and manager to review.
    - Present proposed promotion to CEO to obtain approval.
