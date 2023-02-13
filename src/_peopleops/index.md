@@ -93,7 +93,7 @@ Applicants and employees will be asked to authorize a background check before su
 
 #### Consumer Credit Report
 
-The company obtains consumer credit reports only under very limited circumstances, for example, when applicants or employees are being considered for a position in which they will have access to bank or credit card account information. When the company needs to obtain a consumer credit report, it will comply with applicable federal and state laws.
+The company obtains consumer credit reports only under very limited circumstances, for example, when applicants or employees are being considered for a position in which they will have access to company bank or credit card account information. When the company needs to obtain a consumer credit report, it will comply with applicable federal and state laws.
 
 All information obtained from background checks will be used only for purposes of making employment decisions (e.g., hiring, termination or promotion); will be maintained confidentially, in accordance with applicable legal requirements; and may only be reviewed or accessed by authorized individuals with the approval of human resources
 
