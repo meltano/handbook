@@ -94,7 +94,7 @@ This attribute uses a daily aggregated 28 day rolling window.
 - Project Source Filter
 
     Projects with a [project ID source](/data-team/metrics-and-definitions#project-id-source) of `random` are excluded from active status because our telemetry is unreliable for them.
-    Likely the project ID is being regenerated in something like an ephemeral container and is note persisted in the meltano.yml file.
+    Likely the project ID is being regenerated in something like an ephemeral container and is not persisted in the meltano.yml file.
     We do not exclude `persisted_random` projects because they have proven to have reliable telemetry.
 
 - 28 day Rolling Window
