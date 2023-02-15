@@ -93,8 +93,9 @@ This attribute uses a daily aggregated 28 day rolling window.
 
 - Project Source Filter
 
-    The project ID source attribute is sent with every execution and will almost always be random for a `meltano init`, so the project's ID source is based on the first
-    project ID source received excluding the init command.
+    Projects with a [project ID source](/data-team/metrics-and-definitions#project-id-source) of `random` are excluded from active status because our telemetry is unreliable for them.
+    Likely the project ID is being regenerated in something like an ephemeral container and is not persisted in the meltano.yml file.
+    We do not exclude `persisted_random` projects because they have proven to have reliable telemetry.
 
 - 28 day Rolling Window
 
@@ -105,6 +106,13 @@ This attribute uses a daily aggregated 28 day rolling window.
 - Re-activation Example
 
     Projects can fluctuate between active and inactive states over their lifetime, for example: a new user looking to bring Meltano into their organization might conduct a POC where they initialize a project and use it actively for a couple weeks, then go dormant for 28+ days making them inactive while they get buy-in from leadership, then later pick the project back up and execute a plugin at which point they're immediately considered active again following plugin execution.
+
+#### Project ID Source
+
+The project ID source attribute is sent with every execution and will almost always be random for a `meltano init`, so the project's ID source attribute is ultimately based on the first
+project ID source received excluding the init command.
+Additionally, some projects eventually graduate out of being considered random and into a new source called `persisted_random` when they are >7 days old and have been seen from multiple different IP addresses.
+This type of activity indicates that they're most likely not ephemeral projects anymore and the project ID was persisted to the meltano.yml file.
 
 #### Project Fish Segments
 
