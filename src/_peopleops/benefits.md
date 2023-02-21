@@ -100,7 +100,7 @@ For remote employees who work outside of the United States, country or local lea
 
 #### Family and Friends Day
 
-Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company/family-and-friends-day/), Meltano has made Family and Friends Day a regular part of the culture. These will sometimes align with US holidays and observances to allow 3 or 4 day weekends.  On these days, we will close the doors to the Meltano virtual office, reschedule all meetings, and have a publicly visible shutdown. Taking the day off is strongly encouraged if your role allows it. If you are on call or need to work during the scheduled Friends and Family Day, please select another day that works best for your schedule.
+Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company/family-and-friends-day/), Meltano has made Family and Friends Day a regular part of the culture. These will often align with US holidays and observances to allow for 3 or 4 day weekends.  On these days, we will close the doors to the Meltano virtual office, reschedule all meetings, and have a publicly visible shutdown. Taking the day off is strongly encouraged if your role allows it. If you are on call or need to work during the scheduled Friends and Family Day, please select another day that works best for your schedule.
 
 ##### Upcoming Family and Friends Days
 
