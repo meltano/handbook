@@ -22,7 +22,7 @@ Similarly if they ran their final pipelines on Jan 1st then they would be inacti
 
 #### Monthly Pipeline Runs
 
-The amount of pipelines that were executed in a month.
+The amount of [pipelines](/data-team/metrics-and-definitions#pipeline) that were executed in a month.
 This metric does not require that the pipeline was executed successfully.
 
 #### Monthly New Projects
