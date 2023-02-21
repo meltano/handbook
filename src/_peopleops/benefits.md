@@ -106,7 +106,6 @@ Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company
 
 _The customer support & escalation policy during these days is TBD._
 
-- 2023-02-17
 - 2023-03-10
 - 2023-04-07
 - 2023-05-29
