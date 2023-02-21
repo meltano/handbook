@@ -14,7 +14,7 @@ Certain KPIs are considered Health Metrics, which means we actively monitor them
 
 ## Active Projects
 
-Meltano's primary strategic goal is to achieve product-market fit for Meltano as a data movement (EL+T) solution with 10X developer experience over alternatives. Our primary metric for measuring progress towards this goal is the number of [active projects](/data-team/metrics-and-definitions#active-project).
+Meltano's primary strategic goal is to achieve product-market fit for Meltano as a data movement (EL+T) solution with 10X developer experience over alternatives. Our primary metric for measuring progress towards this goal is the number of [active projects](/data-team/metrics-and-definitions#monthly-active-projects).
 
 Active projects is a metric we can influence directly and new active projects will inevitably lead to more Unique Pipelines and Pipeline Runs.
 This metric encourages us to retain existing Meltano users as well as activate new users.
