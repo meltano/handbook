@@ -100,17 +100,17 @@ For remote employees who work outside of the United States, country or local lea
 
 #### Family and Friends Day
 
-Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company/family-and-friends-day/), Meltano has made Family and Friends Day a regular part of the culture. On these days, we will close the doors to the Meltano virtual office, reschedule all meetings, and have a publicly visible shutdown. Taking the day off is strongly encouraged if your role allows it. If you are on call or need to work during the scheduled Friends and Family Day, please select another day that works best for your schedule.
+Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company/family-and-friends-day/), Meltano has made Family and Friends Day a regular part of the culture. These will often align with major holidays and observances to allow for 3 or 4 day weekends.  On these days, we will close the doors to the Meltano virtual office, reschedule all meetings, and have a publicly visible shutdown. Taking the day off is strongly encouraged if your role allows it. If you are on call or need to work during the scheduled Friends and Family Day, please select another day that works best for your schedule.
 
 ##### Upcoming Family and Friends Days
 
 _The customer support & escalation policy during these days is TBD._
 
-- 2022-09-02
-- 2022-10-21
-- 2022-11-25
-- 2022-12-26 &#8212; 2022-12-30
-- 2023-02-17
+- 2023-03-10
+- 2023-04-07
+- 2023-05-29
+- 2023-06-19
+- 2023-07-03
 
 These dates are tracked in the [Team Meetings Calendar](calendars).
 Meltano team members should mark these days off using [PTO by Roots](/company/tech-stack/#pto-by-roots).
