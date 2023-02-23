@@ -76,13 +76,13 @@ If this information changes the issue weight or threatens the feasibility of the
 
 The following web properties or critical URL's are currently monitored by Pingdom and trigger alerts in the `#meltano-alerts` slack channel via the Pingdom slack app:
 
-1. https://docs.meltano.com
-1. http://handbook.meltano.com
-1. https://hub.meltano.com
-1. https://discovery.meltano.com/discovery.yml
-1. https://sdk.meltano.com
-1. https://www.meltano.com
-1. https://meltano.com/slack
+1. [https://docs.meltano.com](https://docs.meltano.com)
+1. [http://handbook.meltano.com](http://handbook.meltano.com)
+1. [https://hub.meltano.com](https://hub.meltano.com)
+1. [https://discovery.meltano.com/discovery.yml](https://discovery.meltano.com/discovery.yml)
+1. [https://sdk.meltano.com](https://sdk.meltano.com)
+1. [https://www.meltano.com](https://www.meltano.com)
+1. [https://meltano.com/slack](https://meltano.com/slack)
 
 ## Meetings
 
