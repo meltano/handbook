@@ -13,11 +13,13 @@ weight: 2
 
 ## Tracking Time Off
 
-Use [PTO by Roots](/company/tech-stack/#pto-by-roots) to add time off to the calendar, preferably **at least 2 weeks** before the day off.  Holidays, Family and Friend days, and Paid Time Off (PTO) are all tracked via this tool.  It is important for everyone to add time off to the calendar in advance when possible so the team knows who will be out when and can plan accordingly.  This does not mean that all PTO requires two weeks of advanced notice.  If you are sick or are scheduling a medical appointment, for example, get yourself help ASAP but do make sure to log your time off.
+Use [PTO by Deel](/company/tech-stack/#pto-by-deel) to add time off to the calendar, preferably **at least 2 weeks** before the day off.  All time off is tracked via this tool.  It is important for everyone to add time off to the calendar in advance when possible so the team knows who will be out when and can plan accordingly.  This does not mean that all PTO requires two weeks of advanced notice.  Life does not always happen with convenient notice periods. If you are sick or are scheduling a medical appointment, for example, get yourself help ASAP but do make sure to log your time off.  
+
+For Friends and Family days it is generally assumed that most employees will take the day off. While we would still like you to track this and all time off in PTO by Deel, you will not be required to put the time in 2 weeks beforehand in order to take Friends and Family days off. 
 
 ### Short-term Leave
 
-In [PTO by Roots](/company/tech-stack/#pto-by-roots), there are several options for indicating time off.
+In [PTO by Deel](/company/tech-stack/#pto-by-deel), there are several options for indicating time off.
 When taking a vacation, personal time, etc., use the "Paid Time Off" option type in the "Short-term leave" list.
 You may optionally indicate what the OOO is for as a way for your manager, co-workers, and the community to better understand your availability.
 
