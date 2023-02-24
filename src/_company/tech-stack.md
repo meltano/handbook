@@ -63,7 +63,7 @@ SOC2 compliance automation tool.  Each team member has their own account and acc
 
 ## [EasyLlama](https://www.easyllama.com/)
 
-Employee compliance training tool. 
+Employee compliance training tool.
 
 ## [Expensify](https://www.expensify.com/)
 
