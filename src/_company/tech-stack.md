@@ -61,6 +61,10 @@ Account details are in the `Engineering` 1Password vault.
 
 SOC2 compliance automation tool.  Each team member has their own account and access.
 
+## [EasyLlama](https://www.easyllama.com/)
+
+Employee compliance training tool.
+
 ## [Expensify](https://www.expensify.com/)
 
 Expense tracking.
