@@ -79,7 +79,7 @@ Periodically, Meltano will conduct risk evaluations based on data classification
 
 ## Guidelines for responsible data management
 
-As a rule, DCL3 and above are not be permitted to be shared internally or externally without proper data protections in place. Sharing of DCL3 requires a 'needs to know' basis as derived from specific job responsibilities.
+As a rule, DCL3 and above are not permitted to be shared internally or externally without proper data protections in place. Sharing of DCL3 requires a 'needs to know' basis as derived from specific job responsibilities.
 
 ### Log Files
 
