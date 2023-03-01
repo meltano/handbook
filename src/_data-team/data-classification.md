@@ -4,9 +4,14 @@ title: Data Classification Levels
 weight: 12
 ---
 
+## Data Classification Levels
+
 Meltano currently identifies the following levels of data sensitivity:
 
-## Data Classification Levels
+- [Level 1: Public](#level-1-public)
+- [Level 2: Sensitive](#level-2-sensitive)
+- [Level 3: Restricted](#level-3-restricted)
+- [Level 4: Highly Restricted](#level-4-highly-restricted)
 
 ### Level 1: Public
 
@@ -68,7 +73,7 @@ Regulations, laws and standards that affect data in DCL4 include, but are not li
 - PHI, "Personal Health Information", as defined by HIPAA.
 - Social security numbers, driver license numbers, or other government-issued IDs.
 
-## Shorthand and Practice Usage
+## Shorthand and Practical Usage
 
 As a shorthand, the above data classification levels can be referred to as "Level 1" or "DCL1" and these notations would correspond with the "Public" classification level (for instance).
 
