@@ -92,4 +92,4 @@ As a rule, customers' logs from data processing workloads are treated as DCL3 (r
 
 Level 4 (Highly Restricted) data is explicitly forbidden in extract/load operations and in data warehouse transformations.
 
-If and when Level 4 data is identified, an issue should be created in the `internal-data` repo and the following actions should be taken as high urgency: (1) delete/purge the data from the warehouse, (2) deselect data from EL processes, (3) optionally re-add the data using a suitable hash algorithm to ensure proper anonymization.
+If and when Level 4 data is identified, a "high urgency" issue should be created in the `internal-data` repo and the following actions should be taken immediately: (1) delete/purge the data from the warehouse, (2) deselect data from EL processes, (3) optionally re-add the data using a suitable hash algorithm to ensure proper anonymization.
