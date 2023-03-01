@@ -91,3 +91,15 @@ As a rule, customers' logs from data processing workloads are treated as DCL3 (r
 Level 4 (Highly Restricted) data is explicitly forbidden in extract/load operations and in data warehouse transformations.
 
 If and when Level 4 data is identified, a "high urgency" issue should be created in the `internal-data` repo and the following actions should be taken immediately: (1) delete/purge the data from the warehouse, (2) deselect data from EL processes, (3) optionally re-add the data using a suitable hash algorithm to ensure proper anonymization.
+
+## FAQ
+
+### What Is Personally Identifiable Information (PII)?
+
+Personally identifiable information (PII) is information that, when used alone _or with other relevant data_, can identify an individual.
+
+PII may contain direct identifiers (e.g., passport information) that can identify a person uniquely, or quasi-identifiers (e.g., race) that can be combined with other quasi-identifiers (e.g., date of birth) to successfully recognize an individual.
+
+### What is SOC2 and how does it relate to data classification?
+
+The SOC 2 Trust Services Criteria requires that organizations demonstrate that they identify and protect confidential information, and that they meet the company’s objectives related to confidentiality.
