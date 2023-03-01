@@ -16,8 +16,8 @@ Meltano currently identifies the following levels of data sensitivity:
 
 - Plugin execution data shared on the Hub.
 - Text content of issues and PRs created on public repos.
-- Public product and service information
-- Company directory listings
+- Public product and service information.
+- Company directory listings.
 - Published blog postings.
 - Publicly shared presentations.
 - Job postings.
@@ -54,7 +54,7 @@ Regulations and laws that affect data in DCL3 include, but are not limited to, F
 - Anonymized data that nevertheless qualifies as PII, due to meeting one or more of these conditions:
   - The person's age is listed and that age is over 91.
   - The person's zip code is used.
-  - Anonymized data provided has too-small 'n' to properly protect identities of those persons.
+  - Anonymized data provided has too-small 'n' to properly protect identities of those persons. (Generally 'n' must be >=5.)
 
 ### Level 4: Highly Restricted
 
