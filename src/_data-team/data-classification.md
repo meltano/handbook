@@ -72,11 +72,11 @@ Regulations, laws and standards that affect data in DCL4 include, but are not li
 
 ## Shorthand and Practice Usage
 
-As a shorthand, the above data classification levels can be referred to as "Level 1" or "DCL1", for instance, and these notations would correspond with the "Public" classification level.
+As a shorthand, the above data classification levels can be referred to as "Level 1" or "DCL1" and these notations would correspond with the "Public" classification level (for instance).
 
 ## Data Classification Exercises and Exposure Risk Evaluations
 
-Periodically, Meltano will conduct risk evaluations based on data classification levels above.
+Periodically, Meltano will conduct risk evaluations based on data classification levels above. For instance, we perform regular review of data classification rules and data handling as part of our SOC2 audit processes.
 
 ## Guidelines for responsible data management
 
