@@ -86,7 +86,7 @@ As a rule, DCL3 and above are not be permitted to be shared internally or extern
 
 DCL3 and above data is not permitted to be stored in Meltano's own internal infrastructure logs.
 
-As a rule, customers' logs from data processing workloads are treated as DCL3 (restricted), and should be presumed to contain DCL3 data. It is not permitted to view customers' log files without proper business justification - such as a troubleshooting request or help desk request from the user.
+As a rule, customers' logs from data processing workloads are treated as DCL3 (restricted), and should be presumed to contain DCL3 data. For this reason, it is not permitted to view customers' raw log files without proper business justification, for instance: a troubleshooting request or help desk request from the user.
 
 ### Data Warehousing and Analytics
 
