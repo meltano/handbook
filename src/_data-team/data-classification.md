@@ -54,10 +54,6 @@ Regulations and laws that affect data in DCL3 include, but are not limited to, F
 - Customer IDs, including billing account numbers.
 - All other customer data that is not explicitly shared by the customer, including the names of persons and organizations who a customers to Meltano if they have not explicitly given permission for their names to be used.
 - All other personally identifiable information (PII) such as name, birthdate, address, etc. where the information is held in combination and could lead to identity theft or other misuse; certain research (e.g. proprietary or otherwise protected).
-- Anonymized data that nevertheless qualifies as PII, due to meeting one or more of these conditions:
-  - The person's age is listed and that age is over 91.
-  - The person's zip code is used.
-  - Anonymized data provided has too-small 'n' to properly protect identities of those persons. (Generally 'n' must be >=5.)
 
 ### Level 4: Highly Restricted
 
