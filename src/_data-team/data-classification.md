@@ -82,6 +82,14 @@ Periodically, Meltano will conduct risk evaluations based on data classification
 
 As a rule, DCL3 and above are not be permitted to be shared internally or externally without proper data protections in place. Sharing of DCL3 requires a 'needs to know' basis as derived from specific job responsibilities.
 
+### Log Files
+
 DCL3 and above data is not permitted to be stored in Meltano's own internal infrastructure logs.
 
 As a rule, customers' logs from data processing workloads are treated as DCL3 (restricted), and should be presumed to contain DCL3 data. It is not permitted to view customers' log files without proper business justification - such as a troubleshooting request or help desk request from the user.
+
+### Data Warehousing and Analytics
+
+Level 4 (Highly Sensitive) data is explicitly forbidden in extract/load operations and in data warehouse transformations.
+
+If and when Level 4 data is identified, an issue should be created in the `internal-data` repo and the following actions should be taken as high urgency: (1) delete/purge the data from the warehouse, (2) deselect data from EL processes, (3) optionally re-add the data using a suitable hash algorithm to ensure proper anonymization.
