@@ -6,7 +6,7 @@ weight: 12
 
 ## Data Classification Levels
 
-Meltano currently identifies the following levels of data sensitivity:
+Meltano identifies the following levels of data sensitivity:
 
 - [Level 1: Public](#level-1-public)
 - [Level 2: Sensitive](#level-2-sensitive)
