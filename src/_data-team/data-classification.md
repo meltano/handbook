@@ -42,8 +42,6 @@ Note: While some forms of sensitive data can be made available to the public, it
 
 **Description:** Restricted data is highly confidential business or personal information. There are often general statutory, regulatory or contractual requirements that require protection of the data. It is intended for a very specific use and should not be disclosed except to those who have explicit authorization to review such data. Unauthorized disclosure of this information could have a serious adverse impact on Meltano, its customers or affiliates.
 
-Consultations with central IT departments will almost always be necessary in order to establish adequate security controls for this type of data.
-
 Regulations and laws that affect data in DCL3 include, but are not limited to, Family Educational Rights & Privacy Act (FERPA) and the Graham-Leach-Bliley Act (GLBA).
 
 **Examples:**
