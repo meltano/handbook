@@ -4,7 +4,7 @@ title: Product Features
 weight: 3
 ---
 
-Product features in Meltano may go optional go through multiple acceptance phases.
+Product features in Meltano may optionally go through multiple acceptance phases.
 
 ### Meltano Cloud
 
