@@ -5,7 +5,7 @@ weight: 1
 permalink: /product/
 ---
 
-Our [iterations and scheduled work](https://github.com/orgs/meltano/projects/3) are available to the public, and we encourage anyone to [submit new issues](https://gitlab.com/meltano/meltano/issues/new).
+Our [iterations and scheduled work](https://github.com/orgs/meltano/projects/3) are available to the public, and we encourage anyone to [submit new issues](https://github.com/meltano/meltano/issues/new).
 
 ## Getting in Touch
 
@@ -26,7 +26,7 @@ You should feel comfortable reaching out to each of us either in issues or on Sl
 
 ## Responsibilities
 
-The Product team will review any [new issues](https://gitlab.com/groups/meltano/-/issues) in the Meltano group on a daily cadence and organize appropriately with labels and priority.
+The Product team will review any [new issues](https://github.com/meltano/meltano/issues) in the Meltano group on a daily cadence and organize appropriately with labels and priority.
 
 Product is responsible for reaching out to users and talking with them about their experiences with all Meltano properties.
 This is an important sensing mechanism for understanding how users interact with Meltano and it informs product priorities.
