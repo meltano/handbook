@@ -6,7 +6,7 @@ weight: 12
 
 ## Data Classification Levels
 
-Meltano currently identifies the following levels of data sensitivity:
+Meltano identifies the following levels of data sensitivity:
 
 - [Level 1: Public](#level-1-public)
 - [Level 2: Sensitive](#level-2-sensitive)
@@ -52,7 +52,7 @@ Regulations and laws that affect data in DCL3 include, but are not limited to, F
 **Examples:**
 
 - Customer IDs, including billing account numbers.
-- All other customer data that is not explicitly shared by the customer, including the names of persons and organizations who a customers to Meltano if they have not explicitly given permission for their names to be used.
+- All other customer data that is not explicitly shared by the customer, including the names of persons and organizations who are customers of Meltano if they have not explicitly given permission for their names to be used.
 - All other personally identifiable information (PII) such as name, birthdate, address, etc. where the information is held in combination and could lead to identity theft or other misuse; certain research (e.g. proprietary or otherwise protected).
 
 ### Level 4: Highly Restricted
@@ -79,7 +79,7 @@ Periodically, Meltano will conduct risk evaluations based on data classification
 
 ## Guidelines for responsible data management
 
-As a rule, DCL3 and above are not be permitted to be shared internally or externally without proper data protections in place. Sharing of DCL3 requires a 'needs to know' basis as derived from specific job responsibilities.
+As a rule, DCL3 and above are not permitted to be shared internally or externally without proper data protections in place. Sharing of DCL3 requires a 'needs to know' basis as derived from specific job responsibilities.
 
 ### Data Warehousing and Analytics
 
