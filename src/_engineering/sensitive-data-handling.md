@@ -6,7 +6,7 @@ weight: 12
 
 ## Data Classifications
 
-Responsible handling of sensitive data starts with proper data classification. Our data classification guide is [here](../_data-team/data-classification.md).
+Responsible handling of sensitive data starts with proper data classification. Our data classification guide is [here](/data-team/data-classification).
 
 ### Sensitive Data within Log Files
 
