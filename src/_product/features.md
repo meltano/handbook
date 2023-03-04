@@ -16,7 +16,7 @@ We release Meltano Cloud in the following lifecycle stages.
 
 * **Generally Available (GA)**: Generally Available features are stable and can be considered for production deployments. Service level agreements (SLAs) apply to GA features, and these features include documentation and technical support.
 
-* **Deprecated**: Features in this state are not actively worked on or enhanced by Meltano and will continue to function as-is until their removal date.
+* **Deprecated**: Features in this state are not actively worked on, maintained, or enhanced by Meltano. We aim to keep these functioning as-is until, but that may not be possible prior to their removal. New issues and bug reports related to these features will be deprioritized or closed.
 
 * **Removed**: Removed features no longer have any level of product functionality or support.
 
