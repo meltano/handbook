@@ -14,7 +14,7 @@ Responsible handling of sensitive data starts with proper data classification. O
 
 We do expect Meltano Core CLI logs will include Level 3 data that could contain internal information related to our users' business models, intellectual property, trade secrets, etc.
 
-Since Meltano delivers functionality via 3rd party connectors and other 3rd party software, we are aware that some Level 4 data (e.g. user accounts and/or credentials) may be inadvertently printed to logs by those 3rd party plugins. When this occurs, and we try to ensure the issue is logged as a high urgency bug to the correct repo for the connector or extension in question.
+Since Meltano delivers functionality via 3rd party connectors and other 3rd party software, we are aware that some Level 4 data (e.g. user accounts and/or credentials) may be inadvertently printed to logs by those 3rd party plugins. When this occurs, we try to ensure the issue is logged as a high urgency bug to the correct repo for the connector or extension in question.
 
 Meltano Core itself aims to never print Level 4 data in logs, unless the user explicitly asks to print those values with the `--print-var` CLI arg.
 
