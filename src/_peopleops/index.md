@@ -300,9 +300,9 @@ Prospective employers and those with collection agencies and others will be eval
 
 ### Job Abandonment
 
-While Meltano believes in a flexible work schedule, employees are still expected to complete work daily. When an employee is absent from work for three (3) consecutive workdays, there is no request for PTO in Deel, there is no activity on our platforms (Slack, Gmail or GitHub), and the employee fails to contact their supervisor or HR, they will be considered as having voluntarily resigned as a result of job abandonment. This applies to US employees. 
+While Meltano believes in a flexible work schedule, employees are still expected to complete work daily. When an employee is absent from work for three (3) consecutive workdays, there is no request for PTO in Deel, there is no activity on our platforms (Slack, Gmail or GitHub), and the employee fails to contact their supervisor or HR, they will be considered as having voluntarily resigned as a result of job abandonment. This applies to US employees.
 
-For employees employed via Remote, Meltano will take action in accordance with local laws.  
+For employees employed via Remote, Meltano will take action in accordance with local laws.
 
 If a manager is unable to reach an employee via email or slack within a 24 hour period they should contact HR. The manager and HR will create an action plan to make additional attempts to contact the employee. Employees should ensure their emergency contact information is up to date in Gusto.
 
