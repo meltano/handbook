@@ -335,6 +335,10 @@ Account details are in the `Social` 1Password vault.
 
 Surveys
 
+## [Vercel](https://www.vercel.com/)
+
+Deployment for Meltano Cloud website. Please ask `Engineering` if you need access.
+
 ## [WPEngine](https://wpengine.com/)
 
 Hosting for <https://meltano.com>.
