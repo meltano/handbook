@@ -297,3 +297,15 @@ Meltano will comply with all government requests for verification of employment.
 Meltano will respond to requests from mortgage lenders, landlords and the like, if the request is accompanied by a release form from the employee. Additionally, employees should notify Human Resources through email that a request may be forthcoming.
 
 Prospective employers and those with collection agencies and others will be evaluated on a case by case basis. Meltano will under no circumstances provide wage information to a non government agency without consent and a release from the employee. Prospective employers will only receive verification of dates of employment and title.
+
+### Job Abandonment
+
+While Meltano believes in a flexible work schedule, employees are still expected to complete work daily. When an employee is absent from work for three (3) consecutive workdays, there is no request for PTO in Deel, there is no activity on our platforms (Slack, Gmail or GitHub), and the employee fails to contact their supervisor or HR, they will be considered as having voluntarily resigned as a result of job abandonment. This applies to US employees.
+
+For employees employed via Remote, Meltano will take action in accordance with local laws.
+
+If a manager is unable to reach an employee via email or slack within a 24 hour period they should contact HR. The manager and HR will create an action plan to make additional attempts to contact the employee. Employees should ensure their emergency contact information is up to date in Gusto.
+
+#### Exceptions
+
+Meltano understands there are extenuating circumstances that may occur. If an employee is unable to contact the company for an absence, they should ask a representative (such as a family member or friend) to do so on their behalf. If the employee or a representative is unable to contact Meltano due to extreme circumstances (such as a medical emergency or natural disaster that prohibits the employee or their representative from contacting the company within three days), the employee or their representative must contact the company as soon as practicable to explain the situation. In extreme circumstances, the employer will consider the explanation and its timing before determining if the voluntary resignation will be upheld.
