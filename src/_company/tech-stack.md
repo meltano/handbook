@@ -226,7 +226,7 @@ is delivered via Netlify's Github integration.
 
 Account details are in the `Engineering` 1Password vault.
 
-## [Otter.ai](https://otter.ai)
+## [Fireflies.ai](https://fireflies.ai)
 
 Real time transcription service for documenting meetings.
 
