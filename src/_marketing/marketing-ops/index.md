@@ -12,9 +12,12 @@ To request a marketing campaign, please use the `campaign-request.md` template i
 
 Please see a full list of all our [tooling here](/company/tech-stack/).
 
-## Domains
+## Domain names
 
-Meltano has several domains we've purchased and managed. These are documented in [this Google Sheet](https://docs.google.com/spreadsheets/d/15f_p0jU1ZaIMPE8_3OTBjM5Uf5_RjtG8EIRUygFVBTM/edit#gid=0).
+Meltano manages several Internet domain names.  These are documented in [this Google Sheet](https://docs.google.com/spreadsheets/d/15f_p0jU1ZaIMPE8_3OTBjM5Uf5_RjtG8EIRUygFVBTM/edit#gid=0) (available to team members only).  When acquiring additional domain names, team members should do the following:
+- Ensure the above-linked tracking spreadsheet is properly updated.
+- Wherever possible, use one of the domain name registrars that Meltano already uses.
+- Wherever possible, use one of the DNS providers that Meltano already uses.
 
 ## Website/blog
 
