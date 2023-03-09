@@ -16,8 +16,10 @@ Please see a full list of all our [tooling here](/company/tech-stack/).
 
 Meltano manages several Internet domain names.  These are documented in [this Google Sheet](https://docs.google.com/spreadsheets/d/15f_p0jU1ZaIMPE8_3OTBjM5Uf5_RjtG8EIRUygFVBTM/edit#gid=0) (available to team members only).  When acquiring additional domain names, team members should do the following:
 - Ensure the above-linked tracking spreadsheet is properly updated.
+- Ensure the [email addresses and other information in the tracking spreadsheet](https://docs.google.com/spreadsheets/d/15f_p0jU1ZaIMPE8_3OTBjM5Uf5_RjtG8EIRUygFVBTM/edit#gid=329645876) are used as contact information for the domain.
 - Wherever possible, use one of the domain name registrars that Meltano already uses.
 - Wherever possible, use one of the DNS providers that Meltano already uses.
+For any questions or assistance with this, please contact Operations.
 
 ## Website/blog
 
