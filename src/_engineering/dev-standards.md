@@ -22,6 +22,37 @@ Our Meltano value of ongoing `Iteration` is balanced by a requirement that each 
 
 _For more information, please see the handbook section on [Stable Increments](./stable-increments)._
 
+## Linting Standards
+
+Linting for our repositories is handled by [`pre-commit`](https://pre-commit.com), and run in CI using [`pre-commit.ci`](https://pre-commit.ci).
+
+`pre-commit`, as the name implies, can be used to manage git pre-commit hooks. That said, it can also be run standalone as a general-purpose tool manager that maintains and runs tools in isolated environments. You may prefer to not install its git hooks at all, since that can add an annoying delay to each commit. If you do install its git hooks, they can be skipped as needed by passing the `-n` flag to `git commit`.
+
+Our primary reasons for using `pre-commit` are as follows:
+
+- It lets us put our linting dependencies in `.pre-commit-config.yaml` instead of the dev dependency section of `pyproject.toml`. This prevents the transitive dependency restrictions from our linting dependencies from impacting the runtime dependencies. For example, if the latest version of one of our linting dependencies requires `importlib-resources<4.0.0`, but one of our runtime dependencies requires `importlib-resources>=5.0.0`, then we'd likely have to downgrade that runtime dependency until we found a compatible version. Thanks to `pre-commit` managing these dependencies, this is no longer an issue, and we can run `poetry lock` with less fear.
+- It provides (mostly) reproducible isolated environments for linting tools. If a `pre-commit` check is failing in CI, it's probably failing locally too.
+- It has simple CI integration with auto-fixes and auto-updates via [`pre-commit.ci`](https://pre-commit.ci). The `pre-commit.ci` GitHub app is installed in the Meltano and MeltanoLabs GitHub organizations, and is given access on a per-repository basis.
+- There is a wealth of pre-existing `pre-commit` checks that we can specify. An incomplete list can be found at [pre-commit.com/hooks](https://pre-commit.com/hooks).
+- [It supports many languages](https://pre-commit.com/#supported-languages), plus an escape hatch to run any tool within a Docker image.
+- Creating custom checks is easy.
+
+We recommend using `pipx` to install/run `pre-commit`, since that saves it from being installed into (and potentially interfering with) your active Python environment: `pipx run pre-commit`
+
+By default, running `pre-commit` will run every check on all files staged by git. This can increase performance since there are fewer files to check, but you may also want to run the checks against all files like so: `pre-commit run --all-files`
+
+A useful shell alias may be `alias lint='pipx run pre-commit run --all-files'`
+
+For any tool which supports it, `pyproject.toml` is where all configuration should be stored, rather than within `.pre-commit-config.yaml`, or a tool-specific config file.
+
+There is no one-size-fits-all approach to deciding which `pre-commit` checks should be used for a given repository. We recommend checking out examples of what `.pre-commit-config.yaml` is in Meltano repositories which already use `pre-commit`. For Python projects, some good checks to run using `pre-commit` are:
+
+- `ruff`
+- `isort`
+- `black`
+- `pyupgrade`
+- `mypy`
+
 ## Documentation Standards
 
 ### Markdown Linting
@@ -30,7 +61,7 @@ Every docs page should be linted and should adhere to linting standards.
 
 It is a good idea to install the [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) VS Code extension, or similar, so you have realtime lint guidance while editing.
 
-Whenever possible, GitLab and GitHub projects should have automated lint checks, including markdown lint checks and broken link checks.
+Whenever possible, projects should have automated lint checks, including markdown lint checks and broken link checks.
 
 ### Docs and the "Definition of Done"
 
