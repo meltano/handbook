@@ -1,20 +1,18 @@
 <!-- TODO: No need to pull in this whole thing for a burger. Fix it later. -->
-<script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous">
-</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+  </script>
 
 <script type="text/javascript">
-  $(document).ready(function() {
-  $(".navbar-burger").click(function() {
+  $(document).ready(function () {
+    $(".navbar-burger").click(function () {
       $(".navbar-burger, .navbar-menu", $(this).closest('.navbar')).toggleClass("is-active");
+    });
   });
-});
 </script>
 
 {% if page.url == "/search" %}
-  {% include algolia.html %}
+{% include algolia.html %}
 {% endif %}
 
 
@@ -25,8 +23,8 @@
 
         <div class="column is-one-quarter has-text-centered">
 
-          <figure class="image is-128x128 is-inline-block mb-0">
-            <img src="/images/meltano-logo-stacked-padded.svg" alt="The Meltano Logo, a purple dragon spitting fire">
+          <figure class="image is-inline-block mb-0">
+            <img src="/images/logo.svg" alt="The Meltano Logo, a purple dragon spitting fire">
           </figure>
 
           <ul class="social-media-list">
@@ -34,12 +32,6 @@
             <li class="is-inline">
               <a href="https://github.com/meltano/meltano">
                 <span class="fab fa-github fa-lg"></span>
-              </a>
-            </li>
-
-            <li class="is-inline">
-              <a href="https://github.com/MeltanoLabs">
-                <span class="fab fa-github-alt fa-lg"></span>
               </a>
             </li>
 

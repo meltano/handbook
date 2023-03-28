@@ -3,7 +3,7 @@
 ---
 
 /* Bulma Variables */
-$primary: #3e3c8e;
+$primary: #311772;
 $yellow: #fbbf51;
 $green: #29a25b;
 $grey-darker: #5a6372;
@@ -12,6 +12,8 @@ $red: #d9042b;
 
 /* Bulma Timeline Variables */
 $timeline-marker-border: none;
+
+$family-sans-serif: 'Hanken Grotesk';
 
 /* Import the needful after variables are set */
 @import 'node_modules/bulma/bulma';
