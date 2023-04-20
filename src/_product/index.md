@@ -16,8 +16,8 @@ Use the private [#internal-product](https://meltano.slack.com/archives/C02MBDUHC
 
 For each Meltano property, we have a primary point of contact:
 
-- Meltano - Taylor & AJ
-- Meltano SDK - AJ
+- Meltano - Taylor
+- Meltano SDK - TBD
 - MeltanoHub - Taylor
 - MeltanoLabs - Pat
 - Handbook / Website - Douwe
@@ -71,8 +71,8 @@ When any work needs to be prioritized that is not specifically a roadmap featue,
 ### Marketing
 
 - Marketing work that needs to be prioritized by Product or Engineering must have an issue associated with it. Add the relevant labels below so triage can be streamlined.
-The issue should get added to the [Product Roadmap board](https://github.com/orgs/meltano/projects/4/) by the requestor.
-- Once added to the board, it will be considered a priority for marketing and enter  **The Process**  to get worked on by an engineer.
+  The issue should get added to the [Product Roadmap board](https://github.com/orgs/meltano/projects/4/) by the requestor.
+- Once added to the board, it will be considered a priority for marketing and enter **The Process** to get worked on by an engineer.
 - Once it's ready to be worked on by an Engineer, it will then get added to the Engineering Assignments board and assigned to an iteration and an engineer for working on.
 
 #### Marketing Triage Labels
@@ -98,6 +98,7 @@ Meltano uses weekly milestones to track work. They are named for the Friday on w
 Every Monday we will highlight for the team what the priorities are for the week by posting in `#internal-announcements` with links to projects and issues where more context can be found and questions can be asked.
 
 In addition, the following should also be done:
+
 - Review and roll community issues to the next milestone
 - Roll merge requests
 - Everyone on the team should roll their own issues to the next milestone. Take the time to review the current status of issues and align priorities within the team.
