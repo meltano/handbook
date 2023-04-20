@@ -21,10 +21,10 @@ may use Slack's built-in video message feature, the free tool [Loom](https://loo
 
 Engineers should consider their work priorities in the following order:
 
-* Issues assigned to you in the current iteration
-* Issues assigned to you in the next iteration
-* Unassigned issues in the next iteration
-* Unassigned issues in the current dated milestone (monthly or quarterly) OR any issues in the Internal WIP milestone
+- Issues assigned to you in the current iteration
+- Issues assigned to you in the next iteration
+- Unassigned issues in the next iteration
+- Unassigned issues in the current dated milestone (monthly or quarterly) OR any issues in the Internal WIP milestone
 
 ## Research Spikes
 
@@ -67,10 +67,10 @@ After any questions or concerns raised have been resolved in the issue, the assi
    This feedback should be provided no later than the following Monday.
 
 After the implementation spec has been written, the issue's weight should be re-evaluated in light of the proposed implementation.
-Any changes to issue weight that result from this should be communicated with a flagged comment to Taylor/AJ with details about the new weight versus the initially planned weight.
+Any changes to issue weight that result from this should be communicated with a flagged comment to Taylor with details about the new weight versus the initially planned weight.
 
 If new information comes to light while an issue is being worked on which changes the implementation such that it will no longer match the provided implementation spec, that should be communicated in a timely manner via a comment on the issue.
-If this information changes the issue weight or threatens the feasibility of the proposed changes, that should be communicated to Taylor/AJ as quickly as possible.
+If this information changes the issue weight or threatens the feasibility of the proposed changes, that should be communicated to Taylor as quickly as possible.
 
 ## Outages & escalation
 
@@ -112,4 +112,4 @@ The following properties are hosted by other providers:
 
 ## Adding new tools
 
-The [tech stack](/company/tech-stack) used by Meltano is rather comprehensive.  Occasionally a new paid service or tool is required.  In that case, team members should work with the [Head of Operations](https://handbook.meltano.com/company/leadership) or create an issue for [New Vendor On-boarding](https://github.com/meltano/administration/issues/new?assignees=&labels=&template=vendor-onboarding.md&title=) with all of the relevant details and assign it to @therebbie.
+The [tech stack](/company/tech-stack) used by Meltano is rather comprehensive. Occasionally a new paid service or tool is required. In that case, team members should work with the [Head of Operations](https://handbook.meltano.com/company/leadership) or create an issue for [New Vendor On-boarding](https://github.com/meltano/administration/issues/new?assignees=&labels=&template=vendor-onboarding.md&title=) with all of the relevant details and assign it to @therebbie.

@@ -59,7 +59,7 @@ Every Wednesday, the Meltano team meets with our users and community members. Th
 
 #### Office Hours Planning
 
-During the weekly Thursday sync between Engineering and Product leadership (`@aj` and `@taylor`), Product and Engineering leadership will perform the following maintenance:
+During the weekly Thursday sync between Engineering and Product leadership, Product and Engineering leadership will perform the following maintenance:
 
 1. Move those topics on the [Office Hours board](https://github.com/orgs/meltano/projects/9) in GitHub into the "Discussed" column, effectively resetting the "Up Next" list for the upcoming week.
 2. For any upcoming, in-progress, or recently released features that need discussion or refinement:
