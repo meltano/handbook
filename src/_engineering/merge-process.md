@@ -147,7 +147,7 @@ For any Pulumi and IAC resources which don't already have a `CODEOWNERS` ruleset
 
 ### EM and PM Approval
 
-Whenever spec changes/updates are introduced during the process of development, and/or whenever a large impactful feature is being implemented, please add `@aaronsteers` and `@tayloramurphy` as required approvers.
+Whenever spec changes/updates are introduced during the process of development, and/or whenever a large impactful feature is being implemented, please add `@seth-meltano` and `@tayloramurphy` as required approvers.
 
 All EM/PM approval requests should be paired with a comment tagging one or both, specifically addressing the details of _where_ spec has changed and/or _which_ components or choices are needing approval.
 
