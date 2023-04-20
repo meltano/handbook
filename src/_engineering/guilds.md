@@ -51,8 +51,6 @@ Each Guild might require different commitments of time and effort, but an 80/20 
 - The content of Meltano Hub, along with frameworks, code, and processes used to generate and publish it.
 - Hosting of Meltano Hub at hub.meltano.com along with associated monitoring and alerting.
 
-I'm sure there's other Singer ecosystem work that should be included here -- thinking particularly of some of the work that @pnadolny13 does around plugin quality assurance and more that I don't have a ton of visibility into.
-
 # Cloud
 
 - The Meltano cloud codebase in the `meltano/infra` repository along with any related bug reports, feature requests, technical debt, or customer support, with the exception of any code in the `services/cloud-ui` directory.
