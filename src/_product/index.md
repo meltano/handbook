@@ -16,8 +16,8 @@ Use the private [#internal-product](https://meltano.slack.com/archives/C02MBDUHC
 
 For each Meltano property, we have a primary point of contact:
 
-- Meltano - Taylor
-- Meltano SDK - TBD
+- Meltano - Taylor & Will Da Silver
+- Meltano SDK - Edgar & Ken
 - MeltanoHub - Taylor
 - MeltanoLabs - Pat
 - Handbook / Website - Douwe
