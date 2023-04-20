@@ -11,7 +11,7 @@ weight: 2
 In line with our <a href="/company/values#together-we-thrive">Together we thrive</a> <a href="/company/values">value</a>, organization of key areas of the Meltano ecosystem are stewarded by Guilds.
 Guilds are made up of members of the Meltano staff and contributers from the community.
 Rather than owning the work items of a given area, Guilds perform an administration and coordination role.
-Core responsibilities are:
+Primary responsibilities are:
 
 - Ownership, curation and dissemination of a roadmap (with guidance and support from Product, Data, Leadership, the Community, other Guilds etc.), especially for major version updates
 - Ownership of community engagement (esp. the publishing/tagging of "Good First Issues" and participation in company events such as Taptoberfest)
