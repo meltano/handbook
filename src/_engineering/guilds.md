@@ -32,22 +32,44 @@ Each Guild might require different commitments of time and effort, but an 80/20 
 
 # Current Guilds
 
-## Core
+# Core
 
-Stewarding [meltano/meltano](https://github.com/meltano/meltano) and [meltano/edk](https://github.com/meltano/edk).
+- The Meltano core codebase in the `meltano/meltano` repository along with any related bug reports, feature requests, technical debt, or community or community support needs, with the exception of code specific to `meltano cloud` subcommands.
+- CI/CD workflows and code standards for Meltano core.
+- The Meltano core release process, excepting specific release processes for the Meltano Cloud CLI.
+- The content of the Meltano docs, along with frameworks, code, and processes used to generate and publish them, with the exception of any Cloud-specific docs found under the `cloud/` directory or CLI reference docs specific to the Meltano Cloud CLI.
+- Hosting of Meltano core docs at docs.meltano.com along with associated monitoring and alerting.
 
-## Cloud
+# Singer Ecosystem
 
-Stewarding [meltano-cloud](https://meltano.com/cloud/).
+- The Meltano SDK codebase in the `meltano/sdk` repository along with any related bug reports, feature requests, technical debt, or community support needs.
+- CI/CD workflows and code standards for the Meltano SDK.
+- The Meltano SDK release process.
+- The content of the Meltano SDK docs, along with frameworks, code, and processes used to generate and publish them.
+- Hosting of Meltano SDK docs at sdk.meltano.com along with associated monitoring and alerting.
+- The Meltano Hub codebase in the `meltano/hub` repository along with any related bug reports, feature requests, technical debt, or community support needs.
+- The content of Meltano Hub, along with frameworks, code, and processes used to generate and publish it.
+- Hosting of Meltano Hub at hub.meltano.com along with associated monitoring and alerting.
 
-## Singer Ecosystem
+I'm sure there's other Singer ecosystem work that should be included here -- thinking particularly of some of the work that @pnadolny13 does around plugin quality assurance and more that I don't have a ton of visibility into.
 
-Stewarding [meltano/sdk](https://github.com/meltano/sdk), [meltano/hub](https://github.com/meltano/hub) and [MeltanoLabs](https://github.com/MeltanoLabs?type=source).
+# Cloud
 
-## UI
+- The Meltano cloud codebase in the `meltano/infra` repository along with any related bug reports, feature requests, technical debt, or customer support, with the exception of any code in the `services/cloud-ui` directory.
+- Those portions of the Meltano Core codebase which relate to the Meltano Cloud CLI.
+- Those portions of the Meltano Core release process which are specific to the Meltano Cloud CLI
+- CI/CD workflows and code standards for Meltano Cloud, except those which are specific to the Meltano Cloud UI
+- Meltano Cloud deployment processes, except those which are specific to the Meltano Cloud UI.
+- The content of the Meltano Cloud docs as found in the `docs/src/_cloud` directory within the `meltano/meltano` repository.
+- Provisioning, monitoring, maintenance, and any other processes related to infrastructure where Meltano Cloud code runs, excepting any Cloud UI-specific infrastructure.
+- Application-level monitoring and alerting for Meltano Cloud services running on the above infrastructure.
+- On-call rotations, incident response, escalation, and any other processes related to supporting the infrastructure and services described above.
 
-Stewarding cross-Guild UI concerns.
+# Cloud UI
 
-## DevOps
-
-Stewaring cross-Guild Developer Operations concerns.
+- The Meltano Cloud UI codebase in the `services/cloud-ui` directory of the `meltano/infra` repository along with any related bug reports, feature requests, technical debt, or customer support.
+- Those CI/CD workflows and code standards which are specific to the Meltano Cloud UI.
+- Those deployment processes which are specific to the Meltano Cloud UI.
+- Provisioning, monitoring, maintenance, and any other processes related to infrastructure where Cloud UI code runs.
+- Application-level monitoring and alerting for Meltano Cloud UI services running on the above infrastructure.
+- On-call rotations, incident response, escalation, and any other processes related to supporting the infrastructure and services described above.
