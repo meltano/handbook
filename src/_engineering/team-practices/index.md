@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Team Practices
-weight: 2
+weight: 1
+subcategory: Team Practices
 ---
 
 This page defines recurring practices which help the Engineering team to function effectively and efficiently.

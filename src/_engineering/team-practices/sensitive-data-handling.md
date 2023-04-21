@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Handling of Sensitive Data
-weight: 12
+weight: 3
+subcategory: Team Practices
 ---
 
 ## Data Classifications

@@ -2,6 +2,7 @@
 layout: page
 title: Stable Increments
 weight: 3
+subcategory: Dev Standards
 ---
 
 This page describes stable vs unstable increments, and is primarily focused on Engineering use cases and applications.

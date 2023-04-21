@@ -1,4 +1,3 @@
-<!-- TODO: The menu doesn't allow for subdirectories yet. See: https://bulma.io/documentation/components/menu/ -->
 <!DOCTYPE html>
 <html>
 
@@ -21,19 +20,54 @@
                     {% else %}
                       <span class="icon"><i class="fas fa-book-open"></i></span>
                     {% endif %}
-
                     {{ collection.name | capitalize }}
                     </p>
                     <ul class="menu-list">
+
+                      <!-- render pages without 'subcategory' front matter -->
                       {% assign items = site[collection.label] | sort: "weight" %}
                       {% for item in items %}
-                        <li>
-                          <a href="{{ item.url }}" class="{% if item.url == page.url %}is-active{% endif %}">
-                           {{ item.title }}
-                          </a>
-                        </li>
+                        {% unless item.subcategory %}
+                        <li><a href="{{ item.url }}" class="{% if item.url == page.url %}is-active{% endif %}">{{ item.title }}</a></li>
+                        {% endunless %}
                       {% endfor %}
-                      </ul>
+
+                      <!-- render pages with 'subcategory' front matter -->
+                      {% assign subcategories = site[collection.label] | map: "subcategory" | uniq | compact %}
+                      {% assign num_subcategories = subcategories | size %}
+                      {% if num_subcategories > 0 %}
+                        {% for subcategory in subcategories %}
+                          {% assign items = site[collection.label] | sort: "weight" | where: "subcategory", subcategory %}
+
+                          <!-- try to find an item in this subcategory called 'index' to use as header link -->
+                          {% assign index_url = "#" %}
+                          {% for item in items %}
+                            {% assign page_name = item.url | split:"/" | last %}
+                            {% if page_name == "index" %}
+                              {% assign index_url = item.url %}
+                            {% endif %}
+                          {% endfor %}
+
+                          <li>
+                            <a href="{{ index_url }}">
+                              <span class="icon"><i class="fa-regular fa-folder-open"></i></span>
+                              {{ subcategory }}
+                            </a>
+                            <ul>
+                            {% for item in items %}
+                              {% unless item.url == index_url %}
+                              <li>
+                                <a href="{{ item.url }}" class="{% if item.url == page.url %}is-active{% endif %}">{{ item.title }}</a>
+                              </li>
+                              {% endunless %}
+                            {% endfor %}
+                            </ul>
+                          </li>
+
+                        {% endfor %%}
+                      {% endif %}
+
+                    </ul>
                   {% endif %}
                 {% endfor %}
               {% endif %}
