@@ -210,7 +210,9 @@ _Important: The GitHub UI requires you to hit "Save changes" after making change
 
 Per repo, these settings are found at `Settings` > `General` > `Pull Requests`:
 
-- Only check "Allow squash merging" and select "Default to pull request title and commit details" as the default commit message.
+- Uncheck "Allow merge commits"
+- Check "Allow squash merging" and select "Default to pull request title and commit details" as the default commit message.
+- Uncheck "Allow rebase merging"
 - Check "Always suggest updating pull request branches"
 - Check "Allow auto-merge"
 - Check "Automatically delete head branches"
