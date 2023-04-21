@@ -37,21 +37,34 @@
                       {% assign num_subcategories = subcategories | size %}
                       {% if num_subcategories > 0 %}
                         {% for subcategory in subcategories %}
-                        <li>
-                          <a style="pointer-events: none;">
-                            <span class="icon"><i class="fa-regular fa-folder-open"></i></span>
-                            {{ subcategory }}
-                          </a>
                           {% assign items = site[collection.label] | sort: "weight" | where: "subcategory", subcategory %}
-                          <ul>
+
+                          <!-- try to find an item in this subcategory called 'index' to use as header link -->
+                          {% assign index_url = "#" %}
                           {% for item in items %}
-                            <li>
-                              <a href="{{ item.url }}" class="{% if item.url == page.url %}is-active{% endif %}">{{ item.title }}</a>
-                            </li>
+                            {% assign page_name = item.url | split:"/" | last %}
+                            {% if page_name == "index" %}
+                              {% assign index_url = item.url %}
+                            {% endif %}
                           {% endfor %}
-                          </ul>
+
+                          <li>
+                            <a href="{{ index_url }}">
+                              <span class="icon"><i class="fa-regular fa-folder-open"></i></span>
+                              {{ subcategory }}
+                            </a>
+                            <ul>
+                            {% for item in items %}
+                              {% unless item.url == index_url %}
+                              <li>
+                                <a href="{{ item.url }}" class="{% if item.url == page.url %}is-active{% endif %}">{{ item.title }}</a>
+                              </li>
+                              {% endunless %}
+                            {% endfor %}
+                            </ul>
+                          </li>
+
                         {% endfor %%}
-                        </li>
                       {% endif %}
 
                     </ul>
