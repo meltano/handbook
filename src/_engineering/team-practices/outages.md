@@ -2,6 +2,7 @@
 layout: page
 title: Outages and Escalation
 weight: 3
+subcategory: Team Practices
 ---
 
 ## Types of escalations

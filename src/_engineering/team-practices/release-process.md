@@ -2,6 +2,7 @@
 layout: page
 title: Release Process
 weight: 2
+subcategory: Team Practices
 ---
 
 The process below applies to both Meltano and then SDK, unless otherwise noted.

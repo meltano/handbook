@@ -1,4 +1,3 @@
-<!-- TODO: The menu doesn't allow for subdirectories yet. See: https://bulma.io/documentation/components/menu/ -->
 <!DOCTYPE html>
 <html>
 
@@ -21,19 +20,41 @@
                     {% else %}
                       <span class="icon"><i class="fas fa-book-open"></i></span>
                     {% endif %}
-
                     {{ collection.name | capitalize }}
                     </p>
                     <ul class="menu-list">
+
+                      <!-- render pages without 'subcategory' front matter -->
                       {% assign items = site[collection.label] | sort: "weight" %}
                       {% for item in items %}
-                        <li>
-                          <a href="{{ item.url }}" class="{% if item.url == page.url %}is-active{% endif %}">
-                           {{ item.title }}
-                          </a>
-                        </li>
+                        {% unless item.subcategory %}
+                        <li><a href="{{ item.url }}" class="{% if item.url == page.url %}is-active{% endif %}">{{ item.title }}</a></li>
+                        {% endunless %}
                       {% endfor %}
-                      </ul>
+
+                      <!-- render pages with 'subcategory' front matter -->
+                      {% assign subcategories = site[collection.label] | map: "subcategory" | uniq | compact %}
+                      {% assign num_subcategories = subcategories | size %}
+                      {% if num_subcategories > 0 %}
+                        {% for subcategory in subcategories %}
+                        <li>
+                          <a style="pointer-events: none;">
+                            <span class="icon"><i class="fa-regular fa-folder-open"></i></span>
+                            {{ subcategory }}
+                          </a>
+                          {% assign items = site[collection.label] | sort: "weight" | where: "subcategory", subcategory %}
+                          <ul>
+                          {% for item in items %}
+                            <li>
+                              <a href="{{ item.url }}" class="{% if item.url == page.url %}is-active{% endif %}">{{ item.title }}</a>
+                            </li>
+                          {% endfor %}
+                          </ul>
+                        {% endfor %%}
+                        </li>
+                      {% endif %}
+
+                    </ul>
                   {% endif %}
                 {% endfor %}
               {% endif %}

@@ -2,6 +2,7 @@
 layout: page
 title: Pull Request (PR) Process
 weight: 2
+subcategory: Dev Standards
 ---
 
 ## Trivial Updates
@@ -11,7 +12,7 @@ A pull request that touches code is never trivial, but one that fixes a typo in 
 
 Trivial updates, such as docs updates, do not require a logged issue.
 
-Outside of very trivial issues like typo's, if a PR is opened *without* an associated issue, the PR description should then briefly explain why the PR is needed or what led to its creation.
+Outside of very trivial issues like typo's, if a PR is opened _without_ an associated issue, the PR description should then briefly explain why the PR is needed or what led to its creation.
 
 ## PR Review Process
 
@@ -61,8 +62,7 @@ Occasionally we need to help a contributor get their PR completed by contributin
 
 #### Step 1: Author must allow edits from maintainers
 
-According to the [docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork
-):
+According to the [docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/allowing-changes-to-a-pull-request-branch-created-from-a-fork):
 
 > Only pull request authors can give upstream repository maintainers, or those with push access to the upstream repository, permission to make commits to their pull request's compare branch in a user-owned fork.
 
