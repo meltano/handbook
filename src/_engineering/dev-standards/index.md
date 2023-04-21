@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Dev Standards
-weight: 3
+weight: 1
+subcategory: Dev Standards
 ---
 
 This page is a resource for development standards across all Meltano products and Meltano code repos.
