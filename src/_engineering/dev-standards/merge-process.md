@@ -176,6 +176,8 @@ at which points they will be experts themselves.
 
 All repos should enable [Dependabot security updates](https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates) and [Dependabot version updates](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates) for its own dependencies, as well as for any dependencies that are used in the repo's CI/CD pipeline.
 
+You can take a look at the [Dependabot configuration for the SDK](https://github.com/meltano/sdk/blob/main/.github/dependabot.yml) for an example.
+
 ### Dependabot PRs
 
 Dependabot will open PRs to update dependencies and these PRs should be reviewed and merged by the team.
