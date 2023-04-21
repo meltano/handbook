@@ -7,9 +7,10 @@ weight: 2
 The Meltano Leadership team is:
 
 - Douwe Maan, CEO
-- AJ Steers, CTO
 - Taylor Murphy, Head of Product & Data
 - REB - Richard E. Baum, Head of Operations
+- Seth Turner - Sr. Engineering Manager
+- Nichole Garrett - Senior Talent Partner
 
 The leadership team meets 2-4 times per month to have cross-functional discussions about how to best move the business forward.
 

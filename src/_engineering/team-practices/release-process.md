@@ -2,6 +2,7 @@
 layout: page
 title: Release Process
 weight: 2
+subcategory: Team Practices
 ---
 
 The process below applies to both Meltano and then SDK, unless otherwise noted.
@@ -37,7 +38,7 @@ The processes for releasing the Meltano and the SDK are essentially the same. At
 4. Locate the automatically created draft releases for [Meltano](https://github.com/meltano/meltano/releases) and [SDK](https://github.com/meltano/sdk/releases). Then [groom the releases notes](#release-notes-grooming) for each, as needed.
 5. Publish the draft releases in GitHub. This automatically ships to PyPI.
    - ⚠️ Warning: In GitHub, `Ctl+Enter` does not just save your copy edits for the draft releases - it also publishes the workflow. Extreme caution is advised to not "accidentally" release too early.
-7. Execute of the Docker Publish workflow for [Meltano](https://github.com/meltano/meltano/actions/workflows/docker_publish.yml) only.
+6. Execute of the Docker Publish workflow for [Meltano](https://github.com/meltano/meltano/actions/workflows/docker_publish.yml) only.
 
 ### Release Notes Grooming
 
@@ -65,6 +66,7 @@ Note: An excellent walkthrough of the GitHub portion of the releases process is 
 The first step to a release regardless of whether is the SDK or Meltano is to trigger a version bump. To do so, you'll manually trigger the Version Bump GitHub action:
 
 Selecting options:
+
 - Version bump type: `patch` or `minor` (`major` will be used rarely)
 - Increase to this prerelease version: `none`
 
@@ -90,7 +92,7 @@ Once the changelog is groomed, and you're happy with its state, merge the PR.
 
 #### Release notes and Marketing
 
-Once you've merged the version bump PR and copied the description to the draft release, ping AJ Steers and Taylor Murphy in the marketing Slack channel, asking them to review the release notes.
+Once you've merged the version bump PR and copied the description to the draft release, ping Taylor Murphy in the marketing Slack channel, asking them to review the release notes.
 
 Be sure to merge the release PR Before publishing the release. **Publishing the release before the version bump PR has landed will cause the PyPI action to fail**.
 

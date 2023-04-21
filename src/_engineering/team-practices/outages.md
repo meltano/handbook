@@ -2,6 +2,7 @@
 layout: page
 title: Outages and Escalation
 weight: 3
+subcategory: Team Practices
 ---
 
 ## Types of escalations
@@ -31,7 +32,7 @@ Examples of critical bugs include:
 
 Bugs labeled `priority::highest` should be alerted ASAP, and should be resolved within 24 hours or sooner. By approval from a Staff Engineer or higher, the problem version may be optionally yanked from PyPI.
 
-Always tag AJ, Taylor, and Florian when a critical bug is identified.
+Always tag Taylor, and Will Da Silva when a critical bug is identified.
 
 ## Alerts and Notifications
 
