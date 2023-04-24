@@ -49,6 +49,7 @@ Each Guild might require different commitments of time and effort, but an 80/20 
 - Hosting of Meltano SDK docs at sdk.meltano.com along with associated monitoring and alerting.
 - The Meltano Hub codebase in the `meltano/hub` repository along with any related bug reports, feature requests, technical debt, or community support needs.
 - The content of Meltano Hub, along with frameworks, code, and processes used to generate and publish it.
+- The hosting of the Hub API along with associated infrastructure, deployment, monitoring, and alerting
 - Hosting of Meltano Hub at hub.meltano.com along with associated monitoring and alerting.
 - Overseeing the MeltanoLabs organization. Including management of processes, permissions, quality standards, defining maintainers, transferring ownership, migrating external connectors, release processes, Singer Most Wanted prioritization.
 
