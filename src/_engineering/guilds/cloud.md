@@ -5,8 +5,6 @@ weight: 2
 subcategory: Guilds
 ---
 
-# Cloud
-
 ## Responsibilities
 
 - The Meltano cloud codebase in the `meltano/infra` repository along with any related bug reports, feature requests, technical debt, or customer support, with the exception of any code in the `services/cloud-ui` directory.

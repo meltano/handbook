@@ -5,8 +5,6 @@ weight: 2
 subcategory: Guilds
 ---
 
-# UI
-
 ## Responsibilities
 
 ### Cloud UI

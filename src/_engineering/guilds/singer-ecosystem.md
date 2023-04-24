@@ -5,8 +5,6 @@ weight: 2
 subcategory: Guilds
 ---
 
-# Singer Ecosystem
-
 ## Responsibilities
 
 - The Meltano SDK codebase in the `meltano/sdk` repository along with any related bug reports, feature requests, technical debt, or community support needs.

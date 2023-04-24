@@ -5,8 +5,6 @@ weight: 2
 subcategory: Guilds
 ---
 
-# Core
-
 ## Responsibilities
 
 - The Meltano core codebase in the `meltano/meltano` repository along with any related bug reports, feature requests, technical debt, or community or community support needs, with the exception of code specific to `meltano cloud` subcommands.

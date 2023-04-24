@@ -5,8 +5,6 @@ weight: 1
 subcategory: Guilds
 ---
 
-# Overview
-
 ## Responsibilities
 
 In line with our <a href="/company/values#together-we-thrive">Together we thrive</a> <a href="/company/values">value</a>, organization of key areas of the Meltano ecosystem are stewarded by Guilds.
@@ -23,7 +21,7 @@ Primary responsibilities are:
 
 ## Expected Commitment
 
-For Guilds to be self-sustaining, each are to have at least 2 permanent members (a HA pair 😅).
+For Guilds to be self-sustaining, each are to have at least 2 permanent members (a HA pair).
 Tenured engineers are encouraged to join a Guild and to work towards "subject matter expertise".
 Newly hired engineers will likely be discouraged from Guild membership for a fixed period (say 6 months, TBD) so as not to specialize early or distract from onboarding.
 Given the likely time commitment, engineers should be discouraged from joining multiple Guilds at our current company stage.
@@ -41,7 +39,7 @@ Each Guild will be responsible for their own rituals, but some general expectati
 - Ongoing google docs agenda that's updated before and after
 - Fireflies ai in every meeting if they happen
 
-# Current Guilds
+## Current Guilds
 
 - [Cloud]({% link _engineering/guilds/cloud.md %})
 - [Core]({% link _engineering/guilds/core.md %})
