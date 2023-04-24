@@ -33,11 +33,20 @@ Each Guild might require different commitments of time and effort, but an 80/20 
 
 Each Guild will be responsible for their own rituals, but some general expectations are set below:
 
-- 30 minutes recurring calendar meeting
-  - Can be cancelled if everything is done async
-- GitHub project board that can be managed / updated async
-- Ongoing google docs agenda that's updated before and after
-- Fireflies ai in every meeting if they happen
+- A 30 min recurring meeting in the Team Google Cal.
+  - Can be cancelled if everything is done async.
+- GitHub project board that can be managed / updated async.
+- A set of Github labels to tag issues with.
+- Ongoing google docs agenda that's updated before and after.
+- Fireflies ai in every meeting if they happen.
+- Landing pages in the Handbook detailing membership, areas of concern and links to associated repos/resources.
+- A `guild-*` slack channel.
+- An email alias (for contact references in the Handbook and elsewhere).
+
+Some more fun and fanciful ideas (for the future) are:
+
+- Guild-themed GitHub badges to award to contributors (maybe our web partner can help with these?)
+- Matching Guild-themed stickers
 
 ## Current Guilds
 
