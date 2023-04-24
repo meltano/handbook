@@ -172,37 +172,49 @@ we will update this section and the [Contributor Guide](https://meltano.com/docs
 and reviewers will learn new things to look out for until they catch (almost) everything the expert would,
 at which points they will be experts themselves.
 
-## Project Settings and Permissions in Gitlab
+## Dependabot
+
+All repos should enable [Dependabot security updates](https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/about-dependabot-security-updates) and [Dependabot version updates](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/about-dependabot-version-updates) for its own dependencies, as well as for any dependencies that are used in the repo's CI/CD pipeline.
+
+You can take a look at the [Dependabot configuration for the SDK](https://github.com/meltano/sdk/blob/main/.github/dependabot.yml) for an example.
+
+### Dependabot PRs
+
+Dependabot will open PRs to update dependencies and these PRs should be reviewed and merged by the team.
+
+Some guidelines for reviewing and merging Dependabot PRs:
+
+- Engineers should avoid pushing to the Dependabot branch directly. If the PR is stale, and there aren't any conflicts, the engineer should trigger a rebase by commenting `@dependabot rebase` on the PR.
+- Engineers should only push directly to the Dependabot branch if the PR is failing _because_ of the dependency update (e.g. because of deprecation), in which case the engineer should push a fix to the branch.
+- Engineers should merge Dependabot PRs by commenting `@dependabot merge` on the PR.
+
+## Repository Settings and Permissions in GitHub
 
 _This section describes the project permissioning model and project-level settings which are required for our merge process to work correctly._
 
-### `Protected Branches` Settings
+### `Branch Protection Rules` settings
 
-Per project or repo, these settings are found at `Settings` > `Repository` > `Protected Branches`:
+Per repo, these settings are found at `Settings` > `Branches`:
 
-- The `main` or `master` branch should be marked as a "protected" branch.
-- The protected branch should be set to allow Merges from "Developers and Maintainers".
-- The protected branch should be set to allow Push from "None".
+There should be a branch protection rule that applies to the `main` branch. The rule should have the following settings:
 
-### `Merge requests` project settings
+- Check "Require a pull request before merging", and set the following options:
+  - At least 1 approval is required
+  - Uncheck "Dismiss stale pull request approvals when new commits are pushed"
+  - Check "Allow specified actors to bypass required pull requests" and select a team who can bypass the above settings (e.g. `meltano/engineering`)
 
-Per project or repo, these settings are found at `Settings` > `General` > `Merge Requests`:
+- Check "Require status checks to pass before merging". The specific checks required will vary by project
+- Check "Require conversation resolution before merging"
 
-- These options should be set as follows:
-  - `Enable "Delete source branch" option by default`: `Enabled`
-  - `Squash commits when merging`: `Encourage`
-  - `Merge checks: Pipelines must succeed`: `Enabled` if a CI Pipeline exists, otherwise `Disabled` to avoid infinite loop/freeze of PRs.
-  - `Merge checks: All discussions must be resolved`: `Enabled`
+_Important: The GitHub UI requires you to hit "Save changes" after making changes to a branch protection rule._
 
-_Important: The Gitlab UI requires you to hit "Save" after making changes in this section._
+### `Pull requests` settings
 
-### `Merge request appprovals` project settings
+Per repo, these settings are found at `Settings` > `General` > `Pull Requests`:
 
-Per project or repo, these settings are found at `Settings` > `General` > `Merge request approvals`:
-
-- These options should be set as follows:
-  - `Enabled`: `Prevent approval by author`
-  - `Disabled`: `Prevent approvals by users who add commits`
-  - `Disabled`: `Remove all approvals when commits are added to source branch`
-
-_Important: The Gitlab UI requires you to hit "Save" after making changes in this section._
+- Uncheck "Allow merge commits"
+- Check "Allow squash merging" and select "Default to pull request title and commit details" as the default commit message.
+- Uncheck "Allow rebase merging"
+- Check "Always suggest updating pull request branches"
+- Check "Allow auto-merge"
+- Check "Automatically delete head branches"
