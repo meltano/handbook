@@ -18,7 +18,7 @@ subcategory: Guilds
 
 ### Hub
 
-- The Meltano Hub codebase in the `meltano/hub` repository along with any related bug reports, feature requests, technical debt, or community support needs.
+- The Meltano Hub codebase in the [`meltano/hub`](https://github.com/meltano/hub) repository, along with any related bug reports, feature requests, technical debt, and community support needs.
 - The content of Meltano Hub, along with frameworks, code, and processes used to generate and publish it.
 - The hosting of the Hub API along with associated infrastructure, deployment, monitoring, and alerting.
 
