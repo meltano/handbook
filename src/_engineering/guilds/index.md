@@ -7,7 +7,7 @@ subcategory: Guilds
 
 ## Responsibilities
 
-In line with our <a href="/company/values#together-we-thrive">Together we thrive</a> <a href="/company/values">value</a>, organization of key areas of the Meltano ecosystem are stewarded by Guilds.
+In line with our <a href="/company/values">value</a> <a href="/company/values#together-we-thrive">"Together we thrive"</a>, organization of key areas of the Meltano ecosystem are stewarded by Guilds.
 Guilds are made up of members of the Meltano staff and contributers from the community.
 Rather than owning the work items of a given area, Guilds perform an administration and coordination role.
 Primary responsibilities are:
