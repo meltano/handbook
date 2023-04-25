@@ -37,7 +37,7 @@ Each Guild will be responsible for their own rituals, but some general expectati
   - Should be cancelled if all would-be attendees agree that everything that would be done already has done, or will soon be done async
 - GitHub project board that can be managed / updated async.
 - A set of GitHub labels to tag issues with. Use the label sync config and workflow in the [`meltano/.github`](https://github.com/meltano/.github) repository to sync labels across repositories
-- Ongoing google docs agenda that's updated before and after.
+- An ongoing Google Docs agenda that is updated before, during, and after each meeting as necessary
 - Fireflies ai in every meeting if they happen.
 - Landing pages in the Handbook detailing membership, areas of concern and links to associated repos/resources.
 - A `guild-*` slack channel.
