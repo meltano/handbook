@@ -9,7 +9,7 @@ subcategory: Guilds
 
 ### Cloud UI
 
-- The Meltano Cloud UI codebase in the `services/cloud-ui` directory of the `meltano/infra` repository along with any related bug reports, feature requests, technical debt, or customer support.
+- The Meltano Cloud UI codebase within the `meltano/infra` repository, along with any related bug reports, feature requests, technical debt, and customer support.
 - Those CI/CD workflows and code standards which are specific to the Meltano Cloud UI.
 - Those deployment processes which are specific to the Meltano Cloud UI.
 - Provisioning, monitoring, maintenance, and any other processes related to infrastructure where Cloud UI code runs.
