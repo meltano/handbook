@@ -21,7 +21,7 @@ Primary responsibilities are:
 
 ## Expected Commitment
 
-For Guilds to be self-sustaining, each are to have at least 2 permanent members (a HA pair).
+For Guilds to be self-sustaining, each should have at least 2 permanent members.
 Tenured engineers are encouraged to join a Guild and to work towards "subject matter expertise".
 Newly hired engineers will likely be discouraged from Guild membership for a fixed period (say 6 months, TBD) so as not to specialize early or distract from onboarding.
 Given the likely time commitment, engineers should be discouraged from joining multiple Guilds at our current company stage.
