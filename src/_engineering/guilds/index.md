@@ -39,7 +39,7 @@ Each Guild will be responsible for their own rituals, but some general expectati
 - A set of GitHub labels to tag issues with. Use the label sync config and workflow in the [`meltano/.github`](https://github.com/meltano/.github) repository to sync labels across repositories
 - An ongoing Google Docs agenda that is updated before, during, and after each meeting as necessary
 - Fireflies AI in every meeting
-- Landing pages in the Handbook detailing membership, areas of concern and links to associated repos/resources.
+- Landing pages in the Handbook detailing membership, areas of concern and links to associated repos/resources
 - A `guild-*` Slack channel
 - An email alias (for contact references in the Handbook and elsewhere).
 
