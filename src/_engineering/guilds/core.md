@@ -5,6 +5,10 @@ weight: 2
 subcategory: Guilds
 ---
 
+## Contacts
+
+Reach out to `@Will Da Silva` or `@Edgar Ramírez` in [slack](https://meltano.com/slack) with questions relating to this Guild.
+
 ## Responsibilities
 
 - The Meltano core codebase in the `meltano/meltano` repository along with any related bug reports, feature requests, technical debt, or community or community support needs, with the exception of code specific to `meltano cloud` subcommands.
