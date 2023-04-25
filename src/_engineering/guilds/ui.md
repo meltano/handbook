@@ -18,4 +18,4 @@ subcategory: Guilds
 
 ### Hub UI
 
-- Hosting of Meltano Hub at hub.meltano.com along with associated monitoring and alerting.
+- Hosting of Meltano Hub at [hub.meltano.com](https://hub.meltano.com) along with associated monitoring and alerting.
