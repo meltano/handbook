@@ -10,7 +10,7 @@ subcategory: Guilds
 
 ### SDK
 
-- The Meltano SDK codebase in the `meltano/sdk` repository along with any related bug reports, feature requests, technical debt, or community support needs.
+- The Meltano SDK codebase in the [`meltano/sdk`](https://github.com/meltano/sdk) repository, along with any related bug reports, feature requests, technical debt, and community support needs.
 - CI/CD workflows and code standards for the Meltano SDK.
 - The Meltano SDK release process.
 - The content of the Meltano SDK docs, along with frameworks, code, and processes used to generate and publish them.
