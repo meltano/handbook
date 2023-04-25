@@ -49,10 +49,7 @@
                           {% endfor %}
 
                           <li>
-                            <a href="{{ index_url }}">
-                              <span class="icon"><i class="fa-regular fa-folder-open"></i></span>
-                              {{ subcategory }}
-                            </a>
+                            <a href="{{ index_url }}">{{ subcategory }}</a>
                             <ul>
                             {% for item in items %}
                               {% unless item.url == index_url %}
