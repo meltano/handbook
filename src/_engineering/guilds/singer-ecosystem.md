@@ -5,8 +5,11 @@ weight: 2
 subcategory: Guilds
 ---
 
-## Responsibilities
+## Contacts
 
+Reach out to `@Edgar Ramírez`, `@Pat Nadolny` or `@Ken Payne` in [slack](https://meltano.com/slack) with questions relating to this Guild.
+
+## Responsibilities
 
 ### SDK
 

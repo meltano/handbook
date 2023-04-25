@@ -5,6 +5,10 @@ weight: 2
 subcategory: Guilds
 ---
 
+## Contacts
+
+Reach out to `Melissa Greenbaum` or `@Cody Hanson` in [slack](https://meltano.com/slack) with questions relating to this Guild.
+
 ## Responsibilities
 
 - The Meltano cloud codebase in the `meltano/infra` repository along with any related bug reports, feature requests, technical debt, or customer support, with the exception of any code in the `services/cloud-ui` directory.

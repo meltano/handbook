@@ -5,6 +5,10 @@ weight: 2
 subcategory: Guilds
 ---
 
+## Contacts
+
+Reach out to `@Cody Hanson` in [slack](https://meltano.com/slack) with questions relating to this Guild.
+
 ## Responsibilities
 
 ### Cloud UI
