@@ -7,7 +7,7 @@ subcategory: Guilds
 
 ## Contacts
 
-Reach out to `Melissa Greenbaum` or `@Cody Hanson` in [slack](https://meltano.com/slack) with questions relating to this Guild.
+Reach out to `@Melissa Greenbaum` or `@Cody Hanson` in [slack](https://meltano.com/slack) with questions relating to this Guild.
 
 ## Responsibilities
 
