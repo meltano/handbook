@@ -34,7 +34,7 @@ Each Guild might require different commitments of time and effort, but an 80/20 
 Each Guild will be responsible for their own rituals, but some general expectations are set below:
 
 - A 30 min recurring meeting in the "Team Meetings" Google Calendar.
-  - Can be cancelled if everything is done async.
+  - Should be cancelled if all would-be attendees agree that everything that would be done already has done, or will soon be done async
 - GitHub project board that can be managed / updated async.
 - A set of Github labels to tag issues with.
 - Ongoing google docs agenda that's updated before and after.
