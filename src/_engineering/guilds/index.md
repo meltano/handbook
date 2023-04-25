@@ -45,7 +45,7 @@ Each Guild will be responsible for their own rituals, but some general expectati
 
 Some more fun and fanciful ideas (for the future) are:
 
-- Guild-themed GitHub badges to award to contributors (maybe our web partner can help with these?)
+- Guild-themed GitHub badges to award to contributors
 - Matching Guild-themed stickers
 
 ## Current Guilds
