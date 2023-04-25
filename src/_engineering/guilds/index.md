@@ -35,7 +35,7 @@ Each Guild will be responsible for their own rituals, but some general expectati
 
 - A 30 min recurring meeting in the "Team Meetings" Google Calendar.
   - Should be cancelled if all would-be attendees agree that everything that would be done already has done, or will soon be done async
-- GitHub project board that can be managed / updated async.
+- GitHub project board that can be managed / updated async
 - A set of GitHub labels to tag issues with. Use the label sync config and workflow in the [`meltano/.github`](https://github.com/meltano/.github) repository to sync labels across repositories
 - An ongoing Google Docs agenda that is updated before, during, and after each meeting as necessary
 - Fireflies AI in every meeting
