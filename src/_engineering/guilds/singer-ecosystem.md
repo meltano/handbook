@@ -14,7 +14,7 @@ subcategory: Guilds
 - CI/CD workflows and code standards for the Meltano SDK.
 - The Meltano SDK release process.
 - The content of the Meltano SDK docs, along with frameworks, code, and processes used to generate and publish them.
-- Hosting of Meltano SDK docs at sdk.meltano.com along with associated monitoring and alerting.
+- Hosting of Meltano SDK docs at [sdk.meltano.com](https://sdk.meltano.com), along with associated monitoring and alerting.
 
 ### Hub
 
