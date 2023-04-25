@@ -13,10 +13,10 @@ Rather than owning the work items of a given area, Guilds perform an administrat
 Primary responsibilities are:
 
 - Ownership, curation and dissemination of a roadmap (with guidance and support from Product, Data, Leadership, the Community, other Guilds etc.), especially for major version updates
-- Ownership of community engagement (esp. the publishing/tagging of "Good First Issues" and participation in company events such as Taptoberfest)
-- Ownership of key maintenance (releases, dependabot PRs, CI/CD workflows, PyPI publishing etc.)
-- Ownership of slack, issue and PR triage (questions, bug reports, feature requests, community PR's etc.)
-- Ownership of knowledge sharing and mentoring (promotion/improvement of Docs, Blog Posts, 'Best Practices', topics in Office Hours, Newsletters etc.)
+- Ownership of community engagement (especially the publishing/tagging of "Good First Issues" and participation in company events such as Taptoberfest)
+- Ownership of key maintenance (releases, Dependabot pull requests, CI/CD workflows, PyPI publishing, etc.)
+- Ownership of Slack, issue and pull request triage (questions, bug reports, feature requests, community pull requests, etc.)
+- Ownership of knowledge sharing and mentoring (promotion/improvement of Docs, Blog Posts, 'Best Practices', topics in Office Hours, Newsletters, etc.)
 - Ownership and development of domain tooling (e.g. `hub-utils`) as needed
 
 ## Expected Commitment
