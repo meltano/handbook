@@ -24,4 +24,4 @@ subcategory: Guilds
 
 ### Meltano Labs
 
-- Overseeing the MeltanoLabs organization. Including management of processes, permissions, quality standards, defining maintainers, transferring ownership, migrating external connectors, release processes, Singer Most Wanted prioritization.
+- Overseeing the MeltanoLabs organization. Including management of processes, permissions, quality standards, defining maintainers, transferring ownership, migrating external connectors, release processes, and Singer Most Wanted prioritization.
