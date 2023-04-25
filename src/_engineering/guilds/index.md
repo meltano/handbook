@@ -40,7 +40,7 @@ Each Guild will be responsible for their own rituals, but some general expectati
 - An ongoing Google Docs agenda that is updated before, during, and after each meeting as necessary
 - Fireflies AI in every meeting
 - Landing pages in the Handbook detailing membership, areas of concern and links to associated repos/resources.
-- A `guild-*` slack channel.
+- A `guild-*` Slack channel
 - An email alias (for contact references in the Handbook and elsewhere).
 
 Some more fun and fanciful ideas (for the future) are:
