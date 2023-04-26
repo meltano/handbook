@@ -14,15 +14,9 @@ Use the private [#internal-product](https://meltano.slack.com/archives/C02MBDUHC
 
 ### Who to contact
 
-For each Meltano property, we have a primary point of contact:
+Refer to the [Guilds](/guilds) section of the handbook for who to reach out to.
 
-- Meltano - Taylor & Will Da Silver
-- Meltano SDK - Edgar & Ken
-- MeltanoHub - Taylor
-- MeltanoLabs - Pat
-- Handbook / Website - Douwe
-
-You should feel comfortable reaching out to each of us either in issues or on Slack if you have questions or concerns about any of these.
+You should feel comfortable reaching out to any of us either in issues or on Slack if you have questions about these product areas.
 
 ## Responsibilities
 
