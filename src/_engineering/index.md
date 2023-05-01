@@ -98,7 +98,7 @@ For legacy reasons, one domain name is still registered with [Gandi](/company/te
 DNS is managed through Route 53 in [AWS](/company/tech-stack/#amazon-web-services).
 DNS for `singerhub.io` is managed at [NameCheap](/company/tech-stack/#namecheap).
 
-Engineering managed static web properties are hosted on [netlify](/compan/tech-stack/#netlify). This includes:
+Engineering managed static web properties are hosted on [netlify](/company/tech-stack/#netlify). This includes:
 
 1. <https://hub.meltano.com> - Configured via [netlify.toml](https://github.com/meltano/hub/blob/main/netlify.toml) in the root of the [hub repo](https://github.com/meltano/hub).
 1. <https://docs.meltano.com> - Configured via [netlify.toml](https://github.com/meltano/meltano/blob/main/netlify.toml) in the root the [meltano repo](https://github.com/meltano/meltano).
