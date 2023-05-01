@@ -5,8 +5,6 @@ weight: 3
 subcategory: Team Practices
 ---
 
-## Project Retrospectives
-
 For large projects that require a lot of collaboration, it's often helpful to conduct a project retrospective after project completion to reflect on the project and generate insights that can be used to improve future project outcomes.
 
 Meltano is an async-first company, so our project retrospective process prioritizes asynchronous communication to ensure that everyone's voice is heard.
