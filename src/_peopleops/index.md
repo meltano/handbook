@@ -257,17 +257,17 @@ Additionally, do not purchase Apple Care.
 
 If alternate hardware is required, please request it during the onboarding process.  It can be provisioned on a case-by-case basis.  With that in mind, the MacBook Air has been found to be insufficient for our needs.  Requests for this model will not be approved.
 
-### SOC2 compliance requirements
-
-To manage SOC2 compliance, Meltano uses [Drata]([https://drata.com/](https://handbook.meltano.com/company/tech-stack/#drata)).  As part of this process, Meltano will need to report on certain aspects of their laptop configuration.  This includes -- but is not limited to -- screensaver locking, password manager, antivirus software and automatic updates. All of these must be enabled.  Their status must be regularly reported.
-
-For ease of monitoring these controls, use of [Drata agent](https://help.drata.com/en/articles/4740428-installing-the-drata-agent-via-mac-os) is strongly suggested.  This agent is a lightweight application that is granted READ ONLY access to system preferences to verify proper configuration.
-
-Employees who do not wish to use this tool, or who can not use it for some technical reason, will be required to report on the relevant SOC2 items within Drata on a regular basis. This can usually be accomplushed via screenshots.
-
 ### Calendars
 
 Please see the [Calendars](calendars) page for a list of company calendars.
+
+## SOC2 and compliance requirements
+
+To manage SOC2 compliance, Meltano uses [Drata](https://handbook.meltano.com/company/tech-stack/#drata).  As part of this process, Meltano will need to report on certain aspects of their laptop configuration.  This includes -- but is not limited to -- screensaver locking, password manager, antivirus software and automatic updates. All of these must be enabled.  Their status must be regularly reported.
+
+For ease of monitoring these controls, use of [Drata agent](https://help.drata.com/en/articles/4740428-installing-the-drata-agent-via-mac-os) is strongly suggested.  This agent is a lightweight application that is granted READ ONLY access to system preferences to verify proper configuration.
+
+Employees who do not wish to use this tool, or who can not use it for some technical reason, will be required to report on the relevant SOC2 items within [Drata](https://handbook.meltano.com/company/tech-stack/#drata) on a regular basis.  This can usually be accomplished via screenshots.
 
 ## GitHub workflow best practices
 
