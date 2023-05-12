@@ -263,11 +263,23 @@ Please see the [Calendars](calendars) page for a list of company calendars.
 
 ## SOC2 and compliance requirements
 
-To manage SOC2 compliance, Meltano uses [Drata](https://handbook.meltano.com/company/tech-stack/#drata).  As part of this process, Meltano will need to report on certain aspects of their laptop configuration.  This includes -- but is not limited to -- screensaver locking, password manager, antivirus software and automatic updates. All of these must be enabled.  Their status must be regularly reported.
+To manage SOC2 compliance, Meltano uses [Drata](https://handbook.meltano.com/company/tech-stack/#drata).  Compliance from an individual standpoint includes two areas of particular note, as they affect all employees.  These are as follows.
+
+### SOC2 and laptop provisioning
+
+As part of SOC2, Meltano needs to report on certain aspects of laptop configuration across the company.  This includes -- but is not limited to -- screensaver locking, password manager, antivirus software and automatic updates. All of these must be enabled.  Their status must be regularly reported.
 
 For ease of monitoring these controls, use of [Drata agent](https://help.drata.com/en/articles/4740428-installing-the-drata-agent-via-mac-os) is strongly suggested.  This agent is a lightweight application that is granted READ ONLY access to system preferences to verify proper configuration.
 
 Employees who do not wish to use this tool, or who can not use it for some technical reason, will be required to report on the relevant SOC2 items within [Drata](https://handbook.meltano.com/company/tech-stack/#drata) on a regular basis.  This can usually be accomplished via screenshots.
+
+### SOC2 and two factor authentication (2FA)
+
+As part of SOC2 compliance, Meltano enforces 2FA on its Google Workspace accounts.  The default 2FA is a Google prompt on another device. At the time this is provisioned, you will be presented with 10 single-use backup codes you can use if the primary 2FA option is not available.  Please store these in a safe place.
+
+It is possible to use a TOTP (Time-based one-time password) such as one provided by an authenticator app for this, but this option can not be set up as the primary 2FA method. After a primary method is set up, one can select, “Add more second steps to verify it's you” and then, “Authenticator app”.  The authenticator app can be 1Password, Google Authenticator, or other another tool.
+
+To set this up within 1Password, find the password item you wish to add it to, select “Edit” and then within the entry, “+ add more”. From that menu select “One-Time Password”. Then, either enter the code supplied by Google, or scan the displayed QR code. Save the changes, enter the displayed code into Google, and you’re done!
 
 ## GitHub workflow best practices
 
