@@ -275,7 +275,7 @@ Employees who do not wish to use this tool, or who can not use it for some techn
 
 ### SOC2 and two factor authentication (2FA)
 
-As part of SOC2 compliance, Meltano enforces 2FA on its Google Workspae accounts.  The default 2FA is a Google prompt on another device. At the time this is provisioned, you will be presented with 10 single-use backup codes you can use if the primary 2FA option is not available.  Please store these in a safe place.
+As part of SOC2 compliance, Meltano enforces 2FA on its Google Workspace accounts.  The default 2FA is a Google prompt on another device. At the time this is provisioned, you will be presented with 10 single-use backup codes you can use if the primary 2FA option is not available.  Please store these in a safe place.
 
 It is possible to use a TOTP (Time-based one-time password) such as one provided by an authenticator app for this, but this option can not be set up as the primary 2FA method. After a primary method is set up, one can select, “Add more second steps to verify it's you” and then, “Authenticator app”.  The authenticator app can be 1Password, Google Authenticator, or other another tool.
 
