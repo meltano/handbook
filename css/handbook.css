@@ -255,6 +255,10 @@ code {
 
 .toc {
   position: fixed;
+  /* 100vh - (navbarHeight + margin + extra padding on scroll) - footerHeight */
+  height: calc(100vh - 160px - 260px);
+  overflow-y: auto;
+  margin-right: 1rem;
 }
 
 .toc h2 {
