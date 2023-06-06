@@ -269,7 +269,7 @@ To manage SOC2 compliance, Meltano uses [Drata](https://handbook.meltano.com/com
 
 As part of SOC2, Meltano needs to report on certain aspects of laptop configuration across the company.  This includes -- but is not limited to -- screensaver locking, password manager, antivirus software and automatic updates. All of these must be enabled.  Their status must be regularly reported.
 
-For ease of monitoring these controls, use of [Drata agent](https://help.drata.com/en/articles/4740428-installing-the-drata-agent-via-mac-os) is strongly suggested.  This agent is a lightweight application that is granted READ ONLY access to system preferences to verify proper configuration.
+For ease of monitoring these controls, use of [Drata Agent](https://help.drata.com/en/articles/4740428-installing-the-drata-agent-via-mac-os) is strongly suggested.  This agent is a lightweight application that is granted READ ONLY access to system preferences to verify proper configuration.  For a direct download of Drata Agent, [use this link](https://app.drata.com/install-agent).
 
 Employees who do not wish to use this tool, or who can not use it for some technical reason, will be required to report on the relevant SOC2 items within [Drata](https://handbook.meltano.com/company/tech-stack/#drata) on a regular basis.  This can usually be accomplished via screenshots.
 
