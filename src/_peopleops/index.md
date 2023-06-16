@@ -246,16 +246,23 @@ Meltano approves the use of macOS and Linux. Meltano prohibits the use of Micros
   As many purchases of laptops have occurred with employees making the purchases and then being reimbursed by Meltano, a remote employee would typically be making a purchase of a laptop pre-loaded with Windows Home Edition.
 - Windows Home Edition is notoriously [hard to secure](https://www.markloveless.net/blog/2019/1/15/dealing-with-windows-10).
 
-To standardize the hardware provisioned for Meltano team members, the following Apple hardware option is highly recommended:
+To standardize the hardware provisioned for Meltano team members, Meltano has a number of standard laptop configurations.  Meltano maintains an inventory of MacBook laptops that meet these standards.  Where possible, new employees will be provided with a machine of their desired form factor from this inventory.  When a purchase is required, employees should choose from the Apple laptop configurations listed below.
 
-- [MacBook Pro 14" / 512gig SSD / 32gig RAM / Apple M1 Pro with 10-core CPU, 14-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch)
-- [MacBook Pro - 16" / 512gig SSD / 32gigs RAM / Apple M1 Pro with 10-core CPU, 16-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch)
+The following Apple hardware options are highly recommended for Meltano engineers:
 
-Note that the above links are to the Apple store website for the United States. These particular configurations are not available in Apple Stores, so will need to be ordered online. If you are located in a different country, you will likely have to place your order from your regional Apple store website.
+  - [MacBook Pro - 14" / 512gb SSD / 32gb RAM / Apple M2 Pro with 10-core CPU, 16-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch)
+  - [MacBook Pro - 16" / 512gb SSD / 32gb RAM / Apple M2 Pro with 12-core CPU, 19-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch)
 
-Additionally, do not purchase Apple Care.
+For Meltano team members outside of engineering, choose from the same configurations as above but with 16gb of RAM or one of the following:
 
-If alternate hardware is required, please request it during the onboarding process.  It can be provisioned on a case-by-case basis.  With that in mind, the MacBook Air has been found to be insufficient for our needs.  Requests for this model will not be approved.
+  - [Macbook Air - 13" / 512gb SSD / 16gb RAM / Apple M2 with 8-core CPU, 10-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-air/13-inch-m2)
+  - [Macbook Air - 15" / 512gb SSD / 16gb RAM / Apple M2 with 8-core CPU, 10-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-air/15-inch-m2)
+
+Note that the above links are to the Apple store website for the United States. Some of thesde configurations are not available off-the-shelf in Apple Stores, and will need to be ordered online. If you are located in a different country, you will likely have to place your order from your regional Apple store website.
+
+Additionally, do not purchase Apple Care and once received make sure **not** to discard your laptop boxes (inner and outer) in case you need to ship it in for repairs, replacement, etc.
+
+If alternate hardware is required, please request it during the onboarding process.  It can be provisioned on a case-by-case basis.  With that in mind, the MacBook Air has been found to be insufficient for the needs of Meltano Engineering.  Requests for this model by Engineering staff will not be approved.
 
 ### Calendars
 
