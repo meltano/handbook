@@ -258,7 +258,7 @@ For Meltano team members outside of engineering, choose from the same configurat
   - [Macbook Air - 13" / 512gb SSD / 16gb RAM / Apple M2 with 8-core CPU, 10-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-air/13-inch-m2)
   - [Macbook Air - 15" / 512gb SSD / 16gb RAM / Apple M2 with 8-core CPU, 10-core GPU, 16-core Neural Engine](https://www.apple.com/shop/buy-mac/macbook-air/15-inch-m2)
 
-Note that the above links are to the Apple store website for the United States. Some of thesde configurations are not available off-the-shelf in Apple Stores, and will need to be ordered online. If you are located in a different country, you will likely have to place your order from your regional Apple store website.
+Note that the above links are to the Apple Store website for the United States. Some of these configurations are not available off-the-shelf in Apple Stores, and will need to be ordered online. If you are located in a different country, you will likely have to place your order from your regional Apple store website.
 
 Additionally, do not purchase Apple Care and once received make sure **not** to discard your laptop boxes (inner and outer) in case you need to ship it in for repairs, replacement, etc.
 
