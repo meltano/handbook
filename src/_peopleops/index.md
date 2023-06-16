@@ -246,7 +246,7 @@ Meltano approves the use of macOS and Linux. Meltano prohibits the use of Micros
   As many purchases of laptops have occurred with employees making the purchases and then being reimbursed by Meltano, a remote employee would typically be making a purchase of a laptop pre-loaded with Windows Home Edition.
 - Windows Home Edition is notoriously [hard to secure](https://www.markloveless.net/blog/2019/1/15/dealing-with-windows-10).
 
-To standardize the hardware provisioned for Meltano team members, Meltano has a number of standard laptop configurations.  Meltano maintains an inventory of MacBook laptops that meet these standards.  Where possible, new employees will be provided with a machine of their desired form factor from this inventory.  When a purchase is required, employees should choose from the Apple laptop configurations listed below.
+To standardize the hardware provisioned for Meltano team members, Meltano has a number of standard laptop configurations.  Meltano maintains an inventory of MacBook laptops that meet these standards.  Employees will be provided with a machine of their desired form factor from this inventory if one is availabe.  When a purchase is required, employees should choose from the Apple laptop configurations listed below.
 
 The following Apple hardware options are highly recommended for Meltano engineers:
 
