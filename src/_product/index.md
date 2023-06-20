@@ -97,16 +97,16 @@ June 21, 2023 was the start of Cadence 6 for 2023.
 
 _The Changelog is a new feature that has not yet been implemented in the docs. It will be live in July 2023._
 
-At the end of the cadence, an update to our Changelog in the docs will be added. 
+At the end of the cadence, an update to our Changelog in the docs will be added.
 We will highlight any new releases across Meltano, Cloud, Hub, the SDK, and the EDK.
 Important new features will be given context and possibly include a screenshot or GIF of the feature in action.
 
 #### Cadence Kickoff
 
-On or just prior to the start of a cadence, Product will record a video walking through the items on our [roadmap](roadmap) that are scheduled for that particular cadence. 
+On or just prior to the start of a cadence, Product will record a video walking through the items on our [roadmap](roadmap) that are scheduled for that particular cadence.
 This will primarily be an internal facing video, but we will experiment with uploading to YouTube.
 
-Prior to this call, there will have been lots of discussion with the engineering team on initial scope and capacity across the Meltano properties. 
+Prior to this call, there will have been lots of discussion with the engineering team on initial scope and capacity across the Meltano properties.
 
 ## Open Source Projects We're Keeping an Eye On
 
