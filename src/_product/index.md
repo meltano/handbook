@@ -5,7 +5,7 @@ weight: 1
 permalink: /product/
 ---
 
-Our [iterations and scheduled work](https://github.com/orgs/meltano/projects/3) are available to the public, and we encourage anyone to [submit new issues](https://github.com/meltano/meltano/issues/new).
+Our [cadences and scheduled work](https://github.com/orgs/meltano/projects/3) are available to the public, and we encourage anyone to [submit new issues](https://github.com/meltano/meltano/issues/new).
 
 ## Getting in Touch
 
@@ -81,22 +81,32 @@ If you want to make an improvement to Meltano you don't have to wait for Product
 
 ## "AND not OR" Mentality
 
-Sometimes, it can feel like we are chosing between two important things and this can be painful. However, we take the approach that anything is technically possible to build on the Meltano team so it's a just a question of the order of operations. On a long enough timeline, we will do everything we put on the roadmap -- so keep writing issues and hold onto that "it's an AND, not OR" mindset.
+Sometimes, it can feel like we are choosing between two important things and this can be painful. However, we take the approach that anything is technically possible to build on the Meltano team so it's a just a question of the order of operations. On a long enough timeline, we will do everything we put on the roadmap -- so keep writing issues and hold onto that "it's an AND, not OR" mindset.
 
-## Milestones
+## Cadences
 
-Meltano uses weekly milestones to track work. They are named for the Friday on which the milestone ends, i.e. `Fri: July 9, 2021`.
+The Meltano product team uses monthly cadences to track work.
+There are 12 cadences in the year.
 
-### Weekly Tasks
+A new cadence starts on Wednesday of the 3rd full week of a given month.
+June 21, 2023 was the start of Cadence 6 for 2023.
 
-Every Monday we will highlight for the team what the priorities are for the week by posting in `#internal-announcements` with links to projects and issues where more context can be found and questions can be asked.
+### Cadence Rituals
 
-In addition, the following should also be done:
+#### Changelog Update
 
-- Review and roll community issues to the next milestone
-- Roll merge requests
-- Everyone on the team should roll their own issues to the next milestone. Take the time to review the current status of issues and align priorities within the team.
-- Close the previous milestone
+_The Changelog is a new feature that has not yet been implemented in the docs. It will be live in July 2023._
+
+At the end of the cadence, an update to our Changelog in the docs will be added. 
+We will highlight any new releases across Meltano, Cloud, Hub, the SDK, and the EDK.
+Important new features will be given context and possibly include a screenshot or GIF of the feature in action.
+
+#### Cadence Kickoff
+
+On or just prior to the start of a cadence, Product will record a video walking through the items on our [roadmap](roadmap) that are scheduled for that particular cadence. 
+This will primarily be an internal facing video, but we will experiment with uploading to YouTube.
+
+Prior to this call, there will have been lots of discussion with the engineering team on initial scope and capacity across the Meltano properties. 
 
 ## Open Source Projects We're Keeping an Eye On
 
