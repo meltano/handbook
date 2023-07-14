@@ -72,7 +72,7 @@ If the issue does not require any action from us, such as a significant PyPI or 
 
 ## Incident Response System
 
-The Information Security Manager (ISM) as described in Meltano's policies is Seth Turner.
+The Information Security Manager (ISM) as described in Meltano's policies is Seth Turner. When Seth Turner knows he will be unavailable for greater than 48 hours, he must designate a temporary ISM who will fulfill duties and responsibilities of the ISM until Seth Turner becomes available again.
 
 Potential security incident must be reported to the ISM and on-call engineers promptly either via email or Slack. Refer to the Incident Response Policy document (in Drata) for additional details.
 
