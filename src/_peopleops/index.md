@@ -274,7 +274,7 @@ To manage SOC2 compliance, Meltano uses [Drata](https://handbook.meltano.com/com
 
 ### Policy Acceptance
 
-Meltano employees are required to accept company security policies in accordance with compliance framework requirements such as SOC2. By accepting these policies, employees acknowledge that they understand the policy and agree to comply. 
+Meltano employees are required to accept company security policies in accordance with compliance framework requirements such as SOC2. By accepting these policies, employees acknowledge that they understand the policy and agree to comply.
 
 ### SOC2 and laptop provisioning
 
