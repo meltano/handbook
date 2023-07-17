@@ -106,11 +106,10 @@ Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company
 
 _The customer support & escalation policy during these days is TBD._
 
-- 2023-03-10
-- 2023-04-07
-- 2023-05-29
-- 2023-06-19
 - 2023-07-03
+- 2023-08-11
+- 2023-09-01
+- 2023-11-24
 
 These dates are tracked in the [Team Meetings Calendar](calendars).
 Meltano team members should mark these days off using [PTO by Roots](/company/tech-stack/#pto-by-roots).
