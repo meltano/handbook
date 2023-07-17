@@ -7,7 +7,7 @@ subcategory: Team Practices
 
 Meltano maintains an on-call rotation schedule that involves every engineer on our team.
 
-Each engineer participates in an on-call rotation that lasts two weeks — one week as a secondary on-call engineer, and the following week as the primary on-call engineer.
+Each engineer participates in an on-call rotation that lasts two weeks — one week as the secondary on-call engineer, and the following week as the primary on-call engineer.
 
 The rotation period runs from Monday to Sunday. During their assigned week, the engineers are responsible for handling any high-severity incidents that arise outside of normal working hours.
 
