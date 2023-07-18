@@ -272,6 +272,10 @@ Please see the [Calendars](calendars) page for a list of company calendars.
 
 To manage SOC2 compliance, Meltano uses [Drata](https://handbook.meltano.com/company/tech-stack/#drata).  Compliance from an individual standpoint includes two areas of particular note, as they affect all employees.  These are as follows.
 
+### Policy Acceptance
+
+Meltano employees are required to accept company security policies in accordance with compliance framework requirements such as SOC2. By accepting these policies, employees acknowledge that they understand the policy and agree to comply.
+
 ### SOC2 and laptop provisioning
 
 As part of SOC2, Meltano needs to report on certain aspects of laptop configuration across the company.  This includes -- but is not limited to -- screensaver locking, password manager, antivirus software and automatic updates. All of these must be enabled.  Their status must be regularly reported.
