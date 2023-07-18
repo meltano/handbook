@@ -33,7 +33,7 @@ We use [OpsGenie](https://meltano.app.opsgenie.com) to manage our on-call schedu
 
 [The current on-call rotation schedule can be viewed/updated here](https://meltano.app.opsgenie.com/schedule/whoIsOnCall).
 
-When an alert is sent, the primary on-call engineer will be notified first. If they do not acknowledge it within 15 minutes, the secondary on-call engineer will be notified. The first thing the secondary on-call engineer should attempt to do is make contact with the primary on-call engineer, and coordinate with them. That said, once the secondary on-call engineer has been alerted, they should not wait for the primary on-call engineer to respond. They may begin investigating and addressing the incident immediately following their attempt to contact and coordinate with the primary on-call engineer.
+When an alert is sent, the primary on-call engineer will be notified first. If they do not acknowledge it within 12 hours, the secondary on-call engineer will be notified. The first thing the secondary on-call engineer should attempt to do is make contact with the primary on-call engineer, and coordinate with them. That said, once the secondary on-call engineer has been alerted, they should not wait for the primary on-call engineer to respond. They may begin investigating and addressing the incident immediately following their attempt to contact and coordinate with the primary on-call engineer.
 
 ## Responsibilities
 
