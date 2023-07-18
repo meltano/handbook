@@ -106,11 +106,10 @@ Inspired by GitLab’s [Family and Friends Day](https://about.gitlab.com/company
 
 _The customer support & escalation policy during these days is TBD._
 
-- 2023-03-10
-- 2023-04-07
-- 2023-05-29
-- 2023-06-19
 - 2023-07-03
+- 2023-08-11
+- 2023-09-01
+- 2023-11-24
 
 These dates are tracked in the [Team Meetings Calendar](calendars).
 Meltano team members should mark these days off using [PTO by Roots](/company/tech-stack/#pto-by-roots).
@@ -213,11 +212,9 @@ We are happy to cover the cost of internet in your working place. This can be yo
 ### Meltano Assemble
 
 Approximately every nine months, we get the whole team together somewhere on the planet for Meltano Assemble.
-Assemble 2021 took place in beautiful Mexico City. Assemble 2022 was held in Lisbon, Portugal in March, 2022.  Our next Assemble event will take place in Santiago, Chile, January 9-13, 2023.
+Assemble 2021 took place in beautiful Mexico City. Assemble 2022 was held in Lisbon, Portugal in March, 2022.  Our last Assemble event took place in Santiago, Chile in January 2023.  Our next Assemble event will take place in October, 2023 at a location to be announced soon.
 
 Our favorite definition of “assemble” is, “fit together the separate component parts.” That is what this event feels like – everyone coming from different parts of the world, bringing their range of experiences to become one. And somehow, we all fit together to become a better whole.
-
-Assemble 2021 took place in beautiful Mexico City. Assemble 2022 took place in Lisbon, Portugal, in March 2022.
 
 Read about [Assemble in Mexico City here](https://www.google.com/url?q=https://meltano.com/blog/assemble-2021-mexico-city-roundup/&sa=D&source=docs&ust=1639515528558000&usg=AOvVaw0LZpL5Jgj_b6bKnswXwKgE).  Read about [Assemble in Lisbon, Portugal, here](https://meltano.com/blog/assemble-recap-company-on-site-in-lisbon/).
 
