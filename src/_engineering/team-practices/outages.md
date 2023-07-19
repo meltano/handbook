@@ -72,8 +72,10 @@ If the issue does not require any action from us, such as a significant PyPI or 
 
 ## Incident Response System
 
-The Information Security Manager (ISM) as described in Meltano's policies is Seth Turner. When Seth Turner knows he will be unavailable for greater than 48 hours, he must designate a temporary ISM who will fulfill duties and responsibilities of the ISM until Seth Turner becomes available again.
+The Information Security Manager (ISM) as described in Meltano's policies is the primary on-call engineer. Should the primary on-call engineer be unavailable, the ISM is the secondary on-call engineer.
 
-Potential security incident must be reported to the ISM and on-call engineers promptly either via email or Slack. Refer to the Incident Response Policy document (in Drata) for additional details.
+Potential security incident must be reported to the ISM and other on-call engineers promptly either via email or Slack. The notification channel `#internal-infra-alerts` should be used to report any incidents. Refer to the Incident Response Policy document (in Drata) for additional details.
 
 All staff must complete training for the "Procedure For Executing Incident Response" as outlined in the internal Meltano Incident Response Policy document at least once per year.
+
+The incident response plan is tested anually during the month of July.
