@@ -79,3 +79,19 @@ Potential security incident must be reported to the ISM and other on-call engine
 All staff must complete training for the "Procedure For Executing Incident Response" as outlined in the internal Meltano Incident Response Policy document at least once per year.
 
 The incident response plan is tested anually during the month of July.
+
+### Management Sponsors
+
+- **Engineering**: Seth Turner (Senior Engineering Manager)
+  - Responsible for understanding the technical aspects of the incident, including its cause and potential solutions.
+  - Responsible for coordinating with the Engineering Team to implement these solutions, and work with other departments to communicate the technical details of the incident and the response.
+- **Legal**: Richard E. Baum (Head of Operations):
+  - Responsible for understanding and advising on the legal implications of the incident. This might include potential violations of laws or regulations, contract breaches, and liabilities.
+  - Responsible for ensuring the company meets any necessary legal reporting requirements.
+- **HR**: Nichole Garrett (Senior Talent Partner):
+  - Responsible for handling any human resources-related legal and regulatory compliance aspects of the incident.
+- **Marketing**: Douwe Maan (CEO)
+  - Responsible for handling external communications with customers and the public during the incident response, and about the incident in general.
+- **C-Suite**: Douwe Maan (CEO)
+  - Responsible for providing high-level oversight and decision-making during the incident response.
+  - Serves as a final point of authority in case of major decisions during the incident response.
