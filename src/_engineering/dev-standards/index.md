@@ -9,6 +9,8 @@ This page is a resource for development standards across all Meltano products an
 
 ## General Standards
 
+The engineering board should accurately reflect the current workload. Engineers should not go more than 1-2 work days without providing an update to assigned tickets on the engineering board.
+
 The definition of done for any increment of work should always include:
 
 1. Docs meet or exceed documentation standards (in [Docs section](#documentation-standards) below).
