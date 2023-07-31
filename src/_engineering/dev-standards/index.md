@@ -9,7 +9,7 @@ This page is a resource for development standards across all Meltano products an
 
 ## General Standards
 
-The engineering board should accurately reflect the current workload. Engineers should not go more than 1-2 work days without providing an update to assigned tickets on the engineering board.
+The engineering board should accurately reflect the current workload. Engineers should not go more than 1-2 work days without providing an update to at least one assigned ticket on the engineering board.
 
 The definition of done for any increment of work should always include:
 
