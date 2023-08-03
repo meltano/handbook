@@ -7,6 +7,42 @@ subcategory: Dev Standards
 
 This page is a resource for development standards across all Meltano products and Meltano code repos.
 
+## Collaboration
+
+The engineering function of Meltano is more effective when everyone is able to collaborate efficiently.
+In keeping with our [Together we Thrive](https://handbook.meltano.com/company/values#together-we-thrive) value engineers must consider how their daily work is understood by their teammates.
+
+To improve collaboration across Engineering and the rest of the organization, the minimum standards for transparent collaboration are:
+
+* the [Engineering Board](https://github.com/orgs/meltano/projects/3/views/2) should be an accurate reflection of the current and near term personal engineering workload for every engineer
+  * the issue name, status, weight, and PR / other issue linkages should be accurate
+  * docs changes, bug fixes, features, and tech debt issues should all be reflected on the board
+  * there is a class of work that is not required to be on the board (see below)
+* each issue assigned should transparently reflect the work done
+* engineers should not go more than 1-2 work days without an update being available on their assigned issues and pull requests. These updates can take many forms as the goal is not a particular _kind_ of update - rather the goal is to have a mostly accurate reflection of current status. A non-exhaustive set of examples of useful updates:
+  * An update to the first issue comment (the description) detailing any progress / learnings made
+  * Clear commit history on a PR linked to an issue
+  * A comment in the issue with general updates / notes
+  * A comment in the issue with a link to a slack thread on current updates
+
+Directly DM'ing someone for a status update should be a rare (and surprising!) event because we're aiming to have everything updated and documented on a regular cadence in the issues / PRs.
+
+### Non-engineering workload
+
+Every engineer has work they do on a daily basis that is not encapsulated in an issue and would be burdensome to document via GitHub. A non-exhaustive list includes:
+
+* Customer support work
+* Reviewing the work of others
+* Meetings
+* Substantive comments and discussions in GitHub/Slack
+* Misc maintenance tasks (dealing with Dependabot, updating prod, etc.)
+
+Note that while this list shouldn't be documented in issues, there is still usually some form of visible evidence of these activities in our various tools (GitHub, Slack, Google Calendar, etc.).
+
+It is recommended for engineers to personally compile some or all of their efforts in these areas - but only as a personal tool for them in conversation with their manager and direct colleagues. For example, if you believe you're spending a lot of time doing support work and in meetings, it's useful to have a rough estimate of the number of hours per week so that your manager and team can have an understanding of the scale of the problem. It's also a useful tool in your toolkit to advocate for yourself and the work you've contributed as you progress through your career.
+
+We will not ask for this compiled documentation and it will not become a part of the regular product/engineering planning and update cadence.
+
 ## General Standards
 
 The definition of done for any increment of work should always include:
