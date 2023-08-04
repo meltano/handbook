@@ -203,6 +203,12 @@ Bank account and credit cards.
 Select team members have their own account.
 Main account and credit card details are in the `Finance` 1Password vault.
 
+## [Metronome](https://metronome.com/)
+
+Usage-based billing platform.
+
+Select team members have their own account.
+
 ## [Miro](https://miro.com/)
 
 A collaborative whiteboard platform.
