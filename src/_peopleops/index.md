@@ -280,7 +280,7 @@ If the repair is expected to cost less than $1000 dollars USD, use the standard 
 
 ### Laptops and offboarding
 
-If a departing team member has not completed 1 calendar year of employment at the time of offboarding or has received a laptop refresh within the past year, they have the option to either purchase their laptop for its current market value or to return it to Meltano.  The market value will be based on [Apple's trade-in calculator](https://www.apple.com/shop/trade-in). 
+If a departing team member has not completed 1 calendar year of employment at the time of offboarding or has received a laptop refresh within the past year, they have the option to either purchase their laptop for its current market value or to return it to Meltano.  The market value will be based on [Apple's trade-in calculator](https://www.apple.com/shop/trade-in).
 
 If the laptop has been used by the team member for more than one year, the departing team member can opt to either keep it at no cost or to return it to Meltano.  If the team member choses to keep the laptop it must be factory reset within 2 weeks of departure.
 
