@@ -270,19 +270,19 @@ Team members can choose to refresh their laptop after 3 years of use. If the pro
 
 When a refresh is requested, a new laptop in one of the [approved configurations](https://handbook.meltano.com/peopleops/#laptop-configurations) may be ordered after consultation with the Head of Operations.
 
-At the time of any replacement, any old laptop must be wiped or returned to Meltano within 2 weeks of receiving the replacement laptop.
+At the time of any replacement, any old laptop must either be factory reset or returned to Meltano within 2 weeks of receiving the replacement laptop.
 
 ### Laptop repair
 
 If your laptop is broken and in need of repairs you can take it into an Apple store or Apple authorized repair location.  Make sure you have a recent backup before doing so.
 
-If the repair is expected to cost less than $1000 dollars USD, use the standard expense report method to get reimbursed.   For repairs that cost more, please contact your manager and the Head of Operations for approval. If the repair is going to take longer than one day make sure you have a back up laptop to use for work.
+If the repair is expected to cost less than $1,000 dollars USD, team members should use the standard expense report method to be reimbursed.   For repairs that cost more, please let your manager know, and contact the Head of Operations for approval. If the repair is going to take longer than one day make sure you have a back up laptop to use for work.
 
 ### Laptops and offboarding
 
-If a departing team member has not completed 1 calendar year of employment at the time of offboarding or has received a laptop refresh within the past year, they have the option to either purchase their laptop for its current market value or to return it to Meltano.  The market value will be based on [Apple's trade-in calculator](https://www.apple.com/shop/trade-in).
+If at the time of offboarding a departing team member has not completed 1 calendar year of employment at the time of offboarding or has received a laptop refresh within the prior year, they have the option to either purchase their laptop for its current market value or to return it to Meltano.  The market value will be based on [Apple's trade-in calculator](https://www.apple.com/shop/trade-in).
 
-If the laptop has been used by the team member for more than one year, the departing team member can opt to either keep it at no cost or to return it to Meltano.  If the team member choses to keep the laptop it must be factory reset within 2 weeks of departure.
+If at the time of offboarding, the laptop has been used by the team member for more than one year, the departing team member can opt to either keep it at no cost or to return it to Meltano.  If a departing team member choses to keep a laptop it must be factory reset within 2 weeks of departure.
 
 When returning a laptop, departing team members should work with the person in charge of their offboarding to determine where to send it.
 
