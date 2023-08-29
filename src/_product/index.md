@@ -14,8 +14,6 @@ Use the private [#internal-product](https://meltano.slack.com/archives/C02MBDUHC
 
 ### Who to contact
 
-Refer to the [Guilds](/engineering/guilds) section of the handbook for who to reach out to.
-
 You should feel comfortable reaching out to any of us either in issues or on Slack if you have questions about these product areas.
 
 ## Responsibilities
