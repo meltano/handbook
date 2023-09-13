@@ -19,9 +19,9 @@ These items include:
 ### GET STARTED WITH MELTANO
  - **Project Home**: https://meltano.com
  - **GitHub**: https://github.com/meltano/meltano
- - **Install Meltano**: https://github.com/meltano/meltano
- - **Tutorials**: https://meltano.com/tutorials/
+ - **Install Meltano**: https://github.com/meltano/meltano#installation
+ - **Tutorials**: https://docs.meltano.com/tutorials/
  - **Join Us On Slack**: https://meltano.com/slack
  - **Blog**: https://meltano.com/blog/
  - **Twitter**: https://twitter.com/meltanodata
- - **SUBSCRIBE for more videos**: http://www.youtube.com/subscription_center?add_user=meltano
+ - **SUBSCRIBE for more videos**: https://www.youtube.com/@Meltano
